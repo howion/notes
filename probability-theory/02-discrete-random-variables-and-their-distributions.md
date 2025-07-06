@@ -1,4 +1,4 @@
-# (Discrete) Random Variables and Distributions
+# (Discrete) Random Variables and Their Distributions
 
 [**Go Back to Probability**](./00-index.md)
 
