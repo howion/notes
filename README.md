@@ -20,10 +20,16 @@ $$\KaTeX$$
 
 ## Table of Contents
 
-<!-- DD/MM/YYYY -->
+### Notes
 
-<!-- 06/07/2025 -->
-* [Probability Theory](probability-theory/01.md)
+<!-- Created At 06/07/2025 -->
+* [**Probability Theory**](./probability-theory/00-index.md) \ Fundamentals
+    1. [Probability and Conditional Probability](./probability-theory/01-probability-and-conditional-probability.md)
+    2. [(Discrete) Random Variables and Their Distributions](./probability-theory/02-discrete-random-variables-and-their-distributions.md)
+
+### External Resources
+
+* [**Minimum:** Minimal Websites Directory](https://mnmm.xyz/)
 
 ## License
 
