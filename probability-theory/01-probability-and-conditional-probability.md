@@ -1,8 +1,6 @@
-# Probability Theory
+# Probability and Conditional Probability
 
-> Todo: Revise
-
-* **Main resource:** Introduction to Probability by _Joseph K. Blitzstein_ and _Jessica Hwang_.
+[**Go Back to Probability**](./00-index.md)
 
 ## Thm. Identities
 
@@ -10,11 +8,11 @@ $$\binom{n}{k} = \binom{n}{n - k}$$
 
 $$n\binom{n-1}{k-1} = k\binom{n}{k}$$
 
-[Vandermonde's identity](https://en.wikipedia.org/wiki/Vandermonde%27s_identity)
+[**Wikipedia:** Vandermonde's identity](https://en.wikipedia.org/wiki/Vandermonde%27s_identity)
 
 $$\binom{m+n}{k} = \sum_{j=0}^{k} \binom{m}{j} \binom{n}{k - j}$$
 
-[Generalized Vandermonde's identity](https://en.wikipedia.org/wiki/Vandermonde%27s_identity#Generalized_Vandermonde's_identity)
+[**Wikipedia:** Generalized Vandermonde's identity](https://en.wikipedia.org/wiki/Vandermonde%27s_identity#Generalized_Vandermonde's_identity)
 
 $$\binom{m_1 + \cdots + m_p}{k} = \sum_{j_1 + \dots + j_p = k} \binom{m_1}{j_1} \binom{m_2}{j_2} \cdots \binom{m_p}{j_p}$$
 
@@ -37,7 +35,7 @@ For any events $A$ and $B$:
 
 ## Thm. Inclusion-Exclusion
 
-[Wikipedia](https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle)
+[**Wikipedia:** Inclusion-Exclusion Principle](https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle)
 
 $$
 \begin{array}{llll}
@@ -61,7 +59,7 @@ $$P(A_1, A_2, A_3) = P(A_1) P(A_2|A_1) P(A_3|A_2,A_1) = P(A_2) P(A_3|A_2) P(A_1 
 
 ## Thm. Bayes' Theorem
 
-[Wikipedia](https://en.wikipedia.org/wiki/Bayes%27_theorem)
+[**Wikipedia:** Bayes' Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
 
 $$P(A|B) = \frac{P(B|A)P(A)}{P(B)}$$
 
@@ -95,7 +93,7 @@ $$P(B) = \sum_{i=1}^{n} P(B \cap A_i) = \sum_{i=1}^{n} P(B|A_i) P(A_i)$$
 
 ## Ex. Sensitivity and Specificity
 
-[Wikipedia](https://en.wikipedia.org/wiki/Sensitivity_and_specificity)
+[**Wikipedia:** Sensitivity and Specificity](https://en.wikipedia.org/wiki/Sensitivity_and_specificity)
 
 Let $D$ denote the event of true positive and let $T$ denote the event of test is positive. $P(T|D)$ is called
 **sensitivity** or **true positive rate**. $P(T^c|D^c)$ is called **specificity** or **true negative rate**.
@@ -189,24 +187,3 @@ independent for $E$, it may not be the case for $E^c$.
 
 Bayes' Rule is coherent
 -->
-
-## Def. Random Variable
-
-A **random variable** (r.v.) is a function from the sample $S$ to the real number $\R$.
-
-## Def. Discrete Random Variable
-
-> TODO: Revise this
-
-A random variable $X$ is said to be **discrete** if there is a countable (finite or countably infinite) list of values
-$a_1, a_2, ...$ such that $P(X=a_j \enspace \text{for some} \enspace j)=1$.
-
-If $X$ is discrete r.v., then the countable set of values $x$ such that $P(X=x) > 0$ is called the **support** of $X$.
-
-## Def. Probability Mass Function
-
-The **probability mass function (PMF)** of a discrete r.v. $X$ is the function $p_X$ given by
-
-$$p_X (x) = P(X=x)$$
-
-Note that this is positive if $x$ is in the support of $X$ and $0$ otherwise.
