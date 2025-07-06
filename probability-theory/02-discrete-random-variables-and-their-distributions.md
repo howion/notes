@@ -139,7 +139,6 @@ For any CDF $F_X$, or simply $F$, we have
 * $\lim_{x \to - \infty} F(x) = 0$
 * $\lim_{x \to \infty} F(x) = 1$
 
-
 ```js
 ```
 
