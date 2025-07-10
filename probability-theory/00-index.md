@@ -1,6 +1,6 @@
 # Probability Theory
 
-* **Main resource:** Introduction to Probability by _Joseph K. Blitzstein_ and _Jessica Hwang_.
+* **Main resource:** Introduction to Probability, 2nd Ed. by _Joseph K. Blitzstein_ and _Jessica Hwang_.
 
 ## Notation
 
