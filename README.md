@@ -33,7 +33,7 @@ $$\KaTeX$$
 
 ### Bookshelf
 
-You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articles on various subjects which are mostly related to Mathematics or Computer Science.
+You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articles on various subjects which are mostly related to Mathematics, Computer Science or Philosophy.
 
 ## External Resources
 
@@ -46,9 +46,9 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 * [**Stanford Encyclopedia of Philosophy**](https://plato.stanford.edu/index.html)
 <!-- * [**Realtime Colors**](https://www.realtimecolors.com/) by [Juxtopposed](https://twitter.com/juxtopposed) -->
 
-### Books
+<!-- ### Books
 
-* [**Introduction to Topology and Modern Analysis** by George F. Simmons](https://oms.bdu.ac.in/ec-colleges/admin/contents/316_P16MA41_2020052503011871.pdf)
+* [**Introduction to Topology and Modern Analysis** by George F. Simmons](https://oms.bdu.ac.in/ec-colleges/admin/contents/316_P16MA41_2020052503011871.pdf) -->
 
 ### Fonts
 
