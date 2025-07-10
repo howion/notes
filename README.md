@@ -12,7 +12,11 @@ I have no idea how long and how often I will publish here. Most of my notes are 
 
 ## Accessibility
 
-For best readability, you should consider switching to a light theme due to possibly transparent figures and KaTeX expressions. For now, I use Visual Studio Code with `Markdown Preview Github` by Matt Bierner to preview markdown files, and additionally  use `markdownlint` by David Anson.
+For best readability, you should consider switching to a light theme due to possibly transparent figures and KaTeX expressions. For now, I personally use Visual Studio Code with:
+
+* `Markdown Preview Github` by Matt Bierner to preview markdown files,
+* `Markdown Emoji` by Matt Bierner to add Github emoji support to VSCode, and
+* `markdownlint` by David Anson to lint markdown files.
 
 You must be able to easily see some cool **KaTeX** text below to read these notes:
 
@@ -39,6 +43,7 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 * [**Logo System:** Logo Design Library](https://logosystem.co/)
 * [**Shadertoy**](https://www.shadertoy.com/)
 * [**John D. Cook Blog**](https://www.johndcook.com/blog/) I think most entries are quite incomplete but its diverse.
+* [**Stanford Encyclopedia of Philosophy**](https://plato.stanford.edu/index.html)
 <!-- * [**Realtime Colors**](https://www.realtimecolors.com/) by [Juxtopposed](https://twitter.com/juxtopposed) -->
 
 ### Books
