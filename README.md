@@ -27,9 +27,30 @@ $$\KaTeX$$
     1. [Probability and Conditional Probability](./probability-theory/01-probability-and-conditional-probability.md)
     2. [(Discrete) Random Variables and Their Distributions](./probability-theory/02-discrete-random-variables-and-their-distributions.md)
 
-### External Resources
+### Bookshelf
+
+You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articles on various subjects which are mostly related to Mathematics or Computer Science.
+
+## External Resources
+
+### Websites
 
 * [**Minimum:** Minimal Websites Directory](https://mnmm.xyz/)
+* [**Logo System:** Logo Design Library](https://logosystem.co/)
+* [**Shadertoy**](https://www.shadertoy.com/)
+* [**John D. Cook Blog**](https://www.johndcook.com/blog/) I think most entries are quite incomplete but its diverse.
+<!-- * [**Realtime Colors**](https://www.realtimecolors.com/) by [Juxtopposed](https://twitter.com/juxtopposed) -->
+
+### Books
+
+* [**Introduction to Topology and Modern Analysis** by George F. Simmons](https://oms.bdu.ac.in/ec-colleges/admin/contents/316_P16MA41_2020052503011871.pdf)
+
+### Fonts
+
+* [**Fontshare** Fonts](https://www.fontshare.com/) \ Free but Closed Source
+* [**Overused Grotesk**](https://github.com/RandomMaerks/Overused-Grotesk) \ Open Source
+* [**Inter**](https://rsms.me/inter/) \ Open Source
+* [**Manrope**](https://www.shimmer.cloud/manrope) \ ?
 
 ## License
 
