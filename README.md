@@ -30,6 +30,7 @@ $$\KaTeX$$
 * [**Probability Theory**](./probability-theory/00-index.md) \ Fundamentals
     1. [Probability and Conditional Probability](./probability-theory/01-probability-and-conditional-probability.md)
     2. [(Discrete) Random Variables and Their Distributions](./probability-theory/02-discrete-random-variables-and-their-distributions.md)
+* [**Experiments**](./experiments/00-index.md) that most probably won't lead anywhere.
 
 ### Bookshelf
 
@@ -43,12 +44,9 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 * [**Logo System:** Logo Design Library](https://logosystem.co/)
 * [**Shadertoy**](https://www.shadertoy.com/)
 * [**John D. Cook Blog**](https://www.johndcook.com/blog/) I think most entries are quite incomplete but its diverse.
+* [**Infinitely More**](https://www.infinitelymore.xyz/) by Joel David Hamkins. Mostly about infinity and infinite games.
 * [**Stanford Encyclopedia of Philosophy**](https://plato.stanford.edu/index.html)
 <!-- * [**Realtime Colors**](https://www.realtimecolors.com/) by [Juxtopposed](https://twitter.com/juxtopposed) -->
-
-<!-- ### Books
-
-* [**Introduction to Topology and Modern Analysis** by George F. Simmons](https://oms.bdu.ac.in/ec-colleges/admin/contents/316_P16MA41_2020052503011871.pdf) -->
 
 ### Fonts
 
