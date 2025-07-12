@@ -86,3 +86,28 @@ $$x \leqslant_\partial y \iff y \leqslant x$$
 <!-- ## Thm. Duality Principle
 
 Given a statement $\Phi$ about ordered sets which is true in all ordered sets, the dual statement $\Phi^\partial$ is also true in all ordered sets. -->
+
+## Def. Bottom and Top
+
+For an ordered set $P$, we say $P$ has a **bottom** $\bot \in P$ if for all $x \in P$ we have $\bot \leqslant x$. Similarly, we say $P$ has a **top** $\top \in P$ if for all $x \in P$ we have $x \leqslant \top$.
+
+Notice that $\top$ and $\bot$ are unique  when they exist due to antisymmetry, and they are comparable with any element.
+
+For example, for $\langle \mathcal{P}(X); \subseteq\rangle$ we have $\bot = \varnothing$ and $\top = X$.
+
+A finite chain always has bottom and top element.
+
+<!-- ## Lifts -->
+
+## Def. Min-Max(imal)
+
+Let $P$ be an ordered set and $p \in P$. We say $a \in P$ is:
+
+* **maximal element of $P$** if $a \leqslant x \implies a = x$. We denote the **set of maximal elements** with $\text{Max}\>P$.
+* **minimal element of $P$** if $x \leqslant a \implies a =x$. Similarly, we denote **the set of minimal elements** with $\text{Min}\>P$.
+* **maximum** if $a$ is the (unique) top element.
+* **minimum** if $a$ is the (unique) bottom element.
+
+Notice that if $P$ has a top element $\top$, then $\text{Max}\>P = \{\top\}$.
+
+<!-- Zorn's Lemma -->
