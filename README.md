@@ -27,10 +27,12 @@ $$\KaTeX$$
 ### Notes
 
 <!-- Created At 06/07/2025 -->
-* [**Probability Theory**](./probability-theory/00-index.md) \ Fundamentals
-    1. [Probability and Conditional Probability](./probability-theory/01-probability-and-conditional-probability.md)
-    2. [(Discrete) Random Variables and Their Distributions](./probability-theory/02-discrete-random-variables-and-their-distributions.md)
-* [**Experiments**](./experiments/00-index.md) that most probably won't lead anywhere.
+* [:construction: **Probability Theory**](./probability-theory/00-index.md) \ Fundamentals
+    1. [:blush: Probability and Conditional Probability](./probability-theory/01-probability-and-conditional-probability.md)
+    2. [:construction: (Discrete) Random Variables and Their Distributions](./probability-theory/02-discrete-random-variables-and-their-distributions.md)
+* [:construction: **Lattice Theory**](./lattice-theory/00-index.md) \ Fundamentals
+    1. [:construction: Ordered Sets](./lattice-theory/01-ordered-sets.md)
+* [:boom: **Experiments**](./experiments/00-index.md) that most probably won't lead anywhere.
 
 ### Bookshelf
 
@@ -42,10 +44,11 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 
 * [**Minimum:** Minimal Websites Directory](https://mnmm.xyz/)
 * [**Logo System:** Logo Design Library](https://logosystem.co/)
-* [**Shadertoy**](https://www.shadertoy.com/)
-* [**John D. Cook Blog**](https://www.johndcook.com/blog/) I think most entries are quite incomplete but its diverse.
-* [**Infinitely More**](https://www.infinitelymore.xyz/) by Joel David Hamkins. Mostly about infinity and infinite games.
+* [**Shadertoy**](https://www.shadertoy.com/) Like CodePen but for shaders.
+* [**Infinitely More**](https://www.infinitelymore.xyz/) by Joel David Hamkins.
 * [**Stanford Encyclopedia of Philosophy**](https://plato.stanford.edu/index.html)
+* [**ACM Queue**](https://queue.acm.org/)
+* [**John D. Cook Blog**](https://www.johndcook.com/blog/) Incomplete but diverse.
 <!-- * [**Realtime Colors**](https://www.realtimecolors.com/) by [Juxtopposed](https://twitter.com/juxtopposed) -->
 
 ### Fonts

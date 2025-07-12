@@ -95,7 +95,7 @@ For example: I have seperated Graph Theory and Combinatorics and didn't place th
     * **Ecce Homo** by Nietzsche.
     * **Human, All Too Human** by Nietzsche.
 
-    Well, I can hear your criticsm. I don't really read about History of Philosophy unless I need to. When I do, I use [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/). Most of these are from high-school or prep school and I didn't include mainstream books such as Plato as I wasn't really able to comprehend them. I remember that I liked Nietzsche tho and tried to read in 3 different languages.
+    Well, I can hear your criticsm. I don't really read about History of Philosophy unless I need to. When I do, I use [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/). I didn't include mainstream books such as Plato as I wasn't really able to comprehend them. I remember that I liked Nietzsche tho and tried to read in 3 different languages.
 
     Anyway, only philosophical matter I rather feel comfortable with is Philosophy of Science. So here we go:
 

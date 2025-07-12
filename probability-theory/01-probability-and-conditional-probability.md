@@ -1,6 +1,12 @@
 # Probability and Conditional Probability
 
-[**Go Back to Probability**](./00-index.md)
+[**Go Back to Index**](./00-index.md)
+
+```js
+```
+
+```js
+```
 
 ## Thm. Identities
 
@@ -46,6 +52,12 @@ P \left(\> \bigcup_{i=1}^{n} A_i \right) =&
 &\cdots & (-1)^{n+1} & P(A_1 \cap ... \cap A_n)
 \end{array}
 $$
+
+```js
+```
+
+```js
+```
 
 ## Def. Conditional Probability
 
@@ -119,6 +131,12 @@ $$P(A|B, E) = \frac{P(B|A, E) P(A|E)}{P(B|E)}$$
 Let $A_1, ..., A_n$ partition $S$ and $P(A_i \cap E) > 0$ for all $i$, then
 
 $$P(B|E) = \sum_{i=1}^{n} P(B|A_i, E)P(A_i | E)$$
+
+```js
+```
+
+```js
+```
 
 ## Def. Independence
 
