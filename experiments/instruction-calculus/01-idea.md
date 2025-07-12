@@ -22,7 +22,7 @@ Lorem ipsum
 
 ## (D) Instruction
 
-A serial relation $\lambda \subseteq \text{X}^2 $ is called an **instruction on $\text{X}$** and $\text{X}$ is called the **domain** of $\lambda$ denoted $\text{Dom}(\lambda)$. Moreover, an instruction $\lambda$ is:
+A serial relation $\lambda \subseteq \text{X}^2 $ is called an **instruction on $\text{X}$** and $\text{X}$ is called the **domain** of $\lambda$ denoted $\text{dom}\ \lambda$. Moreover, an instruction $\lambda$ is:
 
 * **deterministic**, denoted $\text{Det}(\lambda)$, if it is also a function, and **non-deterministic** otherwise,
 * the **identity instruction** denoted $1$ if it is deterministic and for all $x \in \text{X}$ we have $1(x) = x$,

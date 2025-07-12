@@ -1,6 +1,6 @@
 # (Discrete) Random Variables and Their Distributions
 
-[**Go Back to Probability**](./00-index.md)
+[**Go Back to Index**](./00-index.md)
 
 ```js
 ```
