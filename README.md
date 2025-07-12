@@ -38,6 +38,11 @@ $$\KaTeX$$
 
 You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articles on various subjects which are mostly related to Mathematics, Computer Science or Philosophy.
 
+### Poems
+
+* [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md)
+* [**Salvé, salvé, salvé, parve?**](./poems/02-salve-salve-salve-parve.md)
+
 ## External Resources
 
 ### Websites
@@ -55,6 +60,7 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 
 * [**Fontshare** Fonts](https://www.fontshare.com/) \ Free but Closed Source
 * [**Overused Grotesk**](https://github.com/RandomMaerks/Overused-Grotesk) \ Open Source
+* [**Space Grotesk**](https://fonts.google.com/specimen/Space+Grotesk) \ Monospace \ Open Source
 * [**Inter**](https://rsms.me/inter/) \ Open Source
 * [**Manrope**](https://www.shimmer.cloud/manrope) \ ?
 
