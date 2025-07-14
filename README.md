@@ -26,12 +26,15 @@ $$\KaTeX$$
 
 ### Notes
 
+The indicator :anchor: means abandoned for now.
+
 <!-- Created At 06/07/2025 -->
 * [:construction: **Probability Theory**](./probability-theory/00-index.md) \ Fundamentals
     1. [:blush: Probability and Conditional Probability](./probability-theory/01-probability-and-conditional-probability.md)
     2. [:construction: (Discrete) Random Variables and Their Distributions](./probability-theory/02-discrete-random-variables-and-their-distributions.md)
-* [:construction: **Lattice Theory**](./lattice-theory/00-index.md) \ Fundamentals
-    1. [:construction: Ordered Sets](./lattice-theory/01-ordered-sets.md)
+* [:construction: **Universal Algebra**](./universal-algebra/00-index.md) \ Fundamentals
+    1. [:blush: Ordered Sets](./universal-algebra/01-ordered-sets.md)
+    1. [:construction: Lattices](./universal-algebra/02-lattices.md)
 * [:boom: **Experiments**](./experiments/00-index.md) that most probably won't lead anywhere.
 
 ### Bookshelf

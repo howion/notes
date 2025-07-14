@@ -1,10 +1,16 @@
-# Lattice Theory
+# Universal Algebra
 
 * **Introduction to Lattices and Order**, 2nd Ed. by B.A. Davey and H.A. Priestley.
+* **A Course in Universal Algebra**, Millenium Ed. by Stanley Burris and H.P. Sankappanavar.
+
+## Preliminaries
+
+Fundamental set-theoric notation.
 
 ## Notation
 
-* $||$ denotes _non-comparability_. That is, $x \>||\> y$ iff $x \nleqslant y$ and $y \nleqslant x$
+<!-- * $||$ denotes _non-comparability_. That is, $x \>||\> y$ iff $x \nleqslant y$ and $y \nleqslant x$ -->
+
 * $x \nleqslant y$ means "not $x \leqslant y$".
 * $\phi : P \to Q$ denotes a map (function) $\phi$ from $P$ to $Q$.
 * $\phi : P \hookrightarrow Q$ denotes the _injective (one-to-one)_ map $\phi$ from $P$ _into_ $Q$.
@@ -17,3 +23,4 @@
 [**Go Back to Home**](../README.md)
 
 1. [Ordered Sets](./01-ordered-sets.md)
+1. [Lattices](./02-lattices.md)

@@ -40,6 +40,22 @@ Notice that any subset of a chain (an antichain) is a chain (an antichain).
 
 We will utilize the symbol $\bold{n}$ to denote the finite $n$-element linearly ordered set $\{0, 1, ..., n-1\}$ with the natural linear order. Similarly, $\bold{\bar{n}}$ will denote the $n$-element antichain.
 
+## Def. Maps on Orders
+
+Let $P$ and $Q$ be two ordered sets. We say a map $\phi: P \to Q$ is:
+
+* **order-preserving** if $x \leqslant_P y$ implies $\phi(x) \leqslant_Q \phi(y)$.
+* **order-embedding** if it is order-preserving and $\phi(x) \leqslant_Q \phi(y)$ implies $x \leqslant_P y$.
+* **order-isomorphism** if it is order-embedding and $\phi$ is surjective.
+
+Notice that:
+
+* Order-embeddings are injective. Therefore, order-isomorphisms are bijective.
+* Not every bijective map between $P$ and $Q$ is an order-isomorphism.
+* Finite composition of order-preserving maps is again order-preserving.
+
+<!-- 
+
 ## Def. Order-Isomorphism
 
 We say two ordered sets $P$ and $Q$ are (order-)**isomorphic** denoted $P \cong Q$ if there exists a surjective map (function) $\phi: P \twoheadrightarrow Q$ such that, for all $x,y \in P$:
@@ -54,7 +70,7 @@ Such a map $\phi$ is called an **order-isomorphism**.
 Notice that:
 
 * $\phi$ must also be injective and thus bijective.
-* Not every bijective map between $P$ and $Q$ is an order-isomorphism.
+* Not every bijective map between $P$ and $Q$ is an order-isomorphism. -->
 
 ## Ex. Social Choice Function
 
@@ -64,7 +80,7 @@ See [**Wikipedia**: Arrow's impossibility theorem](https://en.wikipedia.org/wiki
 
 > TODO: Check if this definition is equivalent to the one in the main book.
 
-Let $P$ be an ordered set and $x, y \in P$. We say $x$ is **covered by** $y$ denoted with $x \  -\negthickspace\!< y$ if $x \neq y$ and there is no $z \in P$ distinct from $x$ and $y$ such that
+Let $P$ be an ordered set and $x, y \in P$. We say $x$ is **covered by** $y$ denoted with $x \prec y$ if $x \neq y$ and there is no $z \in P$ distinct from $x$ and $y$ such that
 
 $$x \leqslant z \leqslant y$$
 
@@ -78,7 +94,7 @@ Let $P$ and $Q$ be finite ordered sets and $\phi : P \to Q$ a bijective map. The
 
 * $\phi$ is an order-isomorphism
 * $x \lt_P y$ if and only if $\phi(x) \lt_Q \phi(y)$.
-* $x \  -\negthickspace\!<_P y$ if and only if $\phi(x) \  -\negthickspace\!<_Q \phi(y)$.
+* $x \prec_P y$ if and only if $\phi(x) \prec_Q \phi(y)$.
 * They can be drawn with identical Hasse Diagrams.
 
 ## Def. Dual
@@ -109,8 +125,8 @@ Let $P$ be an ordered set and $p \in P$. We say $a \in P$ is:
 
 * **maximal element of $P$** if $a \leqslant x \implies a = x$. We denote the **set of maximal elements** with $\text{Max}\ P$.
 * **minimal element of $P$** if $x \leqslant a \implies a =x$. Similarly, we denote **the set of minimal elements** with $\text{Min}\ P$.
-* **maximum** if $a$ is the (unique) top element.
-* **minimum** if $a$ is the (unique) bottom element.
+* **maximum** (or **greatest**) if $a$ is the (unique) top element.
+* **minimum** (or **least**) if $a$ is the (unique) bottom element.
 
 Notice that if $P$ has a top element $\top$, then $\text{Max}\ P = \{\top\}$.
 
