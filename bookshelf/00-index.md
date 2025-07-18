@@ -90,14 +90,16 @@ For example: I have seperated Graph Theory and Combinatorics and didn't place th
     * **A History of Western Philosophy** by Bertrand Russel.
     * **Perspective as Symbolic Form** by Erwin Panofsky.
     * **Kant: A Very Short Introduction** by Roger Scruton.
-    * `German` **Also sprach Zarathustra: Ein Buch für Alle und Keinen** + `English` **Thus Spoke Zarathustra** + `Turkish` **Böyle Buyurdu Zerdüşt** by Nietzsche.
     * **Beyond Good and Evil** by Nietzsche.
+
+    <!--
+    * `German` **Also sprach Zarathustra: Ein Buch für Alle und Keinen** + `English` **Thus Spoke Zarathustra** + `Turkish` **Böyle Buyurdu Zerdüşt** by Nietzsche.
     * **Ecce Homo** by Nietzsche.
-    * **Human, All Too Human** by Nietzsche.
+    * **Human, All Too Human** by Nietzsche. -->
 
-    Well, I can hear your criticsm. I don't really read about History of Philosophy unless I need to. When I do, I use [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/). I didn't include mainstream books such as Plato as I wasn't really able to comprehend them. I remember that I liked Nietzsche tho and tried to read in 3 different languages.
+    Well, I can hear your criticsm. I don't really read about History of Philosophy unless I need to. When I do, I use [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/). I didn't include mainstream books such as Plato as I wasn't really able to comprehend them.
 
-    Anyway, only philosophical matter I rather feel comfortable with is Philosophy of Science. So here we go:
+    Anyway, only philosophical matter I rather feel comfortable with is Philosophy of Science (and Marxism). So here we go:
 
 * ### Philosophy of Science
 
@@ -109,6 +111,8 @@ For example: I have seperated Graph Theory and Combinatorics and didn't place th
     * `Article` **A Material Defense of Inductive Inference** by John D. Norton.
     * `Article` **Defending Abduction** by Ilkka Niiniluoto.
     * `Article` **The Fine Structure of Inference to the Best Explanation** by Stathis Psillos.
+
+<!-- * ### Marxist Philosophy -->
 
 ## Computer Science
 
