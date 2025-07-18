@@ -37,13 +37,19 @@ The indicator :anchor: means abandoned for now.
     1. [:construction: Lattices](./universal-algebra/02-lattices.md)
 * [:boom: **Experiments**](./experiments/00-index.md) that most probably won't lead anywhere.
 
+### Lectures
+
+* [**Gödel ve Ontolojik Kanıtı**](./lectures/godel-ve-ontolojik-kaniti/00-index.md)
+* [**Sembolik Form Olarak Perspektif**](./lectures/sembolik-form-olarak-perspektif/00-index.md)
+
 ### Bookshelf
 
 You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articles on various subjects which are mostly related to Mathematics, Computer Science or Philosophy.
 
 ### Poems
 
-* [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md)
+<!-- * [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md) -->
+
 * [**Salvé, salvé, salvé, parve?**](./poems/02-salve-salve-salve-parve.md)
 
 ## External Resources
@@ -54,9 +60,11 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 * [**Logo System:** Logo Design Library](https://logosystem.co/)
 * [**Shadertoy**](https://www.shadertoy.com/) Like CodePen but for shaders.
 * [**Infinitely More**](https://www.infinitelymore.xyz/) by Joel David Hamkins.
-* [**Stanford Encyclopedia of Philosophy**](https://plato.stanford.edu/index.html)
 * [**ACM Queue**](https://queue.acm.org/)
 * [**John D. Cook Blog**](https://www.johndcook.com/blog/) Incomplete but diverse.
+* [**Stanford Encyclopedia of Philosophy**](https://plato.stanford.edu/index.html)
+* [**Marxists Internet Archive**](https://www.marxists.org/)
+
 <!-- * [**Realtime Colors**](https://www.realtimecolors.com/) by [Juxtopposed](https://twitter.com/juxtopposed) -->
 
 ### Fonts
