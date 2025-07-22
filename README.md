@@ -1,4 +1,4 @@
-# Howion Notes
+# Howion / Notes
 
 ![GitHub Created At](https://img.shields.io/github/created-at/howion/notes)
 ![GitHub last commit](https://img.shields.io/github/last-commit/howion/notes)
@@ -26,7 +26,7 @@ $$\KaTeX$$
 
 ### Notes
 
-The indicator :anchor: means abandoned for now.
+<!-- The indicator :anchor: means abandoned for now. -->
 
 <!-- Created At 06/07/2025 -->
 * [:construction: **Probability Theory**](./probability-theory/00-index.md) \ Fundamentals
@@ -35,7 +35,10 @@ The indicator :anchor: means abandoned for now.
 * [:construction: **Universal Algebra**](./universal-algebra/00-index.md) \ Fundamentals
     1. [:blush: Ordered Sets](./universal-algebra/01-ordered-sets.md)
     1. [:construction: Lattices](./universal-algebra/02-lattices.md)
-* [:boom: **Experiments**](./experiments/00-index.md) that most probably won't lead anywhere.
+* [:construction: **Marxist Theory**](./marxist-theory/00-index.md)
+    1. [:construction: Communist Manifesto](./marxist-theory/01-communist-manifesto.md)
+
+<!-- * [:boom: **Experiments**](./experiments/00-index.md) that most probably won't lead anywhere. -->
 
 ### Lectures
 
@@ -77,4 +80,4 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 
 ## License
 
-I’m still figuring out how to license this content. Much of it is distilled or adapted from commercial texts. For now, consider this a personal archive, not an open-source resource.
+I’m still figuring out how to license this content. Some of it is distilled or adapted from commercial texts. For now, consider this (especially the notes) a personal archive, not an open-source resource.
