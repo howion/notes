@@ -20,7 +20,7 @@ Fundamental set-theoric notation.
 
 ## Table of Contents
 
-[**Go Back to Home**](../README.md)
+[**Go Back to Home**](../../README.md)
 
 1. [Ordered Sets](./01-ordered-sets.md)
 1. [Lattices](./02-lattices.md)

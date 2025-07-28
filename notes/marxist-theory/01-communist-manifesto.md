@@ -19,7 +19,7 @@ With the note that this [**work**](https://www.marxists.org/admin/books/manifest
 
 ### All History is the History of Class Struggles
 
-> These terms do require some care. But simply, as an personal example, ask yourself "are you bourgeoisie?". If your answer is not a definitive YES, than you most probably are not.
+> These terms do require some care. As a personal starter, simply, ask yourself "are you bourgeoisie?". If your answer is not a definitive yes, than you most probably are not.
 
 > From a classical point of view, bourgeoisie is the class who has the control of means of production. From a modern point of view, the idea is essentially similar if not the same.
 
