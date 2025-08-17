@@ -1,4 +1,4 @@
-# Declaration of Non-Normative Sentiments
+# Solace in Dissonance
 
 Declaration of non-normative sentiments\
 Within a dream lacking independence\

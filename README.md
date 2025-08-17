@@ -53,7 +53,11 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 ### Poems
 
 * [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md)
+* [**Solace in Dissonance**](./poems/01-solace-in-dissonance.md)
 * [**Salvé, salvé, salvé, parve?**](./poems/02-salve-salve-salve-parve.md)
+* [**Unholy Gospel**](./poems/03-unholy-gospel.md)
+* [**Weep**](./poems/04-weep.md)
+* [**Bitscript**](./poems/05-bitscript.md)
 
 ## External Resources
 
