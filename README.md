@@ -35,8 +35,9 @@ $$\KaTeX$$
 * [:construction: **Universal Algebra**](./notes/universal-algebra/00-index.md) \ Fundamentals
     1. [:blush: Ordered Sets](./notes/universal-algebra/01-ordered-sets.md)
     1. [:construction: Lattices](./notes/universal-algebra/02-lattices.md)
-* [:construction: **Marxist Theory**](./notes/marxist-theory/00-index.md)
-    1. [:construction: Communist Manifesto](./notes/marxist-theory/01-communist-manifesto.md)
+
+<!-- * [:construction: **Marxist Theory**](./notes/marxist-theory/00-index.md)
+    1. [:construction: Communist Manifesto](./notes/marxist-theory/01-communist-manifesto.md) -->
 
 <!-- * [:boom: **Experiments**](./experiments/00-index.md) that most probably won't lead anywhere. -->
 
@@ -51,8 +52,7 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 
 ### Poems
 
-<!-- * [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md) -->
-
+* [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md)
 * [**Salvé, salvé, salvé, parve?**](./poems/02-salve-salve-salve-parve.md)
 
 ## External Resources
@@ -76,15 +76,24 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 
 * [**Fontshare** Fonts](https://www.fontshare.com/) \ Free
 * [**Overused Grotesk**](https://github.com/RandomMaerks/Overused-Grotesk) \ Open Source
-* [**Space Grotesk**](https://fonts.google.com/specimen/Space+Grotesk) \ Monospace \ Open Source
+* [**Space Grotesk**](https://fonts.google.com/specimen/Space+Grotesk) \ Open Source
 * [**Inter**](https://rsms.me/inter/) \ Open Source
 * [**IBM Plex**](https://www.ibm.com/plex/) \ Open Source
-* [**Manrope**](https://www.shimmer.cloud/manrope) \ ?
+
+<!-- * [**Manrope**](https://www.shimmer.cloud/manrope) \ ? -->
+
+#### Free and Monospace
+
+* [**Departure Mono**](https://www.departuremono.com/) \ Monospace \ Open Source
+* [**Server Mono**](https://servermono.com/) \ Monospace \ Open Source
+* [**Intel One Mono**](https://github.com/intel/intel-one-mono) \ Monospace \ Open Source
+* [**Commit Mono**](https://commitmono.com/) \ Monospace \ Open Source
 
 #### Paid
 
-* [**Mori**](https://pangrampangram.com/products/mori) by Pangram Pangram Foundry \ Paid
-* [**Neue Montreal**](https://pangrampangram.com/products/neue-montreal) by Pangram Pangram Foundry \ Paid
+* [**Mori**](https://pangrampangram.com/products/mori) \ Paid
+* [**Neue Montreal**](https://pangrampangram.com/products/neue-montreal) \ Paid
+* [**T1 Robit**](https://type-department.com/products/robit?variant=43641828704409&licenxa=XS) \ Paid
 * [**TT Hoves Pro**](https://typetype.org/fonts/tt-hoves/) \ Paid \ Maybe Free For Personal Use
 
 ## License
