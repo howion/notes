@@ -48,7 +48,7 @@ $$\KaTeX$$
 
 ### Poems
 
-My personal poems.
+My poems.
 
 * [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md)
 * [**Solace in Dissonance**](./poems/01-solace-in-dissonance.md)
@@ -92,8 +92,8 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 
 * [**Departure Mono**](https://www.departuremono.com/) \ Monospace \ Open Source
 * [**Server Mono**](https://servermono.com/) \ Monospace \ Open Source
-* [**Intel One Mono**](https://github.com/intel/intel-one-mono) \ Monospace \ Open Source
 * [**Commit Mono**](https://commitmono.com/) \ Monospace \ Open Source
+* [**Intel One Mono**](https://github.com/intel/intel-one-mono) \ Monospace \ Open Source
 
 #### Paid
 
