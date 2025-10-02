@@ -6,9 +6,9 @@ Weep, weep forever more\
 Shed those tears
 
 Tis is a mere demonstration of boredom\
-Tis is a just a play one cannot withstand
+Tis is just a play one cannot withstand
 
-Choke on your self hatred\
+Choke on your self-hatred\
 Make it yours\
 Choke on your loneliness\
 Make it ours
