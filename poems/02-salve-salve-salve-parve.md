@@ -1,10 +1,5 @@
 # Salvé, salvé, salvé, parve?
 
-<audio controls>
-    <source src="../musics/salve-salve-salve-parve.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
-
 Oh wheel of fortune, you have captured me again.\
 My dear, will this vicious cycle ever release me from this rein of agony?\
 Will my gaze ever reach out to your reality?\
