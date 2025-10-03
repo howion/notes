@@ -8,7 +8,7 @@ This is where I will upload my various notes (or resources) related to different
 
 For the notes I will publish here, I aim to use a formal tone, organized with a logical structure. I believe this is usually not the best approach when it comes to learning, so you may want to use these materials for revision purposes rather than as a learning material.
 
-I have no idea how long and how often I will publish here. Most of my notes are on paper and are mostly sketches. I aspire to write my new notes in this format as I believe KaTeX and Markdown is much easier to work with compareted to LaTeX and often enough. I may later convert my old notes to this format, but no promises.
+I have no idea how long and how often I will publish here. Most of my notes are on paper and are mostly sketches. I aspire to write my new (and maybe also old) notes in this format as I believe KaTeX and Markdown is much easier to work with and often enough.
 
 ## Accessibility
 
