@@ -48,7 +48,7 @@ $$\KaTeX$$
 
 ### Poems
 
-My poems.
+My handwritten poems.
 
 * [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md)
 * [**Solace in Dissonance**](./poems/01-solace-in-dissonance.md)
