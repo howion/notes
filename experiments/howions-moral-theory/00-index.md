@@ -8,7 +8,7 @@ Firstly, in moral discussions, we give much higher meaning to sentient beings. F
 
 Secondly, from a practical point of view, we try to deduce the best action given an situation. More we know about the situation, more refined judgment we arrive. There is always an option, for actors, to do nothing which is an action itself.
 
-Thirdly, actions of actors transform the universe in an non-deterministic way. We cannot tell beforehand which action will an actor take but we maybe try to conclude what is the most _optimal_ or _desired_ action is according to some metric.
+Thirdly, actions of actors transform the universe in an non-deterministic way. That is, we cannot absolutely tell beforehand which action will an actor take but we maybe try to conclude what is the most _optimal_ or _desired_ action is according to some metric.
 
 At the moment this universe transformation model doesn't take into account the fact that universe has the time dimensions. That is, the timing of the actions taken are also as important as the actions themselves. Maybe a some kind of effect algebra should resolve this.
 
@@ -26,11 +26,11 @@ The **do nothing** action will be denoted with $1$. This action, as the name imp
 
 ## Actor
 
-An **actor** $X$, is a sentient being in our theory that is capable of (reasoning AND) _action_. We will denote the set of an actor $X$'s actions by $\mathcal{A}(X)$.
+An **actor** $X$, is a sentient being in our theory that is capable of (reasoning AND) _action_. We will denote the set of an actor $X$'s possible actions by $\mathcal{A}(X)$.
 
 ## Context
 
-A **context** is the total sum of our _knowledge_ about the _current state of things_. We will denote the context with the letter $\Gamma$. A **refinement** of a context is a context $\Gamma$ with more knowledge
+A **context** is the total sum of our _knowledge_ about the _current state of things_. We will denote the context with the letter $\Gamma$. A **refinement** of a context is...
 
 ## Judgment
 
