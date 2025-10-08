@@ -112,6 +112,10 @@ For example: I have seperated Graph Theory and Combinatorics and didn't place th
     * `Article` **Defending Abduction** by Ilkka Niiniluoto.
     * `Article` **The Fine Structure of Inference to the Best Explanation** by Stathis Psillos.
 
+* ### Ethics
+
+    See [Ethics Bookshelf](./01-ethics.md)
+
 <!-- * ### Marxist Philosophy -->
 
 ## Computer Science
