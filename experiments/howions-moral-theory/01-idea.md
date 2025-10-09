@@ -12,13 +12,19 @@ Thirdly, actions of actors transform the universe in an non-deterministic way. T
 
 At the moment this universe transformation model doesn't take into account the fact that universe has the time dimensions. That is, the timing of the actions taken are also as important as the actions themselves. Maybe a some kind of effect algebra should resolve this.
 
+## Things to Resolve?
+
+* Dependency
+* Time
+*
+
 ## Universe
 
 An **universe**, denoted with $\mathcal{U}$ is (informally, the state of things)...
 
 ## Action
 
-An **action** $\alpha$ is, informally, a transformation of some universe $\mathcal{U}_0$ to some other universe $\mathcal{U}_1$.
+An **action** $\alpha$ is, informally, a transformation of some universe $\mathcal{U}_0$ to some other universe $\mathcal{U}_1$. Formally, an action $\alpha$ is the pair $(\mathcal{U}_0, \mathcal{U}_1)$.
 
 The **do nothing** action will be denoted with $1$. This action, as the name imples, does nothing to the universe.
 
