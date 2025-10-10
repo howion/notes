@@ -4,7 +4,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/howion/notes)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/howion/notes)
 
-This is where I will upload my various notes (or resources) related to different topics that I ended up using **KaTeX** + **Markown** instead of pen-paper.
+This is where I will upload my various notes (or resources) related to different topics that I ended up using **Markown** + **KaTeX** instead of pen-paper.
 
 For the notes I will publish here, I aim to use a formal tone, organized with a logical structure. I believe this is usually not the best approach when it comes to learning, so you may want to use these materials for revision purposes rather than as a learning material.
 
@@ -50,12 +50,15 @@ $$\KaTeX$$
 
 My handwritten poems.
 
+* [**Salvé, salvé, salvé, parve?**](./poems/02-salve-salve-salve-parve.md)
+* [**Bitscript**](./poems/05-bitscript.md)
+
+<!--  -->
+
 * [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md)
 * [**Solace in Dissonance**](./poems/01-solace-in-dissonance.md)
-* [**Salvé, salvé, salvé, parve?**](./poems/02-salve-salve-salve-parve.md)
 * [**Unholy Gospel**](./poems/03-unholy-gospel.md)
 * [**Weep**](./poems/04-weep.md)
-* [**Bitscript**](./poems/05-bitscript.md)
 
 ### Bookshelf
 
