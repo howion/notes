@@ -1,6 +1,5 @@
 # Howion / Notes
 
-![GitHub Created At](https://img.shields.io/github/created-at/howion/notes)
 ![GitHub last commit](https://img.shields.io/github/last-commit/howion/notes)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/howion/notes)
 
@@ -36,9 +35,6 @@ $$\KaTeX$$
     1. [:blush: Ordered Sets](./notes/universal-algebra/01-ordered-sets.md)
     1. [:construction: Lattices](./notes/universal-algebra/02-lattices.md)
 
-<!-- * [:construction: **Marxist Theory**](./notes/marxist-theory/00-index.md)
-    1. [:construction: Communist Manifesto](./notes/marxist-theory/01-communist-manifesto.md) -->
-
 <!-- * [:boom: **Experiments**](./experiments/00-index.md) that most probably won't lead anywhere. -->
 
 ### Lectures
@@ -64,46 +60,11 @@ My handwritten poems.
 
 You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articles on various subjects which are mostly related to Mathematics, Computer Science or Philosophy.
 
-## External Resources
+## Resources
 
-### Websites
-
-* [**Minimum:** Minimal Websites Directory](https://mnmm.xyz/)
-* [**Logo System:** Logo Design Library](https://logosystem.co/)
-* [**Shadertoy**](https://www.shadertoy.com/) Like CodePen but for shaders.
-* [**Infinitely More**](https://www.infinitelymore.xyz/) by Joel David Hamkins.
-* [**ACM Queue**](https://queue.acm.org/)
-* [**John D. Cook Blog**](https://www.johndcook.com/blog/) Incomplete but diverse.
-* [**Stanford Encyclopedia of Philosophy**](https://plato.stanford.edu/index.html)
-* [**Marxists Internet Archive**](https://www.marxists.org/)
-
-<!-- * [**Realtime Colors**](https://www.realtimecolors.com/) by [Juxtopposed](https://twitter.com/juxtopposed) -->
-
-### Fonts
-
-#### Free
-
-* [**Fontshare** Fonts](https://www.fontshare.com/) \ Free
-* [**Overused Grotesk**](https://github.com/RandomMaerks/Overused-Grotesk) \ Open Source
-* [**Space Grotesk**](https://fonts.google.com/specimen/Space+Grotesk) \ Open Source
-* [**Inter**](https://rsms.me/inter/) \ Open Source
-* [**IBM Plex**](https://www.ibm.com/plex/) \ Open Source
-
-<!-- * [**Manrope**](https://www.shimmer.cloud/manrope) \ ? -->
-
-#### Free and Monospace
-
-* [**Departure Mono**](https://www.departuremono.com/) \ Monospace \ Open Source
-* [**Server Mono**](https://servermono.com/) \ Monospace \ Open Source
-* [**Commit Mono**](https://commitmono.com/) \ Monospace \ Open Source
-* [**Intel One Mono**](https://github.com/intel/intel-one-mono) \ Monospace \ Open Source
-
-#### Paid
-
-* [**Mori**](https://pangrampangram.com/products/mori) \ Paid
-* [**Neue Montreal**](https://pangrampangram.com/products/neue-montreal) \ Paid
-* [**T1 Robit**](https://type-department.com/products/robit?variant=43641828704409&licenxa=XS) \ Paid
-* [**TT Hoves Pro**](https://typetype.org/fonts/tt-hoves/) \ Paid \ Maybe Free For Personal Use
+* [**Poems** (by various authors)](./resources/poems/00-index.md)
+* [**Websites**](./resources/websites.md)
+* [**Fonts**](./resources/fonts.md)
 
 ## License
 
