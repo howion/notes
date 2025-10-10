@@ -6,11 +6,11 @@
 
     * [**The Open Logic Text: Complete Build**](https://builds.openlogicproject.org/open-logic-complete.pdf) by various Open Source contributors.
     * [**Math 320: Set Theory, Lecture Notes**](https://users.metu.edu.tr/burakk/lecturenotes/320lecturenotes.pdf) by [Burak Kaya](https://blog.metu.edu.tr/burakk/)
-    *  `Article` **How to Write 21<sup>st</sup> Century Proof** by Leslie Lamport.
+    * `Article` **How to Write 21<sup>st</sup> Century Proof** by Leslie Lamport.
     * **Introduction to Lattices and Order** by B.A. Davey and H.A. Priestley.
     * **Lattice Theory Lectures** by [John Harding](https://math.nmsu.edu/people/personal-pages/john-harding.html). [**`Lecture 1`**](https://math.nmsu.edu/people/personal-pages/files/ESSLLI1.pdf),  [**`Lecture 2`**](https://math.nmsu.edu/people/personal-pages/files/ESSLLI2.pdf), [**`Lecture 3`**](https://math.nmsu.edu/people/personal-pages/files/ESSLLI3.pdf), [**`Lecture 4`**](https://math.nmsu.edu/people/personal-pages/files/ESSLLI4.pdf), [**`Lecture 5`**](https://math.nmsu.edu/people/personal-pages/files/ESSLLI5.pdf)
-    * :red_circle: **Introduction to Axiomatic Set Theory** by Gaisi Takeuti, and Wilson M. Zaring.
-    * :red_circle: **An Introduction to Proof Theory: Normalization, Cut-Elimination, and Consistency Proofs** by Paolo Mancosu, Sergio Galvan, and Richard Zach.
+    * **Introduction to Axiomatic Set Theory** by Gaisi Takeuti, and Wilson M. Zaring.
+    * **An Introduction to Proof Theory: Normalization, Cut-Elimination, and Consistency Proofs** by Paolo Mancosu, Sergio Galvan, and Richard Zach.
 
 * ## Abstract Algebra
 

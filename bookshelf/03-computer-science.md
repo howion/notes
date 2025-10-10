@@ -13,8 +13,8 @@ These subjects are closely related to mathematical logic, algebra and combinator
     * **Introduction to the Theory of Computation** by Michael Sipser.
     * **Types and Programming Languages** by Benjamin C. Pierce.
         > This might be the **BEST** book on simple type theory and lambda calculus I have read as it teaches difficult matter with an invating and practical approach.
-    * **The Lambda Calculus: Its Syntax and Semantics (Revised Edition)** by J. Barwise, D. Kaplan and others. This is a reference book.
-        > Remember, this is a reference book.
+    * **The Lambda Calculus: Its Syntax and Semantics (Revised Edition)** by J. Barwise, D. Kaplan and others.
+        > It is a reference book.
 
 * ## Cryptography
 
