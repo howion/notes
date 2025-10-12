@@ -13,7 +13,7 @@ On the shoulders of giants!
 No applications, no fame,
 Just trauma and sets with no name!
 
-[Chant Echo]
+[Chant]
 Trauma... setta... nomen nulla...
 
 [Verse 1]
@@ -22,7 +22,7 @@ Lost in the proof that never felt right.
 He whispered, "Infinity is not enough,"
 and vanished where the symbols roughened love.
 
-[Background Chant]
+[Chant]
 Merta, merta, mentem fracta...
 
 [Chorus - Full choir returns, loader]
@@ -38,7 +38,7 @@ Academia... aeternitas...
 Buğra still studies his French exam,
 "Je ne sais quoi" becomes his damn!
 Syntax breaks, the notes go stale,
-He’s trapped in tense, he can’t exhale!
+He's trapped in tense, he can't exhale!
 
 [Background Chant]
 Bu-grá, Bu-grá, languam mortam!
@@ -50,8 +50,8 @@ On the shoulders of giants!
 No applications, no fame,
 Just trauma and sets with no name!
 
-[Chant - Echo]
-Cogito... ergo... despero...
+                [Chant]
+                Cogito... ergo... despero...
 
 [Verse 3]
 Cem counts derivatives in his sleep,
@@ -59,7 +59,7 @@ Of thoughts, of dreams, of slopes too steep!
 He takes the limit, finds no rest,
 And differentiates his very chest!
 
-[Chant - Echo]
+[Chant]
 Cemum derivat, semper derivat,
 Delta vita, delta mortis!
 
@@ -69,7 +69,7 @@ On the shoulders of giants!
 No applications, no fame,
 Just trauma and sets with no name!
 
-[Chant rising]
+[Chant - Rising]
 Setta... trauma... ratio... dogma!
 
 [Verse 4]
@@ -88,7 +88,7 @@ On the shoulders of giants!
 No applications, no fame,
 Just trauma and sets with no name!
 
-[Background chant overlapping with main choir]
+[Chant]
 Academia... aeternitas...
 Nullum nomen... ratio fracta...
 
