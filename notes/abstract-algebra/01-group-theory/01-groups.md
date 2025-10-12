@@ -1,6 +1,6 @@
 # Groups
 
-[**Go Back to Index**](./00-index.md)
+[**Go Back**](../00-index.md)
 
 ## Def. Group
 
@@ -35,7 +35,7 @@ Let $(G, \cdot)$ be a group. Then:
 1. Identity $e$ is unique. The uniqueness of the identity element does not require the use of associativity.
 2. For each $a \in G$, inverse of $a$ is unique.
 3. For each $a \in G$, we have $(a^{-1})^{-1} = a$.
-4. For all $a,b \in G$, we have $(a \cdot b)^{-1} = b^{-1} \cdot a^{-1}$.
+4. For all $a,b \in G$, we have $(a \cdot b)^{-1} = b^{-1} \cdot a^{-1}$. Indeed, in general, $(a_1 \cdots a_n)^{-1} = a_n^{-1} \cdots a_1^{-1}$.
 6. Associative property implies that the expression $a_1 \cdot a_2 \cdot \cdots \cdot a_n$ is the same no matter how the expression bracketed. This is a result of the associative property alone.
 
 <details>
@@ -51,7 +51,7 @@ Let $(G, \cdot)$ be a group and $a \in G$.
 
 The **order of (the group) $G$** is denoted by $|G|$ and is the cardinality of the set $G$.
 
-The **order of (the element) $a$** is denoted by $|a|$ and (if exists) it is the least positive integer $n$ such that $x^n = e$. If there is no such $n$, we say the order is infinite.
+The **order of (the element) $a$** is denoted by $|a|$ and (if exists) it is the least positive integer $n$ such that $x^n = e$. If there is no such $n$, we say the order is infinite. Order of an element $a$ is sometimes denoted with $o(a)$.
 
 If the order is finite, we will denote it with $|x| \lt \infty$.
 

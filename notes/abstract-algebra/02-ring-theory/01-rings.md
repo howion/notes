@@ -1,8 +1,8 @@
 # Rings
 
-[**Go Back**](./00-index.md)
+[**Go Back**](../00-index.md)
 
-Knowledge of the group theory notes is assumed for the notes below.
+> From now on, knowledge of the Group Theory notes is assumed for the rest.
 
 ## Def. Ring
 

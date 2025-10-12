@@ -1,6 +1,8 @@
 # Group Examples
 
-[**Go Back to Index**](./00-index.md)
+[**Go Back**](../00-index.md)
+
+All of these groups can be considered their own field of research, so it is suggested you visit their wiki, understand the basics, and follow from there as you see fit.
 
 ## Dihedral Groups
 
