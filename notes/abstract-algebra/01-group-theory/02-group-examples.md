@@ -75,7 +75,6 @@ The homomorphism $\varphi: G \to H$ is called:
 
 (Existence of an) isomorphism between two groups $G$ and $H$ is denoted with $G \cong H$.
 
-
 ## Exercise 2
 
 Prove $Q_p$ is _not_ isomorphic to $Q_r$ for distinct primes $p$ and $r$.

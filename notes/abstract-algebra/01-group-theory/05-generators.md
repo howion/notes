@@ -10,31 +10,29 @@ $$\Braket{M} = \bigcap H_i$$
 
 where $H_i$ is a subgroup of $G$ such that $M \subseteq H_i$.
 
-Elements of $M$ are called the **generators** of the subgroup $\Braket{M}$. If $M$ is finite, then we say $\Braket{M}$ is **finitely generated**.
+Elements of $M$, or even $M$ itself, are called the **generators** of the subgroup $\Braket{M}$. If $M$ is finite, then we say $\Braket{M}$ is **finitely generated**.
 
-This definition, in practice, not really easy to work with, so equivalently...
+In practice, this definition is not really easy to work with. So equivalently...
 
-## Thm.
+## Thm. Equivalent Generator Definition
 
 If $M$ is a subset of a group $G$, then
 
 $$
-\Braket{M} = \Set{a_1^{\epsilon_1} \cdots a_n^{\epsilon_n} \> | \> a_i \in M, \epsilon_i = \pm 1, m = 1, 2, \dots }
+\Braket{M} = \Set{a_1^{\epsilon_1} \cdots a_n^{\epsilon_n} \> | \> a_i \in M, \epsilon_i = \pm 1, m = 1, 2, \dots }.
 $$
 
-Similarly if $A$ is finite and $G$ is abelian, then
+<!-- Therefore, if $A$ is finite and $G$ is abelian, then we also have
 
 $$
-\Braket{A}=\Braket{a_1, ..., a_n}=\Set{a_1^{z_1} a_2^{z_2} \cdots a_k^{z_k} | z_i \in \Z}
+\Braket{A}=\Braket{a_1, ..., a_n}=\Set{a_1^{z_1} a_2^{z_2} \cdots a_k^{z_k} | z_i \in \Z}.
 $$
 
-If in this case, each $a_i$ has the finite order $d_i$
+In the second case, if each $a_i$ has the finite order $d_i$ we have
 
 $$
 |\Braket{A}| \leq d_1 d_2 \cdots d_k
-$$
-
-> This is somewhat similiar to (linear) span of $v_1, ... ,v_n$ for a vector space.
+$$ -->
 
 <details>
 <summary><b>Proof</b></summary>
