@@ -10,7 +10,7 @@ The (total) function (or map) $\varphi: G \to H$ is called a **(group) homomorph
 
 $$\varphi(a \cdot_G b) = \varphi(a) \cdot_H \varphi(b)$$
 
-> Mostly, we will not be as explicit about the operations and simply write $\varphi(ab)=\varphi(a)\varphi(b)$.
+> Mostly, we will not be as explicit about the operations and simply write $\varphi(ab)=\varphi(a)\varphi(b)$ instead.
 
 The homomorphism $\varphi$ is called:
 
@@ -46,18 +46,6 @@ If $\phi: G \to H$ is a group homomorphism, then
 3. $\phi(g^n) = \phi(g)^n$ for all $g \in G$ and $n \in \Z$,
 4. $\text{Ker }\phi \leq G$,
 5. $\text{Im }\phi \leq H$
-
-## Exercise 2
-
-Prove $Q_p$ is _not_ isomorphic to $Q_r$ for distinct primes $p$ and $r$.
-
-<details>
-<summary><b>Proof</b></summary>
-<br/>
-
-Exercise.
-
-</details>
 
 ## Def. Group Action
 

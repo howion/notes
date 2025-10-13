@@ -16,7 +16,7 @@ So, iff, for any subgroup $H \leq G$ we have:
 * For all $a,b \in H$, we have $ab \in H$,
 * Every element $h \in H$ has an inverse.
 
-Any group $G$ has two subgroup, itself and the subgroup that consists of only the identity element which is called the **trivial subgroup**. Subgroups other than these are called **proper subgroups**. Still, convention regarding this naming is quite context-dependent as one could also consider the subgroup as group itself as trivial.
+Any group $G$ has two subgroup, itself and the subgroup that consists of only the identity element. The latter is called the **trivial subgroup**. Subgroups other than these are called **proper subgroups**. Still, convention regarding this naming is quite context-dependent.
 
 ### Thm. Basic Subgroup Properties
 

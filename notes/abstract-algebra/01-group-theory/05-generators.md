@@ -19,20 +19,20 @@ In practice, this definition is not really easy to work with. So equivalently...
 If $M$ is a subset of a group $G$, then
 
 $$
-\Braket{M} = \Set{a_1^{\epsilon_1} \cdots a_n^{\epsilon_n} \> | \> a_i \in M, \epsilon_i = \pm 1, m = 1, 2, \dots }.
+\Braket{M} = \Set{a_1^{\epsilon_1} \cdots a_k^{\epsilon_k} \> | \> a_i \in M, \epsilon_i = \pm 1, k = 1, 2, \dots }.
 $$
 
-<!-- Therefore, if $A$ is finite and $G$ is abelian, then we also have
+## Thm. Equivalent Generator Definition 2
+
+Let $G$ be a group and $M \subseteq G$, then
 
 $$
-\Braket{A}=\Braket{a_1, ..., a_n}=\Set{a_1^{z_1} a_2^{z_2} \cdots a_k^{z_k} | z_i \in \Z}.
+\Braket{M} = \Set{a_1^{n_1} \cdots a_k^{n_k} \> | \> a_i \in M \text{ and } k,n_i \in \Z }.
 $$
 
-In the second case, if each $a_i$ has the finite order $d_i$ we have
+That is, $\Braket{X}$ consists of all finite products of $a_1^{n_1} \cdots a_k^{n_k}$.
 
-$$
-|\Braket{A}| \leq d_1 d_2 \cdots d_k
-$$ -->
+> Therefore, in particular $\Braket{x} = \Set{x^n | n \in \Z}$. We will inspect these structures in detail in the next chapter.
 
 <details>
 <summary><b>Proof</b></summary>

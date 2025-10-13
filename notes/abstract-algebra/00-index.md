@@ -1,8 +1,9 @@
 # Abstract Algebra
 
-* **Abstract Algebra**, 3rd Ed., by David S. Dummit and Richard M. Foote
 * **Fundamentals of the Theory of Groups**, Translated Second Russian Ed., by M.I. Kargapolov and Ju.I. Merzljakov
+* **Abstract Algebra**, 3rd Ed., by David S. Dummit and Richard M. Foote
 * **Introduction to Rings and Modules**, 2nd Revised Ed., by C. Musili
+* **Algebra** by Thomas W. Hungerford
 
 ## Notation
 

@@ -9,7 +9,13 @@ A **group** is an ordered pair $(G, \cdot)$ where $G$ is a set and $\cdot$ is a 
 > Simply, $\cdot$ is a (total) function from $G$ to $G$. Notice that $G$ is an any set, finite or infinite.
 
 * **Associativity**, that is, for all $a,b,c \in G$ we have $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
+
+> This alone defines a **semigroup**.
+
 * **Identity**, that is, there exists $e \in G$ called **identity** (of $G$) such that for all $a \in G$ we have $a \cdot e = e \cdot a = a$.
+
+> Until here it defines a **monoid** where identity is two-sided, namely left and right.
+
 * **Inverse**, that is, for each $a \in G$ there exists an element (called **inverse**) $b \in G$ such that $a \cdot b = b \cdot a = e$.
 
 Noting that the **identity** of a group and the **inverse** of an element in that group is always unique (exercise) we will denote the inverse of an element $a$ with $a^{-1}$ unless it is **abelian**.
@@ -26,17 +32,55 @@ Associative property by far is the most powerful property of the group. It allow
 
 Indeed a structure which only satisfies associative property is called a **semigroup**. A semigroup with identity is called a **monoid** and a monoid with inverses is called a **group**.
 
-A semigroup which satisfies existence of $x,y$ for all $a,b$ for $ax=b$ and $ya=b$ is also a group.
+## Thm. Basic _Monoid_ Properties
+
+If $(M, \cdot)$ is a monoid, then
+
+1. The identity element of $M$ is unique.
+
+## Thm. Semigroup to Group
+
+Let $(S, \cdot)$ be a semigroup, then it is a group if and only if both of the following hold:
+
+* Left-identity exists, and
+* Left-inverse exists for each $s \in S$.
+
+> By symmetry, the analogous result holds for rights instead of left.
+
+## Thm. Semigroup to Group 2
+
+Let $(S, \cdot)$ be a semigroup, then it is a group if and only if for all $a,b \in S$ the equations
+
+$$
+\begin{array}{ll}
+ax = b \\
+ya = b
+\end{array}
+$$
+
+have solutions in $G$.
+
+## Thm. Generalized Associative Law
+
+Let $(S, \cdot)$ be a semigroup and $a_i \in S$. Associative property implies that the expression $a_1 \cdot a_2 \cdot \cdots \cdot a_n$ is the same no matter how the expression bracketed.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+By induction. Exercise.
+</details>
+
+> Similarly one could also prove **Generalized Commutative Law** for the commutative property.
 
 ## Thm. Basic Group Properties
 
-Let $(G, \cdot)$ be a group. Then:
+Remembering any group is also a monoid and thus a semigroup, let $(G, \cdot)$ be a group. Then:
 
 1. Identity $e$ is unique. The uniqueness of the identity element does not require the use of associativity.
 2. For each $a \in G$, inverse of $a$ is unique.
 3. For each $a \in G$, we have $(a^{-1})^{-1} = a$.
 4. For all $a,b \in G$, we have $(a \cdot b)^{-1} = b^{-1} \cdot a^{-1}$. Indeed, in general, $(a_1 \cdots a_n)^{-1} = a_n^{-1} \cdots a_1^{-1}$.
-6. Associative property implies that the expression $a_1 \cdot a_2 \cdot \cdots \cdot a_n$ is the same no matter how the expression bracketed. This is a result of the associative property alone.
 
 <details>
 <summary><b>Proof</b></summary>
@@ -59,18 +103,13 @@ We say that a group if **torsion-free** if every nonidentity element has infinit
 
 If orders of a periodic group are bounded, then the least common multiple of their orders is called the **exponent** of the group. If the orders of elements of a periodic group are powers of prime $p$, then we call the group a $p$-group.
 
-## Thm. More Group Properties
+## Notation. The Additive Notation
 
-Let $(G, \cdot, e)$ be a group and $a,b \in G$, then:
+If the binary operation is written additively, which is mostly the case for abelian groups, we may write:
 
-* If $a^n = e$, then $|a|$ divides $n$.
-* If $a,b$ commute and their orders are relatively prime, then $|a| = |b|$.
-* If $a,b$ commute and have orders $m,n$, then the group contains an element (not always $ab$) whose order is least common multiple of $a$ and $b$.
+* $0$ for the identity instead of $1$ (or $e$ for that matter).
+* $n a$ instead of $a^n$ where $n \in \Z$. Notice that operation between $n$ and $a$ is not the binary operation of our structure but rather "$n$ times $a$".
 
-<details>
-<summary><b>Proof</b></summary>
-<br/>
+We _define_ $a^0$ (or $0a$) as the identity element $1$ or $0$. Notice that, in additive notation, $0a$ is not the multiplication by the identity but rather "$0$ times $n$" which we define to be _the identity_ $0$.
 
-Exercise.
-
-</details>
+<!-- We define $a^0$ to be the identity element which is mostly denoted as $1$ in multiplicative notation and $0$ in additive notation (in abelian case). -->
