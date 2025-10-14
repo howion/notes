@@ -25,5 +25,6 @@
     4. [Subgroups](./01-group-theory/04-subgroups.md)
     5. [Generators](./01-group-theory/05-generators.md)
     6. [Cyclic Groups](./01-group-theory/06-cyclic-groups.md)
+    7. [Cosets](./01-group-theory/07-cosets.md)
 1. [**Ring Theory**](./01-group-theory/01-group-theory/00-index.md)
     1. [Rings](./02-ring-theory/01-rings.md)

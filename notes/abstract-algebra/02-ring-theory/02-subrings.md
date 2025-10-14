@@ -1,0 +1,24 @@
+# Subrings
+
+[**Go Back**](../00-index.md)
+
+## Def. Subring
+
+Let $(R, +, \cdot)$ be a ring and $S$ a non-empty subset of $R$. Then $(S, +, \cdot)$ is called a subring if:
+
+* $(S, +)$ is a subgroup of $(R, +)$, and
+* $(S, \cdot)$ is a sub-semi-group of $(R, \cdot)$.
+
+> $\{0\}$ and $R$ called the **trivial subrings**. The convention regarding what subring is proper or trivial is context-dependent.
+
+The **center of $R$** is, similar to groups, defined as
+
+$$
+Z(R) = \{ r \in R \> | \> rx=xr \enspace \text{for all} \enspace x \in R \}
+$$
+
+is a subring, and any subring of $Z(R)$ is called a **central subring**.
+
+> **Beware** that existence of unity in subring or the ring does not imply existence of unity in the other. Indeed, if they both have unity, they are not necessarily equal.
+>
+> Same issue is also true for the units. Remember, for multiplication operation, we are assumming sub-semi-group not subgroup.
