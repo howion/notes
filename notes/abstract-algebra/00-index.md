@@ -18,7 +18,7 @@
 
 [**Go Back to Home**](../../README.md)
 
-1. [**Group Theory**](./01-group-theory/00-index.md)
+1. **Group Theory**
     1. [Groups](./01-group-theory/01-groups.md)
     2. [Group Examples](./01-group-theory/02-group-examples.md)
     3. [Group Homomorphisms](./01-group-theory/03-group-homomorphisms.md)
@@ -26,5 +26,5 @@
     5. [Generators](./01-group-theory/05-generators.md)
     6. [Cyclic Groups](./01-group-theory/06-cyclic-groups.md)
     7. [Cosets](./01-group-theory/07-cosets.md)
-1. [**Ring Theory**](./01-group-theory/01-group-theory/00-index.md)
+1. **Ring Theory**
     1. [Rings](./02-ring-theory/01-rings.md)
