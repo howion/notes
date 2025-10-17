@@ -46,29 +46,3 @@ $$(aN)(bN)=(ab)N$$
 and is of order $[G:N]$. This group is called **quotient group** or **factor group** of $G$ by $N$.
 
 > Notice that in additive notation it would be written as $(a+N)+(b+N) = (a+b)+N$.
-
-## Thm. Quotient and Homomorphisms
-
-Let $\varphi: G \to H$ be a group homomorphism, then $\text{Ker }\varphi \trianglelefteq G$.
-
-Conversely, let $N \trianglelefteq G$. Then
-
-$$
-\begin{array}{l}
-\pi: G \to G/N \\
-\pi(a) = aN
-\end{array}
-$$
-
-is an epimorphism and $\text{Ker }\pi = N$.
-
-Such $\pi$ is called **canonical epimorphism** or **projection**. Therefore, unless otherwise stated, $G \to G/N$ always denotes the cannonical epimorphism.
-
-<details>
-<summary><b>Proof</b></summary>
-<br/>
-
-TODO:
-</details>
-
-##
