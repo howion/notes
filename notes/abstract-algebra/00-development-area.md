@@ -2,13 +2,7 @@
 
 ## Active
 
-- Equivalence classes, group of rationals modulo one.
-- Basic $\text{Ker }\phi$ relations.
-- Homomorphic image of cyclic is cyclic.
-- Cosets
-    - Relational definition
-    - Left and Right
-    - The Index
+- Ring Theory
 
 ## To-Do's
 
