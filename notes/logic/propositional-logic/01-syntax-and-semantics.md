@@ -40,15 +40,15 @@ The set $\text{Frm}(\mathcal{L}_0)$ of **formulas** of propositional logic is de
 * Any subformula of $F$ is also a subformula of $\neg F$.
 * Any subformula of $F$ or $G$ is also a subformula of $F \land G$.
 
-> Here, we have just defined subformula for (1-4) above, but it should be clear what a subformula is.
+> Here, we have just defined subformula for (1-4) above, it should be clear what a subformula is for the extended definition.
 
 ## Def. Syntactic Identity
 
 With $=$ we will denote the **syntactic identity**. That is, if $F$ and $G$ are strings and are formulas, then $F=G$ will simply denote they are strings of symbols of same lenght with same symbols in each place.
 
-We'll define semantic identity for propositional logic later on.
+> We will define semantic identity for propositional logic later on.
 
-## Def. Principle of Induction on Formulas
+## Thm. Principle of Induction on Formulas
 
 Since we are going to use induction heavily, we will prove that for any property $P$ which holds for all **atomic formulas**, and such that:
 

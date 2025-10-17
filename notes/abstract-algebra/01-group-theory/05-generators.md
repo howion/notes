@@ -43,9 +43,11 @@ That is, $\Braket{X}$ consists of all finite products of $a_1^{n_1} \cdots a_k^{
 Exercise.
 </details>
 
+<!-- TODO: Create early lattice section and define there? -->
+
 ## Def. Join of Subgroups
 
-Let $H_i$ be subgroups of $G$, then their **join** is defined as $\Braket{\> \bigcup H_i \>}$. The join of finitely many subgroups are also denoted as $\Braket{H_1, ..., H_n}$. The join of two subgroups $H,K$ sometimes denoted as $H \lor K$.
+Let $H_i$ be subgroups of $G$, then their **join** is defined as $\Braket{\> \bigcup H_i \>}$ or, if finitely many, as $\Braket{H_1, ..., H_n}$. The join of two subgroups $H,K$ will simply be denoted as $H \lor K$.
 
 ## Examples
 
