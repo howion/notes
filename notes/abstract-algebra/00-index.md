@@ -1,5 +1,7 @@
 # Abstract Algebra
 
+[**Go Back to Home**](../../README.md)
+
 * **Fundamentals of the Theory of Groups**, Translated Second Russian Ed., by M.I. Kargapolov and Ju.I. Merzljakov
 * **Abstract Algebra**, 3rd Ed., by David S. Dummit and Richard M. Foote
 * **Introduction to Rings and Modules**, 2nd Revised Ed., by C. Musili
@@ -16,8 +18,7 @@
 
 ## Table of Contents
 
-[**Go Back to Home**](../../README.md)
-
+0. [Preliminaries](./00-preliminaries.md)
 1. **Group Theory**
     1. [Groups](./01-group-theory/01-groups.md)
     2. [Group Examples](./01-group-theory/02-group-examples.md)
@@ -28,3 +29,4 @@
     7. [Cosets](./01-group-theory/07-cosets.md)
 1. **Ring Theory**
     1. [Rings](./02-ring-theory/01-rings.md)
+    1. [Subrings](./02-ring-theory/02-subrings.md)

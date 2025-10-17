@@ -20,10 +20,10 @@ Let $G$ be a group, $H \leq G$, and $a,b \in G$. We say,
 
 ## Corollary. Coset Congruence
 
-Let $G$ be a group and $H \leq G$.
+Let $G$ be a group and $H \leq G$. Then
 
-1. G is the union of right (respectively left) cosets of $H$.
-2. Two right (respectively left) cosets are either _disjoint_ or _equal_.
+1. $G$ is the union of right (respectively left) cosets of $H$,
+2. Two right (respectively left) cosets are either _disjoint_ or _equal_,
 3. Number of distinct left cosets are equal to number of distinct right cosets.
 
 ## Def. Index
@@ -40,7 +40,7 @@ $$
 [G:K] = [G:H][H:K]
 $$
 
-## Corollary. Lagrange's Theorem
+### Corollary: Lagrange's Theorem
 
 Let $G$ be a group and $H \leq G$, then the order of $H$ divides the order of $G$. In general, even if $G$ is infinite
 

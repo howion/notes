@@ -6,6 +6,8 @@
 
 Let $(G, *)$ be a group and $H \subseteq G$. The (necessarily nonempty) subset $H$ is called a **subgroup** if $H$ is a group under the same binary operation $*$ (and thus also the same identity) denoted by $H \leq G$.
 
+> From now on, it should be understood from $A \leq B$ that $B$ is a group and $A$ is its subgroup.
+
 Alternatively (exercise), the non-empty subset $H$ of a group $G$ is a subgroup of $G$ if and only if:
 
 * For all $a,b \in H$ we have $ab^{-1} \in H$
@@ -18,7 +20,7 @@ So, iff, for any subgroup $H \leq G$ we have:
 
 Any group $G$ has two subgroup, itself and the subgroup that consists of only the identity element. The latter is called the **trivial subgroup**. Subgroups other than these are called **proper subgroups**. Still, convention regarding this naming is quite context-dependent.
 
-### Thm. Basic Subgroup Properties
+## Thm. Basic Subgroup Properties
 
 * $HH = H$ and $H^{-1} = H$.
 * The products of subgroups $A,B$ of a group $G$ is a group if and only if $AB=BA$.

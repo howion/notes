@@ -12,10 +12,6 @@ A group $H$ is called **cyclic group**, or simply **cylic**, if $H$ can be gener
 >
 > Notice that the order of the element $x$ and the group $\Braket{x}$ are the same.
 
-## Def. Locally Cyclic
-
-A group $G$ is said to be **locally cyclic** if every finitely generated subgroup is cyclic.
-
 ## Thm. Basic Cyclic Properties
 
 Let $H$ be a cyclic group, then
@@ -37,12 +33,19 @@ This implies that for any $m$ such that $x^m = 1$, we have $|x| \mid m$.
 By Eucledian Algorithm...
 </details>
 
-## Thm. '1
+## Thm. Every Subgroup of $\Z$ is Also Cyclic
 
 Recalling subgroup of a cyclic is cyclic, let $(H, +) \leq (\Z, +)$. Then, either
 
 * $H=\Braket{0}$ which is the trivial subgroup $\{0\}$, or
 * $H=\Braket{m}$ where $m$ is the least positive integer in $H$. In this case, $H$ is infinite.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+Todo:
+</details>
 
 ## Thm. Same Order Cyclics are Isomorphic
 
@@ -84,7 +87,7 @@ Let $G$ be a group (not necessarily cyclic), $x \in G$ and $a \in \Z \setminus \
 1. If $|x| = \infty$, then $|x^a|=\infty$.
 2. If $|x| = n$, then $|x^a| = \dfrac{n}{(n, a)}$.
 
-> This is a very useful result.
+> Second result is quite useful for finite counting and order related properties.
 
 ## Thm. On Generators of Cyclics
 
@@ -95,20 +98,7 @@ Let $H = \Braket{x}$, then
 
 > Therefore, the number of generators of $H$ equals to $\varphi(n)$ where $\varphi$ is Euler's $\phi$-function.
 
-<!-- ## Thm. '2
-
-TODO: Write this
-
-Let $H$ be any group and $G$ a cyclic group. Then for any homomorphism $\phi: G \to H$, the homomorphic image of every element $g \in G$ is also cyclic.
-
-<details>
-<summary><b>Proof</b></summary>
-<br/>
-
-Exercise, noting that $\text{Im }f = \Braket{a}$
-</details> -->
-
-## Thm. Cyclic Properties
+## Thm. Basic Cyclic Properties
 
 Let $H=\Braket{x}$ be cyclic, then
 
@@ -118,3 +108,20 @@ Let $H=\Braket{x}$ be cyclic, then
 4. ...
 
 > TODO: (3) and (4).
+
+## Def. Locally Cyclic
+
+A group $G$ is said to be **locally cyclic** if every finitely generated subgroup is cyclic.
+
+## Thm. Homomorphic Image of Cyclic is Cyclic
+
+Let $\varphi: G \to H$ be a group homomorphism, $G$ cyclic, and $a \in G$. Then, $\Braket{\varphi(a)}$ is also cyclic.
+
+<!-- Let $H$ be any group and $G$ a cyclic group. Then for any homomorphism $\phi: G \to H$, the homomorphic image of every element $g \in G$ is also cyclic. -->
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+Exercise, noting that $\text{Im }f = \Braket{a}$
+</details>

@@ -12,6 +12,8 @@ where $H_i$ is a subgroup of $G$ such that $M \subseteq H_i$.
 
 Elements of $M$, or even $M$ itself, are called the **generators** of the subgroup $\Braket{M}$. If $M$ is finite, then we say $\Braket{M}$ is **finitely generated**.
 
+An element is called a **non-generator** of a group $G$ if it can be omitted from every generating set for $G$.
+
 In practice, this definition is not really easy to work with. So equivalently...
 
 ## Thm. Equivalent Generator Definition
