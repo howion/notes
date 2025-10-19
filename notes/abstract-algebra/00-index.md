@@ -27,6 +27,10 @@
     5. [Generators](./01-group-theory/05-generators.md)
     6. [Cyclic Groups](./01-group-theory/06-cyclic-groups.md)
     7. [Cosets](./01-group-theory/07-cosets.md)
+    8. [Normals and Quotients](./01-group-theory/08-normals-and-quotients.md)
+    9. [Isomorphism Theorems](./01-group-theory/09-isomorphism-theorems.md)
 1. **Ring Theory**
     1. [Rings](./02-ring-theory/01-rings.md)
-    1. [Subrings](./02-ring-theory/02-subrings.md)
+    2. [Subrings](./02-ring-theory/02-subrings.md)
+    3. [Ring Examples](./02-ring-theory/03-ring-examples.md)
+    4. [Ring Characteristic](./02-ring-theory/04-ring-characteristic.md)

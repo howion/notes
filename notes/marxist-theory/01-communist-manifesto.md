@@ -4,7 +4,7 @@
 
 With the note that this [**work**](https://www.marxists.org/admin/books/manifesto/Manifesto.pdf) written by Karl Marx and Frederick Engels is a **manifesto** NOT an academic study:
 
-* The general principles laid down in the manifesto are, on the whole, as correct today as ever.
+* The _general principles_ laid down in the manifesto are, on the whole, as correct today as ever.
 * From a practical point of view, on the other hand, should be subject to change as history provided.
 * "The working class cannot simply lay hold of the ready-made State machinery, and wield it for its own purposes". (Marx & Engels; Tucker p. 470)
 

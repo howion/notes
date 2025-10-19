@@ -27,7 +27,9 @@ $$\KaTeX$$
 
 <!-- The indicator :anchor: means abandoned for now. -->
 
-<!-- Created At 06/07/2025 -->
+* [:construction: **Algebra**](./notes/abstract-algebra/00-index.md) \ Groups, Rings and Modules
+    1. [:construction: Group Theory](./notes/abstract-algebra/01-group-theory/01-groups.md)
+    2. [:construction: Ring Theory](./notes/abstract-algebra/02-ring-theory/01-rings.md)
 * [:construction: **Probability Theory**](./notes/probability-theory/00-index.md) \ Fundamentals
     1. [:blush: Probability and Conditional Probability](./notes/probability-theory/01-probability-and-conditional-probability.md)
     2. [:construction: (Discrete) Random Variables and Their Distributions](./notes/probability-theory/02-discrete-random-variables-and-their-distributions.md)
@@ -48,12 +50,7 @@ My handwritten poems.
 
 * [**Salvé, salvé, salvé, parve?**](./poems/02-salve-salve-salve-parve.md)
 * [**Bitscript**](./poems/05-bitscript.md)
-
-<!--  -->
-
 * [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md)
-* [**Solace in Dissonance**](./poems/01-solace-in-dissonance.md)
-* [**Unholy Gospel**](./poems/03-unholy-gospel.md)
 * [**Weep**](./poems/04-weep.md)
 
 ### Bookshelf
