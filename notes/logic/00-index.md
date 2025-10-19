@@ -2,9 +2,8 @@
 
 [**Go Back to Home**](../../README.md)
 
-* **A First Course in Logic: An Introduction to Model Theory, Proof Theory, Computability and Complexity** by Shawn Hedman
 * **The Open Logic Text**, [**Open Source**](https://github.com/OpenLogicProject/OpenLogic), by various contributors
-* **Logic in Computer Science: Modelling and Reasoning about Systems** by Michael Huth and Mark Ryan
+* **A First Course in Logic: An Introduction to Model Theory, Proof Theory, Computability and Complexity** by Shawn Hedman
 
 > Compared to my other notes, my own taste is much more involved and preferred over textbooks given above.
 
@@ -15,4 +14,5 @@
 ## Table of Contents
 
 1. **Propositional Logic**
-    1. [Propositional Logic](./propositional-logic/01-syntax-and-semantics.md)
+    1. [Syntax and Semantics](./propositional-logic/01-syntax-and-semantics.md)
+    2. [Derivations](./propositional-logic/02-derivations.md)
