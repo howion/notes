@@ -47,15 +47,15 @@ Sometimes, we will omit the use of brackets for readibility, so that, for exampl
 
 With $=$, we will denote the **syntactic identity**. That is, if $F$ and $G$ are strings and are formulas, then $F=G$ will simply denote they are strings of symbols of same lenght with same symbols in each place. Notice that this is a _semantic defintion_ for our syntactic model.
 
-> We will define semantic identity for propositional logic later on.
-
 ## Def. Operators
 
 Given the logical operators $\neg$ and $\land$ and the atomic variable $\bot$, we can _define_, for formulas $F$ and $G$
 
 * $\top \triangleq \neg \bot$,
-* $(F \lor G) \triangleq \neg (\neg F \land \neg G)$
+* $(F \lor G) \triangleq \neg (\neg F \land \neg G)$, and
 * $(F \to G) \triangleq (\neg F \lor Q)$
+
+> Notice that we have just defined syntactic abbreviation, didn't prove anything.
 
 ## Def. Subformula
 
@@ -74,10 +74,10 @@ The set $\text{Sub}^+(F)$ of **proper subformulas** is defined as $\text{Sub}(F)
 Since we are going to use induction heavily, we will prove that if $\phi$ is any property which
 
 1. Holds for all atomic formulas,
-2. If holds for $\varphi$, it also holds for $\neg \varphi$, and
-3. If holds for $\varphi$ and $\psi$, it also holds for $\varphi \land \psi$,
+2. If holds for $F$, it also holds for $\neg F$, and
+3. If holds for $F$ and $G$, it also holds for $(F \land G)$,
 
-Then $P$ holds for all formulas.
+Then $\phi$ holds for all formulas (of propositional logic).
 
 <details>
 <summary><b>Proof</b></summary>
@@ -161,33 +161,32 @@ $(F \land G) \equiv (G \land F)$
 
 ## Def. _A_ Set of Formulas
 
-From now on, when we say $\mathcal{F}$ is a **set of formulas**, we will mean $\mathcal{F} \subseteq \text{Form}(\mathcal{P})$. So it is not _the_ set of formulas, but rather _a_ set of formulas.
+From now on, when we say $\Gamma$ is **a set of formulas**, we will mean $\Gamma \subseteq \text{Form}(\mathcal{P})$. So it is not _the_ set of formulas, but rather _a_ set of formulas.
 
-Moreover, we'll overload the $\models$ notation further in respect to this notion. Let $\mathcal{F}$ be a set for formulas such that $\mathcal{F} = \Set{F_0, ..., F_n}$, then we say
+Moreover, we'll overload the $\models$ notation further in respect to this notion. Let $\Gamma$ be a set for formulas such that $\Gamma = \Set{F_0, F_1, ...}$, then we say
 
-* a valuation $v$ models $\mathcal{F}$ denoted by $v \models \mathcal{F}$ if $v \models F_i$ for each $i$,
-* $\mathcal{F}$ entails a formula $G$ denoted by $\mathcal{F} \models G$.
+* a valuation $v$ **models** $\Gamma$ denoted by $v \models \Gamma$ if $v \models F_i$ for each $i$,
+* $\Gamma$ **entails** a formula $G$ denoted by $\Gamma \models G$ if for every valuation $v$ such that $v \models \Gamma$ implies $v \models G$,
+* $\Gamma$ is **satisfiable** if there exists a valution $v$ such that $v \models F_i$ for each $i$.
 
-Satisfiability and so on are defined similarly.
+Now, let's look at some basic semantic properties of propositional logic.
 
-### Thm
+### Thm. Modus Ponens
 
-Let $\mathcal{F}$ be a set of formulas and $G, H$ formulas. If $\mathcal{F} \models G$ and $\mathcal{F} \models (G \to H)$, then $\mathcal{F} \models H$.
+Let $\Gamma$ be a set of formulas and $A, B$ formulas. If $\Gamma \models A$ and $\Gamma \models (A \to B)$, then $\Gamma \models B$.
 
-### Thm
+### Thm. ?
 
-Let $\mathcal{F}$ be a set of formulas. If $\mathcal{F}$ is satisfiable, then so is every finite subset of it.
+Let $\Gamma$ be a set of formulas. If $\Delta$ is satisfiable, then so is every finite subset of it.
 
 ### Thm. Monotonicity
 
-Let $\mathcal{F}$ and $\mathcal{G}$ be a set of formulas such that $\mathcal{F} \subseteq \mathcal{G}$ and $A$ a formula. If $\mathcal{F} \models A$ then $\mathcal{G} \models A$.
+Let $\Gamma$ and $\Delta$ be a set of formulas such that $\Gamma \subseteq \Delta$ and $A$ a formula. If $\Gamma \models A$ then $\Delta \models A$.
 
 ### Thm. Transitivity
 
-Let $\mathcal{F}$ and $\mathcal{G}$ be a set of formulas and $A,B$ formulas. If $\mathcal{F} \models A$ and $\mathcal{G} \cup \{A\} \models B$, then $\mathcal{F} \cup \mathcal{G} \models B$.
+Let $\Gamma$ and $\Delta$ be a set of formulas and $A,B$ formulas. If $\Gamma \models A$ and $\Delta \cup \{A\} \models B$, then $\Gamma \cup \Delta \models B$.
 
-## Thm. Basic Semantic Results
+## Thm. _Semantic_ Deduction Theorem
 
-Let $F$ and $G$ be formulas, then
-
-1. $F \models G$ if and only if $\models (F \to G)$
+Let $\Gamma$ be a set of formulas and $A$ a formula. Then, $\Gamma \models A$ if and only if $\Gamma \cup \{\neg A\}$ is unsatisfiable.
