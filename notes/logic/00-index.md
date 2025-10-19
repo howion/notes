@@ -6,7 +6,11 @@
 * **The Open Logic Text**, [**Open Source**](https://github.com/OpenLogicProject/OpenLogic), by various contributors
 * **Logic in Computer Science: Modelling and Reasoning about Systems** by Michael Huth and Mark Ryan
 
+> Compared to my other notes, my own taste is much more involved and preferred over textbooks given above.
+
 ## Notation
+
+* $0 \in \N$ and $\N^* :=\ \N \setminus \{0\}$.
 
 ## Table of Contents
 
