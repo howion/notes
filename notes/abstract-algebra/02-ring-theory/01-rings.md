@@ -8,7 +8,7 @@
 
 A set $R$ with two binary operations $+$ and $\cdot$, respectively called **addition** and **multiplication**, is called a **ring** if:
 
-* $(R, +)$ is an abelian group,
+* $(R, +, 0)$ is an abelian group,
 * $(R, \cdot)$ is a semigroup, and
 * Distribute laws hold for $+$ and $\cdot$.
 
@@ -74,6 +74,14 @@ Let $R$ be a ring and $a \in R$. Then $a$ is said to be **idempotent** if $a^2 =
 
 We say two idempotent elements are **orthogonal** to each other if $ab = ba = 0$.
 
+## Thm. (Binomial Theorem)
+
+Let $R$ be a ring with identity, $n \in \N^+$ and for $a, b \in R$ we have $ab=ba$, then
+
+$$
+(a+b)^n = \sum_{k=0}^n {{n \choose k} a^k b^{n-k}}
+$$
+
 ## Def. Integral Domain
 
 A non-zero ring $R$ is called an **integral domain** if it has no non-trivial zero-divisors.
@@ -82,15 +90,16 @@ A non-zero ring $R$ is called an **integral domain** if it has no non-trivial ze
 
 A ring $(R, +, \cdot)$ is called an **division ring** or a **skew-field** if, equivalently
 
-* $(R \setminus \{0\}, \cdot)$ forms a group, or
-* Every non-zero element of $R$, denoted $R^*$, has a multiplicative inverse.
+1. $(R \setminus \{0\}, \cdot)$ forms a group, or
+2. Every non-zero element of $R$, denoted $R^*$, has a multiplicative inverse.
 
 ## Def. Field
 
 A ring $(R, +, \cdot)$ is called a **field** if, equivalently
 
-* It is a commutative division ring, or
-* $R^*$ is abelian under multiplication.
+1. It is a commutative division ring, or
+2. $R^*$ is abelian under multiplication.
+3. It is a finite integral domain.
 
 ## Thm. On Integral Domains, Division Rings, and Fields
 

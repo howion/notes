@@ -22,3 +22,11 @@ is a subring, and any subring of $Z(R)$ is called a **central subring**.
 > **Beware** that existence of unity in subring or the ring does not imply existence of unity in the other. Indeed, if they both have unity, they are not necessarily equal.
 >
 > Same issue is also true for the units. Remember, for multiplication operation, we are assumming sub-semigroup not subgroup.
+
+## Def. Opposite Ring
+
+Given a ring $R$, the **opposite ring** is the ring with the same set of elements and same additive operation but multiplication reversed.
+
+### Thm. Self-Opposite iff Commutative
+
+A ring $R$ is it's **self-opposite** (isomorphic to it's opposite) if and only if $R$ is commutative.

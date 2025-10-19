@@ -9,7 +9,7 @@ Let $N \trianglelefteq G$. Then
 $$
 \begin{array}{lrll}
 \pi: & G & \to & G/N \\
-& a & \mapsto & aN
+     & a & \mapsto & aN
 \end{array}
 $$
 
