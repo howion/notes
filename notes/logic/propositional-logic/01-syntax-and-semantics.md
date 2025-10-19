@@ -124,13 +124,18 @@ which simply assigns semantic **true** or **false** to atomic variables.
 
 So from now on, depending on context, we may assume $\bot \in \mathcal{P}$ and always define $v(\bot) = \mathbb{F}$, thus $v(\top) = \mathbb{T}$.
 
+> Ponder what would happen if it were the case that $\mathcal{V} = [0,1]$ where $\mathbb{F} = 0 \in \R$ and $\mathbb{T}=1$. Obviously, most of our definitions and theorems wouldn't make sense in this setting.
+
 ## Def. Evaluation
 
-We will abuse notation and also use $v(F)$ for the **evaluation** of a formula $F$, defined naturally.
+Let $F$ be a formula and $v$ some valuation. We will abuse notation and also use $v(F)$ for the **evaluation** of a formula $F$, defined naturally.
 
-## Def. Satisfaction
+If $v(F) = \mathbb{T}$, then we say $v$ **models** $F$ denoted by $v \models F$. Equivalently, we say $F$ **holds** under $v$.
 
-Let $F$ be a formula such that for some valuation $v$, $v(F) = \mathbb{T}$. Then, we say $v$ **models** $F$ denoted by $v \models F$. Equivalently, we say $F$ **holds** under $v$.
+> Notice that this is the first time we have defined the sign $\models$.
+
+## Def. Satisfiability
+
 
 A formula $F$ is said to be **satisfiable** if there exists an valuation $v$ such that $v \models F$. Otherwise, it is called **unsatisfiable**.
 
@@ -166,12 +171,12 @@ From now on, when we say $\Gamma$ is **a set of formulas**, we will mean $\Gamma
 Moreover, we'll overload the $\models$ notation further in respect to this notion. Let $\Gamma$ be a set for formulas such that $\Gamma = \Set{F_0, F_1, ...}$, then we say
 
 * a valuation $v$ **models** $\Gamma$ denoted by $v \models \Gamma$ if $v \models F_i$ for each $i$,
-* $\Gamma$ **entails** a formula $G$ denoted by $\Gamma \models G$ if for every valuation $v$ such that $v \models \Gamma$ implies $v \models G$,
-* $\Gamma$ is **satisfiable** if there exists a valution $v$ such that $v \models F_i$ for each $i$.
+* $\Gamma$ **entails** (a formula) $G$ denoted by $\Gamma \models G$ if for every valuation $v$ such that $v \models \Gamma$ implies $v \models G$,
+* $\Gamma$ is **satisfiable** if there exists a valution $v$ such that $v \models F_i$ for each $i$, and **unsatisfiable** otherwise.
 
 Now, let's look at some basic semantic properties of propositional logic.
 
-### Thm. Modus Ponens
+### Thm. _Semantic_ Modus Ponens
 
 Let $\Gamma$ be a set of formulas and $A, B$ formulas. If $\Gamma \models A$ and $\Gamma \models (A \to B)$, then $\Gamma \models B$.
 
@@ -179,11 +184,11 @@ Let $\Gamma$ be a set of formulas and $A, B$ formulas. If $\Gamma \models A$ and
 
 Let $\Gamma$ be a set of formulas. If $\Delta$ is satisfiable, then so is every finite subset of it.
 
-### Thm. Monotonicity
+### Thm. _Semantic_ Monotonicity
 
 Let $\Gamma$ and $\Delta$ be a set of formulas such that $\Gamma \subseteq \Delta$ and $A$ a formula. If $\Gamma \models A$ then $\Delta \models A$.
 
-### Thm. Transitivity
+### Thm. _Semantic_ Transitivity
 
 Let $\Gamma$ and $\Delta$ be a set of formulas and $A,B$ formulas. If $\Gamma \models A$ and $\Delta \cup \{A\} \models B$, then $\Gamma \cup \Delta \models B$.
 
