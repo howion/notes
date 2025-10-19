@@ -14,7 +14,7 @@ I have no idea how long and how often I will publish here. Most of my notes are 
 For best readability, especially for the mathematical ones, you should consider switching to a custom markdown previewer with a light theme due to possibly transparent figures and KaTeX expressions. For now, I personally use Visual Studio Code with:
 
 * `Markdown Preview Github` by Matt Bierner to preview markdown files,
-* `Markdown Emoji` by Matt Bierner to add Github emoji support to VSCode, and
+* `Markdown Emoji` by Matt Bierner to add Github emoji support to VSCode, make sure you also have an emoji font installed in your system, and
 * `markdownlint` by David Anson to lint markdown files.
 
 You must be able to easily see some cool **KaTeX** text below to read some of these notes:
