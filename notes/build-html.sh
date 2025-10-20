@@ -56,6 +56,8 @@ build() {
 
     rm -f "${output_file}"
 
+    info "Building HTML..."
+
     pandoc "${TMP_MD}" \
         --standalone \
         -o "${output_file}" \
@@ -67,6 +69,31 @@ build() {
     rm -f "${TMP_MD}"
 
     minify_html "${output_file}"
+
+    if [[ -z wkhtmltopdf ]]; then
+        warn "wkhtmltopdf not found; skipping building PDF"
+        return
+    fi
+
+    build_pdf "${output_file}"
+}
+
+build_pdf() {
+    local input_html="$1"
+    local output_pdf="${input_html%.html}.pdf"
+
+    info "Building PDF..."
+
+    chromium --headless --disable-gpu \
+        --run-all-compositor-stages-before-draw \
+        --print-to-pdf="${output_pdf}" \
+        --print-to-pdf-no-header \
+        --no-pdf-header-footer \
+        --no-margins \
+        --print-backgrounds \
+        --disable-print-preview \
+        --virtual-time-budget=10000 \
+        "${input_html}"
 }
 
 ##############################################################################
