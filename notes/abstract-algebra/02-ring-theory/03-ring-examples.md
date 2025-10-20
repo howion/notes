@@ -1,7 +1,5 @@
 # Ring Examples
 
-[**Go Back**](../00-index.md)
-
 ## Def. Ring of Continious Functions
 
 Let $R$ be the set of real valued continious functions from the topological space $X$ to $\R$. For $f,g \in R$, define the pointwise operations for all $x \in X$ as

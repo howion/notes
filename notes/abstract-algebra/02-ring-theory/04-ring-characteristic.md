@@ -1,7 +1,5 @@
 # Ring Characteristic
 
-[**Go Back**](../00-index.md)
-
 ## Def. Characteristic
 
 Let $R$ be any ring. The **characteristic** of $R$, denoted by $\text{Char}(R)$ is the least positive integer $n$ such that $na = 0$ for all $a \in R$. If such $n$ does not exists, then it is defined to be $0$.

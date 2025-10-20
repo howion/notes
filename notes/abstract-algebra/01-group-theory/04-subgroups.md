@@ -1,7 +1,5 @@
 # Subgroups
 
-[**Go Back**](../00-index.md)
-
 ## Def. Subgroup
 
 Let $(G, *)$ be a group and $H \subseteq G$. The (necessarily nonempty) subset $H$ is called a **subgroup** if $H$ is a group under the same binary operation $*$ (and thus also the same identity) denoted by $H \leq G$.

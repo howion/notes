@@ -30,12 +30,12 @@ $$\KaTeX$$
 * [:construction: **Algebra**](./notes/abstract-algebra/00-index.md) \ Groups, Rings and Modules
     1. [:construction: Group Theory](./notes/abstract-algebra/01-group-theory/01-groups.md)
     2. [:construction: Ring Theory](./notes/abstract-algebra/02-ring-theory/01-rings.md)
-* [:construction: **Probability Theory**](./notes/probability-theory/00-index.md) \ Fundamentals
-    1. [:blush: Probability and Conditional Probability](./notes/probability-theory/01-probability-and-conditional-probability.md)
-    2. [:construction: (Discrete) Random Variables and Their Distributions](./notes/probability-theory/02-discrete-random-variables-and-their-distributions.md)
 * [:construction: **Universal Algebra**](./notes/universal-algebra/00-index.md) \ Fundamentals
     1. [:blush: Ordered Sets](./notes/universal-algebra/01-ordered-sets.md)
     1. [:construction: Lattices](./notes/universal-algebra/02-lattices.md)
+* [:construction: **Probability Theory**](./notes/probability-theory/00-index.md) \ Fundamentals
+    1. [:blush: Probability and Conditional Probability](./notes/probability-theory/01-probability-and-conditional-probability.md)
+    2. [:construction: (Discrete) Random Variables and Their Distributions](./notes/probability-theory/02-discrete-random-variables-and-their-distributions.md)
 
 <!-- * [:boom: **Experiments**](./experiments/00-index.md) that most probably won't lead anywhere. -->
 

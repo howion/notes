@@ -1,7 +1,5 @@
 # Subrings
 
-[**Go Back**](../00-index.md)
-
 ## Def. Subring
 
 Let $(R, +, \cdot)$ be a ring and $S$ a non-empty subset of $R$. Then $(S, +, \cdot)$ is called a subring if:

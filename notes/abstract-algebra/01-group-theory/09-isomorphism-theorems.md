@@ -1,7 +1,5 @@
 # Isomorphism Theorems
 
-[**Go Back**](../00-index.md)
-
 ## Def. Projection
 
 Let $N \trianglelefteq G$. Then
@@ -61,7 +59,7 @@ TODO:
 </details>
 
 <center>
-<img src="./assets/01-first-isomorphism-theorem.svg" alt="Figure 01. First Isomorphism Theorem" width="600" />
+<img src="https://raw.githubusercontent.com/howion/notes/master/notes/abstract-algebra/01-group-theory/assets/01-first-isomorphism-theorem.svg" alt="Figure 01. First Isomorphism Theorem" width="600" />
 
 **(Figure 1)** First Isomorphism Theorem
 </center>
@@ -85,7 +83,7 @@ TODO:
 </details>
 
 <center>
-<img src="./assets/02-second-isomorphism-theorem.svg" alt="Figure 02. Second Isomorphism Theorem" width="350" />
+<img src="https://raw.githubusercontent.com/howion/notes/master/notes/abstract-algebra/01-group-theory/assets/02-second-isomorphism-theorem.svg" alt="Figure 02. Second Isomorphism Theorem" width="350" />
 
 **(Figure 2)** Second Isomorphism Theorem
 </center>

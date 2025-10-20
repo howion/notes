@@ -29,7 +29,7 @@
     7. [Cosets](./01-group-theory/07-cosets.md)
     8. [Normals and Quotients](./01-group-theory/08-normals-and-quotients.md)
     9. [Isomorphism Theorems](./01-group-theory/09-isomorphism-theorems.md)
-1. **Ring Theory**
+2. **Ring Theory**
     1. [Rings](./02-ring-theory/01-rings.md)
     2. [Subrings](./02-ring-theory/02-subrings.md)
     3. [Ring Examples](./02-ring-theory/03-ring-examples.md)
