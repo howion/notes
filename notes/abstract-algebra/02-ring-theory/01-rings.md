@@ -1,7 +1,5 @@
 # Rings
 
-[**Go Back**](../00-index.md)
-
 > From now on, knowledge of the [**Group Theory notes**](../01-group-theory/01-groups.md) is assumed.
 
 ## Def. Ring

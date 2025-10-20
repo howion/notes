@@ -14,5 +14,5 @@
 ## Table of Contents
 
 1. **Propositional Logic**
-    1. [Syntax and Semantics](./propositional-logic/01-syntax-and-semantics.md)
-    2. [Derivations](./propositional-logic/02-derivations.md)
+    1. [Syntax and Semantics](./01-propositional-logic/01-syntax-and-semantics.md)
+    2. [Derivations](./01-propositional-logic/02-derivations.md)

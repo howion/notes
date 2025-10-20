@@ -1,7 +1,5 @@
 # Groups
 
-[**Go Back**](../00-index.md)
-
 ## Def. Group
 
 A **group** is an ordered pair $(G, \cdot)$ where $G$ is a set and $\cdot$ is a binary operation on $G$ that satisfies:

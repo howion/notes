@@ -1,7 +1,5 @@
 # Normals and Quotiens
 
-[**Go Back**](../00-index.md)
-
 ## Def. Normal
 
 Let $G$ be a group and $N$ its subgroup. Then, if for all $a \in G$ we have $aN=Na$, then $N$ is called a **normal subgroup** (or simply a **normal**) of $G$ denoted by $N \trianglelefteq G$.

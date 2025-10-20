@@ -1,7 +1,5 @@
 # Homomorphisms
 
-[**Go Back**](../00-index.md)
-
 ## Def. Group Homomorphism
 
 Let $(G, \cdot_G)$ and $(H, \cdot_H)$ be semigroups.
