@@ -1,6 +1,6 @@
 # Rings
 
-> From now on, knowledge of the [**Group Theory notes**](../01-group-theory/01-groups.md) is assumed.
+> From now on, knowledge of the Group Theory notes are assumed.
 
 ## Def. Ring
 
