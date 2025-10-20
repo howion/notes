@@ -21,10 +21,11 @@
     <style>
         $styles.html()$
     </style>
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-        /* START NORMALIZE */
 
+        /* START NORMALIZE */
         html {
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
@@ -159,13 +160,35 @@
             padding-bottom: 0.25em;
             margin-top: 1.5em;
         }
+
+        h1 {
+            break-before: page;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            break-before: auto;
+        }
+    </style>
+
+    <style id="page_style">
+        @page {
+            margin: 0;
+            padding: 0.25in 0.325in;
+            size: 10in 13in;
+        }
     </style>
     $for(css)$
     <link rel="stylesheet" href="$css$" />
     $endfor$
+
     $for(header-includes)$
     $header-includes$
     $endfor$
+
     $if(math)$
     $math$
     $endif$
