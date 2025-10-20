@@ -9,18 +9,6 @@ For the notes I will publish here, I aim to use a formal tone, organized with a 
 
 I have no idea how long and how often I will publish here. Most of my notes are on paper and are mostly sketches. I aspire to write my new (and maybe also old) notes in this format as I believe KaTeX and Markdown is much easier to work with and often enough.
 
-## Accessibility
-
-For best readability, especially for the mathematical ones, you should consider switching to a custom markdown previewer with a light theme due to possibly transparent figures and KaTeX expressions. For now, I personally use Visual Studio Code with:
-
-* `Markdown Preview Github` by Matt Bierner to preview markdown files,
-* `Markdown Emoji` by Matt Bierner to add Github emoji support to VSCode, make sure you also have an emoji font installed in your system, and
-* `markdownlint` by David Anson to lint markdown files.
-
-You must be able to easily see some cool **KaTeX** text below to read some of these notes:
-
-$$\KaTeX$$
-
 ## Table of Contents
 
 ### Notes / Compiled
@@ -28,10 +16,10 @@ $$\KaTeX$$
 Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as PDF. Indeed, you may download the generated PDFs from `/docs`.
 
 * **Abstract Algebra**
-    * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html)
-    * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html)
+    * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html) [**PDF**](https://github.com/howion/notes/raw/refs/heads/main/docs/abstract-algebra/group-theory.pdf?download=)
+    * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html) [**PDF**](https://github.com/howion/notes/raw/refs/heads/main/docs/abstract-algebra/ring-theory.pdf?download=)
 * **Logic**
-    * **Propositional Logic** [**HTML**](https://notes.howion.com/logic/propositional-logic.html)
+    * **Propositional Logic** [**HTML**](https://notes.howion.com/logic/propositional-logic.html) [**PDF**](https://github.com/howion/notes/raw/refs/heads/main/docs/logic/propositional-logic.pdf?download=)
 
 ### Notes / Source
 
@@ -67,11 +55,23 @@ My handwritten poems.
 
 You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articles on various subjects which are mostly related to Mathematics, Computer Science or Philosophy.
 
-## Resources
+### Resources
 
 * [**Poems** (by various authors)](./resources/poems/00-index.md)
 * [**Websites**](./resources/websites.md)
 * [**Fonts**](./resources/fonts.md)
+
+## Accessibility
+
+For best readability, especially for the mathematical ones, you should consider switching to a custom markdown previewer with a light theme due to possibly transparent figures and KaTeX expressions. For now, I personally use Visual Studio Code with:
+
+* `Markdown Preview Github` by Matt Bierner to preview markdown files,
+* `Markdown Emoji` by Matt Bierner to add Github emoji support to VSCode, make sure you also have an emoji font installed in your system, and
+* `markdownlint` by David Anson to lint markdown files.
+
+You must be able to easily see some cool **KaTeX** text below to read some of these notes:
+
+$$\KaTeX$$
 
 ## License
 
