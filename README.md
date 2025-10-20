@@ -23,7 +23,17 @@ $$\KaTeX$$
 
 ## Table of Contents
 
-### Notes
+### Notes / Compiled
+
+Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as PDF. Indeed, you may download the generated PDFs from `/docs`.
+
+* **Abstract Algebra**
+    * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html)
+    * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html)
+* **Logic**
+    * **Propositional Logic** [**HTML**](https://notes.howion.com/logic/propositional-logic.html)
+
+### Notes / Source
 
 <!-- The indicator :anchor: means abandoned for now. -->
 
