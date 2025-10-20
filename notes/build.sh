@@ -102,7 +102,6 @@ build_pdf() {
 
 info "Preparing output directory..."
 mkdir -p "${OUT_DIR}"
-rm -rf "${OUT_DIR}"/*
 
 info "Generating: Abstract Algebra > Group Theory"
 build "./notes/abstract-algebra/01-group-theory" "abstract-algebra/group-theory" "title=Group Theory"
