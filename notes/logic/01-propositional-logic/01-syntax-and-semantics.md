@@ -1,7 +1,5 @@
 # Syntax and Semantics
 
-[**Go Back**](../00-index.md)
-
 > You may skip this chapter, but it is suggested to skim it for the notations.
 
 ## Introduction

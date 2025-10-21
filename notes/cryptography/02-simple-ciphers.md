@@ -1,7 +1,5 @@
 # Simple Ciphers
 
-[**Go Back**](../00-index.md)
-
 ## Substitution Ciphers
 
 1. A **simple substitution cipher** or (**monoalphabetic cipher**) is one which each character of plaintext is replaced with a corresponding character of ciphertext.
