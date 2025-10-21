@@ -1,4 +1,4 @@
-# Cyclic Groups
+# 6. Cyclic Groups
 
 > TODO: This section needs a total re-organization.
 

@@ -1,4 +1,4 @@
-# Homomorphisms
+# 3. Homomorphisms
 
 ## Def. Group Homomorphism
 

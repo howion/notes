@@ -1,4 +1,4 @@
-# Subrings
+# 2. Subrings
 
 ## Def. Subring
 
@@ -20,6 +20,18 @@ is a subring, and any subring of $Z(R)$ is called a **central subring**.
 > **Beware** that existence of unity in subring or the ring does not imply existence of unity in the other. Indeed, if they both have unity, they are not necessarily equal.
 >
 > Same issue is also true for the units. Remember, for multiplication operation, we are assumming sub-semigroup not subgroup.
+
+## Def. Maximal Subring
+
+Let $R$ a ring and $S$ a subring of $R$, then $S$ is said to be **maximal subring** if $S \neq R$ and for any subring $T$ of $R$ we have
+
+$$
+S \subseteq T \subseteq R
+\implies
+T=S \enspace \lor \enspace T = R
+$$
+
+> Notice how we exclude the ring itself to be called maximal subring in itself.
 
 ## Def. Opposite Ring
 

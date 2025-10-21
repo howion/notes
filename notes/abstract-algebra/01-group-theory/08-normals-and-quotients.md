@@ -1,4 +1,4 @@
-# Normals and Quotiens
+# 8. Normals and Quotiens
 
 ## Def. Normal
 
