@@ -9,9 +9,7 @@ For the notes I will publish here, I aim to use a formal tone, organized with a 
 
 I have no idea how long and how often I will publish here. Most of my notes are on paper and are mostly sketches. I aspire to write my new (and maybe also old) notes in this format as I believe KaTeX and Markdown is much easier to work with and often enough.
 
-## Table of Contents
-
-### Notes / Compiled
+## Notes: Compiled
 
 Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as PDF. You may also download the generated PDFs directly from `/docs` with `PDF` links provided below.
 
@@ -21,9 +19,9 @@ Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as 
 * **Logic**
     * **Propositional Logic** [**HTML**](https://notes.howion.com/logic/propositional-logic.html) [**PDF**](https://github.com/howion/notes/raw/refs/heads/main/docs/logic/propositional-logic.pdf?download=)
 
-### Notes / Source
+## Notes: Source
 
-Some of those will be compiled via custom bash pipeline with the use of `pandoc`, `html-minifier-terser` and `chromium`. For now, there is no git hook or action to automate this as I plan to compile as I see fit and none of those notes are complete yet.
+Some of those will be compiled via custom bash pipeline with the use of `pandoc`, `html-minifier-terser` and `chromium`. For now, there is no git hook or action to automate this. I plan to compile as I see fit noting none of these notes are complete yet.
 
 * [:construction: **Algebra**](./notes/abstract-algebra/00-index.md) \ Groups, Rings and Modules
     1. [:construction: Group Theory](./notes/abstract-algebra/01-group-theory/01-groups.md)
@@ -37,12 +35,12 @@ Some of those will be compiled via custom bash pipeline with the use of `pandoc`
 
 <!-- * [:boom: **Experiments**](./experiments/00-index.md) that most probably won't lead anywhere. -->
 
-### Lectures
+## Lectures, Presentations
 
 * [**Gödel ve Ontolojik Kanıtı**](./lectures/godel-ve-ontolojik-kaniti/00-index.md)
 * [**Sembolik Form Olarak Perspektif**](./lectures/sembolik-form-olarak-perspektif/00-index.md)
 
-### Poems
+## Poems
 
 My handwritten poems.
 
@@ -51,11 +49,11 @@ My handwritten poems.
 * [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md)
 * [**Weep**](./poems/04-weep.md)
 
-### Bookshelf
+## Bookshelf
 
 You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articles on various subjects which are mostly related to Mathematics, Computer Science or Philosophy.
 
-### Resources
+## Resources
 
 * [**Poems** (by various authors)](./resources/poems/00-index.md)
 * [**Websites**](./resources/websites.md)
