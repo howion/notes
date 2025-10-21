@@ -5,7 +5,6 @@ set -euo pipefail
 # PARAMETERS
 ##############################################################################
 OUT_DIR="./docs"
-TMP_MD="./docs/.tmp.md"
 
 ##############################################################################
 # UTILS
@@ -51,22 +50,17 @@ build() {
     local output_file="${OUT_DIR}/$2.html"
     local metadata="$3"
 
-    # combine all markdown files into one temporary file
-    cat "${input_dir}"/*.md > "${TMP_MD}"
-
     rm -f "${output_file}"
 
     info "Building HTML..."
 
-    pandoc "${TMP_MD}" \
+    pandoc "${input_dir}"/*.md \
         --standalone \
         -o "${output_file}" \
         --katex \
         --toc \
         --metadata "${metadata}" \
         --template="./notes/template.html"
-
-    rm -f "${TMP_MD}"
 
     minify_html "${output_file}"
 
