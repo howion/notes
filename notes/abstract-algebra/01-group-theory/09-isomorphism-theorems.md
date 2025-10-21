@@ -1,4 +1,4 @@
-# Isomorphism Theorems
+# 9. Isomorphism Theorems
 
 ## Def. Projection
 

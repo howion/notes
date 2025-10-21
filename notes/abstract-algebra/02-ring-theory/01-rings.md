@@ -1,4 +1,4 @@
-# Rings
+# 1. Rings
 
 > From now on, knowledge of the Group Theory notes are assumed.
 
@@ -23,6 +23,8 @@ If the ring is with unity, then an element $u \in R$ is said to be **unit** or *
 The **set of all units** in the ring $R$ is denoted by $\mathcal{U}(R)$.
 
 The **set of all non-zero elements** of $R$ is denoted by $R^*$.
+
+The multiplication is called **trivial** if for all $a,b \in R$ we have $ab = 0$.
 
 <!-- In this case the ring is said to be **unital** or **unitary** or with **unit**. -->
 
@@ -110,3 +112,10 @@ Let $R$ be a ring. Then
 
 3. If $R$ is a division ring, then multiplicative cancellation holds for non-zero elements.
 4. If $R$ is an integral domain with unit, then only idempotent elements are $0$ and $1$.
+
+## Thm. Basic Idempotent Properties
+
+Let $R$ be a ring, and $a \in R$ idempotent. Then
+
+1. $1-a$ is idempotent as well.
+2. If $a$ is non-trivial, it is a zero-divisor as well. This shows that integral domains and division rings do not have such idempotents.

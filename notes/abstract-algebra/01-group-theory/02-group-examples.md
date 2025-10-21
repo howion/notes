@@ -1,4 +1,4 @@
-# Group Examples
+# 2. Group Examples
 
 All of these groups can be considered their own field of research, so it is suggested you visit their wiki, understand the basics, and follow from there as you see fit.
 
