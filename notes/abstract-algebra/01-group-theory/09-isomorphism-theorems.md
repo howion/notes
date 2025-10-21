@@ -22,7 +22,7 @@ TODO:
 
 ## Thm. Fundamental Theorem on Homomorphisms
 
-Let $\varphi: G \to H$ be a group homomorphism and $N \trianglelefteq \text{Ker }f \trianglelefteq G$. Then there exists an unique homomorphism $\bar{\varphi}$ where
+Let $\varphi: G \to H$ be a group homomorphism and $N \trianglelefteq \text{Ker }\varphi \trianglelefteq G$. Then there exists an unique homomorphism $\bar{\varphi}$ where
 
 $$
 \begin{array}{rrll}

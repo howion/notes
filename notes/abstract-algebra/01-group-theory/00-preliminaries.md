@@ -1,6 +1,6 @@
 # 0. Preliminaries
 
-## Resources
+## Resources Used
 
 * **Fundamentals of the Theory of Groups**, Translated Second Russian Ed., by M.I. Kargapolov and Ju.I. Merzljakov
 * **Algebra** by Thomas W. Hungerford
