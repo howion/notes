@@ -1,7 +1,5 @@
 # Protocols
 
-[**Go Back**](../00-index.md)
-
 ## Def. Cryptographic Protocol
 
 A **cryptographic protocol** is a protocol that uses cryptography...It should not be possible to do more or learn more than what is specified in the protcol.

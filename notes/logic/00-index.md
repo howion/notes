@@ -1,7 +1,5 @@
 # Logic
 
-[**Go Back to Home**](../../README.md)
-
 * **The Open Logic Text**, [**Open Source**](https://github.com/OpenLogicProject/OpenLogic), by various contributors
 * **A First Course in Logic: An Introduction to Model Theory, Proof Theory, Computability and Complexity** by Shawn Hedman
 

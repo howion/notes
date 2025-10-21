@@ -13,7 +13,7 @@ I have no idea how long and how often I will publish here. Most of my notes are 
 
 ### Notes / Compiled
 
-Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as PDF. Indeed, you may download the generated PDFs from `/docs`.
+Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as PDF. You may also download the generated PDFs directly from `/docs` with `PDF` links provided below.
 
 * **Abstract Algebra**
     * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html) [**PDF**](https://github.com/howion/notes/raw/refs/heads/main/docs/abstract-algebra/group-theory.pdf?download=)
@@ -23,7 +23,7 @@ Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as 
 
 ### Notes / Source
 
-<!-- The indicator :anchor: means abandoned for now. -->
+Some of those will be compiled via custom bash pipeline with the use of `pandoc`, `html-minifier-terser` and `chromium`. For now, there is no git hook or action to automate this as I plan to compile as I see fit and none of those notes are complete yet.
 
 * [:construction: **Algebra**](./notes/abstract-algebra/00-index.md) \ Groups, Rings and Modules
     1. [:construction: Group Theory](./notes/abstract-algebra/01-group-theory/01-groups.md)
@@ -63,13 +63,13 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 
 ## Accessibility
 
-For best readability, especially for the mathematical ones, you should consider switching to a custom markdown previewer with a light theme due to possibly transparent figures and KaTeX expressions. For now, I personally use Visual Studio Code with:
+For readability of source code, especially for the mathematical ones, you should consider switching to a custom markdown previewer with a light theme due to possibly transparent figures and KaTeX expressions. For now to edit notes, I personally use Visual Studio Code with:
 
 * `Markdown Preview Github` by Matt Bierner to preview markdown files,
 * `Markdown Emoji` by Matt Bierner to add Github emoji support to VSCode, make sure you also have an emoji font installed in your system, and
 * `markdownlint` by David Anson to lint markdown files.
 
-You must be able to easily see some cool **KaTeX** text below to read some of these notes:
+You must be able to easily see some cool **KaTeX** text below to read the source of these notes:
 
 $$\KaTeX$$
 

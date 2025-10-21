@@ -1,7 +1,5 @@
 # Foundations
 
-[**Go Back**](../00-index.md)
-
 > We'll skip trivial definitions. Make sure you are comfortable with the glossary provided below.
 
 ## Glossary
