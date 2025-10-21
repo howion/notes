@@ -166,6 +166,8 @@ $(F \land G) \equiv (G \land F)$
 
 From now on, when we say $\Gamma$ is **a set of formulas**, we will mean $\Gamma \subseteq \text{Form}(\mathcal{P})$. So it is not _the_ set of formulas, but rather _a_ set of formulas.
 
+> We will make use of the letters such as $\Gamma, \Delta$ to usually denote a set of formulas and uppercase latin letters $A, B, F, G, ...$ et cetera to denote formulas.
+
 Moreover, we'll overload the $\models$ notation further in respect to this notion. Let $\Gamma$ be a set for formulas such that $\Gamma = \Set{F_0, F_1, ...}$, then we say
 
 * a valuation $v$ **models** $\Gamma$ denoted by $v \models \Gamma$ if $v \models F_i$ for each $i$,
