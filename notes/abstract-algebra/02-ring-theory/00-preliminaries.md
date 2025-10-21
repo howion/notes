@@ -2,9 +2,10 @@
 
 ## Resources Used
 
-* **Introduction to Rings and Modules**, 2nd Revised Ed., by C. Musili
-* **Algebra** by Thomas W. Hungerford
-* **Abstract Algebra**, 3rd Ed., by David S. Dummit and Richard M. Foote
+* **Group Theory** notes by me, howion,
+* **Introduction to Rings and Modules**, 2nd Revised Ed., by C. Musili,
+* **Algebra** by Thomas W. Hungerford,
+* **Abstract Algebra**, 3rd Ed., by David S. Dummit and Richard M. Foote.
 
 ## Notation
 
