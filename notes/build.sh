@@ -106,4 +106,7 @@ build "./notes/abstract-algebra/02-ring-theory" "abstract-algebra/ring-theory" "
 info "Generating: Logic > Propositional Logic"
 build "./notes/logic/01-propositional-logic" "logic/propositional-logic" "title=Propositional Logic"
 
+info "Generating: Universal Algebra"
+build "./notes/universal-algebra" "universal-algebra" "title=Universal Algebra"
+
 info "Build complete!"

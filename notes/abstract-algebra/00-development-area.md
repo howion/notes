@@ -3,7 +3,7 @@
 ## Active
 
 - Rings
-- Frattini subgroup (https://en.wikipedia.org/wiki/Frattini_subgroup)
+- Frattini subgroup [Wiki: Frattini subgroup](https://en.wikipedia.org/wiki/Frattini_subgroup)
 - Cauchy's Thm (relocate)
 
 ## To-Do's

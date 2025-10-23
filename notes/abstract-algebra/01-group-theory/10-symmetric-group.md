@@ -53,11 +53,11 @@ A cycle of length $k$ is also called a **$k$-cycle**. A $2$-cycle is called a **
 
 Every non-identity permutation in $\textbf{S}_n$ is uniquely (up to the order of the factors) a product of disjoint cycles, each of which has length at least $2$.
 
-## Corollary. Order of Permutation
+### Corollary. Order of Permutation
 
 The order of a permutation is the least common multiple of the orders of its dijoint cycles.
 
-## Corollary. Permutations are a Product of Transpositions
+### Corollary. Permutations are a Product of Transpositions
 
 Every permutation can be written as a product of (not necessarily unique) transpositions.
 
@@ -84,3 +84,5 @@ $\textbf{A}_n$ is called the **alternating group** (of **degree $n$**).
 The alternating group $\textbf{A}_n$ is simple if and only if $n \neq 4$.
 
 <!-- ### Lemma.  -->
+
+<!-- p.49 Hungford -->

@@ -68,13 +68,13 @@ $$
 |HK| = \dfrac{|H| \cdot |K|}{|H \cap K|}
 $$
 
-## Thm.
+## Thm. '
 
 Let $G$ be a group and $H,K \leq G$. Then we have $[H:H \cap K] \leq [G:K]$.
 
 If $[G:K]$ is finite, then $[H:H \cap K]=[G:K]$ if and only if $G=KH$.
 
-## Thm.
+## Thm. '
 
 Let $H$ and $K$ be _subgroups of finite index_ of a group $G$. Then
 

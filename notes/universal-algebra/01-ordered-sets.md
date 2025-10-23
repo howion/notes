@@ -1,14 +1,6 @@
 # Ordered Sets
 
-> TODO: Further define some notations and definitions.
-
-[**Go Back to Index**](./00-index.md)
-
-```js
-```
-
-```js
-```
+<!-- TODO: Further define some notations and definitions. -->
 
 ## Def. Partial Order
 
@@ -54,7 +46,7 @@ Notice that:
 * Not every bijective map between $P$ and $Q$ is an order-isomorphism.
 * Finite composition of order-preserving maps is again order-preserving.
 
-<!-- 
+<!--
 
 ## Def. Order-Isomorphism
 
@@ -72,7 +64,7 @@ Notice that:
 * $\phi$ must also be injective and thus bijective.
 * Not every bijective map between $P$ and $Q$ is an order-isomorphism. -->
 
-## Ex. Social Choice Function
+## Example. Social Choice Function
 
 See [**Wikipedia**: Arrow's impossibility theorem](https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem).
 
@@ -157,7 +149,7 @@ For example, $\bold{2} \oplus \bold {3} = \bold{5}$.
 
 Let $P_1, ..., P_n$ be ordered sets. The (Cartesian) product $P_1 \times ... \times P_n$ can be (coordinatewise) ordered with $\leqslant$ where $(x_1, ..., x_n) \leqslant (y_1, ..., y_n)$ if and only if, for all $i$, we have $x_i \leqslant_{P_i} y_i$. As a shorthand we will use $P^n$ to denote the $n$-fold cartesian product ordered with such order.
 
-## Ex. ~
+## Example. '
 
 Let $X = \{1, 2, ..., n\}$ and $\phi : \mathcal{P}(X) \to \bold{2}^n$ such that $\phi(A) = (\varepsilon_1, ..., \varepsilon_n)$ where
 
@@ -219,7 +211,7 @@ where $\{x_1, ..., x_k\} = \text{Max}\ Q$ is an antichain.
 
 Notice that $\mathcal{O}(P)^\partial \cong \mathcal{O}(P^\partial)$ as $A \subseteq$ iff $P \setminus A \supseteq P \setminus B$.
 
-## Thm. ~
+## Thm. '
 
 Let $P, P_1, P_2$ be ordered sets. Then
 
