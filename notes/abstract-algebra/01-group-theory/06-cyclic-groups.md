@@ -14,7 +14,7 @@ A group $H$ is called **cyclic group**, or simply **cylic**, if $H$ can be gener
 
 Let $H$ be a cyclic group, then
 
-* $H$ is also abelian.
+* $H$ is also abelian. So, cyclic implies abelian!
 * If $x$ is a generator of $H$, then so is $x^{-1}$.
 * If $x$ is a generator of $H$, then $|H| = |x|$.
 

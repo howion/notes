@@ -12,9 +12,11 @@ Elements of $M$, or even $M$ itself, are called the **generators** of the subgro
 
 An element is called a **non-generator** of a group $G$ if it can be omitted from every generating set for $G$.
 
-In practice, this definition is not really easy to work with. So equivalently...
+> Later on, we will show non-generators of a group $G$ is also a subgroup called the **Frattini Subgroup** of $G$ with interesting properties.
 
-## Thm. Equivalent Generator Definition
+Generally, this definition of a generated subgroup is not really easy to work with. So equivalently...
+
+## Thm. Equivalent Generation Definition
 
 If $M$ is a subset of a group $G$, then
 
@@ -22,7 +24,7 @@ $$
 \Braket{M} = \Set{a_1^{\epsilon_1} \cdots a_k^{\epsilon_k} \> | \> a_i \in M, \epsilon_i = \pm 1, k = 1, 2, \dots }.
 $$
 
-## Thm. Equivalent Generator Definition 2
+## Thm. Equivalent Generation Definition 2
 
 Let $G$ be a group and $M \subseteq G$, then
 
@@ -46,6 +48,10 @@ Exercise.
 ## Def. Join of Subgroups
 
 Let $H_i$ be subgroups of $G$, then their **join** is defined as $\Braket{\> \bigcup H_i \>}$ or, if finitely many, as $\Braket{H_1, ..., H_n}$. The join of two subgroups $H,K$ will simply be denoted as $H \lor K$.
+
+<!-- TODO: -->
+
+> This should make sense later on when we define lattices over groups. But the notation $H \lor K$ will sometimes be used to denote $\Braket{H \cup K}$.
 
 ## Examples
 

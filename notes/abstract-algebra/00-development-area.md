@@ -2,8 +2,9 @@
 
 ## Active
 
-- Frattini subgroup
-- Ring Theory
+- Rings
+- Frattini subgroup (https://en.wikipedia.org/wiki/Frattini_subgroup)
+- Cauchy's Thm (relocate)
 
 ## To-Do's
 

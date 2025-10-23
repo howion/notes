@@ -22,6 +22,8 @@ TODO:
 
 ## Thm. Fundamental Theorem on Homomorphisms
 
+<!-- TODO: Draw the commutative diagram -->
+
 Let $\varphi: G \to H$ be a group homomorphism and $N \trianglelefteq \text{Ker }\varphi \trianglelefteq G$. Then there exists an unique homomorphism $\bar{\varphi}$ where
 
 $$
@@ -65,6 +67,8 @@ TODO:
 </center>
 
 ## Thm. Second Isomorphism Theorem
+
+<!-- TODO: Generalize, see Hungerford p. 44 -->
 
 > This theorem is also called the **Diamond Isomorphism Theorem** or **Parallelogram Theorem** due to lattice it draws.
 

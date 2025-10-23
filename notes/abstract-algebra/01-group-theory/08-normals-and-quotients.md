@@ -2,11 +2,21 @@
 
 ## Def. Normal
 
-Let $G$ be a group and $N$ its subgroup. Then, if for all $a \in G$ we have $aN=Na$, then $N$ is called a **normal subgroup** (or simply a **normal**) of $G$ denoted by $N \trianglelefteq G$.
+Let $G$ be a group and $N$ its subgroup. If for all $a \in G$ we have $aN=Na$, then $N$ is called a **normal subgroup** (or simply a **normal**) of $G$ denoted by $N \trianglelefteq G$.
 
-If $N$ is non-trivial (that is $N \neq G$) then $N \vartriangleleft G$ is also used instead to denote $N$ is (non-trivially) normal in $G$.
+If $N \neq G$, then $N \vartriangleleft G$ will also be used to denote $N$ is normal in $G$.
 
-> From now on, it should be understood from $A \trianglelefteq B$ that $B$ is a group and $A$ is its normal subgroup.
+> From now on, it should be understood from $A \trianglelefteq B$ alone that $B$ is a group and $A$ is its normal subgroup.
+
+Recal that (from subgroups), $N$ is said to be **trivial** if it only consists of the identity element and $N$ is called **proper** if its not trivial and $N \neq G$.
+
+## Def. Conjugate
+
+Let $G$ be a group, $g,h \in G$, and $H$ a subgroup of $G$.
+
+1. The element $ghg^1 \in G$ is called **the conjugate of $h$ by $g$**.
+2. The set $gHg^-1$ is called **the conjugate of $H$ by $g$**.
+3. The element $g$ is said to **normalize** $H$ if $gHg^-1 = H$.
 
 ## Thm. Equivalent Normals
 
@@ -34,6 +44,10 @@ Let $N \trianglelefteq G$ and $K \leq G$, then
 
 TODO:
 </details>
+
+## Def. Simple Group
+
+A group is said to be **simple** if it has no proper normal subgroups.
 
 ## Def. Quotient Group
 
