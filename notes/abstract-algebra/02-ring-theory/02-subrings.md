@@ -7,7 +7,7 @@ Let $(R, +, \cdot)$ be a ring and $S$ a non-empty subset of $R$. Then $(S, +, \c
 * $(S, +)$ is a subgroup of $(R, +)$, and
 * $(S, \cdot)$ is a sub-semigroup of $(R, \cdot)$.
 
-> $\{0\}$ and $R$ called the **trivial subrings**. The convention regarding what subring is proper or trivial is context-dependent.
+> $\{0\}$ and $R$ are called the **trivial subrings**.
 
 The **center of $R$** is, similar to groups, defined as
 

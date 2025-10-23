@@ -15,6 +15,11 @@ I can’t decide\
 Don’t push me\
 I’m asequential
 
+Beep, boop\
+Ready to execute\
+Do you wanna execute\
+I will execute
+
 To execute is my sole will\
 Do you seek the truth\
 Beep, boop\
