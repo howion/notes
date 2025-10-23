@@ -1,14 +1,6 @@
 # Lattices
 
-> TODO: Further define some notations and definitions.
-
-[**Go Back to Index**](./00-index.md)
-
-```js
-```
-
-```js
-```
+<!-- TODO: Further define some notations and definitions. -->
 
 ## Def. Bounds
 

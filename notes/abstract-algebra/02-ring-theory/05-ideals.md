@@ -2,12 +2,12 @@
 
 ## Def. Ideal
 
-Let $R$ be a ring. $I \subseteq R$ is called a **left (respectively right) ideal** of $R$ if
+Let $R$ be a ring. A subset $I$ of $R$ is called a **left (respectively right) ideal** of $R$ if
 
 1. $I \leq (R, +)$, and
-2. for all $a \in R$ we have $aI \subseteq I$ (respectively $Ia \subseteq I$).
+2. for all $a \in R$ we have $aI \subseteq I$ (respectively $Ia \subseteq I$), under the ring multiplication.
 
-If $I$ is both a left and right ideal, then it is called a **two-sided ideal** or a **2-sided ideal**. Notice that in this case we have $Ia = aI = I$.
+If $I$ is both a left and a right ideal, then it is called a **two-sided ideal** or a **2-sided ideal**. Notice that in this case we have $Ia = aI = I$.
 
 Noting a ring $R$ is an ideal of itself, such ideal $R$ is called the **unit ideal**. $(0) = \{0\}$ is also an ideal in $R$ called the **zero ideal**. These two ideals are called the **trivial ideals** of $R$.
 

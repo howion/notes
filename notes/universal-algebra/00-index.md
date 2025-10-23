@@ -17,10 +17,3 @@ Fundamental set-theoric notation.
 * $\phi : P \twoheadrightarrow Q$ denotes the _surjective_ map $\phi$ from $P$ _onto_ $Q$.
 * $\phi : P \xrightarrow{\thicksim} Q$ denotes the _bijective_ map $\phi$ from $P$ _into_ and _onto_ $Q$.
 * $P \multimap\negthinspace\to Q$ denotes the _set of all partial maps_ from $P$ to $Q$.
-
-## Table of Contents
-
-[**Go Back to Home**](../../README.md)
-
-1. [Ordered Sets](./01-ordered-sets.md)
-1. [Lattices](./02-lattices.md)
