@@ -48,6 +48,18 @@ $$
 |G| = [G:H] \cdot |H|
 $$
 
+### Corollary: Element Order Divides Group Order
+
+Let $G$ be a group and $g \in G$, then $|x|$ divides $|G|$.
+
+### Corollary: Group of Prime Order is Cyclic
+
+Let $G$ be a group of prime order $p$. Then $G$ is cyclic, therefore $G \cong \Z_p$.
+
+<!-- ## Thm. Cauchy's Theorem
+
+Let $G$ be a finite group of order $n$ and $p$ is any prime that divides $n$. Then, there exists an element in $G$ whose order is $p$. -->
+
 ## Thm. Order of Subgroup Multiplication
 
 Let $G$ be group such that $H$ and $K$ are finite subgroups of $G$. Then
