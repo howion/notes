@@ -24,8 +24,8 @@ Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as 
 Some of those will be compiled via custom bash pipeline with the use of `pandoc`, `html-minifier-terser` and `chromium`. For now, there is no git hook or action to automate this. I plan to compile as I see fit noting none of these notes are complete yet.
 
 * [:construction: **Algebra**](./notes/abstract-algebra/00-index.md) \ Groups, Rings and Modules
-    1. [:construction: Group Theory](./notes/abstract-algebra/01-group-theory/01-groups.md)
-    2. [:construction: Ring Theory](./notes/abstract-algebra/02-ring-theory/01-rings.md)
+    1. :construction: Group Theory
+    2. :construction: Ring Theory
 * [:construction: **Universal Algebra**](./notes/universal-algebra/00-index.md) \ Fundamentals
     1. [:blush: Ordered Sets](./notes/universal-algebra/01-ordered-sets.md)
     1. [:construction: Lattices](./notes/universal-algebra/02-lattices.md)
