@@ -8,6 +8,24 @@ With $\models$ we were able to keep track of entailment. That is, given a set of
 
 In propositional logic, with $\vdash$ we want to do something similar, but syntatically. From a set of formulas $\Delta$ we want to be able to arrive _true_ formulas $F$ such that they are also (correspondingly) true in our metatheory.
 
+## Def. Derives
+
+Let $\Gamma$ be a set of formulas and $F, G$, and $H$ formulas. Then we _define_ (for our propositional logic model) the **derives** operator $\vdash$ by the (basic) **rules of derivations** which are
+
+$$
+\def\arraystretch{1.25}
+\begin{array}{llll}
+\text{Premise} && \text{Conclusion} & \text{Name} \\ \hline
+G \in \Gamma &&  \Gamma \vdash G & \text{Assumption} \\
+\Gamma \vdash G \text{ and } \Gamma \subseteq \Delta && \Delta \vdash G & \text{Monotonicity} \\
+\Gamma \vdash G && \Gamma \vdash \neg \neg G & \neg\neg\text{-Introduction} \\
+\Gamma \vdash F \text{ and } \Gamma \vdash G && \Gamma \vdash (F \land G) & \land\text{-Introduction} \\
+\Gamma \vdash (F \land G) && \Gamma \vdash F & \land\text{-Elimination} \\
+\end{array}
+$$
+
+We can extend these rules of derivations in any way we want (as long as it makes sense which we will define later), for example to include $\lor$ and $\to$.
+
 ## Def. Syntactic Proof
 
 A **syntactic proof** (sometimes called **formal proof**, or simply a **proof** if not to be confused with a proof in our metalanguage) in propositional logic is a finite _sequence_ of statements of the form $\Gamma \vdash F$ where $\Gamma$ is a set of formulas and $F$ is a formula.
