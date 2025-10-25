@@ -1,4 +1,15 @@
-# 9. Isomorphism Theorems
+# 10. Quotients and Isomorphisms
+
+## Def. Quotient Group
+
+Let $N \trianglelefteq G$. The set of all left cosets of $N$ in $G$ denoted by $G/N$ (read as $G$ modulo $N$) forms a group under the binary operation **(exercise)**
+
+$$(aN)(bN)=(ab)N$$
+
+and is of order $[G:N]$. This group is called **quotient group** or **factor group** of $G$ by $N$.
+
+> Notice that in additive notation it would be written as $(a+N)+(b+N) = (a+b)+N$.
+
 
 ## Def. Projection
 
