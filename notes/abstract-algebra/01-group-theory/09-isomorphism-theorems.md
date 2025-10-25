@@ -45,6 +45,8 @@ and
 TODO:
 </details>
 
+<!-- TODO: By the Fundamental Theorem on Homomorphism, the following diagram commutes -->
+
 ## Thm. First Isomorphism Theorem
 
 Let $\varphi: G \to H$ be a group homomorphism. Then

@@ -56,6 +56,8 @@ TODO: Zorn's Lemma and add partial order defn to preliminaries.
 
 ## Def. Prime Ideal
 
+> Also see [**Wiki:** Prime Ideal](https://en.wikipedia.org/wiki/Prime_ideal).
+
 Let $R$ be a commuative ring and $I$ its ideal. $I$ is called a **prime ideal** if $I \neq R$ and for all $x,y \in R$
 
 $$
@@ -67,3 +69,9 @@ $$
 ## Thm. Nilpotents of a Commutative Ring
 
 The set of all nilpotent elements in a commutative ring $R$ with $1$ is the intersection of all prime ideals.
+
+## Thm. Prime Avoidance Lemma
+
+Let $R$ be a commutative ring, $A \leq R$, and $I_1, I_2, ..., I_n \trianglelefteq R$ such that $I_i$ is prime for $i \geq 3$ (that is at most two ideals are not prime). Then
+
+If $A \not\subseteq I_j$ for any one $j$, then $A \not\subseteq \bigcup_{1 \> \leq \> k \> \leq \> n} I_k$. So that if $A$ is not contained in any of the ideals, it is also not contained in their union.
