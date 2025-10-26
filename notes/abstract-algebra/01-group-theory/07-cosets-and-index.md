@@ -18,7 +18,7 @@ Let $G$ be a group, $H \leq G$, and $a,b \in G$. We say,
 3. If $G$ is abelian, then left and right congruence coincide. (This is also possible if $G$ is not abelian.)
 4. For all $a \in G$, the orders (cardinalities) of the sets $Ha$, $H$ and $aH$ are the same.
 
-## Corollary. Coset Congruence
+### Corollary. Coset Congruence
 
 Let $G$ be a group and $H \leq G$. Then
 
@@ -68,13 +68,13 @@ $$
 |HK| = \dfrac{|H| \cdot |K|}{|H \cap K|}
 $$
 
-## Thm. '
+## Thm. 1
 
 Let $G$ be a group and $H,K \leq G$. Then we have $[H:H \cap K] \leq [G:K]$.
 
 If $[G:K]$ is finite, then $[H:H \cap K]=[G:K]$ if and only if $G=KH$.
 
-## Thm. '
+## Thm. 2
 
 Let $H$ and $K$ be _subgroups of finite index_ of a group $G$. Then
 

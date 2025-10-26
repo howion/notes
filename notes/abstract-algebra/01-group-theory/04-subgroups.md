@@ -43,6 +43,30 @@ Any group has two subgroups called the **trivial subgroup** which consists of on
 
 <!-- TODO: Add more exercises here from kargapolov p.27 and other sources -->
 
+## Thm. Finite and Closed Subset
+
+Let $G$ be a group and $S$ a non-empty subset of $G$. If $S$ is finite and closed under the group product, then $S$ is a subgroup of $G$.
+
+> So, we don't even need the inverse condition if $S$ non-empty and finite.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+We have $e \in G$ since $a^n$ must repeat. Similarly, for inverse we have $a^r = a^s$ implies $a^{r-s} = e$ implies $a^{r-s-1}=a^{-1}$ where $r > s \geq 1$.
+</details>
+
+## Thm. Intersection of Subgroups
+
+Let $\{H_i\}$ be any non-empty family of subgroups of $G$, then $\bigcup H_i$ is also a subgroup of $G$.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+Exercise.
+</details>
+
 ## Thm. Subgroups Under Multiplication
 
 Let $G$ be a group and $H,K \leq G$, then

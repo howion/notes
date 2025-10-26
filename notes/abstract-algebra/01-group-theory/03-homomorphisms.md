@@ -1,7 +1,5 @@
 # 3. Homomorphisms
 
-
-
 ## Def. Homomorphism
 
 Let $(G, \cdot_G)$ and $(H, \cdot_H)$ be semigroups.
@@ -24,6 +22,10 @@ The homomorphism $\varphi$ is called:
 * an **automorphism** if it is an endomorphism and bijective.
 
 Composition of homomorphisms is again a homomorphism. Respectively, this is also the case for monomorphisms, epimorphisms, isomorphisms and automorphisms.
+
+### Example
+
+If $A$ is abelian, then the map $a \mapsto a^{-1}$ is an automorphism, and the map $a \mapsto a^2$ is an endomorphism.
 
 ## Def. Kernel
 
@@ -58,10 +60,6 @@ Let $\varphi: G \to H$ be a group homomorphism, then
 4. $\text{Ker }\varphi \leq G$,
 5. $\varphi(G) \leq H$
 
-## Exercise
-
-If $A$ is an abelian group, then the map $a \mapsto a^{-1}$ is an automorphism.
-
 ## Def. Basic Kernel Properties
 
 Let $\varphi: G \to H$ be a group homomorphism, then
@@ -69,7 +67,21 @@ Let $\varphi: G \to H$ be a group homomorphism, then
 1. $\varphi$ is a monomorphism if and only if $\text{Ker } \varphi = \{e_G\}$.
 2. $\varphi$ is an isomorphism if any only if there exists an homomorphism $\varphi^{-1}: H \to G$ such that $\varphi \varphi^{-1} = e_G$.
 
+## Thm. More Homomorphism Properies
+
+1. $A$ is abelian group if and only if the map $a \mapsto a^{-1}$ is an automorphism.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+1. Exercise.
+
+</details>
+
 ## Def. Group Action
+
+<!-- TODO: Where to place this, and detail this? -->
 
 See [**Wikipedia: Group action**](https://en.wikipedia.org/wiki/Group_action).
 

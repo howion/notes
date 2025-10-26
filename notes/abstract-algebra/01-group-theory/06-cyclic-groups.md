@@ -1,6 +1,6 @@
 # 6. Cyclic Groups
 
-> TODO: This section needs a total re-organization.
+This section contains important counting theorems (not just for cyclic or abelian groups); hence, it is important to be familiar with every proof in this exercise.
 
 ## Def. Cyclic Group
 
@@ -18,11 +18,11 @@ Let $H$ be a cyclic group, then
 * If $x$ is a generator of $H$, then so is $x^{-1}$.
 * If $x$ is a generator of $H$, then $|H| = |x|$.
 
-## Thm. Element Order Divides its Identity Power
+## Thm. Fundamental Order Property
 
-Let $G$ be a group, $g \in G$, and $m,n \in \Z$. If $x^m = 1$ and $x^n = 1$, then $x^d = 1$ where $d=(m,n)$.
+Let $G$ be a group, $g \in G$, and $m,n \in \Z$. If $x^m = e$ and $x^n = e$, then $x^d = e$ where $d=(m,n)$.
 
-This implies that for any $m$ such that $x^m = 1$, we have $|x| \mid m$.
+In particular, for any $m$ such that $x^m = e$, we have $|x|$ divides $m$.
 
 <details>
 <summary><b>Proof</b></summary>
@@ -33,7 +33,7 @@ By Eucledian Algorithm...
 
 ## Thm. Every Subgroup of $\Z$ is Also Cyclic
 
-Recalling subgroup of a cyclic is cyclic, let $(H, +) \leq (\Z, +)$. Then, either
+Noting subgroup of a cyclic is cyclic, let $(H, +) \leq (\Z, +)$. Then, either
 
 * $H=\Braket{0}$ which is the trivial subgroup $\{0\}$, or
 * $H=\Braket{m}$ where $m$ is the least positive integer in $H$. In this case, $H$ is infinite.
@@ -85,8 +85,6 @@ Let $G$ be a group (not necessarily cyclic), $x \in G$ and $a \in \Z \setminus \
 1. If $|x| = \infty$, then $|x^a|=\infty$.
 2. If $|x| = n$, then $|x^a| = \dfrac{n}{(n, a)}$.
 
-> Second result is quite useful for finite counting and order related properties.
-
 ## Thm. On Generators of Cyclics
 
 Let $H = \Braket{x}$, then
@@ -103,23 +101,31 @@ Let $H=\Braket{x}$ be cyclic, then
 1. Every subgroup of $H$ is also cyclic.
 2. If $H$ is infinite, then for any distinct non-negative integers $a$ and $b$, $\Braket{x^a} \neq \Braket{x^b}$.
 3. For every integer $m$ we have $\Braket{x^m} = \Braket{x^{-m}}$. Therefore, evey non-trivial subgroup of $H$...
-4. ...
-
-> TODO: (3) and (4).
 
 ## Def. Locally Cyclic
 
 A group $G$ is said to be **locally cyclic** if every finitely generated subgroup is cyclic.
 
-## Thm. Homomorphic Image of Cyclic is Cyclic
+<!-- TODO: Revise below -->
 
-Let $\varphi: G \to H$ be a group homomorphism, $G$ cyclic, and $a \in G$. Then, $\Braket{\varphi(a)}$ is also cyclic.
+<!-- ## Thm. Homomorphic Image of Cyclic is Cyclic
 
-<!-- Let $H$ be any group and $G$ a cyclic group. Then for any homomorphism $\phi: G \to H$, the homomorphic image of every element $g \in G$ is also cyclic. -->
+Let $\varphi: G \to H$ be a group homomorphism, $G$ cyclic, and $a \in G$. Then, $\Braket{\varphi(a)}$ is also cyclic. In particular, $\varphi(G)$ is cyclic.
 
 <details>
 <summary><b>Proof</b></summary>
 <br/>
 
-Exercise, noting that $\text{Im }f = \Braket{a}$
+Exercise.
+</details> -->
+
+## Thm. Finite Subgroups Imply Finite Group
+
+Any group which has only finitely many subgroups must also be finite.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+Consider the finite set of cyclics $\mathcal{C} = \Set{\Braket{x} | x \in G} = \Set{ \Braket{x_1}, \Braket{x_2}, ..., \Braket{x_n}}$, rest is easy to show.
 </details>

@@ -18,9 +18,9 @@ A **group** is an ordered pair $(G, \cdot)$ where $G$ is a set and $\cdot$ is a 
 
 Noting that the **identity** of a group and the **inverse** of an element in that group is always unique (exercise) we will denote the inverse of an element $a$ with $a^{-1}$ unless it is **abelian**.
 
-A group is called **abelian** (or **commutative**) if its elements commute, that is, if for all $a,b \in G$ we have $a \cdot b = b \cdot a$. For abelian groups, we will prefer the additive notation for the binary operation and denote the inverse with $-a$ instead.
+A group is called **abelian** (or **commutative**) if its elements commute, that is, if for all $a,b \in G$ we have $a \cdot b = b \cdot a$. For abelian groups, we may prefer the additive notation $+$ instead of $\cdot$ for the binary operation and denote the inverse with $-a$ instead.
 
-You might sometimes want to consider the group as a triplet with identiy $(G,\cdot, e)$ as it is not clear otherwise what is the identity explicitly.
+You might also sometimes want to consider the group as a triplet with identiy $(G,\cdot, e)$ as it is not clear otherwise what is the identity explicitly.
 
 ## Remarks
 
@@ -93,9 +93,11 @@ Let $(G, \cdot)$ be a group and $a \in G$.
 
 The **order of (the group) $G$** is denoted by $|G|$ and is the cardinality of the set $G$.
 
-The **order of (the element) $a$** is denoted by $|a|$ and (if exists) it is the least positive integer $n$ such that $x^n = e$. If there is no such $n$, we say the order is infinite. Order of an element $a$ is sometimes denoted with $o(a)$.
+The **order of (the element) $a$** is denoted by $|a|$ and (if exists) it is the least positive integer $n$ such that $x^n = e$. If there is no such $n$, we say the order is infinite.
 
-If the order is finite, we will denote it with $|x| \lt \infty$.
+> Order of an element $a$ is sometimes denoted with $o(a)$.
+
+If the order of an element $x$ (or group) is finite, we will denote it with $|x| \lt \infty$. Moreover, if $x^2 = x$, then $x$ is called an **idempotent element** where $e$ is the **trivial idempotent element**.
 
 We say that a group if **torsion-free** if every nonidentity element has infinite order. If every element of a group has finite order then we say the group is **periodic**.
 
@@ -111,3 +113,19 @@ If the binary operation is written additively, which is mostly the case for abel
 We _define_ $a^0$ (or $0a$) as the identity element $1$ or $0$. Notice that, in additive notation, $0a$ is not the multiplication by the identity but rather "$0$ times $n$" which we define to be _the identity_ $0$.
 
 <!-- We define $a^0$ to be the identity element which is mostly denoted as $1$ in multiplicative notation and $0$ in additive notation (in abelian case). -->
+
+## Thm. More Group Properties
+
+Let $G$ be a group, then
+
+1. If $a^2 = e$ for all $a \in G$, then $G$ is abelian.
+2. If $|G|$ is finite and even, then it has an element of order $2$.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+1. Exercise,
+2. Consider $G \setminus \{e\}$ and the map $x \mapsto x^{-1}$.
+
+</details>
