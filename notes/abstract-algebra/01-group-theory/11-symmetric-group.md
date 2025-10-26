@@ -33,9 +33,9 @@ The permutations $\sigma_1, \sigma_2, ..., \sigma_n$ are said to be **disjoint**
 
 ## Def. Symmetric Group
 
-Set of all permutations (bijections) on $\textbf{I}_n$ will be denoted with $\textbf{S}_n$ and it forms a group under function composition (exercise) called the **symmetric group**.
+Set of all permutations (bijections) on $\textbf{I}_n$ will be denoted with $\textbf{S}_n$ and it forms a group under function composition (exercise) called the **symmetric group** (of $n$ letters).
 
-> Notice that $\textbf{S}_n$ is of order $n!$
+> Notice that $\textbf{S}_n$ is of order $n!$.
 
 ## Def. Cycle
 
