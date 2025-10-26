@@ -1,6 +1,8 @@
 # 3. Homomorphisms
 
-## Def. Group Homomorphism
+
+
+## Def. Homomorphism
 
 Let $(G, \cdot_G)$ and $(H, \cdot_H)$ be semigroups.
 
@@ -21,30 +23,40 @@ The homomorphism $\varphi$ is called:
 * an **endomorphism** if $G=H$, and
 * an **automorphism** if it is an endomorphism and bijective.
 
-> Notice that if there exists an isomorphism between two semigroups, then basically, they have the  same structure*.
-
-(Existence of an) isomorphism between two semigroups $G$ and $H$ is denoted with $G \cong H$.
+Composition of homomorphisms is again a homomorphism. Respectively, this is also the case for monomorphisms, epimorphisms, isomorphisms and automorphisms.
 
 ## Def. Kernel
 
 If $\varphi: G \to H$ is a group homomorphism, then the **kernel** of $\varphi$ is the set
 
 $$
-\Set{g \in G | \varphi(g) = 1_H}
+\Set{g \in G | \varphi(g) = e_H}
 $$
 
 denoted by $\text{Ker }\varphi$.
 
+> This is also sometimes denoted by $\varphi^{-1}(e_H)$.
+
+## Notation. Homomorphisms
+
+We say semigroups $G$ and $H$ are **isomorphic** denoted with $G \cong H$ if there exists an isomorphism between them.
+
+Let $\phi: G \to H$ be a group homomorphism, $g \in G$ and $A \subseteq G$. Then
+
+* $g^\phi$ denotes $\phi(g)$, and
+* $A^\phi$ denotes $\phi(A)$ called the **homomorphic (respectively monomorphic, epimorphic, ...) image** of $A$.
+
+> $\phi(A)$ is sometimes also denoted with $\text{Im } A$ &mdash; we will not prefer this notation.
+
 ## Thm. Basic Homomorphism Properties
 
-If $\varphi: G \to H$ is a group homomorphism, then
+Let $\varphi: G \to H$ be a group homomorphism, then
 
-1. Composition of homomorphisms is again a homomorphism. Respectively, this is also the case for monomorphisms, epimorphisms, isomorphisms and automorphisms.
-2. $\varphi(e_G) = e_H$, this is not necessarily true for monoid homomorphisms,
-3. $\varphi(g^{-1}) = \varphi(g)^{-1}$ for all $g \in G$,
-4. $\varphi(g^n) = \varphi(g)^n$ for all $g \in G$ and $n \in \Z$,
-5. $\text{Ker }\varphi \leq G$,
-6. $\text{Im }\varphi \leq H$
+1. $\varphi(e_G) = e_H$. This is not necessarily true for monoid homomorphisms!
+2. $\varphi(g^{-1}) = \varphi(g)^{-1}$ for all $g \in G$,
+3. $\varphi(g^n) = \varphi(g)^n$ for all $g \in G$ and $n \in \Z$,
+4. $\text{Ker }\varphi \leq G$,
+5. $\varphi(G) \leq H$
 
 ## Exercise
 

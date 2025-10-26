@@ -1,15 +1,21 @@
 # 9. Special Subgroups
 
+## Def. Simple Group
+
+A group is said to be **simple** if it has no proper normal subgroups.
+
 <!-- https://en.wikipedia.org/wiki/Centralizer_and_normalizer -->
 
 ## Def. Centralizer
 
 Let $G$ be a (sub)group and $A$ a non-empty subset of $G$. Then the **centralizer of $A$** is defined as
 
-$$C_G(A) = \Set{ g \in G | gag^{-1} = a \quad \forall a \in A }$$
+$$C_G(A) = \Set{ g \in G | a^g = a \quad \forall a \in A }$$
 
 and it is a subgroup of $G$.
 
+> Beware that if we were to write $A^g = A$ to right-hand side it wouldn't be the same definition.
+>
 > Note that a more general definition would use $gA = Ag$ for semigroups.
 
 ## Def. Center
@@ -20,17 +26,19 @@ The **center** of a (sub)group $G$ denoted with $Z(G)$ is defined as $Z(G) := C_
 
 ## Def. Normalizer
 
-Let $G$ be a (sub)group and $S$ a non-empty subset of $G$. Similar to centralizer (but not equivalent), the **normalizer of $S$** in $G$ is defined as
+Let $G$ be a (sub)group and $A$ a non-empty subset of $G$. Similar to centralizer (but not equivalent), the **normalizer of $A$** in $G$ is defined as
 
-$$N_G(S) = \Set{ g \in G | gSg^{-1} = S}$$
+$$N_G(A) = \Set{ g \in G | A^g = A}$$
 
 and it is also a subgroup of $G$.
 
-The definitions of centralizer and normalizer are similar but not identical. If $g \in C_G(S)$ and $s \in S$, then it must be the case that $gsg^{-1} = s$, but if $g \in N_G(S)$, then $gsg^{-1} = t$ for some $t \in S$, with $t$ possibly different from $s$.
+The definitions of centralizer and normalizer are similar but not identical. If $g \in C_G(A)$ and $a \in A$, then it must be the case that $a^g = s$, but if $g \in N_G(S)$, then $a^g = a'$ for some $a' \in A$, with $a'$ possibly different from $s$.
 
-> This is one reason why the notation $gsg^{-1}$ is preferred over $gs=sg$ &mdash; unless we working with semigroups of course.
+> This is one reason why the notation $gag^{-1}$ (or $a^g$) is preferred over $ga=ag$ &mdash; unless we working with semigroups of course.
 
 ## Thm. Centralizer, Normalizer and Normals
+
+<!-- TODO: -->
 
 ## Def. Maximal Subgroup
 

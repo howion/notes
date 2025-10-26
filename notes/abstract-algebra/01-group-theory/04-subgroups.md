@@ -1,24 +1,28 @@
 # 4. Subgroups
 
+> Until now we have explicitly defined and shown which multiplication is which operator and which identity belongs which group. From now on, these must be understood from the context. We will prefer little brevity over cumbersome notation.
+
 ## Def. Subgroup
 
-Let $(G, *)$ be a group and non-empty $H \subseteq G$. The non-empty subset $H$ is called a **subgroup** if $H$ is a group under the same binary operation $*$ which is denoted by $H \leq G$. This implies $H$ has the same identity as $G$ under $*$ (exercise).
+Let $G$ be a group and non-empty $H \subseteq G$. The non-empty subset $H$ is called a **subgroup** if $H$ is again a group under the restriction of $G$'s binary operation. This implies $H$ has the same identity as $G$ under the same binary operation.
 
-> From now on, it should be understood from $A \leq B$ that $B$ is a group and $A$ is its subgroup.
-
-Alternatively (exercise), subset $H$ of a group $G$ is a subgroup of $G$ if and only if:
+Equivalently, a subset $H \subseteq G$ of a group $G$ is called a **subgroup** if
 
 * $H$ has the same identity as $G$,
 * For all $a,b \in H$, we have $ab \in H$,
 * Every element $h \in H$ has an inverse.
 
-To be more compact, _non-empty_ $H \subseteq G$ is also a subgroup if and only if (exercise):
+To be more compact, _non-empty_ $H \subseteq G$ is called a **subgroup** if and only if (exercise):
 
-* For all $a,b \in H$ we have $ab^{-1} \in H$
+* For all $a,b \in H$ we have $ab^{-1} \in H$.
 
-Any group $G$ has two subgroups, itself and the subgroup that consists of only the identity element. The latter is called the **trivial subgroup**. A subgroup $K$ which is not the group itself is called a **proper subgroup** denoted with $K \lt G$.
+From now on, we will denote by $H \leq G$ that $H$ is a subgroup of $G$, moreover $H \lt G$ if $H \neq G$. The latter is called a **proper subgroup** of $G$.
 
-> Convention regarding to this **trivial** and **proper** notation differs from author to author.
+Any group has two subgroups called the **trivial subgroup** which consists of only the identity and the group itself.
+
+<!-- Any group $G$ has two subgroups, itself and the subgroup that consists of only the identity element. The latter is called the **trivial subgroup**. A subgroup $K$ of $G$ which is not the group $G$ itself is called a **proper subgroup** denoted with $K \lt G$. -->
+
+> Convention regarding to this **trivial** and **proper** notation differs from author to author &mdash; we will stick to this naming.
 
 ## Example. Some Subgroups
 

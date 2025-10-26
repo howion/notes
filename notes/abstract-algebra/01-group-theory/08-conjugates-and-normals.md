@@ -2,20 +2,20 @@
 
 ## Def. Conjugate
 
-Let $G$ be a group, $g,h \in G$, and $H$ a subgroup of $G$.
+Let $G$ be a group, $H \leq G$, and $a,b \in G$, then
 
-1. The element $ghg^{-1} \in G$ is called **the conjugate of $h$ by $g$**.
-2. The set $gHg^{-1} \subseteq G$ is called **the conjugate of $H$ by $g$**.
-3. The element $g$ is said to **normalize** $H$ if $gHg^-1 = H$.
+1. the element $aba^{-1}$ is called **the conjugate of $a$ by $b$**,
+2. the set $aHa^{-1}$ is called **the conjugate of $H$ by $a$**,
+3. the element $a$ is said to **normalize** $H$ if $aHa^{-1} = H$.
 
-> Note that more general definitions would use symmetries (that is $gh = hg$) instead of inverses for semigroups.
+> Note that more general definitions would use only commutativity (that is $gh = hg$) instead of inverses for semigroups.
 
 We also say $a$ is **conjugate to an element $b$ by an element $x$** if $a = xbx^{-1}$ denoted with $a = b^x$. We further define for sets $A, B \subseteq G$, and $g \in G$
 
 $$
-\begin{array}{ll}
-A^B := \Set{a^b | a \in A, b \in B} \neq BAB^{-1} \\
-A^g := gAg^{-1}
+\begin{array}{lll}
+A^B & := & \Set{a^b | a \in A, b \in B} \neq BAB^{-1} \\
+A^g & := & gAg^{-1}
 \end{array}
 $$
 
@@ -46,30 +46,17 @@ Let $G$ be a group and $N \leq G$. Then the following are equivalent
 3. $N^g = gNg^{-1} \subseteq N$ for all $g \in G$, that is $N^G \subseteq N$,
 4. $N^g = gNg^{-1} = N$ for all $g \in G$, that is $N^G = N$.
 
-### Thm. Basic Normal Properties
+## Thm. Basic Normal Properties
 
 > Recall that the "join" of two subgroup $H,K$ denoted $H \lor K$ is the subgroup $\Braket{H \cup K}$.
 
 Let $N \trianglelefteq G$ and $K \leq G$, then
 
 1. $(N \cap K) \trianglelefteq G$, so intersection of any subgroup with a normal is a normal,
-2. $N \trianglelefteq (N \lor K)$,
-3. $NK = N \lor K = KN$,
-4. If $K \trianglelefteq G$ and $K \cap N = \{e\}$, then $nk=kn$ for all $n \in N$ and $k \in K$.
+2. $N \lor K = NK = KN$, so join of any subgroup with a normal is their product,
+3. $N \trianglelefteq (N \lor K)$.
 
-<details>
-<summary><b>Proof</b></summary>
-<br/>
+## Thm. More Normal Properties
 
-TODO:
-</details>
-
-## Def. Simple Group
-
-A group is said to be **simple** if it has no proper normal subgroups.
-
-<!-- ## Thm. '
-
-Let $G$ be a group, $M \subseteq G$, and $H \leq G$, then -->
-
-<!-- TODO: See kargapolov p.16 -->
+1. Let $M,N \trianglelefteq G$. If $M \cap N = \{e\}$, then $mn=nm$ for all $m \in M$ and $n \in N$.
+2. Kernel of any group homomorphism is a normal subgroup.

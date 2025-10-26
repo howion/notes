@@ -41,6 +41,10 @@ That is, $\Braket{M}$ consists of all finite products of $a_1^{n_1} \cdots a_k^{
 Exercise.
 </details>
 
+## Notation. Generators
+
+From now on, when we use set builder notation, instead of $\Braket{\Set{x_1, x_2, ... \in X | \cdots}}$ we will omit the parentheses and simply write $\Braket{x_1, x_2, ... | \cdots}$.
+
 <!-- TODO: Create early lattice section and define there? -->
 
 ## Def. Join of Subgroups
@@ -51,7 +55,7 @@ Let $H_i$ be subgroups of $G$, then their **join** is defined as $\Braket{\> \bi
 
 > This should make sense later on when we define lattices over groups. But the notation $H \lor K$ will sometimes be used to denote $\Braket{H \cup K}$.
 
-## Examples
+## Example. Generator Examples
 
 * $\Z = \Braket{1}$,
 * $\Z_n = \Braket{\bar{1}}$,

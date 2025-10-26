@@ -1,5 +1,7 @@
 # 10. Quotients and Isomorphisms
 
+<!-- TODO: Continue from kargapolov pdf p. 47 -->
+
 ## Def. Quotient Group
 
 Let $N \trianglelefteq G$. The set of all left cosets of $N$ in $G$ denoted by $G/N$ (read as $G$ modulo $N$) forms a group under the binary operation **(exercise)**
@@ -8,7 +10,16 @@ $$(aN)(bN)=(ab)N$$
 
 and is of order $[G:N]$. This group is called **quotient group** or **factor group** of $G$ by $N$.
 
-> Notice that in additive notation it would be written as $(a+N)+(b+N) = (a+b)+N$.
+### Thm. Basic Quotient Properties
+
+Let $G$ be a group and $N \trianglelefteq G$. If $G$ is cyclic, then so is $G/H$.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+Exercise.
+</details>
 
 ## Def. Projection
 
@@ -22,6 +33,17 @@ $$
 $$
 
 is an epimorphism and $\text{Ker }\pi = N$. Such $\pi$ is called the **canonical epimorphism** or **(natural) projection**. Therefore, unless otherwise stated, $G \to G/N$ always denotes the cannonical epimorphism.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+TODO:
+</details>
+
+### Thm. Commutativity of Projection
+
+Let $\pi: G \to G/H$ be the natural projection of $G$ and $N \ (\trianglelefteq G)$. Then $G/H$ is abelian if and only if $[G,G] \subseteq H$.
 
 <details>
 <summary><b>Proof</b></summary>
