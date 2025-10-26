@@ -10,7 +10,6 @@ and is of order $[G:N]$. This group is called **quotient group** or **factor gro
 
 > Notice that in additive notation it would be written as $(a+N)+(b+N) = (a+b)+N$.
 
-
 ## Def. Projection
 
 Let $N \trianglelefteq G$. Then

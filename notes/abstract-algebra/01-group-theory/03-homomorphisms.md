@@ -39,8 +39,8 @@ denoted by $\text{Ker }\varphi$.
 
 If $\varphi: G \to H$ is a group homomorphism, then
 
-1. Composition of homomorphisms is again a homomorphism. This is also the case for monomorphisms, epimorphisms, isomorphisms and automorphisms.
-2. $\varphi(1_G) = 1_H$, this is not necessarily true for monoid homomorphisms,
+1. Composition of homomorphisms is again a homomorphism. Respectively, this is also the case for monomorphisms, epimorphisms, isomorphisms and automorphisms.
+2. $\varphi(e_G) = e_H$, this is not necessarily true for monoid homomorphisms,
 3. $\varphi(g^{-1}) = \varphi(g)^{-1}$ for all $g \in G$,
 4. $\varphi(g^n) = \varphi(g)^n$ for all $g \in G$ and $n \in \Z$,
 5. $\text{Ker }\varphi \leq G$,
@@ -55,13 +55,13 @@ If $A$ is an abelian group, then the map $a \mapsto a^{-1}$ is an automorphism.
 Let $\varphi: G \to H$ be a group homomorphism, then
 
 1. $\varphi$ is a monomorphism if and only if $\text{Ker } \varphi = \{e_G\}$.
-2. $\varphi$ is an isomorphism if any only if there exists an homomorphism $\varphi^{-1}: H \to G$ such that $\varphi \varphi^{-1} = 1_G$.
+2. $\varphi$ is an isomorphism if any only if there exists an homomorphism $\varphi^{-1}: H \to G$ such that $\varphi \varphi^{-1} = e_G$.
 
 ## Def. Group Action
 
 See [**Wikipedia: Group action**](https://en.wikipedia.org/wiki/Group_action).
 
-Let $(G, \cdot, e)$ be a group and $X$ a set. A binary operation $\bullet: G \times X \to X$ is called a **(left) group action** if, for all $a,b \in G$ and $x \in X$:
+Let $G$ be a group and $X$ any set. A binary operation $\bullet: G \times X \to X$ is called a **(left) group action** if, for all $a,b \in G$ and $x \in X$:
 
 * $a \bullet (b \bullet x) = (a b) \bullet x$, and
 * $e \bullet x = x$

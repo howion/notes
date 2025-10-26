@@ -46,7 +46,7 @@ Let $G$ be a group. We define **frattini subgroup** $\Phi(G)$ as the intersectio
 
 ## Thm. Frattini Subgroup and Non-Generators
 
-Let $G$ be a group, then $\Phi(G)$ is equal to the set of all non-generators of $G$.
+The frattini subgroup $\Phi(G)$ of a group $G$ is equal to the set of all non-generators of $G$. Therefore, non-generators of a group form a subgroup &mdash; namely the frattini subgroup.
 
 <!-- If $G$ is finite, then $\Phi(G)$ is nilpotent -->
 

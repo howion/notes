@@ -12,13 +12,18 @@ For simplicity, we will use the set $\textbf{I}_n = \Set{1, 2, ..., n}$ instead 
 
 ## Def. Support
 
-The **support** of a permutation $\sigma$ denoted by $\text{supp }\sigma$ is defined as the set of elements that are moved by $\sigma$ which is
+The **support** of a permutation $\sigma$ denoted by $\text{supp }\sigma$ is defined as the set of elements that are moved by $\sigma$, that is
 
 $$
-\Set{i \in I_n | \sigma(i) \neq i}.
+\text{supp }\sigma := \Set{i \in \mathbf{I}_n | \sigma(i) \neq i}.
 $$
 
-Similarly, the set of **fixed elements** will be denoted with $\text{fix }\sigma$.
+Similarly, the set of fixed elements denoted with $\text{fix }\sigma$ is the set
+
+$$
+\text{fix }\sigma := \Set{i \in \mathbf{I}_n | \sigma(i) = i}.
+$$
+
 
 ## Def. Disjoint Permutations
 
@@ -28,24 +33,24 @@ The permutations $\sigma_1, \sigma_2, ..., \sigma_n$ are said to be **disjoint**
 
 ## Def. Symmetric Group
 
-Set of all permutations (bijections) on $\textbf{I}_n$ will be denoted with $\textbf{S}_n$ and it forms a group under function composition (exercise) which will be called the **symmetric group**.
+Set of all permutations (bijections) on $\textbf{I}_n$ will be denoted with $\textbf{S}_n$ and it forms a group under function composition (exercise) called the **symmetric group**.
 
 > Notice that $\textbf{S}_n$ is of order $n!$
 
 ## Def. Cycle
 
-Let $\tau$ be a permutation on $I_n$ with the support $\Set{k_1, k_2, ..., k_r}$. Then $\tau$ is said to be **cycle** (or **cyclic**) of **length** $r$ if
+Let $\tau$ be a permutation on $\mathbf{I}_n$ with the support $\Set{k_1, k_2, ..., k_r}$. Then $\tau$ is said to be a **cycle** (or **cyclic**) of **length** $r$ if
 
 $$
 \begin{array}{lll}
-k_1 \mapsto k_2 \\
-k_2 \mapsto k_3 \\
-\vdots \\
-k_r \mapsto k_1
+k_1 & \mapsto k_2 \\
+k_2 & \mapsto k_3 \\
+    & \vdots \\
+k_r & \mapsto k_1
 \end{array}
 $$
 
-A cycle of length $k$ is also called a **$k$-cycle**. A $2$-cycle is called a **transposition**.
+A cycle of length $k$ will be called a **$k$-cycle**. A $2$-cycle is called a **transposition**.
 
 > There is no widespread consensus on how to define a cycle, but the intuition should be clear.
 
@@ -55,7 +60,7 @@ Every non-identity permutation in $\textbf{S}_n$ is uniquely (up to the order of
 
 ### Corollary. Order of Permutation
 
-The order of a permutation is the least common multiple of the orders of its dijoint cycles.
+The order of a permutation is the least common multiple of the orders of its disjoint cycles.
 
 ### Corollary. Permutations are a Product of Transpositions
 
