@@ -37,10 +37,6 @@ See [**Computer Science**](./03-computer-science.md).
     * **`Pars I.` Familia Romana** + `Audio` by Hans H. Ørberg.
     * **`Pars II.` Roma aeterna** by Hans H. Ørberg.
 
-* ### Linguistics
-
-    Here be dragons.
-
 ## Finance
 
 * **Probability for Finance** by Ekkehard Kopp, Jan Malczak, and Tomasz Zastawniak.

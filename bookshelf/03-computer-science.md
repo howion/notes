@@ -11,6 +11,7 @@ These subjects are closely related to mathematical logic, algebra and combinator
 
     * **Computational Complexity: A Modern Approach** by Sanjeev Arora and Boaz Barak.
     * **Introduction to the Theory of Computation** by Michael Sipser.
+        > Classic
     * **Types and Programming Languages** by Benjamin C. Pierce.
         > This might be the **BEST** book on simple type theory and lambda calculus I have read as it teaches difficult matter with an invating and practical approach.
     * **The Lambda Calculus: Its Syntax and Semantics (Revised Edition)** by J. Barwise, D. Kaplan and others.

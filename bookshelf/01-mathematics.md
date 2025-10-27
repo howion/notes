@@ -14,9 +14,15 @@
 
 * ## Abstract Algebra
 
-    * **Abstract Algebra** by David S. Dummit and Richard M. Foote.
+    * **Fundamentals of the Theory of Groups**, translated second Russian Ed., by M.I. Kargapolov and Ju.I. Merzljakov
+        > Good read for those already familiar with group theory, proceeds fast.
+    * **Algebra** by Thomas W. Hungerford
+        > Graduate text but rather easy to follow, especially you prefer rather formal and constructive way of teaching and comprehensive.
+    * **Abstract Algebra**, 3rd Ed., by David S. Dummit and Richard M. Foote.
+        > Classic
     * **Abstract Algebra** by I. N. Herstein.
         > Maybe not by itself but as an additional material this book is a must read. Might be rather difficult to follow compared to other Abstract Algebra textbooks but it is well worth it.
+    * **Introduction to Rings and Modules**, 2nd Revised Ed., by C. Musili
 
 * ## Number Theory
 
