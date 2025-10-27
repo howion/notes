@@ -14,11 +14,11 @@ I have no idea how long and how often I will publish here. Most of my notes are 
 Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as PDF. You may also download the generated PDFs directly from `/docs` with `PDF` links provided below.
 
 * **Abstract Algebra**
-    * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html) [**PDF**](https://github.com/howion/notes/raw/refs/heads/main/docs/abstract-algebra/group-theory.pdf?download=)
-    * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html) [**PDF**](https://github.com/howion/notes/raw/refs/heads/main/docs/abstract-algebra/ring-theory.pdf?download=)
+    * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html) [**PDF**](https://notes.howion.com/abstract-algebra/group-theory.pdf)
+    * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html) [**PDF**](https://notes.howion.com/abstract-algebra/ring-theory.pdf)
 * **Logic**
-    * **Propositional Logic** [**HTML**](https://notes.howion.com/logic/propositional-logic.html) [**PDF**](https://github.com/howion/notes/raw/refs/heads/main/docs/logic/propositional-logic.pdf?download=)
-* **Universal Algebra** [**HTML**](https://notes.howion.com/universal-algebra.html) [**PDF**](https://github.com/howion/notes/raw/refs/heads/main/docs/universal-algebra.pdf?download=)
+    * **Propositional Logic** [**HTML**](https://notes.howion.com/logic/propositional-logic.html) [**PDF**](https://notes.howion.com/logic/propositional-logic.pdf)
+* **Universal Algebra** [**HTML**](https://notes.howion.com/universal-algebra.html) [**PDF**](https://notes.howion.com/universal-algebra.pdf)
 
 ## Notes: Source
 
