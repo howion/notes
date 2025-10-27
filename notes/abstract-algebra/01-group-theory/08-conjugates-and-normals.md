@@ -60,3 +60,6 @@ Let $N \trianglelefteq G$ and $K \leq G$, then
 
 1. Let $M,N \trianglelefteq G$. If $M \cap N = \{e\}$, then $mn=nm$ for all $m \in M$ and $n \in N$.
 2. Kernel of any group homomorphism is a normal subgroup.
+3. If $[G:H] = 2$, then $H \trianglelefteq G$.
+4. $A, B \trianglelefteq G$ implies $AB \trianglelefteq G$.
+5. Find normal subgroups $A, B, C$ such that $A \trianglelefteq B \trianglelefteq C$, but $A \not\trianglelefteq C$.

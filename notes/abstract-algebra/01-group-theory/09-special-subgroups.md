@@ -1,9 +1,5 @@
 # 9. Special Subgroups
 
-## Def. Simple Group
-
-A group is said to be **simple** if it has no proper normal subgroups.
-
 <!-- https://en.wikipedia.org/wiki/Centralizer_and_normalizer -->
 
 ## Def. Centralizer
@@ -130,3 +126,11 @@ $$
 [a, b^{-1},c]^b [b, c^{-1}, a]^c [c, a^{-1}, b]^a = e
 $$
 </details>
+
+## Def. Simple Group
+
+A group is said to be **simple** if it has no proper normal subgroups.
+
+## Thm. On Simple Groups
+
+1. $\Z_p$ is simple if $p$ is prime. Does the converse holds?

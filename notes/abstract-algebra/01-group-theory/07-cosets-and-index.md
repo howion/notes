@@ -56,9 +56,11 @@ Let $G$ be a group and $g \in G$, then $|x|$ divides $|G|$.
 
 Let $G$ be a group of prime order $p$. Then $G$ is cyclic, therefore $G \cong \Z_p$.
 
-<!-- ## Thm. Cauchy's Theorem
+## Thm. Cauchy's Theorem
 
-Let $G$ be a finite group of order $n$ and $p$ is any prime that divides $n$. Then, there exists an element in $G$ whose order is $p$. -->
+Let $G$ be a finite group of order $n$ and $p$ is any prime that divides $n$. Then $G$ contains an element of order $p$.
+
+> We will prove this useful theorem later on, after Sylow Theorems.
 
 ## Thm. Order of Subgroup Multiplication
 
