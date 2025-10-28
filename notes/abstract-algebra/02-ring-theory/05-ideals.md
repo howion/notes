@@ -13,9 +13,34 @@ Noting a ring $R$ is an ideal of itself, such ideal $R$ is called the **unit ide
 
 > Notice how the concept of an ideal is similar to the concept of a coset in group theory.
 
-<!-- ## Thm. Basic Ideal Properties
+## Thm. On Improper Ideals
 
-Let $R$ be a ring. If $R$ is with $1$, then its only ideal is $R$, namely the unit ideal. -->
+Let $R$ be a ring and $I$ a left (resp. right) ideal, then the following are equivalent
+
+1. $I = R$,
+2. $1 \in I$,
+3. $I$ has an unit, or just
+4. $I$ has an element which has an left (resp. right) inverse.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+Exercise.
+</details>
+
+## Thm. Division Ring and Ideals
+
+Let $R$ be a ring with $1$, then $R$ is a division ring if and only if $(0)$ and $R$ are the only left ideals (or the only right ideals) in $R$.
+
+> This is also true if $R$, instead of a ring with identity, is a non-zero ring with non-trivial multiplication. For the proof of this theorem check out Musli pp. 43-44.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+> TODO:
+</details>
 
 ## Def. Maximal Ideal
 
@@ -75,3 +100,9 @@ The set of all nilpotent elements in a commutative ring $R$ with $1$ is the inte
 Let $R$ be a commutative ring, $A \leq R$, and $I_1, I_2, ..., I_n \trianglelefteq R$ such that $I_i$ is prime for $i \geq 3$ (that is at most two ideals are not prime). Then
 
 If $A \not\subseteq I_j$ for any one $j$, then $A \not\subseteq \bigcup_{1 \> \leq \> k \> \leq \> n} I_k$. So that if $A$ is not contained in any of the ideals, it is also not contained in their union.
+
+## Def. Simple Ring
+
+A non-zero ring $R$ is called **simple** if $R$ has non $2$-sided ideals other than $(0)$ and $R$.
+
+Therefore, division rings are simple.
