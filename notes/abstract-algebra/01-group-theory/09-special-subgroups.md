@@ -30,7 +30,43 @@ and it is also a subgroup of $G$.
 
 The definitions of centralizer and normalizer are similar but not identical. If $g \in C_G(A)$ and $a \in A$, then it must be the case that $a^g = s$, but if $g \in N_G(S)$, then $a^g = a'$ for some $a' \in A$, with $a'$ possibly different from $s$.
 
+Obviously a subgroup is a normal subgroup in a group if and only if its normalizer is the whole group.
+
 > This is one reason why the notation $gag^{-1}$ (or $a^g$) is preferred over $ga=ag$ &mdash; unless we working with semigroups of course.
+
+## Thm. '
+
+Let $G$ be a group and $a \in G$, then
+
+$$
+|a^G| = [G:N_G(a)]
+$$
+
+> You may check out Kargapolov p. 16 for a more general version of theorem.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+> TODO:
+</details>
+
+## Thm. Building Normal from Subgroup
+
+Let $A \leq G$, then the set
+
+$$
+N = \bigcap_{x \> \in \> G} A^x
+$$
+
+is a normal subgroup of $G$.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+> TODO:
+</details>
 
 ## Thm. Centralizer, Normalizer and Normals
 
