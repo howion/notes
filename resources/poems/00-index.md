@@ -6,6 +6,7 @@ Poems by various authors.
 2. [**Charge of the Light Brigade**](./c2-charge-of-the-light-brigade.md) by Lord Alfred Tennyson
 3. [**The Walrus and the Carpenter**](./c3-the-walrus-and-the-carpenter.md) by Lewis Carroll
 4. [**Jabberwocky**](./c4-jabberwocky.md) by Lewis Carroll
+5. [**Annabel Lee**](./c5-annabel-lee.md) by Edgar Allan Poe
 
 <!--  -->
 
