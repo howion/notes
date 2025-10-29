@@ -2,12 +2,13 @@
 
 ## Active
 
-- Karg
 - Rings
-- Characteristic and relation to frattini subgroup
-- idempotent, nilpotent, $p$-group etc. See [wiki](https://en.wikipedia.org/wiki/Frattini_subgroup)
-- Sylows of course
+- Kargopolov examples
+- Group characteristic and relation to frattini subgroup
+- idempotent, nilpotent, $p$-group etc. See [wiki: frattini subgroup](https://en.wikipedia.org/wiki/Frattini_subgroup)
+- Sylow Theorems
 - Cauchy's Thm Proof
+- Check out [Wiki Glossary of Group Theory](https://en.wikipedia.org/wiki/Glossary_of_group_theory)
 
 ## To-Do's
 

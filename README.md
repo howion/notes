@@ -11,7 +11,7 @@ I have no idea how long and how often I will publish here. Most of my notes are 
 
 ## Notes: Compiled
 
-Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as PDF. You may also download the generated PDFs directly from `/docs` with `PDF` links provided below.
+Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as PDF. You may also download the generated PDFs directly from `/docs` with `PDF` links provided below. Please note that none of the notes are complete yet and being actively developed.
 
 * **Abstract Algebra**
     * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html) [**PDF**](https://notes.howion.com/abstract-algebra/group-theory.pdf)
@@ -43,12 +43,14 @@ Some of those will be compiled via custom bash pipeline with the use of `pandoc`
 
 ## Poems
 
-My handwritten poems.
+My handwritten poems, in no particular order.
 
+* [**To be, or not to be?**](./poems/00-to-be-or-not-to-be.md)
+* [**Solace in Dissonance**](./poems/01-solace-in-dissonance.md)
 * [**Salvé, salvé, salvé, parve?**](./poems/02-salve-salve-salve-parve.md)
-* [**Bitscript**](./poems/05-bitscript.md)
-* [**To be, or not to be**](./poems/00-to-be-or-not-to-be.md)
+* [**Unholy Gospel**](./poems/03-unholy-gospel.md)
 * [**Weep**](./poems/04-weep.md)
+* [**Bitscript**](./poems/05-bitscript.md)
 
 ## Bookshelf
 
@@ -60,7 +62,7 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 * [**Websites**](./resources/websites.md)
 * [**Fonts**](./resources/fonts.md)
 
-## Accessibility
+## Source Accessibility
 
 For readability of source code, especially for the mathematical ones, you should consider switching to a custom markdown previewer with a light theme due to possibly transparent figures and KaTeX expressions. For now to edit notes, I personally use Visual Studio Code with:
 

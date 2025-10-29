@@ -4,6 +4,8 @@
 
 ## Table of Contents
 
+> This ToC is not correct as it actively changes at the moment.
+
 1. **Group Theory**
     1. [Preliminaries](./01-group-theory/00-preliminaries.md)
     2. [Groups](./01-group-theory/01-groups.md)
