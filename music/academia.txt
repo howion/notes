@@ -1,6 +1,9 @@
 (We are) The Academia
 =====================
 
+{"Academia" is the name of our little friend group whose main interest is Mathematics.}
+{Notice how the intro is inspired by the "Die Arbeiter von Wien" adjusted to algebraic structures and to Academia!}
+
 [Intro - Full Choir]
 We are the builders of the coming world,
 We are the ring and the field.
