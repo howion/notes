@@ -30,14 +30,14 @@ Let $G$ be a group and $H \leq G$. Then
 
 [**Wiki: Index of a subgroup**](https://en.wikipedia.org/wiki/Index_of_a_subgroup)
 
-Let $G$ be group and $H \leq G$ then the **index of $H$ in $G$**, denoted $[G:H]$ is the _cardinal number_ of the set of distinct right (or left) cosets of $H$ in $G$.
+Let $G$ be group and $H \leq G$ then the **index of $H$ in $G$**, denoted $|G:H|$ is the _cardinal number_ of the set of distinct right (or left) cosets of $H$ in $G$.
 
 ## Thm. Index Theorem
 
 Let $G$ be a group and $K \leq H \leq G$, then
 
 $$
-[G:K] = [G:H][H:K]
+|G:K| = |G:H||H:K|
 $$
 
 ### Corollary: Lagrange's Theorem
@@ -45,7 +45,7 @@ $$
 Let $G$ be a group and $H \leq G$, then the order of $H$ divides the order of $G$. In general, even if $G$ is infinite
 
 $$
-|G| = [G:H] \cdot |H|
+|G| = |G:H| \cdot |H|
 $$
 
 ### Corollary: Element Order Divides Group Order
@@ -72,14 +72,14 @@ $$
 
 ## Thm. 1
 
-Let $G$ be a group and $H,K \leq G$. Then we have $[H:H \cap K] \leq [G:K]$.
+Let $G$ be a group and $H,K \leq G$. Then we have $|H:(H \cap K)| \leq |G:K|$.
 
-If $[G:K]$ is finite, then $[H:H \cap K]=[G:K]$ if and only if $G=KH$.
+If $|G:K|$ is finite, then $|H:(H \cap K)|=|G:K|$ if and only if $G=KH$.
 
 ## Thm. 2
 
 Let $H$ and $K$ be _subgroups of finite index_ of a group $G$. Then
 
-1. $[G:H \cap K]$ is finite,
-2. $[G:H \cap K] \leq [G:H][G:K]$, and
-3. $[G:H \cap K] = [G:H][G:K]$ if and only if $G = HK$.
+1. $|G:H \cap K|$ is finite,
+2. $|G:H \cap K| \leq |G:H||G:K|$, and
+3. $|G:H \cap K| = |G:H||G:K|$ if and only if $G = HK$.

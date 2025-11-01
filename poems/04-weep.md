@@ -14,11 +14,11 @@ Choke on your loneliness\
 &ensp;&ensp;&ensp;&ensp;Make it ours
 
 One more revolution\
-One more step towards our end\
-More steps to this wheel of torture\
+&ensp;&ensp;&ensp;&ensp;One more step towards our end\
+&ensp;&ensp;&ensp;&ensp;More steps to this wheel of torture\
 Where is my life long lecture?
 
 What makes us so miserable\
-Is what made us so resilient!\
+&ensp;&ensp;&ensp;&ensp;Is what made us so resilient!\
 To this nonsense\
-We weep once more
+&ensp;&ensp;&ensp;&ensp;We weep once more
