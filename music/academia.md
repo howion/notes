@@ -8,9 +8,9 @@
 
 **[Intro - Full Choir]**\
 We are the builders of the coming world,\
-&ensp;&ensp;&ensp;&ensp;We are the ring and the field.\
+We are the ring and the field.\
 We are the reapers of abstraction,\
-&ensp;&ensp;&ensp;&ensp;We are the group and the action!
+We are the group and the action!
 
 <br/>
 
@@ -101,8 +101,8 @@ He takes the limit, finds no rest,\
 
 <br/>
 
-**[Chant]**
-Cemum derivat, semper derivat,
+**[Chant]**\
+Cemum derivat, semper derivat,\
 Delta vita, delta mortis!
 
 > Cem differentiates, always differentiates,\
@@ -118,7 +118,7 @@ No applications, no fame,\
 
 <br/>
 
-**[Chant - Rising]**\
+**[Chant]**\
 (Academia) Setta... (aeternitas) trauma... (Academia) ratio... (aeternitas)
 
 > Sets... trauma... reason...
@@ -160,7 +160,7 @@ Academia... (aeternitas) aeternitas...\
 <br/>
 
 **[Verse 5]**\
-And the Emir...\
+And the Emir...,\
 Fuck You Emir!
 
 <br/>

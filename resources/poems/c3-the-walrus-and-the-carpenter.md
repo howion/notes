@@ -1,7 +1,5 @@
 # The Walrus and the Carpenter
 
-[**Go Back**](./00-index.md)
-
 > By Lewis Carroll from "Alice in Wonderland"
 
 <br/>

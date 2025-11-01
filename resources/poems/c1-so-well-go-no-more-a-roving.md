@@ -1,7 +1,5 @@
 # So, we'll go no more a roving
 
-[**Go Back**](./00-index.md)
-
 > Lord Byron
 
 So we'll go no more a roving\

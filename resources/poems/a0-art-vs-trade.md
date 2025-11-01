@@ -1,7 +1,5 @@
 # Art vs. Trade
 
-[**Go Back**](./00-index.md)
-
 > By James Weldon Johnson
 
 Trade, Trade versus Art,\
