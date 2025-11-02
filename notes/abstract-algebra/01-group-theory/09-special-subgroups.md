@@ -6,9 +6,7 @@
 
 Let $G$ be a (sub)group and $A$ a non-empty subset of $G$. Then the **centralizer of $A$** is defined as
 
-$$C_G(A) = \Set{ g \in G | a^g = a \quad \forall a \in A }$$
-
-and it is a subgroup of $G$.
+$$C_G(A) := \Set{ g \in G | a^g = a \quad \forall a \in A }$$
 
 > Beware that if we were to write $A^g = A$ to right-hand side it wouldn't be the same definition.
 >
@@ -22,7 +20,7 @@ The **center** of a (sub)group $G$ denoted with $Z(G)$ is defined as $Z(G) := C_
 
 ## Def. Normalizer
 
-Let $G$ be a (sub)group and $A$ a non-empty subset of $G$. Similar to centralizer (but not equivalent), the **normalizer of $A$** in $G$ is defined as
+Let $G$ be a group and $A$ a non-empty subset of $G$. Similar to centralizer (but not equivalent), the **normalizer of $A$** in $G$ is defined as
 
 $$N_G(A) = \Set{ g \in G | A^g = A}$$
 

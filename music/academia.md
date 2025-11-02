@@ -137,7 +137,7 @@ He said, "Truth is recursive, and so am I,"\
 Yusúf! Yusúf! Nullum daemon!\
 Void ex vita! Init, init!
 
-> Yusuf! Yusuf! No demon!\
+> Yusuf! Yusuf! No (null) demon!\
 > (Cast the) Void from life! Initialize, initialize!
 
 <br/>
