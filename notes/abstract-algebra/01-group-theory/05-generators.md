@@ -10,6 +10,8 @@ $$\Braket{M} := \bigcap_{H_i \> \in \> L(G, M)} H_i$$
 
 Elements of $M$, or even $M$ itself, are called the **generators** of the subgroup $\Braket{M}$. If $M$ is finite, then we say $\Braket{M}$ is **finitely generated**.
 
+> From now on, when we use set builder notation, instead of $\Braket{\Set{x_1, x_2, ... \in X | \cdots}}$ we will omit the parentheses and simply write $\Braket{x_1, x_2, ... | \cdots}$.
+
 An element is called a **non-generator** of a group $G$ if it can be omitted from every generating set for $G$.
 
 Generally, this definition of a generated subgroup is not really easy to work with. So equivalently...
@@ -41,9 +43,6 @@ That is, $\Braket{M}$ consists of all finite products of $a_1^{n_1} \cdots a_k^{
 Exercise.
 </details>
 
-## Notation. Generators
-
-From now on, when we use set builder notation, instead of $\Braket{\Set{x_1, x_2, ... \in X | \cdots}}$ we will omit the parentheses and simply write $\Braket{x_1, x_2, ... | \cdots}$.
 
 <!-- TODO: Create early lattice section and define there? -->
 
@@ -53,7 +52,7 @@ Let $H_i$ be subgroups of $G$, then their **join** is defined as $\Braket{\> \bi
 
 <!-- TODO: -->
 
-> This should make sense later on when we define lattices over groups. But the notation $H \lor K$ will sometimes be used to denote $\Braket{H \cup K}$.
+> This notation will make sense later on when we define lattices over groups.
 
 ## Example. Generator Examples
 

@@ -84,14 +84,3 @@ Prove $Q_p$ is _not_ isomorphic to $Q_r$ for distinct primes $p$ and $r$.
 Exercise.
 
 </details>
-
-## Def. Group Action
-
-See [**Wikipedia: Group action**](https://en.wikipedia.org/wiki/Group_action).
-
-Let $(G, \cdot, e)$ be a group and $X$ a set. A binary operation $\bullet: G \times X \to X$ is called a **(left) group action** if, for all $a,b \in G$ and $x \in X$:
-
-* $a \bullet (b \bullet x) = (a b) \bullet x$, and
-* $e \bullet x = x$
-
-> For establishing general properties of group actions, it suffices to consider only left actions.
