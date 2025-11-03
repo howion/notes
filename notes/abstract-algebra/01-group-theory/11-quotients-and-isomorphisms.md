@@ -2,17 +2,42 @@
 
 <!-- TODO: Continue from kargapolov pdf p. 47 -->
 
+## Def. (Group) Congruence Relation
+
+An equivalence relation $\equiv$ on a group $G$ is called a (group) **congruence relation** if for all $x_1,x_2,y_1,y_2 \in G$
+
+$$
+x_1 \equiv x_2 \> \land \> y_1 \equiv y_2
+\implies
+x_1y_1 \equiv x_2y_2
+$$
+
+The product of two congruence classes is again a congruence class. Indeed, the set of all congruence classes $G/{\equiv}$ is a group under the multiplication of classes called the **quotient group with respect to $\equiv$**.
+
+<!-- TODO: Explain more -->
+
+## Thm. Group Congruences and Normals
+
+The congruence relations on a group $G$ are in one-to-one correspondence with the normal subgroups of $G$.
+
+> Usually quotient groups in group theory are defined via normal groups but this paints a much wider picture. Following this motivation, here is the classical definition of quotient groups.
+
 ## Def. Quotient Group
 
-Let $N \trianglelefteq G$. The set of all left cosets of $N$ in $G$ denoted by $G/N$ (read as $G$ modulo $N$) forms a group under the binary operation **(exercise)**
+Let $G$ be a group and $N \trianglelefteq G$. The set of all cosets of $N$ in $G$ denoted by $G/N$ (read as $G$ modulo $N$) forms a group under the binary operation
 
 $$(aN)(bN)=(ab)N$$
 
-and is of order $[G:N]$. This group is called **quotient group** or **factor group** of $G$ by $N$.
+and is of order $[G:N]$. This group is called the **quotient group** (or **factor group**) **of $G$ by $N$**.
 
-### Thm. Basic Quotient Properties
+> Notice how we are not multiplying cosets directly, but rather the elements in front of them.
 
-Let $G$ be a group and $N \trianglelefteq G$. If $G$ is cyclic, then so is $G/H$.
+## Thm. Basic Quotient Properties
+
+Let $G$ be a group and $N \trianglelefteq G$.
+
+1. If $G$ is cyclic, then so is $G/N$.
+2. $G/N$ is abelian if and only if $[G,G] \subseteq N$.
 
 <details>
 <summary><b>Proof</b></summary>

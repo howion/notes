@@ -78,12 +78,28 @@ For any two cyclic groups $\Braket{x}$ and $\Braket{y}$, if their orders are the
 Todo:
 </details>
 
-## Thm. More Group Properties
+## Thm. Fundamentals of Element Orders
 
-Let $G$ be a group (not necessarily cyclic), $x \in G$ and $a \in \Z \setminus \{0\}$, then
+Let $G$ be any group, $x \in G$ and $a \in \Z^*$, then
 
 1. If $|x| = \infty$, then $|x^a|=\infty$.
 2. If $|x| = n$, then $|x^a| = \dfrac{n}{(n, a)}$.
+
+## Thm. Orders of Commutative Elements
+
+Let $G$ be a group and $a$ and $b$ elements of $G$ whose orders are respectively $m$ and $n$. If $a$ and $b$ commute, then
+
+1. $(m,n) = 1 \implies |ab| = |a| \> |b|$,
+2. There exists $g \in G$ such that $|g| = \text{lcm}(m,n)$.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+> TODO:
+</details>
+
+## Thm. Commutative Elements
 
 ## Thm. On Generators of Cyclics
 

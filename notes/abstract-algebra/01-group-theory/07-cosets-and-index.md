@@ -52,7 +52,7 @@ $$
 
 Let $G$ be a group and $g \in G$, then $|x|$ divides $|G|$.
 
-### Corollary: Group of Prime Order is Cyclic
+### Corollary: Every Group of Prime Order is Cyclic
 
 Let $G$ be a group of prime order $p$. Then $G$ is cyclic, therefore $G \cong \Z_p$.
 

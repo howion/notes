@@ -52,7 +52,7 @@ $$
 
 > For a finite group this series terminates, to what is called a **perfect group** which may be trivial or not.
 
-### Thm. Three Commutator Lemma
+## Thm. Three Commutator Lemma
 
 Let $G$ be a group, $A, B, C \leq G$, and $N \trianglelefteq G$. If any two commutator subgroups
 
@@ -72,3 +72,7 @@ $$
 [a, b^{-1},c]^b [b, c^{-1}, a]^c [c, a^{-1}, b]^a = e
 $$
 </details>
+
+## Exercise
+
+Let $A, B, C \trianglelefteq G$, then $[AB, C] = [A,C][B,C]$.

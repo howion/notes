@@ -12,8 +12,11 @@
 
 ## To-Do's
 
+- Add exercises and theorems from my lectures.
+
 ### General
 
+- Sort out appendix to their respective places, and maybe create a real appendix?
 - Add examples from my notebook.
 - Add much, much more exercises for both groups and rings.
 - Least positive integer definition from Algebra I and the theorem used in.
