@@ -1,7 +1,8 @@
 # Unholy Gospel
 
 It is as is with this iconoclast nature\
-For we all devour in a simple nurture\
+For we all devour in a simple nurture
+
 This is a raw expression of greed\
 With which we feed the creature in breed
 
