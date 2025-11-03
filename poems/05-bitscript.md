@@ -13,7 +13,7 @@ Here to execute
 Forever and never\
 I can't decide\
 Don't push me\
-I’m asequential
+I'm asequential
 
 Beep, boop\
 Ready to execute\
