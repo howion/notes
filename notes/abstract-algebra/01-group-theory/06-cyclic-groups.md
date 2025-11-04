@@ -122,9 +122,20 @@ Let $H=\Braket{x}$ be cyclic, then
 
 A group $G$ is said to be **locally cyclic** if every finitely generated subgroup is cyclic.
 
-<!-- TODO: Revise below -->
+## Thm. Locally Cyclic Properties
+
+1. Every cyclic group is locally cyclic.
+2. Every finetely-generated locally cyclic group is cyclic.
+3. Every subgroup (and quotient group) of a locally cyclic group is locally cyclic.
+4. Every homomorphic image of a locally cyclic group is locally cylic.
+5. A group is locally cyclic if and only if every pair of elements in the group generates  a cyclic group.
+6. A group is locally cyclic if and only if its lattice of subgroups is distributive.
+
+<!-- TODO: Revise, relocate, see: https://en.wikipedia.org/wiki/Locally_cyclic_group -->
 
 <!-- ## Thm. Homomorphic Image of Cyclic is Cyclic
+
+<!-- TODO: Revise below -->
 
 Let $\varphi: G \to H$ be a group homomorphism, $G$ cyclic, and $a \in G$. Then, $\Braket{\varphi(a)}$ is also cyclic. In particular, $\varphi(G)$ is cyclic.
 
