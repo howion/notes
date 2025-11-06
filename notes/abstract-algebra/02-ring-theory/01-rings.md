@@ -1,6 +1,6 @@
 # 1. Rings
 
-> From now on, knowledge of the Group Theory notes are assumed.
+> From now on, fundamental knowledge of Group Theory (notes) are assumed.
 
 ## Def. Ring
 
@@ -18,7 +18,7 @@ If the semigroup has an identity (that is, if the multiplication is a monoid) th
 
 If the ring is with unity, then an element $u \in R$ is said to be **unit** or **invertible** if there exists $v \in R$ such that $uv = vu = 1$. Such $v$ is unique and is called **multiplicative inverse** (or simply **inverse**) of $u$ and is denoted with $u^{-1}$.
 
-> Do not mistake unity with unit. There may be one unique unit and if there is there may be many units.
+> Do not mistake unit with unity. The unity is the **trivial unit**.
 
 The **set of all units** in the ring $R$ is denoted by $\mathcal{U}(R)$.
 
@@ -30,36 +30,27 @@ The multiplication is called **trivial** if for all $a,b \in R$ we have $ab = 0$
 
 ## Thm. Basic Ring Properties
 
-Let $R$ be a ring, then
+Let $R$ be a ring, then for all $a,b \in R$
 
-* The $0$ is never an unit unless $0=1$.
-* $0=1$ only if $R=\{0=1\}$, the **trivial ring** or the **zero ring**.
-
-For all $a,b \in R$
-
-* $0a = 0 = a0$.
-* $-(a \cdot b) = (-a) b = a(-b)$.
-* $(-a)(-b) = ab$
+1. $0a = 0 = a0$.
+2. $-(a \cdot b) = (-a) b = a(-b)$.
+3. $(-a)(-b) = ab$
 
 For all $m,n \in \Z$
 
-* $n(ab) = (na)b = a(nb)$.
-* $(mn)a = m(na) = n(ma)$.
+4. $n(ab) = (na)b = a(nb)$.
+5. $(mn)a = m(na) = n(ma)$.
 
-<details>
-<summary><b>Proof</b></summary>
-<br/>
-
-Exercise.
-</details>
+> **Exercise**
 
 ## Thm. Basic Ring with Unity Properties
 
 Let $R$ be a ring with unity. Then
 
-1. If $u$ and $v$ are units in $R$, then so is $uv$ and $(uv)^{-1} = v^{-1}u^{-1}$.
-2. $\mathcal{U}(R)$ is a group under multiplication, called the **group of units of $R$**.
-3. Unless the ring is trivial, $0$ is never a unit.
+1. The $0$ is never an unit unless $0=1$.
+2. $0=1$ only if $R=\{0=1\}$, the **trivial ring** or the **zero ring**.
+3. If $u$ and $v$ are units in $R$, then so is $uv$ and $(uv)^{-1} = v^{-1}u^{-1}$.
+4. $\mathcal{U}(R)$ is a group under multiplication, called the **group of units of $R$**.
 
 ## Def. Zero-Divisor
 
@@ -93,16 +84,15 @@ $$
 
 A non-zero ring $R$ is called an **integral domain** if it has no non-trivial zero-divisors.
 
-### Thm. '
-
-Let $R$ be an integral domain, and $a,b,c \in R$. If $ab = ac$, then either $a = 0$ or $b = c$.
+###
+Therefore, let $R$ be an integral domain, and $a,b,c \in R$. If $ab = ac$, then either $a = 0$ or $b = c$.
 
 ## Def. Division Ring
 
 A ring $(R, +, \cdot)$ is called an **division ring** (or a **skew-field**) if, equivalently
 
-1. $(R \setminus \{0\}, \cdot)$ forms a group, or
-2. Every non-zero element of $R$, denoted $R^*$, has a multiplicative inverse.
+1. Every non-zero element of $R$, denoted $R^*$, has a multiplicative inverse, or
+2. $(R^*, \cdot)$ forms a group.
 
 ## Def. Field
 
@@ -119,10 +109,12 @@ Let $R$ be a ring. Then
 1. If $R$ is a field, then it is a division ring.
 2. If $R$ is a division ring, then it is an integral domain.
 
-<!--  -->
+Moreover,
 
 3. If $R$ is a division ring, then multiplicative cancellation holds for non-zero elements.
 4. If $R$ is an integral domain with unit, then only idempotent elements are $0$ and $1$.
+
+> **Exercise**
 
 ## Thm. Basic Idempotent Properties
 
@@ -130,3 +122,5 @@ Let $R$ be a ring, and $a \in R$ idempotent. Then
 
 1. $1-a$ is idempotent as well.
 2. If $a$ is non-trivial, it is a zero-divisor as well. This shows that integral domains and division rings do not have such idempotents.
+
+> **Exercise**

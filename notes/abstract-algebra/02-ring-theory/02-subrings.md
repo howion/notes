@@ -21,6 +21,16 @@ is a subring, and any subring of $Z(R)$ is called a **central subring**.
 >
 > Same issue is also true for the units. Remember, for multiplication operation, we are assumming sub-semigroup not subgroup.
 
+## Remarks
+
+Let $R$ be a ring and $S \leq R$ its subring. Then
+
+1. $S$ may be commutative even if $R$ is not.
+2. $S$ may not have unity even if $R$ does. Moreover, $S$ may have unity even if $R$ does not.
+4. $S$ and $R$ may have different unities.
+
+> **Exercise**, show this is also the case for zero-divisors and units.
+
 ## Def. Maximal Subring
 
 Let $R$ a ring and $S$ a subring of $R$, then $S$ is said to be **maximal subring** if $S \neq R$ and for any subring $T$ of $R$ we have
