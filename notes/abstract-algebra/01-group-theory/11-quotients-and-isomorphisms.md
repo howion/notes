@@ -164,3 +164,11 @@ Let $K \trianglelefteq H \trianglelefteq G$, then
 
 TODO:
 </details>
+
+<!-- ## Thm. Subgroups to Quotient Subgroups
+
+> Recall that $L(G,A)$ was the set of all subgroups of $G$ which contain the subset $A$.
+
+The natural projection $\pi: G \to G/H$ induces a injective $\psi: L(G,H) \to L(G/H, e)$ such that for subgroups $A, B \leq G$ -->
+
+## Thm.

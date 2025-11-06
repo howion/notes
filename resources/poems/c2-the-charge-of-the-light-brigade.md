@@ -1,4 +1,4 @@
-# Charge of the Light Brigade
+# The Charge of the Light Brigade
 
 > Poem by Lord Alfred Tennyson, revised edition, from the book "Poems Every Child Should Know".
 

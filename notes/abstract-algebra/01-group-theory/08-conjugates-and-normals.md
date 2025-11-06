@@ -46,7 +46,15 @@ Let $G$ be a group and $N \leq G$. Then the following are equivalent
 3. $N^g = gNg^{-1} \subseteq N$ for all $g \in G$, that is $N^G \subseteq N$,
 4. $N^g = gNg^{-1} = N$ for all $g \in G$, that is $N^G = N$.
 
-## Thm. Basic Normal Properties
+## Thm. More Normal Properties
+
+1. Let $M,N \trianglelefteq G$. If $M \cap N = \{e\}$, then $mn=nm$ for all $m \in M$ and $n \in N$.
+2. Kernel of any group homomorphism is a normal subgroup.
+3. If $|G:H| = 2$, then $H \trianglelefteq G$.
+4. $A, B \trianglelefteq G$ implies $AB \trianglelefteq G$.
+5. Find normal subgroups $A, B, C$ such that $A \trianglelefteq B \trianglelefteq C$, but $A \not\trianglelefteq C$.
+
+## Thm. Normal and Subgroup Properties
 
 > Recall that the "join" of two subgroup $H,K$ denoted $H \lor K$ is the subgroup $\Braket{H \cup K}$.
 
@@ -56,10 +64,4 @@ Let $N \trianglelefteq G$ and $K \leq G$, then
 2. $N \lor K = NK = KN$, so join of any subgroup with a normal is their product,
 3. $N \trianglelefteq (N \lor K)$.
 
-## Thm. More Normal Properties
-
-1. Let $M,N \trianglelefteq G$. If $M \cap N = \{e\}$, then $mn=nm$ for all $m \in M$ and $n \in N$.
-2. Kernel of any group homomorphism is a normal subgroup.
-3. If $|G:H| = 2$, then $H \trianglelefteq G$.
-4. $A, B \trianglelefteq G$ implies $AB \trianglelefteq G$.
-5. Find normal subgroups $A, B, C$ such that $A \trianglelefteq B \trianglelefteq C$, but $A \not\trianglelefteq C$.
+<!-- revise 2 -->
