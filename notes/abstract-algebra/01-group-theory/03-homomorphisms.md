@@ -78,16 +78,3 @@ Let $\varphi: G \to H$ be a group homomorphism, then
 1. Exercise.
 
 </details>
-
-## Def. Group Action
-
-<!-- TODO: Where to place this, and detail this? -->
-
-See [**Wikipedia: Group action**](https://en.wikipedia.org/wiki/Group_action).
-
-Let $G$ be a group and $X$ any set. A binary operation $\bullet: G \times X \to X$ is called a **(left) group action** if, for all $a,b \in G$ and $x \in X$:
-
-* $a \bullet (b \bullet x) = (a b) \bullet x$, and
-* $e \bullet x = x$
-
-> For establishing general properties of group actions, it suffices to consider only left actions.

@@ -1,6 +1,6 @@
 # 4. Subgroups
 
-> Until now we have explicitly defined and shown which multiplication is which operator and which identity belongs which group. From now on, these must be understood from the context. We will prefer little brevity over cumbersome notation.
+> Until now we have explicitly defined and shown which multiplication is to which operator and which identity belongs to which group. From now on, these must be understood from the context. We will prefer little brevity over cumbersome notation.
 
 ## Def. Subgroup
 
@@ -50,7 +50,7 @@ Let $G$ be a group and $S$ a non-empty subset of $G$. If $S$ is finite and close
 > So, we don't even need the inverse condition if $S$ non-empty and finite.
 
 <details>
-<summary><b>Proof</b></summary>
+<summary><b>Sketch of Proof</b></summary>
 <br/>
 
 We have $e \in G$ since $a^n$ must repeat. Similarly, for inverse we have $a^r = a^s$ implies $a^{r-s} = e$ implies $a^{r-s-1}=a^{-1}$ where $r > s \geq 1$.
@@ -58,7 +58,7 @@ We have $e \in G$ since $a^n$ must repeat. Similarly, for inverse we have $a^r =
 
 ## Thm. Intersection of Subgroups
 
-Let $\{H_i\}$ be any non-empty family of subgroups of $G$, then $\bigcup H_i$ is also a subgroup of $G$.
+Let $\{H_i\}$ be any non-empty family of subgroups of $G$, then $\bigcap H_i$ is also a subgroup of $G$.
 
 <details>
 <summary><b>Proof</b></summary>
@@ -73,6 +73,6 @@ Let $G$ be a group and $H,K \leq G$, then
 
 * $HH = H$ and $H^{-1} = H$, thus obviously
 * $HH^{-1} = H$,
-* $HK$ is a group if and only if $HK=KH$, and
-* If $A,B$ are finite subgroups of a group $G$, then
-$$|AB|=\dfrac{|A|\cdot|B|}{|A \cap B|}$$
+* $HK$ is a subgroup of $G$ if and only if $HK=KH$, and
+
+> Exercise

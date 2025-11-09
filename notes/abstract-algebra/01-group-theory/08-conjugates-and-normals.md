@@ -21,7 +21,7 @@ $$
 
 > Notice that $A^B$ is defined as the set of elements $bab^{-1}$, not $ba(b')^{-1}$ for some $b'$.
 
-### Thm. Basic Conjugate Properties
+## Thm. Basic Conjugate Properties
 
 Let $G$ a group and $a,b,x \in G$, then
 
@@ -37,7 +37,7 @@ If $N \neq G$, then $N \vartriangleleft G$ will also be used to denote $N$ is a 
 
 > From now on, it should be understood from $A \trianglelefteq B$ alone that $B$ is a group and $A$ is its normal subgroup.
 
-### Thm. Equivalent Normal Definitions
+## Thm. Equivalent Normal Definitions
 
 Let $G$ be a group and $N \leq G$. Then the following are equivalent
 
@@ -64,4 +64,4 @@ Let $N \trianglelefteq G$ and $K \leq G$, then
 2. $N \lor K = NK = KN$, so join of any subgroup with a normal is their product,
 3. $N \trianglelefteq (N \lor K)$.
 
-<!-- revise 2 -->
+> TODO: Revise (2) noting that we have defined the multiplication as join! Did we define that?

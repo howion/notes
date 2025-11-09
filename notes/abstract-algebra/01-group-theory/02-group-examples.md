@@ -2,6 +2,27 @@
 
 All of these groups can be considered their own field of research, so it is suggested you visit their wiki, understand the basics, and follow from there as you see fit.
 
+## Klein $4$-Group
+
+See [**Wikipedia: Klein  four-group**](https://en.wikipedia.org/wiki/Klein_four-group).
+
+The Klein $4$-group can be defined by the group presentation
+
+$$
+V = \Braket{a,b | a^2 = b^2 = (ab)^2 = e}.
+$$
+
+Such group is
+
+* of order $4$,
+* Abelian,
+* all non-identity elements have order $2$,
+* smallest non-cyclic group,
+* isomorphic to Dihedral Group of order $4$,
+* isomorphic to $\Z_2 \oplus \Z_2$.
+
+> Also note that any group of order $4$ is isomorphic to either $\Z_4$ or $\Z_2 \oplus \Z_2$.
+
 ## Dihedral Groups
 
 See [**Wikipedia: Dihedral group**](https://en.wikipedia.org/wiki/Dihedral_group).

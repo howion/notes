@@ -10,6 +10,24 @@ A group $H$ is called **cyclic group**, or simply **cylic**, if $H$ can be gener
 >
 > Notice that the order of the element $x$ and the group $\Braket{x}$ are the same.
 
+## Thm. Basic Element Order Properties
+
+Let $G$ be any group and $a \in G$, then
+
+**In the case $|a|$ is not finite,**
+
+1. $a^k = e$ if and only if $k = 0$,
+2. each $a^k$ is distinct for $k \in \Z$.
+
+**In the case $|a| = n \in \N^*$,**
+
+3. $n$ is the least positive integer such that $a^n = e$,
+4. $a^k = e$ if and only if $n\>|\>k$,
+5. $a^r = a^s$ if and only if $r \equiv_n s$,
+6. for each $k\>|\>n$, we have $|a^k| = \frac{n}{k}$.
+
+> Exercise
+
 ## Thm. Basic Cyclic Properties
 
 Let $H$ be a cyclic group, then

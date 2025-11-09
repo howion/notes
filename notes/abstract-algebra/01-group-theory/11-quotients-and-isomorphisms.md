@@ -57,31 +57,30 @@ $$
 \end{array}
 $$
 
-is an epimorphism and $\text{Ker }\pi = N$. Such $\pi$ is called the **canonical epimorphism** or **(natural) projection**. Therefore, unless otherwise stated, $G \to G/N$ always denotes the cannonical epimorphism.
+is an epimorphism and $\text{Ker }\pi = N$. Such $\pi$ is called the **canonical epimorphism** or **(natural) projection** of $G$ under $N$. Therefore, unless otherwise stated, $G \to G/N$ always denotes the natural projection.
 
-<details>
-<summary><b>Proof</b></summary>
-<br/>
+If the group is clear from the context, we may make use of the notation $\pi_N$ to denote the projection $G \to G/N$.
 
-TODO:
-</details>
+> Exercise
 
 ### Thm. Commutativity of Projection
 
-Let $\pi: G \to G/H$ be the natural projection of $G$ and $N \ (\trianglelefteq G)$. Then $G/H$ is abelian if and only if $[G,G] \subseteq H$.
+> TODO: Revise, add proof
+
+Let $\pi_N$ be the natural projection of $G$ under $N$, then $G/N$ is abelian if and only if $[G,G] \subseteq N$.
 
 <details>
 <summary><b>Proof</b></summary>
 <br/>
 
-TODO:
+> TODO:
 </details>
 
 ## Thm. Fundamental Theorem on Homomorphisms
 
 <!-- TODO: Draw the commutative diagram -->
 
-Let $\varphi: G \to H$ be a group homomorphism and $N \trianglelefteq \text{Ker }\varphi \trianglelefteq G$. Then there exists an unique homomorphism $\bar{\varphi}$ where
+Let $\varphi: G \to H$ be a group homomorphism, $N \trianglelefteq G$, and $N \subseteq \text{Ker }\varphi \trianglelefteq G$. Then there exists an unique homomorphism $\bar{\varphi}$ where
 
 $$
 \begin{array}{rrll}
@@ -94,6 +93,11 @@ and
 
 * $\varphi(G) = \bar{\varphi}(G/N)$,
 * $\text{Ker }\bar{\varphi} = (\text{Ker }\varphi) / N$
+
+Therefore, $\bar{\varphi}$ is an isomorphism if and only if
+
+* $\varphi$ is an epimorphism, and
+* $N = \text{Ker }\varphi$.
 
 <details>
 <summary><b>Proof</b></summary>
@@ -131,12 +135,15 @@ TODO:
 
 > This theorem is also called the **Diamond Isomorphism Theorem** or **Parallelogram Theorem** due to lattice it draws.
 
-Let $B \leq G$ and $A \leq N_G(B)$, so that $A$ is a subgroup of the _normalized_ $B$. Then, noting $A$ is normal
+Let $G$ be a group, $H \leq G$, and $N \trianglelefteq G$. Then
 
-1. $AB \leq G$,
-2. $B \trianglelefteq AB$,
-3. $A \cap B \trianglelefteq A$, and
-4. $AB/B \cong A/A \cap B$.
+> Recall that since $N$ is normal and $H$ is a subgroup, we have $H \lor N = HN = NH$.
+
+1. $N \trianglelefteq HN \leq G$,
+2. $H \cap N \trianglelefteq H$, and
+3. $HN/N \cong H/(H \cap N)$.
+
+> TODO: (Examine) Technically, $N$ need not to be normal in $G$, it suffices $H$ to be a subgroup of $N_G(N)$.
 
 <details>
 <summary><b>Proof</b></summary>
@@ -151,11 +158,13 @@ TODO:
 **(Figure 2)** Second Isomorphism Theorem
 </center>
 
+> TODO: Redraw diagram
+
 ## Thm. Third Isomorphism Theorem
 
 Let $K \trianglelefteq H \trianglelefteq G$, then
 
-1. $K/H \trianglelefteq G/H$, and
+1. $H/K \trianglelefteq G/K$, and
 2. $(G/K)/(H/K) \cong G/H$.
 
 <details>
@@ -165,10 +174,45 @@ Let $K \trianglelefteq H \trianglelefteq G$, then
 TODO:
 </details>
 
-<!-- ## Thm. Subgroups to Quotient Subgroups
+<!--
+TODO: Write this, see korgapolov p. 28
+
+## Thm. Subgroups to Quotient Subgroups
 
 > Recall that $L(G,A)$ was the set of all subgroups of $G$ which contain the subset $A$.
 
-The natural projection $\pi: G \to G/H$ induces a injective $\psi: L(G,H) \to L(G/H, e)$ such that for subgroups $A, B \leq G$ -->
+Let $G$ be a group and $N \trianglelefteq G$. Then $\pi_N: G \to G/N$ incudes a one-to-one correspondence
 
-## Thm.
+$$
+\psi_N: L(G,H) \to L(G/H, e)
+$$
+
+The natural projection $\pi: G \to G/H$ induces a injective $\psi: $ such that for subgroups $A, B \leq G$
+-->
+
+## Thm. Homomorphism Induced Bijection
+
+> Recall that $L(G,A)$ was the set of all subgroups of $G$ which contain the subset $A$, and $L(G) := L(G, e)$.
+
+Let $\varphi: G \to H$ be a group homomorphism. Then $\varphi$ induces a bijective map
+
+$$
+\begin{array}{ll}
+\psi: L(G, \text{Ker }\varphi) \to L(H)
+\end{array}
+$$
+
+such that image of normal subgroups are normal subgroups.
+
+> TODO: Proof, omitted.
+
+## Corollary. Normal Subgroups of Qutients
+
+Let $N \trianglelefteq G$, then every subgroup of $G/N$ is of the form $K/N$ where $N \subseteq K \leq G$. Moreover, $K/N \trianglelefteq G/N$ if and only if $K \trianglelefteq G$.
+
+<details>
+<summary><b>Sketch of Proof</b></summary>
+<br/>
+
+Direct implication of the theorem above for the epimorphism $\pi_N$.
+</details>

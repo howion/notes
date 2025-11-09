@@ -1,22 +1,29 @@
-# 7. Cosets and Index
+# 7. Cosets and Indices
 
 ## Def. Coset
 
-Let $G$ be a group and $H \leq G$. Then, for all $a \in G$ the set $Ha$ is called a **right coset** and the set $aH$ is called a **left coset**.
+Let $G$ be a group and $H \leq G$. Then, for all $a \in G$ the set $aH$ is called a **left coset** and the set $Ha$ is called a **right coset**.
 
 ## Def. Coset Congruence
 
 Let $G$ be a group, $H \leq G$, and $a,b \in G$. We say,
 
-* **$a$ is right-congruent to $b$ modulo $H$**, denoted by $a \equiv_{R} b \enspace (\text{mod } H)$ when $ab^{-1} \in H$,
 * **$a$ is left-congruent to $b$ modulo $H$**, denoted by $a \equiv_{L} b \enspace (\text{mod } H)$ when $a^{-1}b \in H$.
+* **$a$ is right-congruent to $b$ modulo $H$**, denoted by $a \equiv_{R} b \enspace (\text{mod } H)$ when $ab^{-1} \in H$,
 
 ## Thm. Coset Congruence
 
-1. The relations $\equiv_R$ and $\equiv_L$ are equivalence relations.
-2. The right (respectively left) equivalence class of $a \in G$ is the set $Ha$ (respectively $aH$).
-3. If $G$ is abelian, then left and right congruence coincide. (This is also possible if $G$ is not abelian.)
-4. For all $a \in G$, the orders (cardinalities) of the sets $Ha$, $H$ and $aH$ are the same.
+1. The relations $\equiv_L$ and $\equiv_R$ are equivalence relations.
+2. The left (resp. right) equivalence class of $a \in G$ is the set $aH$ (resp. $Ha$).
+3. For all $a \in G$, cardinalities of the sets $Ha$, $H$ and $aH$ are the same.
+4. If $G$ is abelian, then left and right congruence coincide. Moreover, this is also _possible_ if $G$ is not abelian.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+> TODO:
+</details>
 
 ### Corollary. Coset Congruence
 
