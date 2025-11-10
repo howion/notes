@@ -28,6 +28,6 @@
 * Proofs are mostly absent,
 * There are probably typos,
 * Ordering is generally good but should be improved,
-* More visuals and intuition should be provided for someone with knowledge of naive set theory.
+* More visuals and intuition should be provided for someone with the knowledge of naive set theory.
 
 <!-- ## For the Lecturer -->
