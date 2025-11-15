@@ -7,7 +7,7 @@
 
 ## Notation
 
-* $0 \in \N$ and $\N^* :=\ \N \setminus \{0\}$.
+* $0 \in \N$ and $\N^+ :=\ \N \setminus \{0\}$.
 
 ## Table of Contents
 

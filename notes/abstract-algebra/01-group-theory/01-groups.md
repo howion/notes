@@ -69,6 +69,8 @@ $$
 
 have solutions in $G$.
 
+> Exercise
+
 ## Thm. Generalized Associative Law
 
 Let $S$ be a semigroup and $a_i \in S$. Associative property implies that the expression $a_1 \cdot a_2 \cdot \cdots \cdot a_n$ is the same no matter how the expression bracketed.
@@ -102,9 +104,10 @@ If orders of a periodic group are bounded, then the least common multiple of the
 
 Let $G$ be a group and $A,B \subseteq G$, then we define
 
-1. $AB := \Set{a \cdot b | a \in A, \> b \in B}$,
-2. $A^0 := \{e\}$, and
-3. $A^n := AA^{n-1}$.
+1. $AB := \Set{ab \in G | a \in A, \> b \in B}$,
+2. $A^0 := \{e\}$,
+3. $A^n := AA^{n-1}$,
+4. $A^{-1} := \Set{a^{-1} \in G| a \in A}$.
 
 ## Notation. The Additive Notation
 

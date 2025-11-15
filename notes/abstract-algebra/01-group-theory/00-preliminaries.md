@@ -5,7 +5,7 @@
 
 <!-- Knowledge of axiomatic set theory, category theory or lattice theory would be helpful. Indeed, if you are familiar with those subjects please send a pull request to `gh/howion/notes`. -->
 
-> At the moment, these notes have a formal and reference-book-like approach except these grayed out notes. I plan more intuition baked in for these notes, with much more visuals, examples and geometry involved.
+> At the moment, these notes have a formal and reference-book like approach except these grayed out notes. I plan more intuition baked in for these notes, with much more visuals, examples and geometry involved.
 
 ## Resources Used
 
@@ -17,7 +17,7 @@
 
 ## Notation
 
-* $0 \in \N$ and $\N^* :=\ \N \setminus \{0\}$.
+* $0 \in \N$ and $\N^+ :=\ \N \setminus \{0\}$.
 * $(m,n)$ denotes the **greatest common divisor** of $m, n \in \N$.
 * $\equiv_m$ denotes integer equivalence in modulo $m$.
 * Cardinality of a set $S$ is denoted with $|S|$.
@@ -28,8 +28,8 @@
 
 * There are not many exercises,
 * Proofs are mostly absent,
-* There are probably typos,
-* Ordering is generally good but should be improved,
-* More visuals and intuition should be provided for someone with the knowledge of naive set theory.
+* Typos are possible,
+* Ordering is generally good but should be improved, and
+* More visuals and intuition should be provided.
 
 <!-- ## For the Lecturer -->

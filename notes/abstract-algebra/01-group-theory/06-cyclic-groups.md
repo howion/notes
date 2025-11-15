@@ -19,7 +19,7 @@ Let $G$ be any group and $a \in G$, then
 1. $a^k = e$ if and only if $k = 0$,
 2. each $a^k$ is distinct for $k \in \Z$.
 
-**In the case $|a| = n \in \N^*$,**
+**In the case $|a| = n \in \N^+$,**
 
 3. $n$ is the least positive integer such that $a^n = e$,
 4. $a^k = e$ if and only if $n\>|\>k$,

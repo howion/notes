@@ -1,6 +1,6 @@
-# 13. Direct Products and Direct Sums
+# 13. Direct Products and Sums
 
-> Note that the letter $I$ denotes any index set which mostly taken to be $\N$ or non-empty initial segment of $\N$.
+> Note that the letter $I$ denotes any index set which is mostly taken to be $\N$ or non-empty initial segment of $\N$.
 
 ## Def. Direct Product (of Groups)
 
@@ -14,7 +14,7 @@ such that $f(i) \in G_i$. Notice that since each $G_i$ is a group, thus non-empt
 
 > As a mental image, think of $\prod G_i$ as the set of all (ordered) tuples where each $i$-th element belongs to $G_i$ so that each $f \in \prod G_i$ represent a tuple in that set.
 
-## Thm. Direct Product of Groups
+## Def. Natural Projections
 
 Let $\Set{G_i}$ be a non-empty family of groups, then $\prod G_i$ is a group under component-wise multiplication and for each $k \in I$, the map
 
@@ -32,7 +32,7 @@ called the **(natural) projection(s)** of the direct product is an epimorphism o
 
 ## Def. (External) Weak Direct Product
 
-Let $\Set{G_i}$ be a non-empty family of groups, then the **(external) weak direct product** of $\Set{G_i}$ denoted with $\prod^w G_i$ is the set of all $f \in \prod G_i$ such that $f(i) = e_i$ for all but a finite number of $i \in I$.
+Let $\Set{G_i}$ be a non-empty family of groups, then the **(external) weak direct product** of the groups $G_i$ denoted with $\prod^w G_i$ is the set of all $f \in \prod G_i$ such that $f(i) = e_i$ for all but a finite number of $i \in I$.
 
 > That is, non-identiy elements of the tuple $f$ are finite. Tuple consists of "mostly" identity elements.
 

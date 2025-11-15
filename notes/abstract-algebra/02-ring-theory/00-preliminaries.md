@@ -9,7 +9,7 @@
 
 ## Notation
 
-* $0 \in \N$ and $\N^* :=\ \N \setminus \{0\}$.
+* $0 \in \N$ and $\N^+ :=\ \N \setminus \{0\}$.
 * $(m,n)$ denotes the **greatest common divisor** of $m$ and $n$.
 * $\text{lcm}$ denotes the least common multiple function.
 * $a\>|\>b$ denotes that the integer $a$ divides the integer $b$.

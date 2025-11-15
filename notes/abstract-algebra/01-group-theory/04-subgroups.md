@@ -6,11 +6,13 @@
 
 Let $G$ be a group and non-empty $H \subseteq G$. The non-empty subset $H$ is called a **subgroup** if $H$ is again a group under the restriction of $G$'s binary operation. This implies $H$ has the same identity as $G$ under the same binary operation.
 
-Equivalently, a subset $H \subseteq G$ of a group $G$ is called a **subgroup** if
+## Thm. Equivalent Subgroup Definitions
+
+A subset $H \subseteq G$ is a subgroup of $G$ if
 
 * $H$ has the same identity as $G$,
-* For all $a,b \in H$, we have $ab \in H$,
-* Every element $h \in H$ has an inverse.
+* For all $a,b \in H$, we have $ab \in H$ that is $HH \subseteq H$,
+* Every element $h \in H$ has an inverse that is $H^{-1} \subseteq H$.
 
 To be more compact, _non-empty_ $H \subseteq G$ is called a **subgroup** if and only if (exercise):
 

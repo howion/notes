@@ -22,7 +22,7 @@ Then $R$ is a commutative ring with unity where the additive identity is the con
 Let $R$ be a ring and $X$ an _indeterminate_ or _variable_ over $R$. Define the set called **ring of polynomials over $R$** as
 
 $$
-R[x] = \Set{ a_0 + a_1X + a_2X^2 + \cdots + a_nX^n | a_i \in R, n \in \N^* }
+R[x] = \Set{ a_0 + a_1X + a_2X^2 + \cdots + a_nX^n | a_i \in R, n \in \N^+ }
 $$
 
 > We could have actually wrote $n \in \N$ since $X^0 = 1$, but we don't know if $R$ is with identity.
