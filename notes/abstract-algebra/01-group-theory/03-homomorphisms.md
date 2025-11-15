@@ -72,3 +72,9 @@ Let $\varphi: G \to H$ be a group homomorphism, then
 1. Exercise.
 
 </details>
+
+## Exercises
+
+## Exercise 1
+
+Let $\alpha: G \to G$ be a group automorphism and $x \in G$, then $|\alpha(x)| = |x|$.

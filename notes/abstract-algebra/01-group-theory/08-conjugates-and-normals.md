@@ -66,6 +66,12 @@ Let $N \trianglelefteq G$ and $K \leq G$, then
 
 > TODO: Revise (2) noting that we have defined the multiplication as join! Did we define that?
 
-## Exercise
+## Exercises
+
+### Exercise 1
+
+Let $N \trianglelefteq G$ and $xy \in H$, then $yx \in H$.
+
+### Exercise 2
 
 Let $G$ be a group of finite order, $N \trianglelefteq G$ and $K \leq G$ such that $|K|$ is relatively prime to $|G:H|$, then $K \leq H$.

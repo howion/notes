@@ -86,7 +86,7 @@ Let $H \leq G$. We say $K$ is a **complement** of a subgroup $H$ if
 
 Noting $KH=HK$, this complement relation is symmetrical.
 
-## Thm. Complements
+## Thm. Basic Complement Properties
 
 <!-- TODO: References & Proofs -->
 
@@ -103,6 +103,22 @@ Let $H$ and $K$ be complements in $G$, then
 
 > TODO:
 </details>
+
+## Def. Maximal Subgroup
+
+Let $G$ be a group and let $H$ be a proper subgroups of $G$. We say $H$ is a **maximal subgroup** if $H \subseteq K$ implies $K = H$ for all $K \lt G$.
+
+> Simply, $H$ is maximal if there is no greater proper subgroup which contain it.
+
+## Def. Frattini Subgroup
+
+Let $G$ be a group. We define **frattini subgroup** $\Phi(G)$ as the intersection of all maximal subgroups of $G$. In the case $G$ has no maximal subgroups, we define $\Phi(G) = G$.
+
+> This is analogous to the Jacobson radical in the ring theory.
+
+## Thm. Frattini Subgroup and Non-Generators
+
+The frattini subgroup $\Phi(G)$ of a group $G$ is equal to the set of all non-generators of $G$. Therefore, non-generators of a group form a subgroup &mdash; namely the frattini subgroup.
 
 ## Exercises
 
@@ -131,3 +147,7 @@ Let $\alpha \in \text{Aut}(G)$ and $H = \Set{g \in G | \alpha(g) = g}$. Show tha
 ### Exercise 4
 
 Let $H,K \leq G$ such that $Hx = Ky$ for some $x,y \in G$, then $H=K$.
+
+### Exercise 5
+
+Let $H \leq G$ and $x, y \in G$, then $Hx = Hy$ if and only if $x^{-1}H = y^{-1}H$.
