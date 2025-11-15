@@ -29,15 +29,11 @@ If $A$ is abelian, then the map $a \mapsto a^{-1}$ is an automorphism, and the m
 
 ## Def. Kernel
 
-If $\varphi: G \to H$ is a group homomorphism, then the **kernel** of $\varphi$ is the set
+If $\varphi: G \to H$ is a group homomorphism, then the **kernel** of $\varphi$ is defined as
 
 $$
-\Set{g \in G | \varphi(g) = e_H}
+\text{Ker }\varphi := \Set{g \in G | \varphi(g) = e_H}.
 $$
-
-denoted by $\text{Ker }\varphi$.
-
-> This is also sometimes denoted by $\varphi^{-1}(e_H)$.
 
 ## Notation. Homomorphisms
 
@@ -47,8 +43,6 @@ Let $\phi: G \to H$ be a group homomorphism, $g \in G$ and $A \subseteq G$. Then
 
 * $g^\phi$ denotes $\phi(g)$, and
 * $A^\phi$ denotes $\phi(A)$ called the **homomorphic (respectively monomorphic, epimorphic, ...) image** of $A$.
-
-> $\phi(A)$ is sometimes also denoted with $\text{Im } A$ &mdash; we will not prefer this notation.
 
 ## Thm. Basic Homomorphism Properties
 

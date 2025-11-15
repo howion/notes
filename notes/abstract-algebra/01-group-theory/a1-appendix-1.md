@@ -51,6 +51,7 @@ A group is said to be **simple** if it has no proper normal subgroups.
 
 ---
 
+<<<<<<< HEAD
 ## Thm. Dedekind Modular Law (Identity)
 
 > See https://math.stackexchange.com/questions/3957388/intuition-behind-dedekinds-modular-law
@@ -62,3 +63,19 @@ A group is said to be **simple** if it has no proper normal subgroups.
 If $H \leq G$, then $G \setminus H$ is finite if and only if $G$ finite or $H=G$.
 
 > p. 24
+=======
+## Def. Locally Cyclic
+
+A group $G$ is said to be **locally cyclic** if every finitely generated subgroup is cyclic.
+
+## Thm. Locally Cyclic Properties
+
+1. Every cyclic group is locally cyclic.
+2. Every finetely-generated locally cyclic group is cyclic.
+3. Every subgroup (and quotient group) of a locally cyclic group is locally cyclic.
+4. Every homomorphic image of a locally cyclic group is locally cylic.
+5. A group is locally cyclic if and only if every pair of elements in the group generates  a cyclic group.
+6. A group is locally cyclic if and only if its lattice of subgroups is distributive.
+
+<!-- TODO: Revise, relocate, see: https://en.wikipedia.org/wiki/Locally_cyclic_group -->
+>>>>>>> 10cbd5639403756668a032d2ea05d24ca1a3ffc9

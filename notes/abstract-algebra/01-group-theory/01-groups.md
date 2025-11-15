@@ -94,7 +94,7 @@ The **order of (the element) $a$** is denoted by $|a|$ and (if exists) it is the
 
 If the order of an element $x$ (or group) is finite, we will denote it with $|x| \lt \infty$. Moreover, if $x^2 = x$, then $x$ is called an **idempotent element** where $e$ is the **trivial idempotent element**.
 
-We say that a group if **torsion-free** if every nonidentity element has infinite order. If every element of a group has finite order then we say the group is **periodic**.
+We say that a group if **torsion-free** if every non-identity element has infinite order. If every element of a group has finite order then we say the group is **periodic**.
 
 If orders of a periodic group are bounded, then the least common multiple of their orders is called the **exponent** of the group. If the orders of elements of a periodic group are powers of prime $p$, then we call the group a $p$-group.
 

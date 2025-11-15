@@ -57,11 +57,7 @@ $$
 
 ### Corollary: Element Order Divides Group Order
 
-Let $G$ be a group and $g \in G$, then $|x|$ divides $|G|$.
-
-### Corollary: Every Group of Prime Order is Cyclic
-
-Let $G$ be a group of prime order $p$. Then $G$ is cyclic, therefore $G \cong \Z_p$.
+Let $G$ be a group and $x \in G$, then $|x|$ divides $|G|$.
 
 ## Thm. Cauchy's Theorem
 
@@ -91,6 +87,18 @@ Let $H$ and $K$ be _subgroups of finite index_ of a group $G$. Then
 2. $|G:H \cap K| \leq |G:H||G:K|$, and
 3. $|G:H \cap K| = |G:H||G:K|$ if and only if $G = HK$.
 
+<<<<<<< HEAD
 ## Exercise
 
 Let $G$ be a group and $H,K \leq G$ such that indices of $H$ and $K$ are relatively prime, then $G=HK$.
+=======
+## Thm. Groups of Prime Order
+
+Let $G$ be a group, then the following are equivalent
+
+1. $|G|$ is prime,
+2. $G \neq \Braket{e}$ and $G$ has no proper subgroups,
+3. $G \cong \Z_p$ for some prime $p$.
+
+> Notice that (3) implies that every group of prime order is cyclic.
+>>>>>>> 10cbd5639403756668a032d2ea05d24ca1a3ffc9
