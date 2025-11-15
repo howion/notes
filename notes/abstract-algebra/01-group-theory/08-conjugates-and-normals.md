@@ -19,7 +19,7 @@ A^g & := & gAg^{-1}
 \end{array}
 $$
 
-> Notice that $A^B$ is defined as the set of elements $bab^{-1}$, not $ba(b')^{-1}$ for some $b'$.
+> Note that $A^B$ is defined as the set of elements $bab^{-1}$, not $ba(b')^{-1}$ for some $b'$.
 
 ## Thm. Basic Conjugate Properties
 
@@ -65,3 +65,7 @@ Let $N \trianglelefteq G$ and $K \leq G$, then
 3. $N \trianglelefteq (N \lor K)$.
 
 > TODO: Revise (2) noting that we have defined the multiplication as join! Did we define that?
+
+## Exercise
+
+Let $G$ be a group of finite order, $N \trianglelefteq G$ and $K \leq G$ such that $|K|$ is relatively prime to $|G:H|$, then $K \leq H$.

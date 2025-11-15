@@ -76,3 +76,58 @@ Let $G$ be a group and $H,K \leq G$, then
 * $HK$ is a subgroup of $G$ if and only if $HK=KH$, and
 
 > Exercise
+
+## Def. Complement
+
+Let $H \leq G$. We say $K$ is a **complement** of a subgroup $H$ if
+
+* $G = HK$, and
+* $H \cap K = \{e\}$.
+
+Noting $KH=HK$, this complement relation is symmetrical.
+
+## Thm. Complements
+
+<!-- TODO: References & Proofs -->
+
+1. Complements need not to exists, and if they exists they need not to be unique.
+
+Let $H$ and $K$ be complements in $G$, then
+
+2. Every element of $G$ has an unique expression as a product $hk$ or $k'h'$ where $h,h' \in H$ and $k,k' \in K$.
+3. $K$ forms both left and right transversal of $H$ for the cosets of $H$.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+> TODO:
+</details>
+
+## Exercises
+
+### Exercise 1
+
+Let $H \leq G$ and $g \in G$ such that $|g| = n$ and $g^m \in H$ where $(m,n) = 1$, then $h \in G$.
+
+<details>
+<summary><b>Help</b></summary>
+<br/>
+
+Use Bézout's identity.
+</details>
+
+### Exercise 2
+
+Let $G$ be a group and $g \in G$ such that $|g| = n_1 n_2$ where $(n_1, n_2) = 1$, then there exists $g_1, g_2 \in G$ such that
+
+* $g = g_1 g_2 = g_2 g_1$, and
+* $|g_1| = n_1$ and $|g_2| = n_2$.
+
+### Exercise 3
+
+Let $\alpha \in \text{Aut}(G)$ and $H = \Set{g \in G | \alpha(g) = g}$. Show that $H$, which is called the **fixed point subgroup of $G$ under $\alpha$** is indeed a subgroup of $G$.
+
+### Exercise 4
+
+Let $H,K \leq G$ such that $Hx = Ky$ for some $x,y \in G$, then $H=K$.

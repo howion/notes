@@ -174,3 +174,16 @@ Any group which has only finitely many subgroups must also be finite.
 
 Consider the finite set of cyclics $\mathcal{C} = \Set{\Braket{x} | x \in G} = \Set{ \Braket{x_1}, \Braket{x_2}, ..., \Braket{x_n}}$, rest is easy to show.
 </details>
+
+## Exercises
+
+### Exercise 1
+
+Let $G$ be a finite group such that it has exactly one maximal subgroup $M$, then $G$ is cyclic.
+
+<details>
+<summary><b>Help</b></summary>
+<br/>
+
+Consider $a \in G \setminus M$ and $\Braket{a}$.
+</details>

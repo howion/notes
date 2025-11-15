@@ -30,9 +30,20 @@ Associative property by far is the most powerful property of the group. It allow
 
 Indeed a structure which only satisfies associative property is called a **semigroup**. A semigroup with identity is called a **monoid** and a monoid with inverses is called a **group**.
 
+## Thm. Basic Group Properties
+
+Remembering any group is also a monoid and thus a semigroup, let $(G, \cdot)$ be a group. Then:
+
+1. Identity $e$ is unique. The uniqueness of the identity element does not require the use of associativity.
+2. For each $a \in G$, inverse of $a$ is unique.
+3. For each $a \in G$, we have $(a^{-1})^{-1} = a$.
+4. For all $a,b \in G$, we have $(a \cdot b)^{-1} = b^{-1} \cdot a^{-1}$. Indeed, in general, $(a_1 \cdots a_n)^{-1} = a_n^{-1} \cdots a_1^{-1}$.
+
+> Exercise
+
 ## Thm. Basic _Monoid_ Properties
 
-If $(M, \cdot)$ is a monoid, then
+If $M$ is a monoid, then
 
 1. The identity element of $M$ is unique.
 
@@ -47,7 +58,7 @@ Let $(S, \cdot)$ be a semigroup, then it is a group if and only if both of the f
 
 ## Thm. Semigroup to Group 2
 
-Let $(S, \cdot)$ be a semigroup, then it is a group if and only if for all $a,b \in S$ the equations
+Let $S$ be a semigroup, then it is a group if and only if for all $a,b \in S$ the equations
 
 $$
 \begin{array}{ll}
@@ -60,7 +71,7 @@ have solutions in $G$.
 
 ## Thm. Generalized Associative Law
 
-Let $(S, \cdot)$ be a semigroup and $a_i \in S$. Associative property implies that the expression $a_1 \cdot a_2 \cdot \cdots \cdot a_n$ is the same no matter how the expression bracketed.
+Let $S$ be a semigroup and $a_i \in S$. Associative property implies that the expression $a_1 \cdot a_2 \cdot \cdots \cdot a_n$ is the same no matter how the expression bracketed.
 
 <details>
 <summary><b>Proof</b></summary>
@@ -70,22 +81,6 @@ By induction. Exercise.
 </details>
 
 > Similarly one could also prove **Generalized Commutative Law** for the commutative property.
-
-## Thm. Basic Group Properties
-
-Remembering any group is also a monoid and thus a semigroup, let $(G, \cdot)$ be a group. Then:
-
-1. Identity $e$ is unique. The uniqueness of the identity element does not require the use of associativity.
-2. For each $a \in G$, inverse of $a$ is unique.
-3. For each $a \in G$, we have $(a^{-1})^{-1} = a$.
-4. For all $a,b \in G$, we have $(a \cdot b)^{-1} = b^{-1} \cdot a^{-1}$. Indeed, in general, $(a_1 \cdots a_n)^{-1} = a_n^{-1} \cdots a_1^{-1}$.
-
-<details>
-<summary><b>Proof</b></summary>
-<br/>
-
-Exercise.
-</details>
 
 ## Def. Order
 
@@ -103,6 +98,14 @@ We say that a group if **torsion-free** if every nonidentity element has infinit
 
 If orders of a periodic group are bounded, then the least common multiple of their orders is called the **exponent** of the group. If the orders of elements of a periodic group are powers of prime $p$, then we call the group a $p$-group.
 
+## Notation. Subsets
+
+Let $G$ be a group and $A,B \subseteq G$, then we define
+
+1. $AB := \Set{a \cdot b | a \in A, \> b \in B}$,
+2. $A^0 := \{e\}$, and
+3. $A^n := AA^{n-1}$.
+
 ## Notation. The Additive Notation
 
 If the binary operation is written additively, which is mostly the case for abelian groups, we may write:
@@ -118,8 +121,9 @@ We _define_ $a^0$ (or $0a$) as the identity element $1$ or $0$. Notice that, in 
 
 Let $G$ be a group, then
 
-1. If $a^2 = e$ for all $a \in G$, then $G$ is abelian.
-2. If $|G|$ is finite and even, then it has an element of order $2$.
+1. If $a^2 = e$ for all $a \in G$, then $G$ is abelian. (Such groups are called **elementary abelian $2$-groups**.)
+2. If $|G|$ is finite and even, then it has an element $x$ of order $2$. Moreover, $x \in Z(G)$ that is $g^{-1}xg = x$ for all $g \in G$.
+3. If $A \subseteq G$ and $g \in G$, then $|A| = |gA|=|Ag|$.
 
 <details>
 <summary><b>Proof</b></summary>
@@ -127,5 +131,34 @@ Let $G$ be a group, then
 
 1. Exercise,
 2. Consider $G \setminus \{e\}$ and the map $x \mapsto x^{-1}$.
+
+</details>
+
+## Exercises
+
+### Exercise 1
+
+Let $G$ be a group and $x,y \in G$ such that $xy$ has finite order $k$, then $|xy| = |yx|$.
+
+### Exercise 2
+
+Let $G$ be a group and $A,B \subseteq G$ such that $|A| + |B| \gt |G|$, then $G = AB$.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+See (7) from [**Graduate Algebra Problems with Solutions**](https://users.metu.edu.tr/matmah/Graduate-Algebra-Solutions/graduate-algebra-solutions-10-11-2011.pdf).
+</details>
+
+### Exercise 3
+
+Let $G$ be a group of finite order and $S \subseteq G$ such that $|S| \gt \frac{|G|}{2}$, then $S^2 = G$.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+See (8) from [**Graduate Algebra Problems with Solutions**](https://users.metu.edu.tr/matmah/Graduate-Algebra-Solutions/graduate-algebra-solutions-10-11-2011.pdf).
 
 </details>

@@ -50,3 +50,15 @@ A group is said to be **simple** if it has no proper normal subgroups.
 ## Def. Perfect Group
 
 ---
+
+## Thm. Dedekind Modular Law (Identity)
+
+> See https://math.stackexchange.com/questions/3957388/intuition-behind-dedekinds-modular-law
+
+## Exercises
+
+### U 2.39
+
+If $H \leq G$, then $G \setminus H$ is finite if and only if $G$ finite or $H=G$.
+
+> p. 24

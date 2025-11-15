@@ -58,6 +58,17 @@ is a normal subgroup of $G$.
 
 > Exercise
 
-## Thm. Centralizer, Normalizer and Normals
+<!-- ## Thm. Centralizer, Normalizer and Normals
 
-> TODO:
+> TODO: -->
+
+## Exercise
+
+If $G$ is not abelian, then $Z(G)$ is _properly_ contained in an abelian subgroup of $G$.
+
+<details>
+<summary><b>Hint</b></summary>
+<br/>
+
+Consider $x \in G \setminus Z(G)$.
+</details>

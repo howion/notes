@@ -90,3 +90,7 @@ Let $H$ and $K$ be _subgroups of finite index_ of a group $G$. Then
 1. $|G:H \cap K|$ is finite,
 2. $|G:H \cap K| \leq |G:H||G:K|$, and
 3. $|G:H \cap K| = |G:H||G:K|$ if and only if $G = HK$.
+
+## Exercise
+
+Let $G$ be a group and $H,K \leq G$ such that indices of $H$ and $K$ are relatively prime, then $G=HK$.
