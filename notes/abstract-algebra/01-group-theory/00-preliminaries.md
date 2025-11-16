@@ -18,6 +18,7 @@
 ## Notation
 
 * $0 \in \N$ and $\N^+ :=\ \N \setminus \{0\}$.
+* $\varnothing$ denotes the empty set.
 * $(m,n)$ denotes the **greatest common divisor** of $m, n \in \N$.
 * $\equiv_m$ denotes integer equivalence in modulo $m$.
 * Cardinality of a set $S$ is denoted with $|S|$.

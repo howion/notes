@@ -75,6 +75,13 @@ Let $\varphi: G \to H$ be a group homomorphism, then
 
 ## Exercises
 
-## Exercise 1
+### Exercise 1
+
+Let $G$ be a group, then
+
+1. The **set of endomorphisms** $\text{End }G$ is a semigroup under composition,
+2. The **set of automorphisms** $\text{Aut }G$ is a group under composition. Moreover, $\text{Aut }G \leq \mathbf{S}(G)$ where $\mathbf{S}(G)$ is the group of permutations on $G$.
+
+### Exercise 2
 
 Let $\alpha: G \to G$ be a group automorphism and $x \in G$, then $|\alpha(x)| = |x|$.
