@@ -80,7 +80,8 @@ Then $\phi$ holds for all formulas (of propositional logic).
 <details>
 <summary><b>Proof</b></summary>
 <br>
-TODO:
+
+> TODO:
 </details>
 
 ## Def. Formation Sequence for Propositional Formulas

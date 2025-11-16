@@ -54,12 +54,32 @@ Let $\varphi: G \to H$ be a group homomorphism, then
 4. $\text{Ker }\varphi \leq G$,
 5. $\text{Im }\varphi := \varphi(G) \leq H$
 
+> Exercise
+
 ## Def. Basic Kernel Properties
 
 Let $\varphi: G \to H$ be a group homomorphism, then
 
 1. $\varphi$ is a monomorphism if and only if $\text{Ker } \varphi = \{e_G\}$.
 2. $\varphi$ is an isomorphism if any only if there exists an homomorphism $\varphi^{-1}: H \to G$ such that $\varphi \varphi^{-1} = \text{id}_G$.
+
+> Exercise
+
+## Def. Endomorphisms
+
+Let $G$ be a group and $\text{End } G$ the **set of all endomorphism** on $G$, then $\text{End } G$ is a semigroup under composition. Moreover, if $G$ is a abelian, $\text{End } G$ is a ring with pointwise function addition that is, for $\alpha, \beta \in \text{End } G$
+
+$$
+(\alpha + \beta)(x) = \alpha(x) + \beta(x) \qquad x \in G
+$$
+
+> Exercise
+
+## Def. Automorphisms
+
+The **set of automorphisms** on $G$ denoted by $\text{Aut }G$ is a group under function composition. Moreover, $\text{Aut }G \leq \mathbf{S}(G)$ where $\mathbf{S}(G)$ is the group of permutations on $G$.
+
+> Exercise
 
 ## Exercises
 
@@ -69,13 +89,8 @@ $A$ is abelian group if and only if the map $a \mapsto a^{-1}$ is an automorphis
 
 ### #2
 
-<!-- TODO: new section -->
-
-Let $G$ be a group, then
-
-1. The **set of endomorphisms** $\text{End }G$ is a semigroup under composition,
-2. The **set of automorphisms** $\text{Aut }G$ is a group under composition. Moreover, $\text{Aut }G \leq \mathbf{S}(G)$ where $\mathbf{S}(G)$ is the group of permutations on $G$.
+Let $\alpha: G \to G$ be a group automorphism and $x \in G$, then $|\alpha(x)| = |x|$.
 
 ### #3
 
-Let $\alpha: G \to G$ be a group automorphism and $x \in G$, then $|\alpha(x)| = |x|$.
+Let $\alpha \in \text{Aut}(G)$ and $H = \Set{g \in G | \alpha(g) = g}$. Show that $H$, which is called the **fixed point subgroup of $G$ under $\alpha$** is indeed a subgroup of $G$.

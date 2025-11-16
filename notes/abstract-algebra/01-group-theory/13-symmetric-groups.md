@@ -1,4 +1,4 @@
-# 12. Symmetric Groups
+# 13. Symmetric Groups
 
 ## Def. Permutation
 
@@ -100,6 +100,12 @@ $$
 For $n \geq 3$, if $N \trianglelefteq A_n$ and $N$ contains a $3$-cycle, then $N=A_n$.
 
 > Proofs are skipped for this theorem, curious reader may checkout Hungerford (pp. 49-50).
+
+## Thm. Hölder
+
+The symmetric group $\mathbf{S}_n$ is complete if $n \neq 2, 6$.
+
+> Check out Kargapolov pp. 43-44 for the partial proof.
 
 ## Thm. Dihedral Group Generators
 

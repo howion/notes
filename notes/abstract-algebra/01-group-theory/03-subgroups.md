@@ -62,12 +62,7 @@ We have $e \in G$ since $a^n$ must repeat. Similarly, for inverse we have $a^r =
 
 Let $\{H_i\}$ be any non-empty family of subgroups of $G$, then $\bigcap H_i$ is also a subgroup of $G$.
 
-<details>
-<summary><b>Proof</b></summary>
-<br/>
-
-Exercise.
-</details>
+> Exercise
 
 ## Thm. Subgroups Under Multiplication
 
@@ -144,12 +139,8 @@ Let $G$ be a group and $g \in G$ such that $|g| = n_1 n_2$ where $(n_1, n_2) = 1
 
 ### #3
 
-Let $\alpha \in \text{Aut}(G)$ and $H = \Set{g \in G | \alpha(g) = g}$. Show that $H$, which is called the **fixed point subgroup of $G$ under $\alpha$** is indeed a subgroup of $G$.
-
-### #4
-
 Let $H,K \leq G$ such that $Hx = Ky$ for some $x,y \in G$, then $H=K$.
 
-### #5
+### #4
 
 Let $H \leq G$ and $x, y \in G$, then $Hx = Hy$ if and only if $x^{-1}H = y^{-1}H$.

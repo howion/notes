@@ -6,6 +6,13 @@
 
 ---
 
+$$
+G^n := \Braket{x^n | x \in G} \\
+G_n := \Braket{x | x \in G, x^n = 1} \\
+$$
+
+---
+
 ## Def. Simple Group
 
 A group is said to be **simple** if it has no proper normal subgroups.

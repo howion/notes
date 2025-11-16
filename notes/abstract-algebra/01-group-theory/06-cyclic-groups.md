@@ -60,7 +60,7 @@ Noting subgroup of a cyclic is cyclic, let $(H, +) \leq (\Z, +)$. Then, either
 <summary><b>Proof</b></summary>
 <br/>
 
-Todo:
+> TODO:
 </details>
 
 ## Thm. Same Order Cyclics are Isomorphic
@@ -93,7 +93,7 @@ For any two cyclic groups $\Braket{x}$ and $\Braket{y}$, if their orders are the
 <summary><b>Proof</b></summary>
 <br/>
 
-Todo:
+> TODO:
 </details>
 
 ## Thm. Fundamentals of Element Orders

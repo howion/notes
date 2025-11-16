@@ -47,7 +47,7 @@ Let $R$ be an integral domain and $p(X), q(X) \in R[X]$, then
 <summary><b>Proof</b></summary>
 <br/>
 
-TODO:
+> TODO:
 </details>
 
 ## Def. Power Series Ring

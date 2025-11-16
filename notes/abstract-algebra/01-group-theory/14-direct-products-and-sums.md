@@ -1,4 +1,4 @@
-# 13. Direct Products and Sums
+# 14. Direct Products and Sums
 
 > Note that the letter $I$ denotes any index set which is mostly taken to be $\N$ or non-empty initial segment of $\N$.
 

@@ -39,12 +39,7 @@ Let $G$ be a group and $N \trianglelefteq G$.
 1. If $G$ is cyclic, then so is $G/N$.
 2. $G/N$ is abelian if and only if $[G,G] \subseteq N$.
 
-<details>
-<summary><b>Proof</b></summary>
-<br/>
-
-Exercise.
-</details>
+> Exercise
 
 ## Def. Projection
 
@@ -103,7 +98,7 @@ Therefore, $\bar{\varphi}$ is an isomorphism if and only if
 <summary><b>Proof</b></summary>
 <br/>
 
-TODO:
+> TODO:
 </details>
 
 <!-- TODO: By the Fundamental Theorem on Homomorphism, the following diagram commutes -->
@@ -120,7 +115,7 @@ Let $\varphi: G \to H$ be a group homomorphism. Then
 <summary><b>Proof</b></summary>
 <br/>
 
-TODO:
+> TODO
 </details>
 
 <center>
@@ -149,7 +144,7 @@ Let $G$ be a group, $H \leq G$, and $N \trianglelefteq G$. Then
 <summary><b>Proof</b></summary>
 <br/>
 
-TODO:
+> TODO:
 </details>
 
 <center>
@@ -171,7 +166,7 @@ Let $K \trianglelefteq H \trianglelefteq G$, then
 <summary><b>Proof</b></summary>
 <br/>
 
-TODO:
+> TODO:
 </details>
 
 <!--
@@ -216,3 +211,36 @@ Let $N \trianglelefteq G$, then every subgroup of $G/N$ is of the form $K/N$ whe
 
 Direct implication of the theorem above for the epimorphism $\pi_N$.
 </details>
+
+## Def. Inner and Outer Automorphisms
+
+Let $G$ be a group, $a \in G$, and $\iota_a: G \to G$ be a map such that $x \mapsto x^a$, then $\iota_a$ is an automorphism on $G$ called an **inner automorphism**. Moreover, the **set of all inner automorphism** on $G$ denoted by $\text{Inn }G$ is a normal subgroup of $\text{Aut }G$.
+
+An automorphism which is not inner is called an **outer automorphism**. Noting $\text{Inn }G$ is normal, we define the **outer automorphism group** as
+
+$$
+\text{Out } G := \text{Aut } G / \text{Inn }G
+$$
+
+## Thm. Inner Automorphisms
+
+Let $G$ be a group, then
+
+$$
+\text{Inn }G \cong G / C(G)
+$$
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+> TODO
+</details>
+
+## Def.
+
+## Thm. Equivalent Normal Definition
+
+Let $H \leq G$, then $H$ is normal if and only if for all $\phi \in \text{Inn } G$ we have $\phi(H) \leq G$.
+
+> Exercise

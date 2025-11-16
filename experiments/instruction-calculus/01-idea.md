@@ -65,11 +65,7 @@ Let $S$ be some non-empty set of instructions on $\text{X}$. Then the **summatio
 
 Let $\lambda$ be an instruction on $\text{X}$, then we may **decompose** $\lambda$ to an unique non-empty set $S$ (denoted $\lambda^*$) of deterministic instructions on $\text{X}$.
 
-<details>
-<summary><b>Proof</b></summary>
-<br>
-Exercise :)
-</details>
+> Exercise
 
 ## (D) Automata Space
 

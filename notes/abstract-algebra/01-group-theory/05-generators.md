@@ -40,9 +40,8 @@ That is, $\Braket{M}$ consists of all finite products of $a_1^{n_1} \cdots a_k^{
 <summary><b>Proof</b></summary>
 <br/>
 
-Exercise.
+> TODO:
 </details>
-
 
 <!-- TODO: Create early lattice section and define there? -->
 

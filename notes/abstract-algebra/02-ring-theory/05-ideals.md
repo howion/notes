@@ -86,7 +86,7 @@ Let $R$ be a ring with $1$ and $I$ its left (resp. right or $2$-sided) ideal suc
 <summary><b>Proof</b></summary>
 <br/>
 
-TODO: Zorn's Lemma and add partial order defn to preliminaries.
+> TODO: Zorn's Lemma and add partial order defn to preliminaries.
 </details>
 
 ## Def. Prime Ideal

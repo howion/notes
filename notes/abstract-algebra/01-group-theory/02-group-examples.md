@@ -98,10 +98,4 @@ The homomorphism $\varphi: G \to H$ is called:
 
 Prove $Q_p$ is _not_ isomorphic to $Q_r$ for distinct primes $p$ and $r$.
 
-<details>
-<summary><b>Proof</b></summary>
-<br/>
-
-Exercise.
-
-</details>
+> Exercise
