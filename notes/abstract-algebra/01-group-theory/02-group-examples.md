@@ -37,7 +37,7 @@ See [**Wikipedia: Dihedral group**](https://en.wikipedia.org/wiki/Symmetric_grou
 
 ## Matrix Groups
 
-### Exercise 1
+### #1
 
 Find the order of the (general linear) group $\text{GL}(3, \Z_5)$.
 

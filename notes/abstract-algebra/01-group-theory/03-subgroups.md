@@ -1,4 +1,4 @@
-# 4. Subgroups
+# 3. Subgroups
 
 > Until now we have explicitly defined and shown which multiplication is to which operator and which identity belongs to which group. From now on, these must be understood from the context. We will prefer little brevity over cumbersome notation.
 
@@ -124,7 +124,7 @@ The frattini subgroup $\Phi(G)$ of a group $G$ is equal to the set of all non-ge
 
 ## Exercises
 
-### Exercise 1
+### #1
 
 Let $H \leq G$ and $g \in G$ such that $|g| = n$ and $g^m \in H$ where $(m,n) = 1$, then $h \in G$.
 
@@ -135,21 +135,21 @@ Let $H \leq G$ and $g \in G$ such that $|g| = n$ and $g^m \in H$ where $(m,n) = 
 Use Bézout's identity.
 </details>
 
-### Exercise 2
+### #2
 
 Let $G$ be a group and $g \in G$ such that $|g| = n_1 n_2$ where $(n_1, n_2) = 1$, then there exists $g_1, g_2 \in G$ such that
 
 * $g = g_1 g_2 = g_2 g_1$, and
 * $|g_1| = n_1$ and $|g_2| = n_2$.
 
-### Exercise 3
+### #3
 
 Let $\alpha \in \text{Aut}(G)$ and $H = \Set{g \in G | \alpha(g) = g}$. Show that $H$, which is called the **fixed point subgroup of $G$ under $\alpha$** is indeed a subgroup of $G$.
 
-### Exercise 4
+### #4
 
 Let $H,K \leq G$ such that $Hx = Ky$ for some $x,y \in G$, then $H=K$.
 
-### Exercise 5
+### #5
 
 Let $H \leq G$ and $x, y \in G$, then $Hx = Hy$ if and only if $x^{-1}H = y^{-1}H$.

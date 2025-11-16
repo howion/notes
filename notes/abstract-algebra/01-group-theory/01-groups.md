@@ -139,11 +139,11 @@ Let $G$ be a group, then
 
 ## Exercises
 
-### Exercise 1
+### #1
 
 Let $G$ be a group and $x,y \in G$ such that $xy$ has finite order $k$, then $|xy| = |yx|$.
 
-### Exercise 2
+### #2
 
 Let $G$ be a group and $A,B \subseteq G$ such that $|A| + |B| \gt |G|$, then $G = AB$.
 
@@ -154,7 +154,7 @@ Let $G$ be a group and $A,B \subseteq G$ such that $|A| + |B| \gt |G|$, then $G 
 See (7) from [**Graduate Algebra Problems with Solutions**](https://users.metu.edu.tr/matmah/Graduate-Algebra-Solutions/graduate-algebra-solutions-10-11-2011.pdf).
 </details>
 
-### Exercise 3
+### #3
 
 Let $G$ be a group of finite order and $S \subseteq G$ such that $|S| \gt \frac{|G|}{2}$, then $S^2 = G$.
 

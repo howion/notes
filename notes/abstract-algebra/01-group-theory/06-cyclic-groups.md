@@ -153,7 +153,7 @@ Consider the finite set of cyclics $\mathcal{C} = \Set{\Braket{x} | x \in G} = \
 
 ## Exercises
 
-### Exercise 1
+### #1
 
 Let $G$ be a finite group such that it has exactly one maximal subgroup $M$, then $G$ is cyclic.
 
