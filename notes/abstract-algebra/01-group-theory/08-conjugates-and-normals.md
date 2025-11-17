@@ -74,4 +74,4 @@ Let $N \trianglelefteq G$ and $xy \in N$, then $yx \in N$.
 
 ### #2
 
-Let $G$ be a group of finite order, $N \trianglelefteq G$ and $K \leq G$ such that $|K|$ is relatively prime to $|G:H|$, then $K \leq H$.
+Let $G$ be a group of finite order, $N \trianglelefteq G$ and $H \leq G$ such that $|H|$ is relatively prime to $|G:N|$, then $H \leq N$.
