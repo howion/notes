@@ -27,15 +27,16 @@ Let $N \trianglelefteq G$, then the following are equivalent
 
 ## Def. Inner Semidirect Product
 
-Let $N \trianglelefteq G$ be a complement of $H \leq G$ in $G$, then define $\varphi: H \to \text{Aut }N$. Then, $\varphi$ is an inner automorphism given by
+Let $G$ be a group such that $N \trianglelefteq G$ and $H \leq G$ are complements in $G$, then define
 
 $$
-\varphi_h(n) = hnh^{-1}
+\begin{array}{lllll}
+\varphi: & H & \to & \text{Aut }N \\
+         & h & \mapsto & \varphi_h(n) := hnh^{-1}
+\end{array}
 $$
 
-for some $h \in H$.
-
-The semidirect product $N \rtimes_{\varphi_h} H$ denoted by $N \rtimes H$ or $H \ltimes N$ is called the **inner semidirect product** of $N$ and $H$, so that $G = N \rtimes H$. We also say $G$ is a **semidirect product** of $H$ acting on $N$.
+The semidirect product $N \rtimes_{\varphi} H$ denoted simply by $N \rtimes H$ or $H \ltimes N$ is called the **inner semidirect product** of $N$ and $H$, so that $G = N \rtimes H$. We also say $G$ is a **semidirect product** of $H$ acting on $N$.
 
 ## Def. Holomorph
 
