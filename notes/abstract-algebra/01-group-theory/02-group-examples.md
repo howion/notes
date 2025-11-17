@@ -35,7 +35,33 @@ See [**Wikipedia: Dihedral group**](https://en.wikipedia.org/wiki/Symmetric_grou
 
 * For $n > 2$ the symmetric group $S_n$ is nonabelian. So, $S_3$ is a good example of nonabelian group of order $3$.
 
-## Matrix Groups
+<!-- ## Matrix Groups -->
+
+<!-- General, Special, Diagonal, (upper) triangular, unitriangular -->
+
+<!-- TODO: Define More groups and their notations  (Revise group p.24,25) -->
+
+## The Quaternion Group
+
+See [**Wikipedia: Quaternion group**](https://en.wikipedia.org/wiki/Quaternion_group).
+
+## The $\mathbb{Q}_p$ Group
+
+For $p$ prime, define
+
+$$
+\mathbb{Q}_p := \left\{{m}/{p^n} : m,n \in \Z \right\}
+$$
+
+so that $\mathbb{Q}_p$ is a (torsion-free) abelian group under the usual rational addition.
+
+## Exercise 2
+
+Prove that $\mathbb{Q}_p$ is _not_ isomorphic to $\mathbb{Q}_r$ for distinct primes $p$ and $r$.
+
+> Exercise
+
+## Exercises
 
 ### #1
 
@@ -48,54 +74,4 @@ Find the order of the (general linear) group $\text{GL}(3, \Z_5)$.
 <br/>
 
 $(5^3 - 1)(5^3 - 5)(5^3 - 5^2)$
-
 </details>
-
-<!-- General, Special, Diagonal, (upper) triangular, unitriangular -->
-
-<!-- TODO: Define More groups and their notations  (Revise group p.24,25) -->
-
-## The Quaternion Group
-
-See [**Wikipedia: Quaternion group**](https://en.wikipedia.org/wiki/Quaternion_group).
-
-## The $Q_p$ Group
-
-Let $p$ prime. Denote by $Q_p$ the set:
-
-$$
-\left\{{m}/{n^p} : m,n \in \Z \right\}
-$$
-
-or the group with the usual addition in rationals.
-
-## Def. Homomorphisms
-
-Let $(G, \cdot_G, e_G)$ and $(H, \cdot_H, e_H)$ be groups.
-
-The (total) function (or map) $\varphi: G \to H$ is called a **(group) homomorphism** if, for all $a, b \in G$:
-
-$$\varphi(a \cdot_G b) = \varphi(a) \cdot_H \varphi(b)$$
-
-> Mostly, we will not be as explicit about the operations and simply write $\varphi(ab)=\varphi(a)\varphi(b)$.
-
-The homomorphism $\varphi: G \to H$ is called:
-
-* an **monomorphism** if it is injective,
-* an **epimorphism** if it is surjective,
-* an **isomorphism** if it is bijective.
-
-<!--  -->
-
-* an **endomorphism** if $G=H$, and
-* an **automorphism** if it is an endomorphism and bijective.
-
-> Notice that if there exists an isomorphism between two groups, then basically, they have the  same structure*.
-
-(Existence of an) isomorphism between two groups $G$ and $H$ is denoted with $G \cong H$.
-
-## Exercise 2
-
-Prove $Q_p$ is _not_ isomorphic to $Q_r$ for distinct primes $p$ and $r$.
-
-> Exercise

@@ -73,6 +73,8 @@ $$
 $$
 </details>
 
-## Exercise
+## Exercises
+
+### #1
 
 Let $A, B, C \trianglelefteq G$, then $[AB, C] = [A,C][B,C]$.

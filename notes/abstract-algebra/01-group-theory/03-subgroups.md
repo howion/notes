@@ -121,7 +121,7 @@ The frattini subgroup $\Phi(G)$ of a group $G$ is equal to the set of all non-ge
 
 ### #1
 
-Let $H \leq G$ and $g \in G$ such that $|g| = n$ and $g^m \in H$ where $(m,n) = 1$, then $h \in G$.
+Let $H \leq G$ and $g \in G$ such that $|g| = n$ and $g^m \in H$ where $(m,n) = 1$, then $g \in H$.
 
 <details>
 <summary><b>Help</b></summary>
