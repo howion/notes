@@ -24,7 +24,7 @@ The **center** of a (sub)group $G$ denoted with $Z(G)$ is defined as $Z(G) := C_
 
 Let $G$ be a group and $A$ a non-empty subset of $G$. Similar to centralizer (but not necessarily equivalent), the **normalizer of $A$** in $G$ is defined as
 
-$$N_G(A) = \Set{ g \in G | A^g = A}$$
+$$N_G(A) := \Set{ g \in G | A^g = A}$$
 
 and it is also a subgroup of $G$.
 
@@ -33,6 +33,14 @@ The definitions of centralizer and normalizer are similar but not identical. If 
 Obviously a subgroup is a normal subgroup in a group if and only if its normalizer is the whole group.
 
 > This is one reason why the notation $gag^{-1}$ (or $a^g$) is preferred over $ga=ag$ &mdash; unless we working with semigroups of course.
+
+## Thm. Basic Properties of Normalizer and Centralizer
+
+<!-- TODO: Order? -->
+
+Let $G$ be a group, then
+
+1. $Z(G) \trianglelefteq G$
 
 ## Thm. '
 
@@ -46,21 +54,28 @@ $$
 
 > You may check out Kargapolov p. 16 for a more general version of theorem and the proof.
 
+## Notation. Normal Generators
+
+<!-- TODO: Btter notation or explanation? -->
+
+Let $H \leq G$, then
+
+* $H^G$ denotes the intersection all normals in $G$ that contain $H$,
+* $H_G$ denotes $\Braket{H^g | g \in G}$.
+
+> join and largest normal subgroup contained in H.
+
 ## Thm. Building Normal from a Subgroup
 
-Let $A \leq G$, then the set
+Let $H \leq G$, then the set
 
 $$
-N = \bigcap_{x \> \in \> G} A^x
+N = \bigcap_{g \> \in \> G} H^g
 $$
 
-is a normal subgroup of $G$.
+is a normal subgroup of $G$. Moreover, $N = H_G$.
 
 > Exercise
-
-<!-- ## Thm. Centralizer, Normalizer and Normals
-
-> TODO: -->
 
 ## Exercise
 

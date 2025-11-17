@@ -4,6 +4,10 @@
 
 <!-- If $G$ is finite, then $\Phi(G)$ is nilpotent -->
 
+## Def. Diagonal Subgroup
+
+$\hat{G} := \Set{(g,g)} \cong G$.
+
 ---
 
 $$
