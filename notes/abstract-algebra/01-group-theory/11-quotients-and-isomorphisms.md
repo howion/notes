@@ -237,7 +237,7 @@ $$
 > TODO
 </details>
 
-## Def.
+## Def
 
 ## Thm. Equivalent Normal Definition
 

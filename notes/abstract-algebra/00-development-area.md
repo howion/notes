@@ -13,6 +13,8 @@
 ## To-Do's
 
 - Add exercises and theorems from my lectures.
+- More exercises from Mahmut Kuzucuoğlu.
+- Consider Visual Group Theory resources, especially for group combinatorics.
 
 ### General
 
@@ -27,15 +29,8 @@
 
 ### Rings
 
-- Rings of continuous functions
-- Matrix rings
-- Polynomial rings (and in several variables)
-- ~~Power series rings (and in several variables)~~
-- ~~Laurent rings~~
-- Boolean rings
-- Direct products on rings
 - Opposite rings
-- **Much more exercises are required for rings compared to groups.**
+- **Much more exercises are required for rings compared to groups.** Consider Kuzucuoğlu.
 - Jacobson radical
 
 ---
@@ -55,5 +50,5 @@
 
 - Draw (more) diagrams.
 - Proofread all.
-- Re-order all.
+- Final reorder, re-sub.
 - (Re-)enumerate Thms, Defs, Exercises etc.
