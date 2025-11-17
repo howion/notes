@@ -69,7 +69,7 @@ build() {
         return
     fi
 
-    build_pdf "${output_file}"
+    # build_pdf "${output_file}"
 }
 
 build_pdf() {
