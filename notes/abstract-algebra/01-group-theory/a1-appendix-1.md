@@ -4,6 +4,10 @@
 
 <!-- If $G$ is finite, then $\Phi(G)$ is nilpotent -->
 
+## Def. Semidirect Product etc.
+
+See: https://en.wikipedia.org/wiki/Semidirect_product
+
 ## Def. Diagonal Subgroup
 
 $\hat{G} := \Set{(g,g)} \cong G$.
