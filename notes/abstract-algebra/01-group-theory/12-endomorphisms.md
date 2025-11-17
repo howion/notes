@@ -51,7 +51,7 @@ Let $H \leq G$, then we respectively denote $\text{End } G$, $\text{Aut }G$, and
 
 ## Thm. Invariance Transitivity
 
-The relations $\leq_\text{End}$ and $\leq_{Aut}$ are transitive.
+The relations $\leq_\text{End}$ and $\leq_\text{Aut}$ are transitive.
 
 > Exercise
 
@@ -77,7 +77,7 @@ $$
 
 ### #1
 
-The center $Z$ of a group $G$ is always characteristic.
+The center $C(G)$ of a group $G$ is always characteristic.
 
 ### #2
 
