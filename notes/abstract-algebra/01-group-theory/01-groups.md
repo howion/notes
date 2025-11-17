@@ -20,7 +20,7 @@ Noting that the **identity** of a group and the **inverse** of an element in tha
 
 A group is called **abelian** (or **commutative**) if its elements commute, that is, if for all $a,b \in G$ we have $a \cdot b = b \cdot a$. For abelian groups, we may prefer the additive notation $+$ instead of $\cdot$ for the binary operation and denote the inverse with $-a$ instead.
 
-You might also sometimes want to consider the group as a triplet with identiy $(G,\cdot, e)$ as it is not clear otherwise what is the identity explicitly.
+We might also consider the group as a triplet with identiy $(G,\cdot, e)$ as it is not clear otherwise what is the identity explicitly.
 
 ## Remarks
 
