@@ -1,12 +1,10 @@
-# Syntax and Semantics
+# Propositional Logic
 
-> You may skip this chapter, but it is suggested to skim it for the notations.
+## Syntax and Semantics
 
-## Introduction
+Theorems and definitions we prove and define here are actually meta-theorems and meta-definitions in our meta-language. You may assume our metalangauge is first-order or second-order logic in which we define propositional logic which is sometimes called **zeroth-order logic**. Note that we haven't yet shown propositional logic is a subset of our meta-language. It is just, kind of, nonsense syntax at this moment.
 
-Theorems and definitions we prove and define here are actually metatheorems and metadefinitions in our metalanguage. You may assume our metalangauge is first-order or second-order logic in which we define propositional logic which is sometimes called **zeroth-order logic**. Note that we haven't yet shown propositional logic is a subset of our metalanguage. It is just, kind of, nonsense syntax at this moment.
-
-## Def. Symbols
+## Notation. Truth
 
 Syntactically, we will use the symbols
 
@@ -135,13 +133,12 @@ If $v(F) = \mathbb{T}$, then we say $v$ **models** $F$ denoted by $v \models F$.
 
 ## Def. Satisfiability
 
-
 A formula $F$ is said to be **satisfiable** if there exists an valuation $v$ such that $v \models F$. Otherwise, it is called **unsatisfiable**.
 
 ## Def. Tautology and Contradiction
 
 * A formula $F$ is said to be a **tautology** if it holds under all valuations. This is denoted by $\models F$.
-* Similarly, a formula is said to be a **contradiction** if it holds under no valuation. Denoted $\not \models F$
+* Similarly, a formula is said to be a **contradiction** if it holds under no valuation, denoted by $\not \models F$.
 * A formula which is satisfiable but not a tautology is called **contingent**.
 
 ## Def. Entails
@@ -154,6 +151,8 @@ We say a formula $F$ **entails** the formula $G$ denoted by $F \models G$ if eve
 
 Let $F$ and $G$ be formulas. If they entail each other, then we say they are **equivalent**. This is denoted by $F \equiv G$.
 
+> Consider some valuations and thus truth-table for the exercises below.
+
 ### Exercise
 
 $(F \land G) \equiv (G \land F)$
@@ -163,9 +162,14 @@ $(F \land G) \equiv (G \land F)$
 * $(F \land (G \lor H)) \equiv ((F \land G) \lor (F \land H))$
 * $(F \lor (G \land H)) \equiv ((F \lor G) \land (F \lor H))$
 
+### Exercise (De Morgan's Rules)
+
+* $\neg(F \land G) \equiv (\neg F \lor \neg G)$
+* $\neg(F \lor G) \equiv (\neg F \land \neg G)$
+
 ## Def. _A_ Set of Formulas
 
-From now on, when we say $\Gamma$ is **a set of formulas**, we will mean $\Gamma \subseteq \text{Form}(\mathcal{P})$. So it is not _the_ set of formulas, but rather _a_ set of formulas.
+From now on, when we say $\Gamma$ is **a set of formulas**, we will mean $\Gamma \subseteq \text{Form}(\mathcal{P})$. So it is not _the_ set of formulas, but rather a set of formulas.
 
 > We will make use of the letters such as $\Gamma, \Delta$ to usually denote a set of formulas and uppercase latin letters $A, B, F, G, ...$ et cetera to denote formulas.
 
@@ -177,22 +181,24 @@ Moreover, we'll overload the $\models$ notation further in respect to this notio
 
 Now, let's look at some basic semantic properties of propositional logic.
 
-### Thm. _Semantic_ Modus Ponens
+## Thm. Semantic Modus Ponens
 
 Let $\Gamma$ be a set of formulas and $A, B$ formulas. If $\Gamma \models A$ and $\Gamma \models (A \to B)$, then $\Gamma \models B$.
 
-### Thm. ?
+## Thm. Compactness (1)
 
-Let $\Gamma$ be a set of formulas. If $\Delta$ is satisfiable, then so is every finite subset of it.
+Let $\Gamma$ be a set of formulas. If $\Gamma$ is satisfiable, then so is every finite subset of it.
 
-### Thm. _Semantic_ Monotonicity
+> This is the easy (to prove) direction of what is called the **compactness** (of propositional logic), we will see the other direction is also true in the later sections.
 
-Let $\Gamma$ and $\Delta$ be a set of formulas such that $\Gamma \subseteq \Delta$ and $A$ a formula. If $\Gamma \models A$ then $\Delta \models A$.
+## Thm. Semantic Monotonicity
 
-### Thm. _Semantic_ Transitivity
+Let $\Gamma$ and $\Delta$ be a set of formulas such that $\Gamma \subseteq \Delta$ and $F$ a formula. If $\Gamma \models F$ then $\Delta \models F$.
+
+## Thm. Semantic Transitivity
 
 Let $\Gamma$ and $\Delta$ be a set of formulas and $A,B$ formulas. If $\Gamma \models A$ and $\Delta \cup \{A\} \models B$, then $\Gamma \cup \Delta \models B$.
 
-## Thm. _Semantic_ Deduction Theorem
+## Thm. Semantic Deduction Theorem
 
-Let $\Gamma$ be a set of formulas and $A$ a formula. Then, $\Gamma \models A$ if and only if $\Gamma \cup \{\neg A\}$ is unsatisfiable.
+Let $\Gamma$ be a set of formulas and $F$ a formula. Then, $\Gamma \models F$ if and only if $\Gamma \cup \{\neg F\}$ is unsatisfiable.
