@@ -16,8 +16,7 @@ Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as 
 * **Abstract Algebra**
     * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html)
     * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html)
-* **Logic**
-    * **Propositional Logic** [**HTML**](https://notes.howion.com/logic/propositional-logic.html)
+* **Logic** [**HTML**](https://notes.howion.com/logic.html)
 * **Universal Algebra** [**HTML**](https://notes.howion.com/universal-algebra.html)
 
 ## Notes: Source

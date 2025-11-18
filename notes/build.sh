@@ -103,8 +103,8 @@ build "./notes/abstract-algebra/01-group-theory" "abstract-algebra/group-theory"
 info "Generating: Abstract Algebra > Ring Theory"
 build "./notes/abstract-algebra/02-ring-theory" "abstract-algebra/ring-theory" "title=Ring Theory"
 
-info "Generating: Logic > Propositional Logic"
-build "./notes/logic/01-propositional-logic" "logic/propositional-logic" "title=Propositional Logic"
+info "Generating: Logic"
+build "./notes/logic" "logic" "title=Logic"
 
 info "Generating: Universal Algebra"
 build "./notes/universal-algebra" "universal-algebra" "title=Universal Algebra"
