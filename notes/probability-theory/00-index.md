@@ -1,14 +1,11 @@
 # Probability Theory
 
+For now this note, unlike my others, has only become a simple summary for the primary reference below. So if you are trying to learn the topic, reading the reference might a better idea.
+
+## References
+
 * **Introduction to Probability, 2nd Ed.** by Joseph K. Blitzstein and Jessica Hwang.
 
 ## Notation
 
 * $0 \in \N$ and $\N^+ = \N \setminus \{0\}$.
-
-## Table of Contents
-
-[**Go Back to Home**](../../README.md)
-
-1. [Probability and Conditional Probability](./01-probability-and-conditional-probability.md)
-2. [(Discrete) Random Variables and Their Distributions](./02-discrete-random-variables-and-their-distributions.md)

@@ -109,4 +109,7 @@ build "./notes/logic" "logic" "title=Logic"
 info "Generating: Universal Algebra"
 build "./notes/universal-algebra" "universal-algebra" "title=Universal Algebra"
 
+info "Generating: Probability Theory"
+build "./notes/probability-theory" "probability-theory" "title=Probability Theory"
+
 info "Build complete!"

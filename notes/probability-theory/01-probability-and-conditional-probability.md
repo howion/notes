@@ -1,12 +1,4 @@
-# Probability and Conditional Probability
-
-[**Go Back to Index**](./00-index.md)
-
-```js
-```
-
-```js
-```
+# 1. Probability and Conditional Probability
 
 ## Thm. Identities
 
@@ -53,12 +45,6 @@ P \left(\> \bigcup_{i=1}^{n} A_i \right) =&
 \end{array}
 $$
 
-```js
-```
-
-```js
-```
-
 ## Def. Conditional Probability
 
 $$P(A | B) \triangleq \frac{P(A \cap B)}{P(B)}$$
@@ -90,7 +76,6 @@ $$
 $$
 \begin{array}{ccccc}
 \dfrac{P(A|B)}{P(A^c | B)}  &=& \dfrac{P(B|A)}{P(B|A^c)} & \cdot & \dfrac{P(A)}{P(A^c)} \\
-% & & & & = \text{odds}(A) \\
 \\
 \small \text{Posterior} & & \small \text{Likelihood} & & \small \text{Prior} \\
 \small \text{Odds} & & \small \text{Ratio} & & \small \text{Odds} \\
@@ -131,12 +116,6 @@ $$P(A|B, E) = \frac{P(B|A, E) P(A|E)}{P(B|E)}$$
 Let $A_1, ..., A_n$ partition $S$ and $P(A_i \cap E) > 0$ for all $i$, then
 
 $$P(B|E) = \sum_{i=1}^{n} P(B|A_i, E)P(A_i | E)$$
-
-```js
-```
-
-```js
-```
 
 ## Def. Independence
 
