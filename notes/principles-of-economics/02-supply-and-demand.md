@@ -6,7 +6,7 @@
 
 Demand refers to **willingness** and **ability** of someone to purchase a good and service.
 
-The **law of demand** states that the quantity of a good demanded is inversely related to the good’s price.
+The **law of demand** states that the quantity of a good demanded is inversely related to the good's price.
 
 <br/>
 <center>

@@ -73,4 +73,4 @@ $$\KaTeX$$
 
 ## License
 
-I’m still figuring out how to license this content. Some of it is distilled or adapted from commercial texts. For now, consider this (especially the notes) a personal archive, not an open-source resource.
+I'm still figuring out how to license this content. Some of it is distilled or adapted from commercial texts. For now, consider this (especially the notes) a personal archive, not an open-source resource.

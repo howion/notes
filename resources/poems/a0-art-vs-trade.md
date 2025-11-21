@@ -23,7 +23,7 @@ That Truth, scarce is it true.
 
 Poor Art with struggling gasp,\
 Lies strangled, dying in his mighty grasp;\
-He locks his grimy fingers ’bout her snowy throat so tender.\
+He locks his grimy fingers 'bout her snowy throat so tender.\
 Is there no power to rescue her, protect, defend her?\
 Shall Art be left to perish?\
 Shall all the images her shrines cherish\
