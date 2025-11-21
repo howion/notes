@@ -5,8 +5,8 @@ Weep, weep once more\
 Weep, weep forever more\
 &ensp;&ensp;&ensp;&ensp;Shed those tears
 
-Tis is a mere demonstration of boredom\
-Tis is a just a play one cannot withstand
+This is a mere demonstration of boredom\
+This is a just a play one cannot withstand
 
 Choke on your self-hatred\
 &ensp;&ensp;&ensp;&ensp;Make it yours\
