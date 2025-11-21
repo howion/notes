@@ -20,6 +20,10 @@ Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as 
 * **Universal Algebra** [**HTML**](https://notes.howion.com/universal-algebra.html)
 * **Probability Theory** [**HTML**](https://notes.howion.com/probability-theory.html)
 
+> In order to convert these notes to PDF, just try to print the page and save as PDF after the page is loaded. It will automatically, at least in Chrome-based browsers, convert to light theme and adjust the layout for printing.
+>
+> This was previously done automatically in my bash build pipeline via chromium driver but every build really bloats git tracking. Hence, I have disabled automatic PDF generation.
+
 ## Notes: Source
 
 Some of those will be compiled via custom bash pipeline with the use of `pandoc`, `html-minifier-terser` and `chromium`. For now, there is no git hook or action to automate this. I plan to compile as I see fit noting none of these notes are complete yet.
