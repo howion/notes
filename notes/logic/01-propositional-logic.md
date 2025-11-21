@@ -1,4 +1,4 @@
-# Propositional Logic
+# 1. Propositional Logic
 
 ## Syntax and Semantics
 
@@ -12,11 +12,14 @@ Syntactically, we will use the symbols
 * $\top$ called **top** to denote truth _in our syntactic model_,
 * $\neg$ called **negation** to denote _negation_,
 * $\to$ called **material implication** to denote _implication_,
+* $\land$ called **conjuction** to denote _and_, and
+* $\lor$ called **disjunction** to denote _or_.
 
 Semantically, we will use the symbols
 
 * $\mathbb{T}$ called **true** to denote _semantic truth_, and
 * $\mathbb{F}$ called **false** to denote _semantic falsity_.
+* $\triangleq$ called **defined as** to denote _semantic equality_.
 
 ## Def. _The_ Set of Propositional Formulas
 

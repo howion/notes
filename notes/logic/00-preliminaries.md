@@ -1,8 +1,12 @@
 # Logic
 
-Basic (at least naive) set theory and simple combinatorics knowledge is assumed. Other than that, notes should be mostly self-sufficent.
+Superficial knowledge of computational complexity theory is assumed. You should be familiar with concepts such as PTIME, EXPSPACE etc.
+
+Other than that, notes should be mostly self-sufficent for someone with the knowledge of at least basic set theory and simple combinatorics.
 
 Due to nature of these notes we will mostly work in second-order logic.
+
+> **TODO.** Add appendix for these prerequisites to superficially define them, or redirect to my or to online other resources.
 
 ## Resources
 
@@ -14,3 +18,5 @@ Due to nature of these notes we will mostly work in second-order logic.
 * $0 \in \N$ and $\N^+ :=\ \N \setminus \{0\}$.
 * $\varnothing$ denotes the empty set.
 * Cardinality of a set $S$ is denoted with $|S|$.
+
+## To-Do
