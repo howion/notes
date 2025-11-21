@@ -1,12 +1,9 @@
 # Type Theory
 
-* **Introduction to Homotopy Type Theory** by Egbert Rĳke.
-* **Homotopy Type Theory: Univalent Foundations of Mathematics** by various collaborators. See [github.com/HoTT](https://github.com/HoTT).
+## Resources
 
-## Notation
+* **Introduction to Homotopy Type Theory** by Egbert Rĳke
+* **Types and Programming Languages** by Benjamin C. Pierce
+* Open Source [**Homotopy Type Theory: Univalent Foundations of Mathematics**](https://homotopytypetheory.org/book/) by various collaborators.
 
-## Table of Contents
-
-[**Go Back to Home**](../../README.md)
-
-1. [(Martin-Löf's) Dependent Type Theory](./01-dependent-type-theory.md)
+<!-- ## Notation -->

@@ -1,11 +1,9 @@
 # Universal Algebra
 
+## Resources
+
 * **Introduction to Lattices and Order**, 2nd Ed. by B.A. Davey and H.A. Priestley.
 * **A Course in Universal Algebra**, Millenium Ed. by Stanley Burris and H.P. Sankappanavar.
-
-## Preliminaries
-
-Fundamental set-theoric notation.
 
 ## Notation
 

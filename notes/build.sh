@@ -46,6 +46,8 @@ minify_html() {
 }
 
 build() {
+    info "Generating: $2..."
+
     local input_dir="$1"
     local output_file="${OUT_DIR}/$2.html"
     local metadata="$3"
@@ -70,6 +72,7 @@ build() {
     fi
 
     # build_pdf "${output_file}"
+    echo ""
 }
 
 build_pdf() {
@@ -97,19 +100,11 @@ build_pdf() {
 info "Preparing output directory..."
 mkdir -p "${OUT_DIR}"
 
-info "Generating: Abstract Algebra > Group Theory"
 build "./notes/abstract-algebra/01-group-theory" "abstract-algebra/group-theory" "title=Group Theory"
-
-info "Generating: Abstract Algebra > Ring Theory"
 build "./notes/abstract-algebra/02-ring-theory" "abstract-algebra/ring-theory" "title=Ring Theory"
-
-info "Generating: Logic"
 build "./notes/logic" "logic" "title=Logic"
-
-info "Generating: Universal Algebra"
-build "./notes/universal-algebra" "universal-algebra" "title=Universal Algebra"
-
-info "Generating: Probability Theory"
 build "./notes/probability-theory" "probability-theory" "title=Probability Theory"
+build "./notes/type-theory" "type-theory" "title=Type Theory"
+build "./notes/universal-algebra" "universal-algebra" "title=Universal Algebra"
 
 info "Build complete!"

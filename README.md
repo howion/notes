@@ -17,8 +17,9 @@ Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as 
     * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html)
     * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html)
 * **Logic** [**HTML**](https://notes.howion.com/logic.html)
-* **Universal Algebra** [**HTML**](https://notes.howion.com/universal-algebra.html)
 * **Probability Theory** [**HTML**](https://notes.howion.com/probability-theory.html)
+* **Type Theory** [**HTML**](https://notes.howion.com/type-theory.html)
+* **Universal Algebra** [**HTML**](https://notes.howion.com/universal-algebra.html)
 
 > In order to convert these notes to PDF, just try to print the page and save as PDF after the page is loaded. It will automatically, at least in Chrome-based browsers, convert to light theme and adjust the layout for printing.
 >
@@ -28,12 +29,15 @@ Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as 
 
 Some of those will be compiled via custom bash pipeline with the use of `pandoc`, `html-minifier-terser` and `chromium`. For now, there is no git hook or action to automate this. I plan to compile as I see fit noting none of these notes are complete yet.
 
-* [:construction: **Algebra**](./notes/abstract-algebra) \ Groups, Rings and Modules
+* [:construction: **Abstract Algebra**](./notes/abstract-algebra) \ Groups, Rings and Modules
     1. [:construction: Group Theory](./notes/abstract-algebra/01-group-theory/)
     2. [:construction: Ring Theory](./notes/abstract-algebra/02-ring-theory/)
     2. [:construction: Module Theory](./notes/abstract-algebra/03-module-theory/)
-* [:construction: **Universal Algebra**](./notes/universal-algebra/00-index.md) \ Fundamentals
-* [:construction: **Probability Theory**](./notes/probability-theory/00-index.md) \ Fundamentals
+* [:construction: **Logic**](./notes/logic/) \ Fundamentals
+* [:construction: **Probability Theory**](./notes/probability-theory) \ Fundamentals
+* [:construction: **Universal Algebra**](./notes/universal-algebra) \ Fundamentals
+
+> Ordered by activeness. Other notes in `/notes` which are not mentioned here are abandoned.
 
 <!-- * [:boom: **Experiments**](./experiments/00-index.md) that most probably won't lead anywhere. -->
 
