@@ -70,7 +70,7 @@ These rules are known as **structural rules** of type theory. There are six sets
 5. Weakening rules
 6. The generic element (or variable rule)
 
-### Rules about contexts, types and elements.
+### Rules about contexts, types and elements
 
 $$
 \begin{array}{ccc}
@@ -118,7 +118,7 @@ $$
 \end{array}
 $$
 
-### Rules that postulate judgmental equality is an equivalence relation.
+### Rules that postulate judgmental equality is an equivalence relation
 
 $$
 \begin{array}{ccc}

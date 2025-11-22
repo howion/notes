@@ -6,18 +6,23 @@
     <link href="https://www.howion.com/favicon.svg" rel="icon" type="image/svg+xml">
     <meta name="generator" content="pandoc" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
     $for(author-meta)$
     <meta name="author" content="$author-meta$" />
     $endfor$
+
     $if(date-meta)$
     <meta name="dcterms.date" content="$date-meta$" />
     $endif$
+
     $if(keywords)$
     <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
     $endif$
+
     $if(description-meta)$
     <meta name="description" content="$description-meta$" />
     $endif$
+
     <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
     <style>
         $styles.html()$
@@ -126,15 +131,26 @@
 
         a {
             text-decoration: none;
-            color: #ffffe3;
-        }
-
-        a:visited {
-            color: #ffffe3;
         }
 
         a:hover {
             text-decoration: underline;
+        }
+
+        .toc a {
+            color: #ffffe3;
+        }
+
+        .toc a:visited {
+            color: #ffffe3;
+        }
+
+        .content a {
+            color: #0af;
+        }
+
+        .content a:visited {
+            color: #0af;
         }
 
         html {
@@ -175,6 +191,10 @@
             line-height: 1.25;
             margin-top: 1.5em;
             margin-bottom: 0.25em;
+        }
+
+        p {
+            line-height: 1.5;
         }
 
         h1:first-child {
@@ -218,7 +238,7 @@
             color: inherit;
         }
 
-        nav > ul > li > a {
+        nav>ul>li>a {
             opacity: 1;
         }
 
@@ -235,7 +255,34 @@
             font-weight: 600;
         }
 
+        ::selection {
+            background-color: #ffffe3;
+            color: #10100e;
+        }
+
+        .katex,
+        .katex .katex-mathml,
+        .katex .katex-html {
+            line-height: 1.5;
+            vertical-align: baseline;
+            /* prevents math from lifting or sinking */
+        }
+
+        .katex {
+            display: inline;
+        }
+
+        .katex .katex-html {
+            display: inline;
+        }
+
         @media print {
+            .katex {
+                transform: scale(1.0);
+                /* forces consistent rendering layer */
+                transform-origin: left baseline;
+            }
+
             html {
                 background-color: #fff !important;
                 color: #000 !important;
@@ -249,11 +296,11 @@
                 border-color: #000 !important;
             }
 
-            a {
-                color: #000 !important;
+            .toc a {
+                color: #000;
             }
 
-            a:visited {
+            .toc a:visited {
                 color: #000 !important;
             }
 
@@ -261,12 +308,12 @@
                 color: rgba(0, 0, 0, 0.5) !important;
             }
 
-            details > summary {
+            details>summary {
                 color: #000 !important;
             }
 
             blockquote {
-                border-color: rgba(0,0,0,0.5) !important;
+                border-color: rgba(0, 0, 0, 0.5) !important;
             }
         }
     </style>
@@ -278,6 +325,7 @@
             size: 10in 13in;
         }
     </style>
+
     $for(css)$
     <link rel="stylesheet" href="$css$" />
     $endfor$
@@ -286,15 +334,86 @@
     $header-includes$
     $endfor$
 
-    $if(math)$
+    <!-- $if(math)$
     $math$
-    $endif$
+    $endif$ -->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.css"
+        integrity="sha384-WcoG4HRXMzYzfCgiyfrySxx90XSl2rxY5mnVY5TwtWE6KLrArNKn0T/mOgNL0Mmi" crossorigin="anonymous">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.js"
+        integrity="sha384-J+9dG2KMoiR9hqcFao0IBLwxt6zpcyN68IgwzsCSkbreXUjmNVRhPFTssqdSGjwQ"
+        crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const katexOptions = {
+                displayMode: false,
+                throwOnError: false,
+                macros: [],
+                fleqn: false
+            };
+
+            function transform(el) {
+                if ("SPAN" !== el.tagName) {
+                    return
+                }
+
+                const isDisplay = el.classList.contains("display");
+                const fc = el.firstChild;
+
+                const options = Object.assign({}, katexOptions);
+                options.displayMode = isDisplay;
+
+                const html = katex.renderToString(fc.textContent, options);
+
+                return html;
+            }
+
+            const maths = document.querySelectorAll(".math");
+            const total = maths.length;
+            let index = 0;
+
+            const CHUNK_SIZE = 50;
+            const MAX_DELAY = 1000; // ms
+
+            function processChunk(deadline) {
+                const end = Math.min(index + CHUNK_SIZE, total);
+
+                for (; index < end; index++) {
+                    const el = maths[index];
+                    el.innerHTML = transform(el);
+                }
+
+                if (index < total) {
+                    if (typeof requestIdleCallback === "function") {
+                        requestIdleCallback(processChunk, { timeout: MAX_DELAY });
+                    } else {
+                        setTimeout(processChunk, 0);
+                    }
+                }
+            }
+
+            if (typeof requestIdleCallback === "function") {
+                // force after MAX_DELAY
+                requestIdleCallback(processChunk, { timeout: MAX_DELAY });
+            } else {
+                setTimeout(processChunk, 0);
+            }
+        })
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/contrib/copy-tex.min.js"
+        integrity="sha384-HORx6nWi8j5/mYA+y57/9/CZc5z8HnEw4WUZWy5yOn9ToKBv1l58vJaufFAn9Zzi"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    $for(include-before)$
+    <!-- $for(include-before)$
     $include-before$
-    $endfor$
+    $endfor$ -->
 
     <!-- $if(title)$
     <header id="title-block-header">
@@ -324,15 +443,18 @@
     $if(toc)$
     <h1>Table of Contents</h1>
     <!-- <nav id="$idprefix$TOC" role="doc-toc"> -->
-    <nav role="doc-toc">
+    <nav class="toc" role="doc-toc">
         $if(toc-title)$
         <h2>$toc-title$</h2>
         $endif$
+
         $table-of-contents$
     </nav>
     $endif$
 
-    $body$
+    <div class="content">
+        $body$
+    </div>
 
     $for(include-after)$
     $include-after$

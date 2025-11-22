@@ -1,17 +1,17 @@
 # Weep
 
 Weep, weep once more\
-&ensp;&ensp;&ensp;&ensp;Shed those tears\
+Shed those tears\
 Weep, weep forever more\
-&ensp;&ensp;&ensp;&ensp;Shed those tears
+Shed those tears
 
 This is a mere demonstration of boredom\
 This is a just a play one cannot withstand
 
 Choke on your self-hatred\
-&ensp;&ensp;&ensp;&ensp;Make it yours\
+Make it yours\
 Choke on your loneliness\
-&ensp;&ensp;&ensp;&ensp;Make it ours
+Make it ours
 
 One more revolution\
 One more step towards our end\
@@ -19,6 +19,6 @@ More steps to this wheel of torture\
 Where is my life long lecture?
 
 What makes us so miserable\
-&ensp;&ensp;&ensp;&ensp;Is what made us so resilient!\
+Is what made us so resilient!\
 To this nonsense,\
-&ensp;&ensp;&ensp;&ensp;We weep once more...
+We weep once more...
