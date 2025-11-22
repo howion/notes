@@ -1,5 +1,7 @@
 # Logic
 
+## Introduction
+
 Superficial knowledge of computational complexity theory is assumed. You should be familiar with concepts such as PTIME, EXPSPACE etc.
 
 Other than that, notes should be mostly self-sufficent for someone with the knowledge of at least basic set theory and simple combinatorics.

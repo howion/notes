@@ -1,5 +1,7 @@
 # 0. Preliminaries
 
+## Introduction
+
 * In these notes, all sets are considered to be proper sets as in ZFC, not classes.
 * Basic (at least naive) set theory and simple combinatorics knowledge is assumed. Other than that, notes should be self-sufficent.
 
@@ -26,12 +28,14 @@
 <!-- * $\text{Im }f$ denotes the **image** of a function $f: A \to B$, so does the $f(A)$. -->
 <!-- * For a function $f: A \to B$, the **fiber of $f$ over $b \in B$** is defined as the **preimage** of $\{b\}$. That is, the elements of $A$ that maps to $b$. -->
 
-## Currently
+## Status
 
-* There are not many exercises,
-* Proofs are mostly absent,
-* Typos are possible,
-* Ordering is generally good but should be improved, and
-* More visuals and intuition should be provided.
+These notes are still under work therefore not complete, also
+
+* there are not many exercises,
+* proofs are mostly absent,
+* typos are quite possible,
+* ordering is generally good but should be improved, and
+* more visuals and intuition should be provided.
 
 <!-- ## For the Lecturer -->
