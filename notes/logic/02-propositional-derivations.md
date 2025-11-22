@@ -126,3 +126,4 @@ Notice that, for example, the basic Horn formula $\neg A_1 \lor \neg A_2 \lor \n
 * Define (with the harder direction) compactness and show propositional logic is compact.
 * Define completeness.
 * Define resolutions and show its completeness.
+* More exercises here.

@@ -25,16 +25,16 @@ Semantically, we will use the symbols
 
 > For simplicity, you may want to consider a formula as a string of symbols such that it is an element of the set $\text{Form}(\mathcal{P})$ given below. There is many ways to define the set of propositional formulas, we'll stick with this one.
 
-Given a (possibly empty) countable set of **atomic formulas** (or **prime formulas**) $\mathcal{P}$, the set $\text{Form}(\mathcal{P})$ of **formulas** of propositional logic is the _smallest set_, defined _inductively_, such that:
+Given a (possibly empty) countable set of **atomic formulas** (or **prime formulas**) $\mathcal{P}$, the set $\text{Form}(\mathcal{P})$ of **formulas** of a propositional logic is the _smallest set_, defined _inductively_, such that:
 
 1. $\mathcal{P} \subseteq \text{Form}(\mathcal{P})$,
 2. If $F \in \text{Form}(\mathcal{P})$, then $\neg F \in \text{Form}(\mathcal{P})$,
-3. If $F, G \in \text{Form}(\mathcal{P})$, then $(F \land G) \text{Form}(\mathcal{P})$
+3. If $F, G \in \text{Form}(\mathcal{P})$, then $(F \land G) \in \text{Form}(\mathcal{P})$,
 
 > This definition of formulas until here suffice as we can define other operators from $\neg$ and $\land$. Indeed, we will sometimes use only these when proving theorems (or even defining concepts). In practice, we also further assume:
 
-4. If $F, G \in \text{Form}(\mathcal{P})$, then $(F \lor G) \in \text{Form}(\mathcal{P})$
-5. If $F, G \in \text{Form}(\mathcal{P})$, then $(F \to G) \in \text{Form}(\mathcal{P})$
+4. If $F, G \in \text{Form}(\mathcal{P})$, then $(F \lor G) \in \text{Form}(\mathcal{P})$,
+5. If $F, G \in \text{Form}(\mathcal{P})$, then $(F \to G) \in \text{Form}(\mathcal{P})$.
 
 > With just the NAND operator $\bar{\land}$ alone, it is possible to build other logical operators, so that (2)-(3) can be reduced to single statement with NAND.
 
@@ -42,19 +42,22 @@ When we refer an object $F$ as a (propositional) **formula**, we simply mean it 
 
 Sometimes, we will omit the use of brackets for readibility, so that, for example, $A \land B$ should be understood as the formula $(A \land B)$.
 
+From now on we will denote the propositional logic with $\bot$ as its only atomic formula that is $\mathcal{P} = \{\bot\}$ with $\mathcal{L}_0$. One could of course relax or even contradict this definition which is common in logic. We'll stick to this notation.
+
 ## Def. Syntactic Identity
 
 With $=$, we will denote the **syntactic identity**. That is, if $F$ and $G$ are strings and are formulas, then $F=G$ will simply denote they are strings of symbols of same lenght with same symbols in each place. Notice that this is a _semantic defintion_ for our syntactic model.
 
-## Def. Operators
+## Notation. Operators
 
 Given the logical operators $\neg$ and $\land$ and the atomic variable $\bot$, we can _define_, for formulas $F$ and $G$
 
 * $\top \triangleq \neg \bot$,
-* $(F \lor G) \triangleq \neg (\neg F \land \neg G)$, and
-* $(F \to G) \triangleq (\neg F \lor Q)$
+* $(F \lor G) \triangleq \neg (\neg F \land \neg G)$,
+* $(F \to G) \triangleq (\neg F \lor Q)$, and
+* $(F \leftrightarrow G) \triangleq ((F \to Q) \land (G \to F))$
 
-> Notice that we have just defined syntactic abbreviation, didn't prove anything.
+> Notice that we have just defined some syntactic abbreviations, didn't prove anything.
 
 ## Def. Subformula
 
