@@ -1,6 +1,6 @@
 # Bookshelf
 
-Updated at `10 July 2025`. I have indicated the properties of some resources with the indicators provided below.
+Updated at `24 Nov 2025`.
 
 <!-- * **:white_circle: : rather easy or introductory material for the related subject**
 * **:o: : somewhat accesible to advanced undergraduate**
@@ -13,7 +13,6 @@ It's a difficult matter to objectively classify works to a single subject, espec
 
 ## To-Do's
 
-* [ ] Add the stuff from `immutable`.
 * [ ] Add linear algebra stuff.
 * [ ] Check out Google Drive.
 

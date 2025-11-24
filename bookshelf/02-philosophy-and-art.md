@@ -31,7 +31,7 @@
 
 * ## Historical
 
-    Well one could say all of Philosophy is History of Philosophy. These are the works I didn't wan't to create it's own section or didn't know how to classify.
+    Well one could say all of Philosophy is History of Philosophy. These are the works I didn't want to create its own section nor didn't know how to classify.
 
     * **Summa Theologica** by Thomas Aquinas.
     * **A History of Western Philosophy** by Bertrand Russel.
