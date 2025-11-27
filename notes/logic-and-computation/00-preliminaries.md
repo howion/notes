@@ -1,4 +1,4 @@
-# Logic
+# Logic and Computation
 
 ## Introduction
 
