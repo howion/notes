@@ -16,7 +16,7 @@ Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as 
 * **Abstract Algebra**
     * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html)
     * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html)
-* **Logic** [**HTML**](https://notes.howion.com/logic.html)
+* **Logic and Computation** [**HTML**](https://notes.howion.com/logic-and-computation.html)
 * **Probability Theory** [**HTML**](https://notes.howion.com/probability-theory.html)
 * **Type Theory** [**HTML**](https://notes.howion.com/type-theory.html)
 * **Universal Algebra** [**HTML**](https://notes.howion.com/universal-algebra.html)
@@ -33,7 +33,7 @@ Some of those will be compiled via custom bash pipeline with the use of `pandoc`
     1. [:construction: Group Theory](./notes/abstract-algebra/01-group-theory/)
     2. [:construction: Ring Theory](./notes/abstract-algebra/02-ring-theory/)
     2. [:construction: Module Theory](./notes/abstract-algebra/03-module-theory/)
-* [:construction: **Logic**](./notes/logic/) \ Fundamentals
+* [:construction: **Logic and Computation**](./notes/logic-and-computation/) \ Fundamentals
 * [:construction: **Probability Theory**](./notes/probability-theory) \ Fundamentals
 * [:construction: **Universal Algebra**](./notes/universal-algebra) \ Fundamentals
 
