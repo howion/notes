@@ -9,7 +9,7 @@ See [**Wikipedia: Klein  four-group**](https://en.wikipedia.org/wiki/Klein_four-
 The Klein $4$-group can be defined by the group presentation
 
 $$
-V = \Braket{a,b | a^2 = b^2 = (ab)^2 = e}.
+V := \Braket{a,b | a^2 = b^2 = (ab)^2 = e}.
 $$
 
 Such group is

@@ -21,28 +21,46 @@ Semantically, we will use the symbols
 * $\mathbb{F}$ called **false** to denote _semantic falsity_.
 * $\triangleq$ called **defined as** to denote _semantic equality_.
 
-## Def. _The_ Set of Propositional Formulas
+## Def. Alphabets and Words
 
-> For simplicity, you may want to consider a formula as a string of symbols such that it is an element of the set $\text{Form}(\mathcal{P})$ given below. There is many ways to define the set of propositional formulas, we'll stick with this one.
+By an **alphabet** $\Sigma$ we mean a non-empty set of **symbols** (or **letters**).
 
-Given a (possibly empty) countable set of **atomic formulas** (or **prime formulas**) $\mathcal{P}$, the set $\text{Form}(\mathcal{P})$ of **formulas** of a propositional logic is the _smallest set_, defined _inductively_, such that:
+A finite sequence of symbols over an alphabet $\Sigma$ is called a **word** (or a **string**). Moreover, $\Sigma^*$ denotes the set of all words and the **length** of a word $w$ is the number of letters (that is size of the finite sequence) denoted with $|w|$. The **empty word** denoted with $\epsilon$ is _the_ word of length $0$.
 
-1. $\mathcal{P} \subseteq \text{Form}(\mathcal{P})$,
-2. If $F \in \text{Form}(\mathcal{P})$, then $\neg F \in \text{Form}(\mathcal{P})$,
-3. If $F, G \in \text{Form}(\mathcal{P})$, then $(F \land G) \in \text{Form}(\mathcal{P})$,
+## Def. Language and Syntax
+
+Let $\Sigma$ be an alphabet. Any subset $L$ of $\Sigma^*$ is called a **(formal) language** over $\Sigma$. Moreover, let
+
+$$
+L = \Set{w \in \Sigma^* | \varphi(w)}
+$$
+
+be a language and $\varphi$ be the definition of that language, then $\varphi$ is called the **syntax** of the language $L$.
+
+## Def. Propositional Formulas
+
+Let $\mathcal{P}$ be a, possibly empty, countable set called the **atomic formulas** (or **prime formulas**).
+
+The set $\mathcal{L}_0(\mathcal{P})$ called the **propositional formulas** for the atomics $\mathcal{P}$ defined _inductively_ as the _smallest set_ such that:
+
+1. $\mathcal{P} \subseteq \mathcal{L}_0(\mathcal{P})$,
+2. If $F \in \mathcal{L}_0(\mathcal{P})$, then $\neg F \in \mathcal{L}_0(\mathcal{P})$,
+3. If $F, G \in \mathcal{L}_0(\mathcal{P})$, then $(F \land G) \in \mathcal{L}_0(\mathcal{P})$,
 
 > This definition of formulas until here suffice as we can define other operators from $\neg$ and $\land$. Indeed, we will sometimes use only these when proving theorems (or even defining concepts). In practice, we also further assume:
 
-4. If $F, G \in \text{Form}(\mathcal{P})$, then $(F \lor G) \in \text{Form}(\mathcal{P})$,
-5. If $F, G \in \text{Form}(\mathcal{P})$, then $(F \to G) \in \text{Form}(\mathcal{P})$.
+4. If $F, G \in \mathcal{L}_0(\mathcal{P})$, then $(F \lor G) \in \mathcal{L}_0(\mathcal{P})$,
+5. If $F, G \in \mathcal{L}_0(\mathcal{P})$, then $(F \to G) \in \mathcal{L}_0(\mathcal{P})$.
 
 > With just the NAND operator $\bar{\land}$ alone, it is possible to build other logical operators, so that (2)-(3) can be reduced to single statement with NAND.
 
-When we refer an object $F$ as a (propositional) **formula**, we simply mean it is an element of $\text{Form}(\mathcal{P})$ for some set of atomic variables $\mathcal{P}$.
+Notice that $\mathcal{L}_0(\mathcal{P})$ is a language over $\Sigma = \mathcal{P} \cup \{\neg, \land, \lparen, \rparen \}$ with the syntax given above where intersection of $\mathcal{P}$ and the logical connectives is empty.
 
-Sometimes, we will omit the use of brackets for readibility, so that, for example, $A \land B$ should be understood as the formula $(A \land B)$.
+When we refer an object $F$ as a **propositional formula**, we simply mean it is an element of $\mathcal{L}_0(\mathcal{P})$ for some set of atomic variables $\mathcal{P}$.
 
-From now on we will denote the propositional logic with $\bot$ as its only atomic formula that is $\mathcal{P} = \{\bot\}$ with $\mathcal{L}_0$. One could of course relax or even contradict this definition which is common in logic. We'll stick to this notation.
+Mostly, we will omit the use of brackets for readibility, so that, for example, $A \land B$ should be understood as the formula $(A \land B)$.
+
+Moreover, we will denote **the propositional logic** with $\bot$ as its only atomic formula ,that is $\mathcal{P} = \{\bot\}$, with $\mathcal{L}_0$. One could of course relax or even contradict this definition which is not uncommon in logic. We'll stick to this notation.
 
 ## Def. Syntactic Identity
 
@@ -61,7 +79,7 @@ Given the logical operators $\neg$ and $\land$ and the atomic variable $\bot$, w
 
 ## Def. Subformula
 
-Let $F \in \text{Form}(\mathcal{P})$ be a formula. Then the set $\text{Sub}(F)$ of **subformulas** of $F$ is the smallest set, such that
+Let $F \in \mathcal{L}_0(\mathcal{P})$ be a formula. Then the set $\text{Sub}(F)$ of **subformulas** of $F$ is the smallest set, such that
 
 * $F \in \text{Sub}(F)$,
 * If $F = \neg G$, then $G \in \text{Sub}(F)$.
@@ -157,25 +175,23 @@ We say a formula $F$ **entails** the formula $G$ denoted by $F \models G$ if eve
 
 Let $F$ and $G$ be formulas. If they entail each other, then we say they are **equivalent**. This is denoted by $F \equiv G$.
 
-> Consider some valuations and thus truth-table for the exercises below.
-
-### Exercise
+### Exercise 1. Symmetry of $\land$
 
 $(F \land G) \equiv (G \land F)$
 
-### Exercise (Distributivity Rules)
+### Exercise 2. Distributivity Rules
 
 * $(F \land (G \lor H)) \equiv ((F \land G) \lor (F \land H))$
 * $(F \lor (G \land H)) \equiv ((F \lor G) \land (F \lor H))$
 
-### Exercise (De Morgan's Rules)
+### Exercise 3. De Morgan's Rules
 
 * $\neg(F \land G) \equiv (\neg F \lor \neg G)$
 * $\neg(F \lor G) \equiv (\neg F \land \neg G)$
 
 ## Def. _A_ Set of Formulas
 
-From now on, when we say $\Gamma$ is **a set of formulas**, we will mean $\Gamma \subseteq \text{Form}(\mathcal{P})$. So it is not _the_ set of formulas, but rather a set of formulas.
+From now on, when we say $\Gamma$ is **a set of formulas**, we will mean $\Gamma \subseteq \mathcal{L}_0(\mathcal{P})$. So it is not _the_ set of formulas, but rather a set of formulas.
 
 > We will make use of the letters such as $\Gamma, \Delta$ to usually denote a set of formulas and uppercase latin letters $A, B, F, G, ...$ et cetera to denote formulas.
 

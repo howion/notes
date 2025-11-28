@@ -1,22 +1,41 @@
 # 3. First Order Logic
 
-In this section we will define what we refer to as **first-order logic** which is a much more powerful (in expressive sense) language compared to our previous propositional (zeroth-order) logic. It's _lexicon_, in addition to propositional logic, contains the following.
+In this section we will define what we refer to as **first-order logic** which is a much more powerful (in expressive sense) language compared to our previous propositional (zeroth-order) logic. It's _lexicon_, who also contains zeroth-order logic defined as
 
-The syntax of a first-order logic $\mathcal{L}$ consists of
+<!-- ## Notation. Operators
 
-1. **Variables** which are mostly denoted by lowercase latin letters $x$, $y$, $z$, etc. that represent arbitrary elements of the underlying set.
-2. **Constants** which are mostly denoted by lowercase latic letters $a$, $b$, $c$, etc. that represent specific element of the underlying set.
-3. **Functions** with any arity $n \in \N$.
-4. **Relations** which are mostly denoted with uppercase latin letters $P$, $Q$, $R$, etc. to denote relations with any arity $n \in \N$.
+In addition to $\top$, $\lor$, $\to$, $\leftrightarrow$ which are the same (extended to first-order formulas) in first-order logic as in propositional logic we define
+
+* $\forall x \varphi \triangleq \neg(\exists x \neg (\varphi))$ for any variable $x$ and any formula $\varphi$. -->
+
+## Def. Alphabet
+
+> Note that if your meta-theory is strong enough in the sense that it allows you to work with classes, say NBG/GB unlike ZFC, you may allow $\mathbf{S}$ to be a proper class.
+
+The **alphabet of a first-order logic** denoted by $\mathbf{A}_\mathbf{S}$ is the union of disjoint sets $\mathbf{A}$ and $\mathbf{S}$ where $\mathbf{A}$ is a set of symbols which is the union of disjoint
+
+1. (a set of) **variables** $\{v_0, v_1, v_2 ...\}$ or denoted $\{x, y, z, ...\}$,
+2. (the set of) **connectives** $\{\neg, \land, \lor, \to, \leftrightarrow\}$,
+3. (the set of) **quantifiers** $\{\exists, \forall\}$,
+4. the _syntactic_ equality $\{=\}$
+5. the parentheses symbols $\{\lparen, \rparen\}$,
+
+and (possibly empty) $\mathbf{S}$ called the **symbol set** which is union of disjoint
+
+6. (a set of) **constants** $\{c_1, c_2, c_3, ...\}$,
+7. (a set of) $n$-ary **relations** $\{P, Q, R, ...\}$ for each $n \geq 1$,
+8. (a set of) $n$-ary **functions** $\{f, g, h, ...\}$ for each $n \geq 1$.
+
+Later on, we will show that $\mathbf{S}$ determines a first-order language.
 
 ## Def. Terms
 
-The **set of terms** of a first-order logic $\mathcal{L}$ is denoted with $\text{Term}(\mathcal{L})$ and is defined inductively as the smallest set such that
+Let $\mathbf{A}_\mathbf{S}$ be an alphabet of a first-order logic, then the set of words over $\mathbf{A}_\mathbf{S}$ called **$\mathbf{S}$-terms** is the smallest subset of ${\mathbf{A}_\mathbf{S}}^*$ such that
 
-1. Every variable and constant is a term,
-2. If $f$ is an $n$-ary function and $t_1, ..., t_n$ are terms, then $f(t_1, ..., t_n)$ is also a term.
+1. Every variable and constant in $\mathbf{S}$ is a $\mathbf{S}$-term, and
+2. For all $n \geq 1$, if $t_1, ..., t_n$ are $\mathbf{S}$-terms, then $f \> t_1 \cdots t_n$ and $R \> t_1 \cdots t_n$ are $\mathbf{S}$-terms where $f \in S$ is a $n$-ary function and $R \in S$ is a $n$-ary relation.
 
-We say that the **set of terms** are **closed** if there are no variables.
+> Note that, we are working in Polish Notation which much more compact so that $f \> t_1 t_2 t_3$ means $f(t_1, t_2, t_3)$. Notice how the necessity of commas and parentheses are gone &mdash; even in compositions.
 
 ## Def. Atomic Formula
 
@@ -39,12 +58,6 @@ The **set of formulas** of a first-order logic $\mathcal{L}$ with the set of ato
 We may overload the notation $\text{Form}(\cdot)$ to denote $\text{Form}(\mathcal{P})$ with $\text{Form}(\mathcal{L})$.
 
 > **TODO.** I'm not happy with this definition, revise. Maybe use universal collection $\mathbf{V}$ to define all and if possible refer to a reference. Ensure the notation is coherent with propositional logic.
-
-## Notation. Operators
-
-In addition to $\top$, $\lor$, $\to$, $\leftrightarrow$ which are the same (extended to first-order formulas) in first-order logic as in propositional logic we define
-
-* $\forall x \varphi \triangleq \neg(\exists x \neg (\varphi))$ for any variable $x$ and any formula $\varphi$.
 
 ## To-Do's
 

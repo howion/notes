@@ -68,10 +68,15 @@ Let $N \trianglelefteq G$ and $K \leq G$, then
 
 ## Exercises
 
+<!--
+
+TODO: Revise it, this cannot be true?
+
 ### #1
 
 Let $N \trianglelefteq G$ and $xy \in N$, then $yx \in N$.
+-->
 
-### #2
+### #1
 
 Let $G$ be a group of finite order, $N \trianglelefteq G$ and $H \leq G$ such that $|H|$ is relatively prime to $|G:N|$, then $H \leq N$.
