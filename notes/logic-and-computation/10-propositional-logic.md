@@ -2,7 +2,7 @@
 
 ## Syntax and Semantics
 
-Theorems and definitions we prove and define here are actually meta-theorems and meta-definitions in our meta-language. You may assume our metalangauge is first-order or second-order logic in which we define propositional logic which is sometimes called **zeroth-order logic**. Note that we haven't yet shown propositional logic is a subset of our meta-language. It is just, kind of, nonsense syntax at this moment.
+Theorems and definitions we prove and define here are actually meta-theorems and meta-definitions in our meta-language. Note that we haven't yet shown propositional logic (which is also called **zeroth-order logic**) is a subset of our meta-language. It is just, kind of, nonsense syntax at this moment.
 
 ## Notation. Truth
 
@@ -110,7 +110,7 @@ Then $\phi$ holds for all formulas (of propositional logic).
 
 ## Def. Formation Sequence for Propositional Formulas
 
-> Let's stick to ordinary infix notation from now on until we define the syntax first-order logic.
+> Let's stick to ordinary infix notation from now on until we define the syntax of first-order logic.
 
 A finite sequence $(F_0, ..., F_n)$ is called a **formation sequence** for the formula $F$ if $F = F_n$ and for all $i \leq n$, either
 
