@@ -8,7 +8,8 @@ Poems by various authors.
 4. [**Jabberwocky**](./c4-jabberwocky.md) by Lewis Carroll
 5. [**Annabel Lee**](./c5-annabel-lee.md) by Edgar Allan Poe
 6. [**The Raven**](./c6-the-raven.md) by Edgar Allan Poe
-7. [**The Song of Wandering Aengus**](./c7-the-song-of-wandering-aengus.md) by Edgar Allan Poe
+7. [**The Song of Wandering Aengus**](./c7-the-song-of-wandering-aengus.md) by William Butler Yeats
+7. [**La Belle Dame sans Merci**](./c8-la-belle-dame-sans-merci.md) by John Keats
 
 <!--  -->
 
