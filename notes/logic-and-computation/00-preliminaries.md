@@ -15,7 +15,6 @@ Due to nature of these notes we will mostly work in second-order ordinary set-th
 * [**The Open Logic Text**](https://github.com/OpenLogicProject/OpenLogic), by various contributors
 * **A First Course in Logic: An Introduction to Model Theory, Proof Theory, Computability and Complexity** by Shawn Hedman
 * **Mathematical Logic**, 2nd Ed., by H.-D. Ebbinghaus, J. Flum, W. Thomas
-* **A Concise Introduction to Mathematical Logic**, 3rd Ed., by Wolfgang Rautenberg
 
 ## Notation
 

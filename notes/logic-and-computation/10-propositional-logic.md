@@ -19,7 +19,7 @@ Semantically, we will use the symbols
 
 * $\mathbb{T}$ called **true** to denote _semantic truth_, and
 * $\mathbb{F}$ called **false** to denote _semantic falsity_.
-* $\triangleq$ called **defined as** to denote _semantic equality_.
+* $:=$ called **defined as** to denote _semantic equality_.
 
 ## Def. Alphabets and Words
 
@@ -45,22 +45,24 @@ The set $\mathcal{L}_0(\mathcal{P})$ called the **propositional formulas** for t
 
 1. $\mathcal{P} \subseteq \mathcal{L}_0(\mathcal{P})$,
 2. If $F \in \mathcal{L}_0(\mathcal{P})$, then $\neg F \in \mathcal{L}_0(\mathcal{P})$,
-3. If $F, G \in \mathcal{L}_0(\mathcal{P})$, then $(F \land G) \in \mathcal{L}_0(\mathcal{P})$,
+3. If $F, G \in \mathcal{L}_0(\mathcal{P})$, then $\land \> F \> G \in \mathcal{L}_0(\mathcal{P})$,
 
-> This definition of formulas until here suffice as we can define other operators from $\neg$ and $\land$. Indeed, we will sometimes use only these when proving theorems (or even defining concepts). In practice, we also further assume:
+> This definition of formulas until here suffice as we can define other operators from $\neg$ and $\land$. Indeed, we will sometimes use only these when proving theorems (or even defining concepts).
 
-4. If $F, G \in \mathcal{L}_0(\mathcal{P})$, then $(F \lor G) \in \mathcal{L}_0(\mathcal{P})$,
-5. If $F, G \in \mathcal{L}_0(\mathcal{P})$, then $(F \to G) \in \mathcal{L}_0(\mathcal{P})$.
+<!-- 4. If $F, G \in \mathcal{L}_0(\mathcal{P})$, then $\lor \> F \> G \in \mathcal{L}_0(\mathcal{P})$,
+5. If $F, G \in \mathcal{L}_0(\mathcal{P})$, then $\to F \> G \in \mathcal{L}_0(\mathcal{P})$. -->
 
-> With just the NAND operator $\bar{\land}$ alone, it is possible to build other logical operators, so that (2)-(3) can be reduced to single statement with NAND.
+> With just the NAND operator, $\bar{\land}$, alone, it is possible to build other logical operators, so that (2) and (3) can be reduced to $\bar{\land} \> F \> G$ and negation and logical and can be semantically defined via NAND.
 
-Notice that $\mathcal{L}_0(\mathcal{P})$ is a language over $\Sigma = \mathcal{P} \cup \{\neg, \land, \lparen, \rparen \}$ with the syntax given above where intersection of $\mathcal{P}$ and the logical connectives is empty.
+Notice that $\mathcal{L}_0(\mathcal{P})$ is a language over $\Sigma = \mathcal{P} \cup \{\neg, \land \}$ with the syntax given above where intersection of $\mathcal{P}$ and the logical connectives is empty.
 
 When we refer an object $F$ as a **propositional formula**, we simply mean it is an element of $\mathcal{L}_0(\mathcal{P})$ for some set of atomic variables $\mathcal{P}$.
 
-Mostly, we will omit the use of brackets for readibility, so that, for example, $A \land B$ should be understood as the formula $(A \land B)$.
+With the use of **Polish Notation** here we have removed the need for parenthesis so that, for example, $\land \neg \> A \> B$ means $(\neg A \land B)$. Since we know the arity of each operator, compositions of operators is also well-defined (exercise). But note that this notation, although this is the way we defined, is hard to follow for us mere humans, so we will mostly stick to our classical **infix notation** for the rest of the notes. Moreover, when using infix notation, we will omit the use of brackets for readibility when it is appropriate.
 
-Moreover, we will denote **the propositional logic** with $\bot$ as its only atomic formula ,that is $\mathcal{P} = \{\bot\}$, with $\mathcal{L}_0$. One could of course relax or even contradict this definition which is not uncommon in logic. We'll stick to this notation.
+Finally, we will denote **the propositional logic** with $\bot$ as its only atomic formula with $\mathcal{L}_0$ that is $\mathcal{L}_0 := \mathcal{L}_0(\{\bot\})$.
+
+One could, of course, relax or even contradict these definitions, which is not uncommon in logic. What matters is the core intuition.
 
 ## Def. Syntactic Identity
 
@@ -68,14 +70,14 @@ With $=$, we will denote the **syntactic identity**. That is, if $F$ and $G$ are
 
 ## Notation. Operators
 
-Given the logical operators $\neg$ and $\land$ and the atomic variable $\bot$, we can _define_, for formulas $F$ and $G$
+Given the logical operators $\neg$ and $\land$ and _the_ atomic variable $\bot$, we _define_ for formulas $F$ and $G$
 
-* $\top \triangleq \neg \bot$,
-* $(F \lor G) \triangleq \neg (\neg F \land \neg G)$,
-* $(F \to G) \triangleq (\neg F \lor Q)$, and
-* $(F \leftrightarrow G) \triangleq ((F \to Q) \land (G \to F))$
+* $\top := \neg \bot$,
+* $\lor \> F \> G := \neg \land \neg F \> \neg G$,
+* $\to F \> G := \lor \neg F \> G$, and
+* $\leftrightarrow F \> G := \land \to F \> G  \to G \> F$
 
-> Notice that we have just defined some syntactic abbreviations, didn't prove anything.
+> Notice that we have just defined some syntactic abbreviations, didn't prove anything. Exercise and write these polish notational definitions in ordinary infix notation.
 
 ## Def. Subformula
 
@@ -83,19 +85,19 @@ Let $F \in \mathcal{L}_0(\mathcal{P})$ be a formula. Then the set $\text{Sub}(F)
 
 * $F \in \text{Sub}(F)$,
 * If $F = \neg G$, then $G \in \text{Sub}(F)$.
-* If $F = (G \land H)$, then $G,H \in \text{Sub}(F)$.
+* If $F = \land \> G \> H$, then $G,H \in \text{Sub}(F)$.
 
 > Here, we have just defined subformula for (1)-(3) above, it should be clear what a subformula is for an extended definition.
 
 The set $\text{Sub}^+(F)$ of **proper subformulas** is defined as $\text{Sub}(F) \setminus \{F\}$.
 
-## Thm. Principle of Induction on Formulas
+## Thm. Principle of Induction on Propositional Formulas
 
 Since we are going to use induction heavily, we will prove that if $\phi$ is any property which
 
 1. Holds for all atomic formulas,
 2. If holds for $F$, it also holds for $\neg F$, and
-3. If holds for $F$ and $G$, it also holds for $(F \land G)$,
+3. If holds for $F$ and $G$, it also holds for $\land \> F \> G$,
 
 Then $\phi$ holds for all formulas (of propositional logic).
 
@@ -107,6 +109,8 @@ Then $\phi$ holds for all formulas (of propositional logic).
 </details>
 
 ## Def. Formation Sequence for Propositional Formulas
+
+> Let's stick to ordinary infix notation from now on until we define the syntax first-order logic.
 
 A finite sequence $(F_0, ..., F_n)$ is called a **formation sequence** for the formula $F$ if $F = F_n$ and for all $i \leq n$, either
 
