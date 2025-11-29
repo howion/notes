@@ -1,4 +1,4 @@
-# 1. Propositional Logic
+# 10. Propositional Logic
 
 ## Syntax and Semantics
 
@@ -36,6 +36,10 @@ L = \Set{w \in \Sigma^* | \varphi(w)}
 $$
 
 be a language and $\varphi$ be the definition of that language, then $\varphi$ is called the **syntax** of the language $L$.
+
+## Thm. Cardinality of $\Sigma^*$
+
+Let the alphabet $\Sigma$ be at most countable, then the set $\Sigma^*$ of words over $\Sigma$ is countable.
 
 ## Def. Propositional Formulas
 
@@ -81,15 +85,22 @@ Given the logical operators $\neg$ and $\land$ and _the_ atomic variable $\bot$,
 
 ## Def. Subformula
 
-Let $F \in \mathcal{L}_0(\mathcal{P})$ be a formula. Then the set $\text{Sub}(F)$ of **subformulas** of $F$ is the smallest set, such that
+The **subformula** function $\text{sub}$ is defined on the language $\mathcal{L}_0(\mathcal{P})$ inductively as
 
-* $F \in \text{Sub}(F)$,
-* If $F = \neg G$, then $G \in \text{Sub}(F)$.
-* If $F = \land \> G \> H$, then $G,H \in \text{Sub}(F)$.
+$$
+\def\arraystretch{1.25}
+\begin{array}{rcl}
+\text{sub}(p) &:=& \{p\} \\
+\text{sub}(\neg p) &:=& \{p\} \\
+\text{sub}(\land \> p \> q) &:=& \{p, q\} \\
+\end{array}
+$$
 
-> Here, we have just defined subformula for (1)-(3) above, it should be clear what a subformula is for an extended definition.
+where $p$ and $q$ are atomic formulas in $\mathcal{L}_0(\mathcal{P})$. Moreover, the **proper subformula** function $\text{sub}^+$ is defined as
 
-The set $\text{Sub}^+(F)$ of **proper subformulas** is defined as $\text{Sub}(F) \setminus \{F\}$.
+$$
+\text{sub}^+ := \text{sub}(p) \setminus \{p\}
+$$.
 
 ## Thm. Principle of Induction on Propositional Formulas
 
