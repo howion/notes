@@ -91,16 +91,18 @@ $$
 \def\arraystretch{1.25}
 \begin{array}{rcl}
 \text{sub}(p) &:=& \{p\} \\
-\text{sub}(\neg p) &:=& \{p\} \\
-\text{sub}(\land \> p \> q) &:=& \{p, q\} \\
+\text{sub}(\neg F) &:=& \{\neg F\} \cup \text{sub}(F) \\
+\text{sub}(\land \> F \> G) &:=& \{\land \> F \> G\} \cup \text{sub}(F) \cup \text{sub}(G) \\
 \end{array}
 $$
 
-where $p$ and $q$ are atomic formulas in $\mathcal{L}_0(\mathcal{P})$. Moreover, the **proper subformula** function $\text{sub}^+$ is defined as
+where $p$ is an atomic formula and $F$ is a formula in $\mathcal{L}_0(\mathcal{P})$. Moreover, the **proper subformula** function $\text{sub}^+$ is defined as
 
 $$
-\text{sub}^+ := \text{sub}(p) \setminus \{p\}
-$$.
+\text{sub}^+ := \text{sub}(F) \setminus \{F\}
+$$
+
+> Can you inductively define a function for atomics of a formula?
 
 ## Thm. Principle of Induction on Propositional Formulas
 

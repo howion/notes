@@ -59,14 +59,29 @@ The formulas which are constructed by (1) or (2) is called **atomic**.
 
 From now on we will denote the first-order language we have just defined above with $\mathcal{L}(\mathbf{A}_\mathbf{S})$ or simply $\mathcal{L}(\mathbf{S})$. This language, which is a subset of ${\mathbf{A}_\mathbf{S}}^*$, consists of words which we call formulas that are defined inductively.
 
-## Def. $\text{Sub}(\varphi)$
+## Def. $\text{sub}(\varphi)$
 
-The **subformula** function $\text{Sub}$ is defined on the domain $\text{Form}(\mathbf{A}_\mathbf{S})$ inductively as
+The **subformula** function $\text{sub}$ is defined on the domain $\text{Form}(\mathbf{A}_\mathbf{S})$ inductively as
 
 $$
 \def\arraystretch{1.25}
 \begin{array}{rcl}
-\text{Sub}(t_1 = t_2) &:=& \text{var}(t_1) \cup \text{var}(t_2) \\
+\text{sub}(t_1 = t_2) &:=& \{t_1 = t_2\} \\
+\text{sub}(R_n \> t_1 \cdots t_n) &:=& \{ R_n \> t_1 \cdots t_n \} \\
+\text{sub}(\neg \varphi) &:=& \{\neg \varphi \} \cup \text{sub}(\varphi)\\
+\text{sub}(\land \> \varphi \> \psi) &:=& \{\land \> \varphi \> \psi\} \cup \text{sub}(\varphi) \cup \text{sub}(\psi) \\
+\text{sub}(\exists x \varphi) &:=& \{\exists x \varphi\} \cup \text{sub}(\varphi)
+\end{array}
+$$
+
+## Def. $\text{free}(\varphi)$
+
+The **free variables** function $\text{free}$ is defined on the domain $\text{Form}(\mathbf{A}_\mathbf{S})$ inductively as
+
+$$
+\def\arraystretch{1.25}
+\begin{array}{rcl}
+\text{free}(t_1 = t_2) &:=& \text{var}(t_1) \cup \text{var}(t_2) \\
 \text{free}(R_n \> t_1 \cdots t_n) &:=& \text{var}(t_1) \cup \cdots \cup \text{var}(t_n) \\
 \text{free}(\neg \varphi) &:=& \text{free}(\varphi) \\
 \text{free}(\land \> \varphi \> \psi) &:=& \text{free}(\varphi) \cup \text{free}(\psi) \\

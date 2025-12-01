@@ -60,7 +60,7 @@ $$
 
 ## Thm. Soundness
 
-Let $\Gamma$ be a set of formulas and $F$ a formula in propositional logic such that $\Gamma \vdash F$, then $\Gamma \models F$.
+Let $\Gamma$ be a set of propositional formulas and $F$ a formula in propositional logic such that $\Gamma \vdash F$, then $\Gamma \models F$.
 
 <details>
 <summary><b>Proof</b></summary>
