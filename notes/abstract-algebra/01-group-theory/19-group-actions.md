@@ -116,9 +116,8 @@ Let $G$ be a group, then
 
 Let $G$ be a group and $H \leq G$. The action of $H$ on the set $G$ which is given by $(h,g) \mapsto hg$, where $hg$ is the group product is called a **(left) translation**.
 
-Let $S$ be the set of all (left) cosets of $H$ in $G$, then $H$ acts on $S$ by translation $(h, gH) \mapsto hg H$.
+Let $S$ be the set of all (left) cosets of $H$ in $G$, then we say **$H$ acts on $S$ by translation** so that $(h, gH) \mapsto hg H$.
 
 ## Thm.
-
 
 <!-- TODO: Burnside's Lemma -->
