@@ -5,7 +5,7 @@ My dear, will this vicious cycle ever release me from this rein of agony?\
 Will my gaze ever reach out to your reality?\
 Oh my dear, haven't your glamorous glance been a tremble for me?
 
-Virtue and sole chaos that has enslaved my soul.\
+Virtue and sole chaos that has enslaved my soul,\
 Will fate ever liberate this fool infant?\
 You, who saves that are to be saved,\
 Will I ever be free in your dreams, or be left to perish?
@@ -31,7 +31,7 @@ Or, was he the one to accompany afterbirth?\
 Would you curse or bestow him with the truth?
 
 Only with you I have the joie de vivre,\
-Without you its all a blither,\
+Without you its all a blither.\
 What would you whisper to this perceiver?\
 Would these delicate eyes ever notice me?
 
