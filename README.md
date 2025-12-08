@@ -16,10 +16,10 @@ Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as 
 * **Abstract Algebra**
     * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html)
     * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html)
-* **Logic and Computation** [**HTML**](https://notes.howion.com/logic-and-computation.html)
 * **Probability Theory** [**HTML**](https://notes.howion.com/probability-theory.html)
 * **Type Theory** [**HTML**](https://notes.howion.com/type-theory.html)
 * **Universal Algebra** [**HTML**](https://notes.howion.com/universal-algebra.html)
+* ~~**Logic and Computation** [**HTML**](https://notes.howion.com/logic-and-computation.html)~~
 
 > In order to convert these notes to PDF, just try to print the page and save as PDF after the page is loaded. It will automatically, at least in Chrome-based browsers, convert to light theme and adjust the layout for printing.
 >
