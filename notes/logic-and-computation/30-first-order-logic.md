@@ -1,4 +1,4 @@
-# 30. First-Order Logic
+# First-Order Logic
 
 In this section we will define what we refer to as **first-order logic** which is a much more powerful (in expressive sense) language compared to our previous propositional (zeroth-order) logic. It's _lexicon_, who also contains zeroth-order logic defined as
 
@@ -114,9 +114,19 @@ where $x$ is a variable symbol, $t_1, ..., t_n$ are terms, $R_n$ is an $n$-ary r
 
 A variable which is not free is called **bound**.
 
+## Notation. Terms
+
+From now on we will denote any tuple of terms $x_1, x_2, ..., x_n$ with $\bar{x}$ so that, for example, $\varphi(\bar{x})$ means $\varphi(x_1, x_2, ..., x_n)$.
+
 ## Def. Sentence
 
 A **sentence** in a first-order logic is a formula without free variables.
+
+## Def. Formulas
+
+A **quantifier-free formula** is a formula in which the quantifier $\exists$ (and thus $\forall$) does not occur.
+
+An **existential formula** is a formula of the from $\exists y_1 \exists y_2 \cdots \exists y_m \varphi(\bar{x}, y_1, y_2, ..., y_m)$ where $\varphi(\bar{x}, \bar{y})$ is a quantifier-free formula and $m \geq 0$.
 
 ## To-Do's
 

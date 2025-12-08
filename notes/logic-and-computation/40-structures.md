@@ -1,4 +1,4 @@
-# 40. Structures
+# Structures
 
 ## Def. Structure
 
@@ -9,6 +9,8 @@ Let $\mathbf{S}$ be a symbol set, then a **structure** of $\mathbf{S}$ is a tupl
     1. $\mathbf{v}(R)$ is an $n$-ary relation on $\mathbf{V}$ for all $n$-ary relation symbol in $\mathbf{S}$.
     2. $\mathbf{v}(f)$ is an $n$-ary function on $\mathbf{V}$ for all $n$-ary function symbol in $\mathbf{S}$.
     3. $\mathbf{v}(c)$ is an element of $\mathbf{V}$ for all constant symbols in $\mathbf{S}$.
+
+From now on, with $|\mathfrak{S}|$ we will actually denote the cardinality of the universe $\mathbf{V}$.
 
 ## Def. Valuation
 
@@ -53,11 +55,11 @@ Moreover, similar to propositional logic, we define
 
 $$
 \begin{array}{lcl}
-\mathfrak{M} \models t_1 = t_2 & \text{iff} & \mathfrak{M}(t_1) = \mathfrak{M}(t_2) \\
-\mathfrak{M} \models \neg \varphi & \text{iff} & \text{not} \enspace \mathfrak{M} \models \varphi \\
-\mathfrak{M} \models \varphi \land \psi & \text{iff} & \mathfrak{M} \models \varphi \enspace \text{and} \enspace \mathfrak{M} \models \psi \\
-\mathfrak{M} \models \exists x \varphi & \text{iff} & \mathfrak{M} \dfrac{a}{x} \models \varphi \enspace \text{for some} \enspace a \in \mathbf{V}\\
-\mathfrak{M} \models R \> t_1 \cdots t_n  & \text{iff} & (\mathfrak{M}(t_1), ..., \mathfrak{M}(t_n)) \in \mathbf{v}(R)
+\mathfrak{M} \models t_1 = t_2 & := & \enspace \mathfrak{M}(t_1) = \mathfrak{M}(t_2) \\
+\mathfrak{M} \models \neg \varphi & := & \enspace \text{not} \enspace \mathfrak{M} \models \varphi \\
+\mathfrak{M} \models \varphi \land \psi & := & \enspace \mathfrak{M} \models \varphi \enspace \text{and} \enspace \mathfrak{M} \models \psi \\
+\mathfrak{M} \models \exists x \varphi & := & \enspace \mathfrak{M} \dfrac{a}{x} \models \varphi \enspace \text{for some} \enspace a \in \mathbf{V}\\
+\mathfrak{M} \models R \> t_1 \cdots t_n  & := & \enspace (\mathfrak{M}(t_1), ..., \mathfrak{M}(t_n)) \in \mathbf{v}(R)
 \end{array}
 $$
 
@@ -78,3 +80,5 @@ We say a formula $\varphi$ is a **tautology** (or **valid**)  denoted $\models \
 ## Def. Satisfiable
 
 We say a set of formulas $\Delta$ is **satisfiable** denoted $\text{Sat }\Delta$ if there exists a model $\mathfrak{M}$ such that $\mathfrak{M} \models \Delta$.
+
+<!-- TODO: Defn. 2.24 subsets and definability -->

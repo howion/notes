@@ -1,4 +1,4 @@
-# 10. Propositional Logic
+# Propositional Logic
 
 ## Syntax and Semantics
 
