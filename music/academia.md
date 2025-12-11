@@ -1,4 +1,4 @@
-# (We are) The Academia
+# Academia
 
 > "Academia" is the name of our little friend group whose main interest is Mathematics.
 >

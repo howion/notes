@@ -1,6 +1,6 @@
 # External Poems
 
-Poems by various authors.
+> Poems by various authors
 
 1. [**So, we'll go no more a roving**](./c1-so-well-go-no-more-a-roving.md) by Lord Byron
 2. [**The Charge of the Light Brigade**](./c2-the-charge-of-the-light-brigade.md) by Lord Alfred Tennyson
@@ -9,9 +9,12 @@ Poems by various authors.
 5. [**Annabel Lee**](./c5-annabel-lee.md) by Edgar Allan Poe
 6. [**The Raven**](./c6-the-raven.md) by Edgar Allan Poe
 7. [**The Song of Wandering Aengus**](./c7-the-song-of-wandering-aengus.md) by William Butler Yeats
-7. [**La Belle Dame sans Merci**](./c8-la-belle-dame-sans-merci.md) by John Keats
+8. [**La Belle Dame sans Merci**](./c8-la-belle-dame-sans-merci.md) by John Keats
+9. [**Lucy (Poems)**](./c9-lucy.md) by William Wordsworth
+10. [**Ozymandias**](./c10-ozymandias.md) by Percy Bysshe Shelley
+11. [**Kubla Khan**](./c11-kubla-khan.md) by Samuel Taylor Coleridge
 
-<!--  -->
+More
 
 1. [**Art vs. Trade**](./a0-art-vs-trade.md) by James Weldon Johnson
 2. [**O Fortuna**](./a1-o-fortuna.md) from Carmina Burana

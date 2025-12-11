@@ -76,7 +76,7 @@ And she I cherish'd turn her wheel\
 Thy mornings show'd, thy nights conceal'd\
 &ensp;&ensp;The bowers where Lucy play'd;\
 And thine too is the last green field\
-&ensp;&ensp;That Lucy's eyes survey'd.\
+&ensp;&ensp;That Lucy's eyes survey'd.
 
 IV.
 
