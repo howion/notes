@@ -3,22 +3,22 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/howion/notes)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/howion/notes)
 
-This is where I will upload my various notes (or resources) related to different topics that I ended up using **Markown** + **KaTeX** instead of pen-paper.
+This is where I will upload my various notes (or resources) related to different topics.
 
 For the notes I will publish here, I aim to use a formal tone, organized with a logical structure. I believe this is usually not the best approach when it comes to learning, so you may want to use these materials for revision purposes rather than as a learning material.
 
-I have no idea how long and how often I will publish here. Most of my notes are on paper and are mostly sketches. I aspire to write my new (and maybe also old) notes in this format as I believe KaTeX and Markdown is much easier to work with and often enough.
-
 ## Notes: Compiled
 
-Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as PDF. You may also download the generated PDFs directly from `/docs` with `PDF` links provided below. Please note that none of the notes are complete yet and being actively developed.
+Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as PDF. Please note that none of the notes are complete yet and being actively developed.
+
+> Other than Abstract Algebra notes (especially Group Theory) I'm not really proud with those notes yet. Beware that I have not yet abandoned them but they shall be subject to major changes later on.
 
 * **Abstract Algebra**
     * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html)
     * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html)
-* **Probability Theory** [**HTML**](https://notes.howion.com/probability-theory.html)
 * **Type Theory** [**HTML**](https://notes.howion.com/type-theory.html)
 * **Universal Algebra** [**HTML**](https://notes.howion.com/universal-algebra.html)
+* ~~**Probability Theory** [**HTML**](https://notes.howion.com/probability-theory.html)~~
 * ~~**Logic and Computation** [**HTML**](https://notes.howion.com/logic-and-computation.html)~~
 
 > In order to convert these notes to PDF, just try to print the page and save as PDF after the page is loaded. It will automatically, at least in Chrome-based browsers, convert to light theme and adjust the layout for printing.
@@ -61,7 +61,7 @@ My handwritten poems, in no particular order.
 
 You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articles on various subjects which are mostly related to Mathematics, Computer Science or Philosophy.
 
-## Resources
+## External Resources
 
 * [**Poems** (by various authors)](./resources/poems/00-index.md)
 * [**Websites**](./resources/websites.md)
@@ -74,10 +74,6 @@ For readability of source code, especially for the mathematical ones, you should
 * `Markdown Preview Github` by Matt Bierner to preview markdown files,
 * `Markdown Emoji` by Matt Bierner to add Github emoji support to VSCode, make sure you also have an emoji font installed in your system, and
 * `markdownlint` by David Anson to lint markdown files.
-
-You must be able to easily see some cool **KaTeX** text below to read the source of these notes:
-
-$$\KaTeX$$
 
 ## License
 
