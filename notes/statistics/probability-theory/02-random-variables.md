@@ -1,10 +1,30 @@
-# 2. (Discrete) Random Variables
+# 2. Random Variables
 
-## Def. Random Variable
+## Def. Random Variable (R.V.)
 
-A **random variable** $X$ (r.v.) is a function from the sample $S$ to the set of real numbers $\R$.
+A **random variable** $X$ is a just map (function)
 
-So, a random variable is a function from the elements (not events) of $S$ to a real number. Since $X$ is a function, $X(s) \in \R$ is defined for all $s \in S$.
+$$
+X: \Omega \to \R
+$$
+
+which maps the _elements_ (called outcomes) of $\Omega$ to the real line $\R$.
+
+> Technically it must be a _measurable_ function.
+
+## Notation. Random Variable
+
+## Def. Cumulative Distribution Function (CDF)
+
+Given a random variable $X$, the **cumulative distribution function $F_X$** is defined as
+
+$$
+\def\arraystretch{1.25}
+\begin{array}{rcl}
+F_X: \enspace \R &\to& [0, 1] \subseteq \R \\
+     x &\mapsto& P(X \leq x)
+\end{array}
+$$
 
 ## Def. Discrete Random Variable
 

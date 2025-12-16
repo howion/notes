@@ -103,7 +103,7 @@ mkdir -p "${OUT_DIR}"
 build "./notes/abstract-algebra/01-group-theory" "abstract-algebra/group-theory" "title=Group Theory"
 build "./notes/abstract-algebra/02-ring-theory" "abstract-algebra/ring-theory" "title=Ring Theory"
 build "./notes/logic-and-computation" "logic-and-computation" "title=Logic and Computation"
-build "./notes/probability-theory" "probability-theory" "title=Probability Theory"
+build "./notes/statistics/probability-theory" "statistics/probability-theory" "title=Probability Theory"
 build "./notes/type-theory" "type-theory" "title=Type Theory"
 build "./notes/universal-algebra" "universal-algebra" "title=Universal Algebra"
 

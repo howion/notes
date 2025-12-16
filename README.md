@@ -18,7 +18,7 @@ Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as 
     * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html)
 * **Type Theory** [**HTML**](https://notes.howion.com/type-theory.html)
 * **Universal Algebra** [**HTML**](https://notes.howion.com/universal-algebra.html)
-* ~~**Probability Theory** [**HTML**](https://notes.howion.com/probability-theory.html)~~
+* **Probability Theory** [**HTML**](https://notes.howion.com/statistics/probability-theory.html)
 * ~~**Logic and Computation** [**HTML**](https://notes.howion.com/logic-and-computation.html)~~
 
 > In order to convert these notes to PDF, just try to print the page and save as PDF after the page is loaded. It will automatically, at least in Chrome-based browsers, convert to light theme and adjust the layout for printing.
@@ -34,7 +34,8 @@ Some of those will be compiled via custom bash pipeline with the use of `pandoc`
     2. [:construction: Ring Theory](./notes/abstract-algebra/02-ring-theory/)
     2. [:construction: Module Theory](./notes/abstract-algebra/03-module-theory/)
 * [:construction: **Logic and Computation**](./notes/logic-and-computation/) \ Fundamentals
-* [:construction: **Probability Theory**](./notes/probability-theory) \ Fundamentals
+* [:construction: **Statistics**](./notes/statistics) \ Groups, Rings and Modules
+    1. [:construction: **Probability Theory**](./notes/probability-theory) \ Fundamentals
 * [:construction: **Universal Algebra**](./notes/universal-algebra) \ Fundamentals
 
 > Ordered by activeness. Other notes in `/notes` which are not mentioned here are abandoned.
