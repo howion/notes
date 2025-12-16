@@ -21,6 +21,7 @@
 
 ## Paid
 
+* [**PolySans**](https://www.wearegradient.net/typefaces/polysans-standard/) \ Paid
 * [**Mori**](https://pangrampangram.com/products/mori) \ Paid
 * [**Neue Montreal**](https://pangrampangram.com/products/neue-montreal) \ Paid
 * [**T1 Robit**](https://type-department.com/products/robit?variant=43641828704409&licenxa=XS) \ Paid

@@ -83,7 +83,7 @@ for all $x \in G$.
 
 ## Thm. Krull-Schmidt
 
-Let $G$ be a group that satisfies both ACC and DCC on normal subgroups. Moreover, let each $G_i$ and $H_j$ be indecomposable such that
+Let $G$ be a group that satisfies both ACC and DCC on normal subgroups. Moreover, let each $G_i$ and $H_j$ be indecomposable where
 
 $$
 \begin{array}{ll}
@@ -92,4 +92,4 @@ G = H_1 \times H_2 \times \cdots H_t
 \end{array}
 $$
 
-then $s = t$ and for some reindexing $G_i \cong H_i$ for all $i \leq s=t$.
+then $s = t$ and for some reindexing $G_i \cong H_i$.

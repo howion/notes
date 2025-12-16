@@ -38,6 +38,8 @@ where each $C_i$ is either infinite or of order a power of a prime.
 > TODO:
 </details>
 
+> Notice that this theorem implies if positive integer $m$ divides the order of a group, then there exists a subgroup of order $m$. This is not the case for any group, we have just proved this for finite abelian groups. We'll touch this subject later on Sylow Theorems.
+
 ## Thm. Prime Decomposition and Cyclics
 
 Let $m = p_1^{n_1} p_2^{n_2} \cdots p_k^{n_k}$ be a positive integer such that each $p_i$ is a distinct prime and $n_i > 0$, then
@@ -55,7 +57,7 @@ $$
 
 ## Corollary. FGA Subgroups
 
-Let $G$ be a finitely generated abelian group of order $n$, then $G$ has a subgroup of order $m$ for every $m \mid n$.
+Let $G$ be a finitely generated abelian group of order $n$, then $G$ has a subgroup of order $m$ for every positive integer $m$ that divies $n$.
 
 <!-- ## Def. Torsion Subgroup
 <!-- ## Thm. 2.6 -->

@@ -19,7 +19,7 @@ $$
 
 ## Def. Simple Group
 
-A group is said to be **simple** if it has no proper normal subgroups.
+A group is said to be **simple** if it has no proper (and non-trivial) normal subgroups.
 
 ## Thm. On Simple Groups
 

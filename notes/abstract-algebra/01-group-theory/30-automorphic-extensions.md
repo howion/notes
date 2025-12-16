@@ -1,4 +1,4 @@
-# 20. Automorphic Extensions
+# 30. Automorphic Extensions
 
 <!-- TODO: Find suitable references -->
 
