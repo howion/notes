@@ -2,6 +2,8 @@
 
 > By James Weldon Johnson
 
+<br/>
+
 Trade, Trade versus Art,\
 Brain, Brain versus Heart;\
 Oh, the earthiness of these hard-hearted times,\

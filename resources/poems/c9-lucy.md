@@ -2,7 +2,9 @@
 
 > 5 Lucy Poems by William Wordsworth
 
-I.
+<br/>
+
+**Poem 1**
 
 Strange fits of passion have I known:\
 &ensp;&ensp;And I will dare to tell,\
@@ -39,7 +41,9 @@ What fond and wayward thoughts will slide\
 'O mercy!' to myself I cried,\
 &ensp;&ensp;'If Lucy should be dead!'
 
-II.
+<br/>
+
+**Poem 2**
 
 She dwelt among the untrodden ways\
 &ensp;&ensp;Beside the springs of Dove;\
@@ -56,7 +60,9 @@ She lived unknown, and few could know\
 But she is in her grave, and, O!\
 &ensp;&ensp;The difference to me!
 
-III.
+<br/>
+
+**Poem 3**
 
 I travell'd among unknown men\
 &ensp;&ensp;In lands beyond the sea;\
@@ -78,7 +84,9 @@ Thy mornings show'd, thy nights conceal'd\
 And thine too is the last green field\
 &ensp;&ensp;That Lucy's eyes survey'd.
 
-IV.
+<br/>
+
+**Poem 4**
 
 Three years she grew in sun and shower;\
 Then Nature said, 'A lovelier flower\
@@ -129,7 +137,9 @@ This heath, this calm and quiet scene;\
 The memory of what has been,\
 And never more will be.
 
-V.
+<br/>
+
+**Poem 5**
 
 A slumber did my spirit seal;\
 &ensp;&ensp;I had no human fears:\
