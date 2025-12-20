@@ -12,7 +12,7 @@ Syntactically, we will use the symbols
 * $\top$ called **top** to denote truth _in our syntactic model_,
 * $\neg$ called **negation** to denote _negation_,
 * $\to$ called **material implication** to denote _implication_,
-* $\land$ called **conjuction** to denote _and_, and
+* $\land$ called **conjunction** to denote _and_, and
 * $\lor$ called **disjunction** to denote _or_.
 
 Semantically, we will use the symbols

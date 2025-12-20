@@ -2,7 +2,7 @@
 
 ## Def. Cryptographic Protocol
 
-A **cryptographic protocol** is a protocol that uses cryptography...It should not be possible to do more or learn more than what is specified in the protcol.
+A **cryptographic protocol** is a protocol that uses cryptography...It should not be possible to do more or learn more than what is specified in the protocol.
 
 In an **arbitrated protocol**, a _disinterested_ (no vested interest) third party trusted to complete a protocol.
 

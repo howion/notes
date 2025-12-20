@@ -2,7 +2,7 @@
 
 ## Def. Ring of Continuous Functions
 
-Let $R$ be the set of real valued continious functions from the topological space $X$ to $\R$. For $f,g \in R$, define the pointwise operations for all $x \in X$ as
+Let $R$ be the set of real valued continuous functions from the topological space $X$ to $\R$. For $f,g \in R$, define the pointwise operations for all $x \in X$ as
 
 $$
 \begin{array}{rl}

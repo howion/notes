@@ -26,7 +26,7 @@ $$
 
 ## Thm. Embedding 2
 
-Let $f: M \to N$ be an embedding and $\varphi(\bar{x})$ an existential formula, then $f$ preservers $\varphi(\bar{x})$.
+Let $f: M \to N$ be an embedding and $\varphi(\bar{x})$ an existential formula, then $f$ preserves $\varphi(\bar{x})$.
 
 ## Thm. Embedding 3
 

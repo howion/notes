@@ -26,7 +26,7 @@ $$\Gamma \vdash a \doteq b : A$$
 
 ### Def. Context
 
-A **context** is a finite list of **variable declerations**.
+A **context** is a finite list of **variable declarations**.
 
 $$
 \begin{array}{l}

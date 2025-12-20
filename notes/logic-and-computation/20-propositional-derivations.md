@@ -80,7 +80,7 @@ A **literal** is either an atomic formula, or the negation of an atomic formula.
 
 ## Def. Conjuctive Normal Form
 
-A propositional formula $F$ is in **conjuctive normal form (CNF)** if it is a conjuction of disjunctions of literals, that is
+A propositional formula $F$ is in **conjunctive normal form (CNF)** if it is a conjunction of disjunctions of literals, that is
 
 $$
 F = \bigwedge_{i = 1}^{n} \left(\bigvee_{j = 1}^{m} \right) L_{ij}
@@ -90,7 +90,7 @@ where $m,n \in \N^+$ and each $L_{ij}$ is a literal.
 
 ## Def. Disjunctive Normal Form
 
-A propositional formula $F$ is in **disjunctive normal form (DNG)** if it is a conjuction of disjunctions of literals, that is
+A propositional formula $F$ is in **disjunctive normal form (DNF)** if it is a conjunction of disjunctions of literals, that is
 
 $$
 F = \bigvee_{i = 1}^{n} \left(\bigwedge_{j = 1}^{m} \right) L_{ij}
@@ -106,7 +106,7 @@ Negation of a formula in DNF is equivalent to a formula in CNF. Similarly, negat
 
 Any propositional formula $F$ is equivalent to some formula $F_\text{CNF}$ in CNF and some formula $F_\text{DNF}$ in DNF.
 
-The cannonical algorithms to build equivalent formulas in CNF and DNF are straightforward and simple. Curious reader may exercise or check out such algorithms.
+The canonical algorithms to build equivalent formulas in CNF and DNF are straightforward and simple. Curious reader may exercise or check out such algorithms.
 
 ## Def. Horn Formula
 
@@ -122,7 +122,7 @@ Notice that, for example, the basic Horn formula $\neg A_1 \lor \neg A_2 \lor \n
 
 ## To-Do's
 
-* Define Horn Algorithm and HORNSAT, show it is linear and concludes satisfiablity.
+* Define Horn Algorithm and HORNSAT, show it is linear and concludes satisfiability.
 * Define (with the harder direction) compactness and show propositional logic is compact.
 * Define completeness.
 * Define resolutions and show its completeness.

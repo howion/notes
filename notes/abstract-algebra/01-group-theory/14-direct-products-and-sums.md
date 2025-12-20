@@ -34,7 +34,7 @@ called the **(natural) projection(s)** of the direct product is an epimorphism o
 
 Let $\Set{G_i}$ be a non-empty family of groups, then the **(external) weak direct product** of the groups $G_i$ denoted with $\prod^w G_i$ is the set of all $f \in \prod G_i$ such that $f(i) = e_i$ for all but a finite number of $i \in I$.
 
-> That is, non-identiy elements of the tuple $f$ are finite. Tuple consists of "mostly" identity elements.
+> That is, non-identity elements of the tuple $f$ are finite. Tuple consists of "mostly" identity elements.
 
 Notice that if $I$ is finite, then every direct product is a weak direct product.
 
@@ -95,7 +95,7 @@ Let $\Set{G_i}$ be a non-empty family of groups and $\prod G_i = G$. If $\Set{G_
 
 ## Thm. Normal Decomposition Condition
 
-Let $\Set{N_i}$ be a non-empty family of normal subgroups of $G$. Then, $\Set{N_i}$ is a normal decomposition of $G$ if and only if for each non-identiy $g \in G$ is the unique product
+Let $\Set{N_i}$ be a non-empty family of normal subgroups of $G$. Then, $\Set{N_i}$ is a normal decomposition of $G$ if and only if for each non-identity $g \in G$ is the unique product
 
 $$
 g = a_{i_1}a_{i_2} \cdots a_{i_n}

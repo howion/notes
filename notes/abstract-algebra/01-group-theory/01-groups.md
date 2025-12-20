@@ -4,7 +4,7 @@
 
 A **group** is an ordered pair $(G, \cdot)$ where $G$ is a set and $\cdot$ is a binary operation on $G$ that satisfies:
 
-> Simply, $\cdot$ is a (total) function from $G$ to $G$. Notice that $G$ is an any set, finite or infinite.
+> Simply, $\cdot$ is a (total) function from $G$ to $G$. Notice that $G$ is any set, finite or infinite.
 
 * **Associativity**, that is, for all $a,b,c \in G$ we have $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
 

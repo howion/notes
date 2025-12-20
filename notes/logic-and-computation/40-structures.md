@@ -63,7 +63,7 @@ $$
 \end{array}
 $$
 
-Similar to propositiona logic, if $\Delta$ is a set of first-order formulas, then $\mathfrak{M} \models \Delta$ denotes that $\mathfrak{M} \models \varphi$ for all $\varphi \in \Delta$.
+Similar to propositional logic, if $\Delta$ is a set of first-order formulas, then $\mathfrak{M} \models \Delta$ denotes that $\mathfrak{M} \models \varphi$ for all $\varphi \in \Delta$.
 
 ## Def. Entails
 

@@ -23,7 +23,7 @@ A **probability space** consists of a sample space $\Omega$ and a **probability 
 
 Elements $\Omega$ are called **sample outcomes**, **realizations**, or **elements**.
 
-> So basically an event is a subset of the sample space and the probabiliy measure satisfies some simple yet very powerful axioms.
+> So basically an event is a subset of the sample space and the probability measure satisfies some simple yet very powerful axioms.
 
 ## Thm. Basic Probability Properties
 

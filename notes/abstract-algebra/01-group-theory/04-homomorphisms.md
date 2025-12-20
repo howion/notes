@@ -61,7 +61,7 @@ Let $\varphi: G \to H$ be a group homomorphism, then
 Let $\varphi: G \to H$ be a group homomorphism, then
 
 1. $\varphi$ is a monomorphism if and only if $\text{Ker } \varphi = \{e_G\}$.
-2. $\varphi$ is an isomorphism if any only if there exists an homomorphism $\varphi^{-1}: H \to G$ such that $\varphi \varphi^{-1} = \text{id}_G$.
+2. $\varphi$ is an isomorphism if and only if there exists an homomorphism $\varphi^{-1}: H \to G$ such that $\varphi \varphi^{-1} = \text{id}_G$.
 
 > Exercise
 

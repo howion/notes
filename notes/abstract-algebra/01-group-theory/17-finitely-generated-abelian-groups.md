@@ -57,7 +57,7 @@ $$
 
 ## Corollary. FGA Subgroups
 
-Let $G$ be a finitely generated abelian group of order $n$, then $G$ has a subgroup of order $m$ for every positive integer $m$ that divies $n$.
+Let $G$ be a finitely generated abelian group of order $n$, then $G$ has a subgroup of order $m$ for every positive integer $m$ that divides $n$.
 
 <!-- ## Def. Torsion Subgroup
 <!-- ## Thm. 2.6 -->

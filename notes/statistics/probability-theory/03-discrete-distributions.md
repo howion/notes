@@ -64,7 +64,7 @@ for $0 \leq k \leq w$ and $0 \leq n-k \leq b$, and $P(X=k)=0$ otherwise.
 
 The distributions $\text{HGeom}(w, b, n)$ and $\text{HGeom}(n, w + b -n, w)$ are identical.
 
-## Def. Discrite Uniform Distribution
+## Def. Discrete Uniform Distribution
 
 [**Wikipedia:** Discrete Uniform Distribution](https://en.wikipedia.org/wiki/Discrete_uniform_distribution)
 

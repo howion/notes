@@ -4,7 +4,7 @@
 
 Superficial knowledge of computational complexity theory is assumed. You should be familiar with concepts such as PTIME, EXPSPACE etc.
 
-Other than that, notes should be mostly self-sufficent for someone with the knowledge of at least basic set theory and simple combinatorics.
+Other than that, notes should be mostly self-sufficient for someone with the knowledge of at least basic set theory and simple combinatorics.
 
 Due to nature of these notes we will mostly work in second-order ordinary set-theoric logic.
 

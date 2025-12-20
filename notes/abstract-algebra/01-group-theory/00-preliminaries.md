@@ -3,7 +3,7 @@
 ## Introduction
 
 * In these notes, all sets are considered to be proper sets as in ZFC, not classes.
-* Basic (at least naive) set theory and simple combinatorics knowledge is assumed. Other than that, notes should be self-sufficent.
+* Basic (at least naive) set theory and simple combinatorics knowledge is assumed. Other than that, notes should be self-sufficient.
 
 <!-- Knowledge of axiomatic set theory, category theory or lattice theory would be helpful. Indeed, if you are familiar with those subjects please send a pull request to `gh/howion/notes`. -->
 
