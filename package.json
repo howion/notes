@@ -1,0 +1,14 @@
+{
+    "name": "howion-notes",
+    "type": "module",
+    "private": false,
+    "scripts": {
+        "build": "./bin/build-notes.sh"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    }
+}

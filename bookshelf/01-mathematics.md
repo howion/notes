@@ -56,7 +56,7 @@
 
     * Here be dragons.
 
-* ## Analysis
+* ## Analysis, Statistics
 
     <!-- * **Principles of Mathematical Analysis** by Walter Rudin.
     > Didn't really even take a peek at this book but seemingly if you study Mathematics you must have this on your shelf. -->
@@ -65,6 +65,7 @@
 
     * **Real Mathematical Analysis** by Charles C. Pugh.
     * **Understanding Analysis** by Stephan Abbott.
+    * **All of Statistics: A Concise Course in Statistical Inference** by Larry Wasserman
     * **Introduction to Probability** by Joseph K. Blitzstein and Jessica Hwang.
         > My probability theory notes are, for now, mostly based on this book
     * **Partial Differential Equations: An Introduction** by Walter A. Strauss.

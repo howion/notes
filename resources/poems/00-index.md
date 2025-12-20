@@ -13,6 +13,7 @@
 9. [**Lucy (Poems)**](./c9-lucy.md) by William Wordsworth
 10. [**Ozymandias**](./c10-ozymandias.md) by Percy Bysshe Shelley
 11. [**Kubla Khan**](./c11-kubla-khan.md) by Samuel Taylor Coleridge
+12. [**Victor**](./c12-victor.md) by W. H. Auden
 
 More
 
