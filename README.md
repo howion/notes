@@ -9,25 +9,15 @@ For the notes I will publish here, I aim to use a formal tone, organized with a 
 
 ## Notes: Compiled
 
-Served via GitHub Pages on notes.howion.com, adjusted for printing or saving as PDF. Please note that none of the notes are complete yet and being actively developed.
+Served via Vercel on [**notes.howion.com**](https://notes.howion.com/), adjusted for printing or saving as PDF. Please note that none of the notes are complete yet and are being actively developed.
 
 > Other than Abstract Algebra notes (especially Group Theory) I'm not really proud with those notes yet. Beware that I have not yet abandoned them but they shall be subject to major changes later on.
 
-* **Abstract Algebra**
-    * **Group Theory** [**HTML**](https://notes.howion.com/abstract-algebra/group-theory.html)
-    * **Ring Theory** [**HTML**](https://notes.howion.com/abstract-algebra/ring-theory.html)
-* **Type Theory** [**HTML**](https://notes.howion.com/type-theory.html)
-* **Universal Algebra** [**HTML**](https://notes.howion.com/universal-algebra.html)
-* **Probability Theory** [**HTML**](https://notes.howion.com/statistics/probability-theory.html)
-* ~~**Logic and Computation** [**HTML**](https://notes.howion.com/logic-and-computation.html)~~
-
-> In order to convert these notes to PDF, just try to print the page and save as PDF after the page is loaded. It will automatically, at least in Chrome-based browsers, convert to light theme and adjust the layout for printing.
+In order to convert these notes to PDF, just try to print the page and save as PDF after the page is loaded. It will automatically, at least in Chrome-based browsers, convert to light theme and adjust the layout for printing.
 >
 > This was previously done automatically in my bash build pipeline via chromium driver but every build really bloats git tracking. Hence, I have disabled automatic PDF generation.
 
 ## Notes: Source
-
-Some of those will be compiled via custom bash pipeline with the use of `pandoc`, `html-minifier-terser` and `chromium`. For now, there is no git hook or action to automate this. I plan to compile as I see fit noting none of these notes are complete yet.
 
 * [:construction: **Abstract Algebra**](./notes/abstract-algebra) \ Groups, Rings and Modules
     1. [:construction: Group Theory](./notes/abstract-algebra/01-group-theory/)
@@ -39,8 +29,6 @@ Some of those will be compiled via custom bash pipeline with the use of `pandoc`
 * [:construction: **Universal Algebra**](./notes/universal-algebra) \ Fundamentals
 
 > Ordered by activeness. Other notes in `/notes` which are not mentioned here are abandoned.
-
-<!-- * [:boom: **Experiments**](./experiments/00-index.md) that most probably won't lead anywhere. -->
 
 ## Lectures, Presentations
 
@@ -75,6 +63,10 @@ For readability of source code, especially for the mathematical ones, you should
 * `Markdown Preview Github` by Matt Bierner to preview markdown files,
 * `Markdown Emoji` by Matt Bierner to add Github emoji support to VSCode, make sure you also have an emoji font installed in your system, and
 * `markdownlint` by David Anson to lint markdown files.
+
+## Contact
+
+You may contact me at `mert.coskun@metu.edu.tr`
 
 ## License
 
