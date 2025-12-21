@@ -5,6 +5,7 @@ import { APP } from "##/.boilerrc";
 import "../styles/_base.css";
 import "../styles/note/_index.css";
 import "katex/dist/katex.min.css";
+import 'katex-copytex/src/katex-copytex.css'
 
 export interface Props {
     subtitle?: string;
@@ -59,7 +60,7 @@ const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
         </main>
 
         <script>
-            import "/src/scripts/note.ts";
+            import "/src/scripts/katex.ts";
         </script>
     </body>
 </html>

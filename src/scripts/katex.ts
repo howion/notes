@@ -1,4 +1,5 @@
 import { renderToString, type KatexOptions } from 'katex'
+import 'katex-copytex/dist/katex-copytex.js'
 
 const CHUNK_SIZE = 50
 const MAX_DELAY = 1000 // ms
