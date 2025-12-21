@@ -1,7 +1,9 @@
 ---
-import NoteLayout from "../layout/note.astro";
+import Document from "../layout/document.astro";
+import dayjs from "dayjs";
 import { retrieveNoteContent, NOTE_MAPPINGS } from "../utils/notes";
 import { processMarkdown } from "../utils/markdown";
+import { renderTOC } from "../utils/toc";
 
 export async function getStaticPaths() {
     const slugs = NOTE_MAPPINGS.map((m) => m.slug);
@@ -17,7 +19,36 @@ if (!note) {
     return Astro.redirect("/");
 }
 
-const htmlContent = await processMarkdown(note.content);
+const { html: mdHTML, toc } = await processMarkdown(note.content);
 ---
 
-<NoteLayout subtitle={note.title} content={htmlContent} />
+<Document
+    subtitle={note.title}
+    description=""
+    updatedAt={note.contentUpdatedAt}
+>
+    <header id="header" role="doc-cover">
+        <h1 class="title">{note.title}</h1>
+        <!-- <p class="subtitle">$subtitle$</p> -->
+        <!-- <p class="author">howion</p> -->
+        <p class="date"><strong>Updated At</strong> {dayjs(note.contentUpdatedAt).format("DD MMMM YYYY")}</p>
+
+        <!-- <div class="abstract">
+            <div class="abstract-title">$abstract-title$</div>
+            $abstract$
+        </div> -->
+    </header>
+
+    {
+        toc.length > 0 && (
+            <nav id="toc" role="doc-toc">
+                <h1>Table of Contents</h1>
+                <Fragment set:html={renderTOC(toc)} />
+            </nav>
+        )
+    }
+
+    <div class="content">
+        <Fragment set:html={mdHTML} />
+    </div>
+</Document>

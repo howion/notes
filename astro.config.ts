@@ -36,7 +36,7 @@ export default defineConfig({
         checkOrigin: false
     },
     site: APP.site,
-    trailingSlash: 'ignore',
+    trailingSlash: 'never',
     devToolbar: {
         enabled: false
     },

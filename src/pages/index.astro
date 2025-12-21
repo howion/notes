@@ -9,22 +9,19 @@ const notes = NOTE_RECORDS;
     <h1>Notes</h1>
 
     <div class="content">
-    {
-        notes.map((record) => (
-            <section>
-                <h2>{record.title}</h2>
-                <ul>
-                    {record.children.map((note) => (
-                        <li>
-                            <a href={`/${note.slug}`}>
-                                <strong>{note.title}</strong>
-                            </a>
-                        </li>
-                    ))}
-                </ul>
-            </section>
-        ))
-    }
+        {
+            notes.map((record) => (
+                <section>
+                    <h2>{record.title}</h2>
+                    <ul>
+                        {record.children.map((note) => (
+                            <li>
+                                <a href={`/${note.slug}`}>{note.title}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </section>
+            ))
+        }
     </div>
-
 </Document>

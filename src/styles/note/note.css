@@ -1,0 +1,128 @@
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+
+    padding: 0 1.5em 4em 1.5em;
+    margin: 0 auto;
+    max-width: 976px;
+    font-size: 1.125em;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+#toc a {
+    color: var(--color-text);
+}
+
+#toc a:visited {
+    color: var(--color-text);
+}
+
+.content a {
+    color: var(--color-link);
+}
+
+.content a:visited {
+    color: var(--color-link);
+}
+
+a {
+    font-weight: 500;
+}
+
+strong {
+    font-weight: 600;
+}
+
+blockquote {
+    background-color: transparent;
+    border-left: 2.5px solid rgba(0, 0, 0, 0.5);
+    padding: 0 0.25em 0 1em;
+    margin: 0 0 1em 0;
+    opacity: 0.5;
+    color: inherit;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 4em;
+    line-height: 1.25;
+    margin-top: 1.5em;
+    margin-bottom: 0.25em;
+}
+
+h1:first-child {
+    margin-top: 0.5em;
+}
+
+p {
+    line-height: 1.5;
+}
+
+h2 {
+    font-weight: 700;
+    border-bottom: 2px solid var(--color-text);
+    padding-bottom: 0.25em;
+    margin-top: 1.5em;
+}
+
+h1 {
+    break-before: page;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    break-before: auto;
+}
+
+details>p>br {
+    display: none !important;
+}
+
+details>summary {
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+details {
+    margin-top: 2em !important;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    margin-top: 2em;
+    color: inherit;
+}
+
+nav>ul {
+    margin-top: 2em;
+}
+
+nav>ul>li>a {
+    opacity: 1;
+}
+
+nav a {
+    color: inherit;
+    opacity: 0.5;
+}
+
+nav>ul>li {
+    margin-top: 1em;
+}
+
+nav>ul>li>a {
+    font-weight: 600;
+}
+
+::selection {
+    background-color: var(--color-text);
+    color: var(--color-background);
+}

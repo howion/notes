@@ -2,15 +2,17 @@
 import { APP } from "##/.boilerrc";
 
 // STYLES
-import "../styles/note.css";
+import "../styles/_base.css";
+import "../styles/note/_index.css";
 import "katex/dist/katex.min.css";
 
 export interface Props {
     subtitle?: string;
     description?: string;
+    updatedAt?: Date;
 }
 
-const { subtitle, description } = Astro.props;
+const { subtitle, description, updatedAt } = Astro.props;
 const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
 ---
 
@@ -20,20 +22,43 @@ const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
         <meta charset="UTF-8" />
         <link rel="sitemap" href="/sitemap-index.xml" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <link
             href="https://www.howion.com/favicon.svg"
             rel="icon"
             type="image/svg+xml"
         />
+
         <title>{title}</title>
         {description && <meta name="description" content={description} />}
+        <meta name="author" content="howion" />
+        {
+            updatedAt && (
+                <meta name="last-updated" content={updatedAt.toISOString()} />
+            )
+        }
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <style id="page_style">
+            @page {
+                margin: 0;
+                padding: 0.325in 0.325in;
+                size: 10in 13in;
+            }
+        </style>
     </head>
     <body>
         <main>
             <slot />
         </main>
 
-        <script type="module" is:inline>
+        <script>
             import "/src/scripts/note.ts";
         </script>
     </body>

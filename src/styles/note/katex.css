@@ -1,0 +1,16 @@
+/*
+.katex,
+.katex .katex-mathml,
+.katex .katex-html {
+    line-height: 1.5;
+    vertical-align: baseline;
+}
+*/
+
+.katex {
+    display: inline;
+}
+
+.katex .katex-html {
+    display: inline;
+}

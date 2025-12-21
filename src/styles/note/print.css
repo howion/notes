@@ -1,0 +1,10 @@
+@media print {
+    .katex {
+        transform: scale(1.0);
+        transform-origin: left baseline;
+    }
+
+    h1 {
+        margin-top: 0.25em !important;
+    }
+}

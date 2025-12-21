@@ -32,14 +32,6 @@
 
     </style>
 
-    <style id="page_style">
-        @page {
-            margin: 0;
-            padding: 0.325in 0.325in;
-            size: 10in 13in;
-        }
-    </style>
-
     $for(css)$
     <link rel="stylesheet" href="$css$" />
     $endfor$

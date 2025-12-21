@@ -12,6 +12,11 @@ export interface NoteMap {
     path: string
 }
 
+export interface Note extends NoteMap {
+    content: string
+    contentUpdatedAt: Date
+}
+
 export interface NoteRecord {
     title: string
     children: NoteMap[]
@@ -77,7 +82,7 @@ export function readCombinedMarkdown(dirPath: string): string {
     return contents.join('\n\n')
 }
 
-export function retrieveNoteContent(slug: string): (NoteMap & { content: string }) | null {
+export function retrieveNoteContent(slug: string): Note | null {
     const map = NOTE_MAPPINGS.find((m) => m.slug === slug)
 
     if (!map) {
@@ -99,7 +104,8 @@ export function retrieveNoteContent(slug: string): (NoteMap & { content: string 
 
         return {
             ...map,
-            content
+            content,
+            contentUpdatedAt: statSync(dirPath).mtime
         }
     } catch {
         return null
