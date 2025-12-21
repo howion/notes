@@ -1,4 +1,4 @@
-# 11. Quotients and Isomorphisms
+# Quotients and Isomorphisms
 
 <!-- TODO: Continue from kargapolov pdf p. 47 -->
 

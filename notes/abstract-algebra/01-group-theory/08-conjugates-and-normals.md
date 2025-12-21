@@ -1,4 +1,4 @@
-# 8. Conjugates and Normals
+# Conjugates and Normals
 
 ## Def. Conjugate
 

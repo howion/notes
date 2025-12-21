@@ -1,4 +1,4 @@
-# 3. Subgroups
+# Subgroups
 
 > Until now we have explicitly defined and shown which multiplication is to which operator and which identity belongs to which group. From now on, these must be understood from the context. We will prefer little brevity over cumbersome notation.
 

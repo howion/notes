@@ -1,4 +1,4 @@
-# 1. Groups
+# Groups
 
 ## Def. Group
 

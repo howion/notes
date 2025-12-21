@@ -1,4 +1,4 @@
-# 5. Generators
+# Generators
 
 ## Def. Generators
 

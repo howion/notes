@@ -1,4 +1,4 @@
-# 0. Preliminaries
+# Preliminaries
 
 ## Introduction
 

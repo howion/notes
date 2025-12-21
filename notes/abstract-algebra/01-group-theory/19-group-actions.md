@@ -1,4 +1,4 @@
-# 19. Group Actions
+# Group Actions
 
 ## Def. Group Action
 

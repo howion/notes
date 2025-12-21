@@ -1,4 +1,4 @@
-# 7. Cosets and Indices
+# Cosets and Indices
 
 ## Def. Coset
 

@@ -1,6 +1,6 @@
-# 2. Group Examples
+# Group Examples
 
-All of these groups can be considered their own field of research, so it is suggested you visit their wiki, understand the basics, and follow from there as you see fit.
+> TODO: Add much more examples here with extensive exercises.
 
 ## Klein $4$-Group
 

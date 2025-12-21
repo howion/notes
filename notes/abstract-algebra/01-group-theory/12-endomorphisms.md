@@ -1,4 +1,4 @@
-# 12. Endomorphisms
+# Endomorphisms
 
 ## Def. Inner and Outer Automorphisms
 

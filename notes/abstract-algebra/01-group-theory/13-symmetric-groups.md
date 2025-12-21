@@ -1,4 +1,4 @@
-# 13. Symmetric Groups
+# Symmetric Groups
 
 ## Def. Permutation
 

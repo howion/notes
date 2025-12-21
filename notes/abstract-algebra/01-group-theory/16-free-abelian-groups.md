@@ -1,4 +1,4 @@
-# 16. Free Abelian Groups
+# Free Abelian Groups
 
 > In this section we will use additive notation rather than our usual multiplicative notation.
 

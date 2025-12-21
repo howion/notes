@@ -1,4 +1,4 @@
-# 18. Krull-Schmidt Theorem
+# Krull-Schmidt Theorem
 
 ## Def. Indecomposable
 

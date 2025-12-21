@@ -1,4 +1,4 @@
-# 15. Free Groups
+# Free Groups
 
 > In this section, we will resort to rather a constructive approach to define free groups.
 

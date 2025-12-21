@@ -1,4 +1,4 @@
-# 4. Homomorphisms
+# Homomorphisms
 
 ## Def. Homomorphism
 

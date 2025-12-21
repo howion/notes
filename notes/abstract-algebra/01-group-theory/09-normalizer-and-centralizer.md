@@ -1,4 +1,4 @@
-# 9. Normalizer And Centralizer
+# Normalizer And Centralizer
 
 <!-- https://en.wikipedia.org/wiki/Centralizer_and_normalizer -->
 

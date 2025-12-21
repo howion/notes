@@ -1,4 +1,4 @@
-# 17. Finitely Generated Abelian Groups
+# Finitely Generated Abelian Groups
 
 ## Thm. Cyclic Decomposition
 

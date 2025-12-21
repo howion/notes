@@ -1,4 +1,4 @@
-# 10. Commutators
+# Commutators
 
 ## Def. Commutator
 
@@ -42,7 +42,7 @@ Let $G$ be a group and $a,b,c, x \in G$. Then
 
 ## Def. Commutator Subgroup and Derived Series
 
-Let $G$ be a group. Then the **commutator subgroup** (or **derived subgroup**) **of $G$** denoted with $G'$ or $G^{(1)}$ is the normal subgroup $[G, G]$.
+Let $G$ be a group. Then the **commutator subgroup** (or **derived subgroup**) **of $G$** denoted with $G'$ or $G^{(1)}$ is the (normal) subgroup $[G, G]$.
 
 Applied recursively, we get the **derived series** of the group $G$
 
@@ -50,7 +50,28 @@ $$
 G^{(0)} := G \trianglerighteq G^{'} \trianglerighteq G^{''} \trianglerighteq G^{(3)} \trianglerighteq \cdots
 $$
 
-> For a finite group this series terminates, to what is called a **perfect group** which may be trivial or not.
+where **$i$-th derived subgroup** $G^{(n)}$ is defined as
+
+$$
+G^{(n)} := [G^{(n-1)}, G^{(n-1)}]
+$$
+
+> For a finite group this series terminates, to what is called a **perfect group** which may be trivial or not. Moreover, realize that $G$ is abelian if and only if $G' = \Braket{e}$. In a sense, $G'$ provides a measure of how much $G$ differs from an abelian group.
+
+## Thm. Some Commutator Subgroup Properties
+
+Let $G$ be a group and $N \trianglelefteq G$, then
+
+1. $G' \trianglelefteq G$,
+2. $G/G'$ is abelian,
+3. $G/N$ is abelian if and only if $G' \subseteq N$.
+
+<details>
+<summary><b>Proof</b></summary>
+<br/>
+
+> Exercise
+</details>
 
 ## Thm. Three Commutator Lemma
 

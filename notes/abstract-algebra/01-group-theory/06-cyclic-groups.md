@@ -1,4 +1,4 @@
-# 6. Cyclic Groups
+# Cyclic Groups
 
 This section contains important counting theorems (not just for cyclic or abelian groups); hence, it is important to be familiar with every proof in this exercise.
 

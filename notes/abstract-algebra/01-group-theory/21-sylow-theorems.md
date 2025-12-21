@@ -1,4 +1,4 @@
-# 21. Sylow Theorems
+# Sylow Theorems
 
 ## Lemma 1
 
