@@ -1,6 +1,6 @@
 # 2. Random Variables
 
-## Def. Random Variable (R.V.)
+## _Def._ Random Variable (R.V.)
 
 A **random variable** $X$ is a just map (function)
 
@@ -14,7 +14,7 @@ which maps the _elements_ (called outcomes) of $\Omega$ to the real line $\R$.
 
 ## Notation. Random Variable
 
-## Def. Cumulative Distribution Function (CDF)
+## _Def._ Cumulative Distribution Function (CDF)
 
 Given a random variable $X$, the **cumulative distribution function $F_X$** is defined as
 
@@ -26,7 +26,7 @@ F_X: \enspace \R &\to& [0, 1] \subseteq \R \\
 \end{array}
 $$
 
-## Def. Discrete Random Variable
+## _Def._ Discrete Random Variable
 
 > TODO: Revise this
 
@@ -35,7 +35,7 @@ $a_1, a_2, ...$ such that $P(X=a_j \enspace \text{for some} \enspace j)=1$.
 
 If $X$ is discrete r.v., then the countable set of values $x$ such that $P(X=x) > 0$ is called the **support** of $X$.
 
-## Def. Probability Mass Function
+## _Def._ Probability Mass Function
 
 The **probability mass function (PMF)** of a discrete r.v. $X$ is the function $p_X$ given by
 
@@ -47,7 +47,7 @@ Note that this is positive if $x$ is in the support of $X$ and $0$ otherwise.
 
 We use $X = x$ to denote the event $\{s \in S \> | \> X(s) = x \}$. We cannot take the probability of a random variable, only of an event.
 
-## Thm. Valid PMFs
+## _Thm._ Valid PMFs
 
 > TODO: Rewrite
 

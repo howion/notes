@@ -2,7 +2,7 @@
 
 <!-- TODO: Continue from kargapolov pdf p. 47 -->
 
-## Def. (Group) Congruence Relation
+## _Def._ (Group) Congruence Relation
 
 An equivalence relation $\equiv$ on a group $G$ is called a (group) **congruence relation** if for all $x_1,x_2,y_1,y_2 \in G$
 
@@ -16,13 +16,13 @@ The product of two congruence classes is again a congruence class. Indeed, the s
 
 <!-- TODO: Explain more -->
 
-## Thm. Group Congruences and Normals
+## _Thm._ Group Congruences and Normals
 
 The congruence relations on a group $G$ are in one-to-one correspondence with the normal subgroups of $G$.
 
 > Usually quotient groups in group theory are defined via normal groups but this paints a much wider picture. Following this motivation, here is the classical definition of quotient groups.
 
-## Def. Quotient Group
+## _Def._ Quotient Group
 
 Let $G$ be a group and $N \trianglelefteq G$. The set of all cosets of $N$ in $G$ denoted by $G/N$ (read as $G$ modulo $N$) forms a group under the binary operation
 
@@ -32,7 +32,7 @@ and is of order $[G:N]$. This group is called the **quotient group** (or **facto
 
 > Notice how we are not multiplying cosets directly, but rather the elements in front of them.
 
-## Thm. Basic Quotient Properties
+## _Thm._ Basic Quotient Properties
 
 Let $G$ be a group and $N \trianglelefteq G$.
 
@@ -41,7 +41,7 @@ Let $G$ be a group and $N \trianglelefteq G$.
 
 > Exercise
 
-## Def. Projection
+## _Def._ Projection
 
 Let $N \trianglelefteq G$. Then
 
@@ -58,7 +58,7 @@ If the group is clear from the context, we may make use of the notation $\pi_N$ 
 
 > Exercise
 
-### Thm. Commutativity of Projection
+### _Thm._ Commutativity of Projection
 
 > TODO: Revise, add proof
 
@@ -71,7 +71,7 @@ Let $\pi_N$ be the natural projection of $G$ under $N$, then $G/N$ is abelian if
 > TODO:
 </details>
 
-## Thm. Fundamental Theorem on Homomorphisms
+## _Thm._ Fundamental Theorem on Homomorphisms
 
 <!-- TODO: Draw the commutative diagram -->
 
@@ -103,7 +103,7 @@ Therefore, $\bar{\varphi}$ is an isomorphism if and only if
 
 <!-- TODO: By the Fundamental Theorem on Homomorphism, the following diagram commutes -->
 
-## Thm. First Isomorphism Theorem
+## _Thm._ First Isomorphism Theorem
 
 Let $\varphi: G \to H$ be a group homomorphism. Then
 
@@ -124,7 +124,7 @@ Let $\varphi: G \to H$ be a group homomorphism. Then
 **(Figure 1)** First Isomorphism Theorem
 </center>
 
-## Thm. Second Isomorphism Theorem
+## _Thm._ Second Isomorphism Theorem
 
 <!-- TODO: Generalize, see Hungerford p. 44 -->
 
@@ -155,7 +155,7 @@ Let $G$ be a group, $H \leq G$, and $N \trianglelefteq G$. Then
 
 > TODO: Redraw diagram
 
-## Thm. Third Isomorphism Theorem
+## _Thm._ Third Isomorphism Theorem
 
 Let $K \trianglelefteq H \trianglelefteq G$, then
 
@@ -172,7 +172,7 @@ Let $K \trianglelefteq H \trianglelefteq G$, then
 <!--
 TODO: Write this, see korgapolov p. 28
 
-## Thm. Subgroups to Quotient Subgroups
+## _Thm._ Subgroups to Quotient Subgroups
 
 > Recall that $L(G,A)$ was the set of all subgroups of $G$ which contain the subset $A$.
 
@@ -185,7 +185,7 @@ $$
 The natural projection $\pi: G \to G/H$ induces a injective $\psi: $ such that for subgroups $A, B \leq G$
 -->
 
-## Thm. Homomorphism Induced Bijection
+## _Thm._ Homomorphism Induced Bijection
 
 > Recall that $L(G,A)$ was the set of all subgroups of $G$ which contain the subset $A$, and $L(G) := L(G, e)$.
 
@@ -201,7 +201,7 @@ such that image of normal subgroups are normal subgroups.
 
 > TODO: Proof, omitted.
 
-## Corollary. Normal Subgroups of Qutients
+## _Corollary._ Normal Subgroups of Qutients
 
 Let $N \trianglelefteq G$, then every subgroup of $G/N$ is of the form $K/N$ where $N \subseteq K \leq G$. Moreover, $K/N \trianglelefteq G/N$ if and only if $K \trianglelefteq G$.
 

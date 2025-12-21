@@ -1,6 +1,6 @@
 # Group Actions
 
-## Def. Group Action
+## _Def._ Group Action
 
 Let $G$ be a group and $X$ any set. A binary operation $*: G \times X \to X$ is called a **(left) action** if, for all $a,b \in G$ and $x \in X$:
 
@@ -13,7 +13,7 @@ When such action is given, we say $G$ **acts on the set** $X$.
 
 > For establishing general properties of group actions, it suffices to consider only left actions.
 
-## Def. Orbits
+## _Def._ Orbits
 
 Let the group $G$ act on a set $X$, then the **orbit** of an element $x \in X$ is the set of elements
 
@@ -23,11 +23,11 @@ $$
 
 The orbit of $x$ can be denoted with $\bar{x}$ since, as shown below, orbits partition $G$.
 
-## Def. Transitivity
+## _Def._ Transitivity
 
 The group action is said to be **transitive** if for $x, y \in X$ there exists $g \in G$ so that $g * x = y$.
 
-## Def. Stabilizer
+## _Def._ Stabilizer
 
 Let $G$ act on $X$ and $x \in X$, then the **stabilizer subgroup** of $G$ with respect to $x$ is defined as
 
@@ -35,7 +35,7 @@ $$
 G_x := \Set{g \in G | g * x = x}
 $$
 
-## Thm. Basic Orbit and Stabilizer Properties
+## _Thm._ Basic Orbit and Stabilizer Properties
 
 Let the group $G$ act on a set $X$ and $x \in X$, then
 
@@ -53,7 +53,7 @@ Since $G_x$ is a subgroup of $G$, stabilizer is also called the **subgroup fixin
 > TODO:
 </details>
 
-## Thm. Orbit-Stabilizer Theorem
+## _Thm._ Orbit-Stabilizer Theorem
 
 Let $G$ be a finite group that acts on a set $X$ and $x \in X$, then
 
@@ -68,7 +68,7 @@ $$
 > TODO:
 </details>
 
-## Corollary. Normalizer, Centralizer, and Conjugacy Classes
+## _Corollary._ Normalizer, Centralizer, and Conjugacy Classes
 
 Let $G$ be a finite group and $K \leq G$, then
 
@@ -88,7 +88,7 @@ $$
 > TODO:
 </details>
 
-## Thm. Action Induced Homomorphism
+## _Thm._ Action Induced Homomorphism
 
 Let $G$ act on a set $X$, then this action induces a homomorphism $\varphi: G \to \mathbf{P}(X)$, where $\mathbf{P}(X)$ is the group of all permutations of $X$.
 
@@ -99,11 +99,11 @@ Let $G$ act on a set $X$, then this action induces a homomorphism $\varphi: G \t
 > TODO:
 </details>
 
-## Thm. Cayley
+## _Thm._ Cayley
 
 Let $G$ be a group, then there exists a monomorphism $\varphi: G \to \mathbf{P}(G)$. Therefore, every group is isomorphic to a group of permutations. In particular, every finite group of order $n$ is isomorphic to a subgroup of $\mathbf{S}_n$.
 
-## Corollary. Introduction to Inner Automorphism
+## _Corollary._ Introduction to Inner Automorphism
 
 Let $G$ be a group, then
 
@@ -112,12 +112,12 @@ Let $G$ be a group, then
 
 > We will see this in more detail in the next sections.
 
-## Def. Translation
+## _Def._ Translation
 
 Let $G$ be a group and $H \leq G$. The action of $H$ on the set $G$ which is given by $(h,g) \mapsto hg$, where $hg$ is the group product is called a **(left) translation**.
 
 Let $S$ be the set of all (left) cosets of $H$ in $G$, then we say **$H$ acts on $S$ by translation** so that $(h, gH) \mapsto hg H$.
 
-## Thm.
+## _Thm._
 
 <!-- TODO: Burnside's Lemma -->

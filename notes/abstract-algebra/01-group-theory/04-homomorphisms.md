@@ -1,6 +1,6 @@
 # Homomorphisms
 
-## Def. Homomorphism
+## _Def._ Homomorphism
 
 Let $(G, \cdot_G)$ and $(H, \cdot_H)$ be semigroups.
 
@@ -27,7 +27,7 @@ Composition of homomorphisms is again a homomorphism. Respectively, this is also
 
 If $A$ is abelian, then the map $a \mapsto a^{-1}$ is an automorphism, and the map $a \mapsto a^2$ is an endomorphism.
 
-## Def. Kernel
+## _Def._ Kernel
 
 If $\varphi: G \to H$ is a group homomorphism, then the **kernel** of $\varphi$ is defined as
 
@@ -44,7 +44,7 @@ Let $\phi: G \to H$ be a group homomorphism, $g \in G$ and $A \subseteq G$. Then
 * $g^\phi$ denotes $\phi(g)$, and
 * $A^\phi$ denotes $\phi(A)$ called the **homomorphic (respectively monomorphic, epimorphic, ...) image** of $A$.
 
-## Thm. Basic Homomorphism Properties
+## _Thm._ Basic Homomorphism Properties
 
 Let $\varphi: G \to H$ be a group homomorphism, then
 
@@ -56,7 +56,7 @@ Let $\varphi: G \to H$ be a group homomorphism, then
 
 > Exercise
 
-## Def. Basic Kernel Properties
+## _Def._ Basic Kernel Properties
 
 Let $\varphi: G \to H$ be a group homomorphism, then
 
@@ -65,7 +65,7 @@ Let $\varphi: G \to H$ be a group homomorphism, then
 
 > Exercise
 
-## Def. Endomorphisms
+## _Def._ Endomorphisms
 
 Let $G$ be a group and $\text{End } G$ the **set of all endomorphism** on $G$, then $\text{End } G$ is a semigroup under composition. Moreover, if $G$ is a abelian, $\text{End } G$ is a ring with pointwise function addition that is, for $\alpha, \beta \in \text{End } G$
 
@@ -75,7 +75,7 @@ $$
 
 > Exercise
 
-## Def. Automorphisms
+## _Def._ Automorphisms
 
 The **set of automorphisms** on $G$ denoted by $\text{Aut }G$ is a group under function composition. Moreover, $\text{Aut }G \leq \mathbf{S}(G)$ where $\mathbf{S}(G)$ is the group of permutations on $G$.
 

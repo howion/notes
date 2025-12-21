@@ -28,14 +28,14 @@ Let $R$ be a ring and $I, J \subseteq R$.
     1. $IR \subseteq I$ and $RI \subseteq I$.
     2. Moreover, if $R$ is with $1$, then $IR    = I = RI$.
 
-## Def. Nilpotent Ideal
+## _Def._ Nilpotent Ideal
 
 Let $I$ be an ideal. If for some $n \geq 1$ we have $I^n = (0)$, then $I$ is called a **nilpotent ideal**.
 
-## Def. Nil Ideal
+## _Def._ Nil Ideal
 
 Let $I$ be an ideal such that every element of $I$ is nilpotent, then $I$ is called a **nil ideal**.
 
-## Thm. Nilpotent and Nil Ideal
+## _Thm._ Nilpotent and Nil Ideal
 
 Every nilpotent ideal $I$ is a nil ideal. Converse is not necessarily true unless $I$ is finitely generated.

@@ -2,7 +2,7 @@
 
 <!-- TODO: Find suitable references -->
 
-## Def. (Outer) Semidirect Product
+## _Def._ (Outer) Semidirect Product
 
 Let $G$ and $H$ be groups and $\theta: H \to \text{Aut }G$ a homomorphism. Let $G \rtimes_\theta H$ be the set $G \times H$ with the binary operation
 
@@ -18,14 +18,14 @@ $$
 
 $G \rtimes_\theta H$ is called the **(outer) semidirect product** of $G$ and $H$ with respect to $\theta$.
 
-## Thm. Normal Complement
+## _Thm._ Normal Complement
 
 Let $N \trianglelefteq G$, then the following are equivalent
 
 1. $G = NH$ and $N \cap H = \{e\}$ for some $H \leq G$.
 2. For each $g \in G$, there are unique $n \in N$ and $h \in H$ such that $g=nh$.
 
-## Def. Inner Semidirect Product
+## _Def._ Inner Semidirect Product
 
 Let $G$ be a group such that $N \trianglelefteq G$ and $H \leq G$ are complements in $G$, then define
 
@@ -38,7 +38,7 @@ $$
 
 The semidirect product $N \rtimes_{\varphi} H$ denoted simply by $N \rtimes H$ or $H \ltimes N$ is called the **inner semidirect product** of $N$ and $H$, so that $G = N \rtimes H$. We also say $G$ is a **semidirect product** of $H$ acting on $N$.
 
-## Def. Holomorph
+## _Def._ Holomorph
 
 <!-- TODO: Reference -->
 
@@ -63,7 +63,7 @@ Let $I$ be an index set, then
 * $A^{[I]}$ denotes the $|I|$-fold cartesian product, and
 * $A^{(I)}$ denotes the $|I|$-fold direct product.
 
-## Def. Wreath Products
+## _Def._ Wreath Products
 
 Let $G$ and $H$ be groups such that $H$ acts on $\Omega$ from left.
 
@@ -91,13 +91,13 @@ If $\Omega$ is not explicitly stated, we take $\Omega = H$.
 
 Either variant is denoted with $\wr_\Omega$.
 
-## Thm. Wreath Properties
+## _Thm._ Wreath Properties
 
 Let $G$ and $H$ be groups, and $H$ acts on $\Omega$, then
 
 1. $G \enspace \text{wr}_\Omega \enspace H \leq G \enspace \text{Wr}_\Omega \enspace H$
 2. $|G \wr_\Omega H| = {|G|}^{|\Omega|} |H|$
 
-## Thm. Kaluznin-Krasner
+## _Thm._ Kaluznin-Krasner
 
 Every extension of a group $G$ by a group $H$ can be embedded in the unrestricted wreath product $G \enspace \text{Wr} \enspace H$.

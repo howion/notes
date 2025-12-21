@@ -1,6 +1,6 @@
 # Symmetric Groups
 
-## Def. Permutation
+## _Def._ Permutation
 
 A **permutation** $\sigma$ on a set $X$ is a bijective function from $X$ to $X$. The permutation $x \mapsto x$ will be called the **identity permutation**.
 
@@ -10,7 +10,7 @@ For simplicity, we will use the set $\textbf{I}_n = \Set{1, 2, ..., n}$ instead 
 
 > More formally, we could make use of Well-Ordering Principle, initial segments, and ordinals. For now, this definition should suffice.
 
-## Def. Support
+## _Def._ Support
 
 The **support** of a permutation $\sigma$ denoted by $\text{supp }\sigma$ is defined as the set of elements that are moved by $\sigma$, that is
 
@@ -24,13 +24,13 @@ $$
 \text{fix }\sigma := \Set{i \in \mathbf{I}_n | \sigma(i) = i}.
 $$
 
-## Def. Disjoint Permutations
+## _Def._ Disjoint Permutations
 
 The permutations $\sigma_1, \sigma_2, ..., \sigma_n$ are said to be **disjoint** if their support is disjoint.
 
 <!-- TODO: Disjoint cycles commute etc. -->
 
-## Def. Cycle
+## _Def._ Cycle
 
 Let $\tau$ be a permutation on $\mathbf{I}_n$ with the support $\Set{k_1, k_2, ..., k_r}$. Then $\tau$ is said to be a **cycle** (or **cyclic**) of **length** $r$ if
 
@@ -49,41 +49,41 @@ A cycle of length $r$ will be called a **$r$-cycle**. A $2$-cycle is called a **
 
 > There is no widespread consensus on how to explicitly define a cycle, but the intuition should be clear.
 
-## Def. Symmetric Group
+## _Def._ Symmetric Group
 
 Set of all permutations (bijections) on $\textbf{I}_n$ will be denoted with $\textbf{S}_n$ and it forms a group under function composition (exercise) called the **symmetric group** (of $n$ letters).
 
 > Notice that $\textbf{S}_n$ is of order $n!$.
 
-## Thm. Permutations are (Unique) Product of Disjoint Cycles
+## _Thm._ Permutations are (Unique) Product of Disjoint Cycles
 
 Every non-identity permutation in $\textbf{S}_n$ is uniquely (up to the order of the factors) a product of disjoint cycles, each of which has length at least $2$.
 
-### Corollary. Order of Permutation
+### _Corollary._ Order of Permutation
 
 The order of a permutation is the least common multiple of the orders of its disjoint cycles.
 
-### Corollary. Permutations are a Product of Transpositions
+### _Corollary._ Permutations are a Product of Transpositions
 
 Every permutation can be written as a product of (not necessarily unique) transpositions.
 
-## Def. Odd and Even
+## _Def._ Odd and Even
 
 A permutation is said to be **even** (resp. **odd**) if it can be written as a product of even (resp. **odd**) number of transpositions.
 
-## Thm. Exclusively Odd or Even
+## _Thm._ Exclusively Odd or Even
 
 A permutation $\sigma \in \textbf{S}_n$ where $n \geq 2$ is either even or odd, but not both.
 
 Therefore, the **sign** of a permutation $\sigma$ denoted $\text{sgn } \sigma$ is defined to be $1$ if even and $-1$ if odd.
 
-## Thm. Alternating Group
+## _Thm._ Alternating Group
 
 Let $\textbf{A}_n$ denote the set of all permutations of $\textbf{S}_n$. Then $\textbf{A}_n$ is a normal subgroup of $\textbf{S}_n$ of index $2$. Moreover, $\textbf{A}_n$ is the only subgroup of $\textbf{S}_n$ of index $2$.
 
 $\textbf{A}_n$ is called the **alternating group** (of **degree $n$**).
 
-## Thm. $\textbf{A}_n$ is (Generally) Simple
+## _Thm._ Galois
 
 The alternating group $\textbf{A}_n$ is simple if and only if $n \neq 4$.
 
@@ -99,15 +99,15 @@ $$
 
 For $n \geq 3$, if $N \trianglelefteq A_n$ and $N$ contains a $3$-cycle, then $N=A_n$.
 
-> Proofs are skipped for this theorem, curious reader may checkout Hungerford (pp. 49-50).
+> Proofs are skipped for this theorem, curious reader may checkout Hungerford (pp. 49-50) or Kargapolov (pp. 72-74).
 
-## Thm. Hölder
+## _Thm._ Hölder
 
 The symmetric group $\mathbf{S}_n$ is complete if $n \neq 2, 6$.
 
 > Check out Kargapolov pp. 43-44 for the partial proof.
 
-## Thm. Dihedral Group Generators
+## _Thm._ Dihedral Group Generators
 
 Let $n \geq 3$, then the dihedral group $\textbf{D}_n$ (which is of order is $2n$) is a group whose generators $a$ and $b$ satisfy
 
@@ -130,7 +130,7 @@ Let $\Braket{a} \leq \textbf{D}_n$ for $a \in \textbf{D}_n$, and $|a|=n$. Then
 1. $\Braket{a} \trianglelefteq \textbf{D}_n$, and
 2. $\textbf{D}_n/\Braket{a} = \Z_2$.
 
-## Thm. Center of $\textbf{D}_n$
+## _Thm._ Center of $\textbf{D}_n$
 
 Let $Z$ be the center of the group $\textbf{D}_n$, then
 

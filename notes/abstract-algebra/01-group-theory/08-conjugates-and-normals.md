@@ -1,6 +1,6 @@
 # Conjugates and Normals
 
-## Def. Conjugate
+## _Def._ Conjugate
 
 Let $G$ be a group, $H \leq G$, and $a,b \in G$, then
 
@@ -21,7 +21,7 @@ $$
 
 > Note that $A^B$ is defined as the set of elements $bab^{-1}$, not $ba(b')^{-1}$ for some $b'$.
 
-## Thm. Basic Conjugate Properties
+## _Thm._ Basic Conjugate Properties
 
 Let $G$ a group and $a,b,x \in G$, then
 
@@ -29,7 +29,7 @@ Let $G$ a group and $a,b,x \in G$, then
 * $(a^x)^y = a^{xy}$,
 * $a=b^x \implies |a| = |b|$.
 
-## Def. Normal
+## _Def._ Normal
 
 Let $G$ be a group and $N$ its subgroup. If for all $a \in G$ we have $aN=Na$, then $N$ is called a **normal subgroup** (or simply a **normal**) of $G$ denoted by $N \trianglelefteq G$.
 
@@ -37,7 +37,7 @@ If $N \neq G$, then $N \vartriangleleft G$ will also be used to denote $N$ is a 
 
 > From now on, it should be understood from $A \trianglelefteq B$ alone that $B$ is a group and $A$ is its normal subgroup.
 
-## Thm. Equivalent Normal Definitions
+## _Thm._ Equivalent Normal Definitions
 
 Let $G$ be a group and $N \leq G$. Then the following are equivalent
 
@@ -46,7 +46,7 @@ Let $G$ be a group and $N \leq G$. Then the following are equivalent
 3. $N^g = gNg^{-1} \subseteq N$ for all $g \in G$, that is $N^G \subseteq N$,
 4. $N^g = gNg^{-1} = N$ for all $g \in G$, that is $N^G = N$.
 
-## Thm. More Normal Properties
+## _Thm._ More Normal Properties
 
 1. Let $M,N \trianglelefteq G$. If $M \cap N = \{e\}$, then $mn=nm$ for all $m \in M$ and $n \in N$.
 2. Kernel of any group homomorphism is a normal subgroup.
@@ -54,7 +54,7 @@ Let $G$ be a group and $N \leq G$. Then the following are equivalent
 4. $A, B \trianglelefteq G$ implies $AB \trianglelefteq G$.
 5. Find normal subgroups $A, B, C$ such that $A \trianglelefteq B \trianglelefteq C$, but $A \not\trianglelefteq C$.
 
-## Thm. Normal and Subgroup Properties
+## _Thm._ Normal and Subgroup Properties
 
 > Recall that the "join" of two subgroup $H,K$ denoted $H \lor K$ is the subgroup $\Braket{H \cup K}$.
 

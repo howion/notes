@@ -1,5 +1,5 @@
 # 8. Quotient Rings
 
-## Def. Quotient
+## _Def._ Quotient
 
 Let $R$ be a ring and $I$

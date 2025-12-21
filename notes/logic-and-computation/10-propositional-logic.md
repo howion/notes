@@ -21,13 +21,13 @@ Semantically, we will use the symbols
 * $\mathbb{F}$ called **false** to denote _semantic falsity_.
 * $:=$ called **defined as** to denote _semantic equality_.
 
-## Def. Alphabets and Words
+## _Def._ Alphabets and Words
 
 By an **alphabet** $\Sigma$ we mean a non-empty set of **symbols** (or **letters**).
 
 A finite sequence of symbols over an alphabet $\Sigma$ is called a **word** (or a **string**). Moreover, $\Sigma^*$ denotes the set of all words and the **length** of a word $w$ is the number of letters (that is size of the finite sequence) denoted with $|w|$. The **empty word** denoted with $\epsilon$ is _the_ word of length $0$.
 
-## Def. Language and Syntax
+## _Def._ Language and Syntax
 
 Let $\Sigma$ be an alphabet. Any subset $L$ of $\Sigma^*$ is called a **(formal) language** over $\Sigma$. Moreover, let
 
@@ -37,11 +37,11 @@ $$
 
 be a language and $\varphi$ be the definition of that language, then $\varphi$ is called the **syntax** of the language $L$.
 
-## Thm. Cardinality of $\Sigma^*$
+## _Thm._ Cardinality of $\Sigma^*$
 
 Let the alphabet $\Sigma$ be at most countable, then the set $\Sigma^*$ of words over $\Sigma$ is countable.
 
-## Def. Propositional Formulas
+## _Def._ Propositional Formulas
 
 Let $\mathcal{P}$ be a, possibly empty, countable set called the **atomic formulas** (or **prime formulas**).
 
@@ -68,7 +68,7 @@ Finally, we will denote **the propositional logic** with $\bot$ as its only atom
 
 One could, of course, relax or even contradict these definitions, which is not uncommon in logic. What matters is the core intuition.
 
-## Def. Syntactic Identity
+## _Def._ Syntactic Identity
 
 With $=$, we will denote the **syntactic identity**. That is, if $F$ and $G$ are strings and are formulas, then $F=G$ will simply denote they are strings of symbols of same lenght with same symbols in each place. Notice that this is a _semantic defintion_ for our syntactic model.
 
@@ -83,7 +83,7 @@ Given the logical operators $\neg$ and $\land$ and _the_ atomic variable $\bot$,
 
 > Notice that we have just defined some syntactic abbreviations, didn't prove anything. Exercise and write these polish notational definitions in ordinary infix notation.
 
-## Def. Subformula
+## _Def._ Subformula
 
 The **subformula** function $\text{sub}$ is defined on the language $\mathcal{L}_0(\mathcal{P})$ inductively as
 
@@ -104,7 +104,7 @@ $$
 
 > Can you inductively define a function for atomics of a formula?
 
-## Thm. Principle of Induction on Propositional Formulas
+## _Thm._ Principle of Induction on Propositional Formulas
 
 Since we are going to use induction heavily, we will prove that if $\phi$ is any property which
 
@@ -121,7 +121,7 @@ Then $\phi$ holds for all formulas (of propositional logic).
 > TODO:
 </details>
 
-## Def. Formation Sequence for Propositional Formulas
+## _Def._ Formation Sequence for Propositional Formulas
 
 > Let's stick to ordinary infix notation from now on until we define the syntax of first-order logic.
 
@@ -146,11 +146,11 @@ $$
 (p_0, p_1, p_0,(p_1 \land p_0), (p_0 \land p_1), \neg (p_1 \land p_0))
 $$
 
-### Thm. Existence of Formation Sequence
+### _Thm._ Existence of Formation Sequence
 
 Every propositional formula has a formation sequence.
 
-## Def. Valuation
+## _Def._ Valuation
 
 Given a set $\mathcal{P}$ of atomic variables, a **valuation** (or **assignment**) $v$ is a function
 
@@ -164,7 +164,7 @@ So from now on, depending on context, we may assume $\bot \in \mathcal{P}$ and a
 
 > Ponder what would happen if it were the case that $\mathcal{V} = [0,1]$ where $\mathbb{F} = 0 \in \R$ and $\mathbb{T}=1$. Obviously, most of our definitions and theorems wouldn't make sense in this setting.
 
-## Def. Evaluation
+## _Def._ Evaluation
 
 Let $F$ be a formula and $v$ some valuation. We will abuse notation and also use $v(F)$ for the **evaluation** of a formula $F$, defined naturally.
 
@@ -172,23 +172,23 @@ If $v(F) = \mathbb{T}$, then we say $v$ **models** $F$ denoted by $v \models F$.
 
 > Notice that this is the first time we have defined the sign $\models$.
 
-## Def. Satisfiability
+## _Def._ Satisfiability
 
 A formula $F$ is said to be **satisfiable** if there exists an valuation $v$ such that $v \models F$. Otherwise, it is called **unsatisfiable**.
 
-## Def. Tautology and Contradiction
+## _Def._ Tautology and Contradiction
 
 * A formula $F$ is said to be a **tautology** if it holds under all valuations. This is denoted by $\models F$.
 * Similarly, a formula is said to be a **contradiction** if it holds under no valuation, denoted by $\not \models F$.
 * A formula which is satisfiable but not a tautology is called **contingent**.
 
-## Def. Entails
+## _Def._ Entails
 
 We say a formula $F$ **entails** the formula $G$ denoted by $F \models G$ if every valuation which models $F$ also models $G$. In this case, we also say $G$ is a **consequence** of $F$.
 
 > Notice how we are **overloading** (and will keep on overloading) the infix notation $\models$ with valuations, formulas etc. So the elements left or right handside of "models" sign is context-dependent.
 
-## Def. Semantic Equivalence
+## _Def._ Semantic Equivalence
 
 Let $F$ and $G$ be formulas. If they entail each other, then we say they are **equivalent**. This is denoted by $F \equiv G$.
 
@@ -206,7 +206,7 @@ $(F \land G) \equiv (G \land F)$
 * $\neg(F \land G) \equiv (\neg F \lor \neg G)$
 * $\neg(F \lor G) \equiv (\neg F \land \neg G)$
 
-## Def. _A_ Set of Formulas
+## _Def._ _A_ Set of Formulas
 
 From now on, when we say $\Gamma$ is **a set of formulas**, we will mean $\Gamma \subseteq \mathcal{L}_0(\mathcal{P})$. So it is not _the_ set of formulas, but rather a set of formulas.
 
@@ -220,24 +220,24 @@ Moreover, we'll overload the $\models$ notation further in respect to this notio
 
 Now, let's look at some basic semantic properties of propositional logic.
 
-## Thm. Semantic Modus Ponens
+## _Thm._ Semantic Modus Ponens
 
 Let $\Gamma$ be a set of formulas and $A, B$ formulas. If $\Gamma \models A$ and $\Gamma \models (A \to B)$, then $\Gamma \models B$.
 
-## Thm. Compactness (1)
+## _Thm._ Compactness (1)
 
 Let $\Gamma$ be a set of formulas. If $\Gamma$ is satisfiable, then so is every finite subset of it.
 
 > This is the easy (to prove) direction of what is called the **compactness** (of propositional logic), we will see the other direction is also true in the later sections.
 
-## Thm. Semantic Monotonicity
+## _Thm._ Semantic Monotonicity
 
 Let $\Gamma$ and $\Delta$ be a set of formulas such that $\Gamma \subseteq \Delta$ and $F$ a formula. If $\Gamma \models F$ then $\Delta \models F$.
 
-## Thm. Semantic Transitivity
+## _Thm._ Semantic Transitivity
 
 Let $\Gamma$ and $\Delta$ be a set of formulas and $A,B$ formulas. If $\Gamma \models A$ and $\Delta \cup \{A\} \models B$, then $\Gamma \cup \Delta \models B$.
 
-## Thm. Semantic Deduction Theorem
+## _Thm._ Semantic Deduction Theorem
 
 Let $\Gamma$ be a set of formulas and $F$ a formula. Then, $\Gamma \models F$ if and only if $\Gamma \cup \{\neg F\}$ is unsatisfiable.

@@ -4,7 +4,7 @@
 
 We can think of category theory as a pure theory of functions, not a theory of functions derived from sets. -->
 
-## Def. Category
+## _Def._ Category
 
 A **category** $\mathcal{C}$ consists of
 

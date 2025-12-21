@@ -2,7 +2,7 @@
 
 > From now on, fundamental knowledge of Group Theory (notes) are assumed.
 
-## Def. Ring
+## _Def._ Ring
 
 A set $R$ with two binary operations $+$ and $\cdot$, respectively called **addition** and **multiplication**, is called a **ring** if:
 
@@ -28,7 +28,7 @@ The multiplication is called **trivial** if for all $a,b \in R$ we have $ab = 0$
 
 <!-- In this case the ring is said to be **unital** or **unitary** or with **unit**. -->
 
-## Thm. Basic Ring Properties
+## _Thm._ Basic Ring Properties
 
 Let $R$ be a ring, then for all $a,b \in R$
 
@@ -43,7 +43,7 @@ For all $m,n \in \Z$
 
 > **Exercise**
 
-## Thm. Basic Ring with Unity Properties
+## _Thm._ Basic Ring with Unity Properties
 
 Let $R$ be a ring with unity. Then
 
@@ -52,19 +52,19 @@ Let $R$ be a ring with unity. Then
 3. If $u$ and $v$ are units in $R$, then so is $uv$ and $(uv)^{-1} = v^{-1}u^{-1}$.
 4. $\mathcal{U}(R)$ is a group under multiplication, called the **group of units of $R$**.
 
-## Def. Zero-Divisor
+## _Def._ Zero-Divisor
 
 Let $R$ be a ring and $a \in R$. Then $a$ is called a **_left_ zero-divisor** if there exists $0 \neq b \in R$ such that $ab = 0$. It is defined analogously for the **_right_ zero-divisior**.
 
 If $a$ is either left or right zero-divisor, then it is said to be a **zero divisor**.
 
-## Def. Nilpotent Element
+## _Def._ Nilpotent Element
 
 Let $R$ be a ring and $a \in R$. Then $a$ is said to be **nilpotent** if there exists an positive integer $n$ such that $a^n = 0$.
 
 > Note that in any ring $0$ is nilpotent which is called the **trivial nilpotent element**.
 
-## Def. Idempotent Element
+## _Def._ Idempotent Element
 
 Let $R$ be a ring and $a \in R$. Then $a$ is said to be **idempotent** if $a^2 = a$.
 
@@ -72,7 +72,7 @@ Let $R$ be a ring and $a \in R$. Then $a$ is said to be **idempotent** if $a^2 =
 
 We say two idempotent elements are **orthogonal** to each other if $ab = ba = 0$.
 
-## Thm. (Binomial Theorem)
+## _Thm._ (Binomial Theorem)
 
 Let $R$ be a ring with identity, $n \in \N^+$ and for $a, b \in R$ we have $ab=ba$, then
 
@@ -80,21 +80,21 @@ $$
 (a+b)^n = \sum_{k=0}^n {{n \choose k} a^k b^{n-k}}
 $$
 
-## Def. Integral Domain
+## _Def._ Integral Domain
 
 A non-zero ring $R$ is called an **integral domain** if it has no non-trivial zero-divisors.
 
 ###
 Therefore, let $R$ be an integral domain, and $a,b,c \in R$. If $ab = ac$, then either $a = 0$ or $b = c$.
 
-## Def. Division Ring
+## _Def._ Division Ring
 
 A ring $(R, +, \cdot)$ is called an **division ring** (or a **skew-field**) if, equivalently
 
 1. Every non-zero element of $R$, denoted $R^*$, has a multiplicative inverse, or
 2. $(R^*, \cdot)$ forms a group.
 
-## Def. Field
+## _Def._ Field
 
 A ring $(R, +, \cdot)$ is called a **field** if, equivalently (exercise)
 
@@ -102,7 +102,7 @@ A ring $(R, +, \cdot)$ is called a **field** if, equivalently (exercise)
 2. $R^*$ is abelian under multiplication.
 3. It is a finite integral domain.
 
-## Thm. On Integral Domains, Division Rings, and Fields
+## _Thm._ On Integral Domains, Division Rings, and Fields
 
 Let $R$ be a ring. Then
 
@@ -116,7 +116,7 @@ Moreover,
 
 > **Exercise**
 
-## Thm. Basic Idempotent Properties
+## _Thm._ Basic Idempotent Properties
 
 Let $R$ be a ring, and $a \in R$ idempotent. Then
 

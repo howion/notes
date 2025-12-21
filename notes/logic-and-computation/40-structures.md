@@ -1,6 +1,6 @@
 # Structures
 
-## Def. Structure
+## _Def._ Structure
 
 Let $\mathbf{S}$ be a symbol set, then a **structure** of $\mathbf{S}$ is a tuple $\mathfrak{S} = (\mathbf{V}, \mathbf{v})$ such that
 
@@ -12,7 +12,7 @@ Let $\mathbf{S}$ be a symbol set, then a **structure** of $\mathbf{S}$ is a tupl
 
 From now on, with $|\mathfrak{S}|$ we will actually denote the cardinality of the universe $\mathbf{V}$.
 
-## Def. Valuation
+## _Def._ Valuation
 
 A **valuation** $\mathfrak{v}$ in a structure $\mathfrak{S} = (\mathbf{V}, \mathbf{v})$ is a map such that
 
@@ -31,7 +31,7 @@ $$
 \end{cases}
 $$
 
-## Def. Interpretation
+## _Def._ Interpretation
 
 An **interpretation** or **model** $\mathfrak{M}$ is a tuple $(\mathfrak{S}, \mathfrak{v})$ where $\mathfrak{S}$ is a structure and $\mathfrak{v}$ is a valuation in $\mathfrak{S}$.
 
@@ -65,7 +65,7 @@ $$
 
 Similar to propositional logic, if $\Delta$ is a set of first-order formulas, then $\mathfrak{M} \models \Delta$ denotes that $\mathfrak{M} \models \varphi$ for all $\varphi \in \Delta$.
 
-## Def. Entails
+## _Def._ Entails
 
 Let $\Delta$ be a set of formulas and $\varphi$ a formula, then we say $\Delta$ **entails** $\varphi$ or $\varphi$ is a **consequence** of $\Delta$ denoted $\Delta \models \varphi$ if for every model $\mathfrak{M}$ such that $\mathfrak{M} \models \Delta$, we have $\mathfrak{M} \models \varphi$.
 
@@ -73,11 +73,11 @@ If $\Delta = \{\psi\}$, then we simply write $\psi \models \varphi$ instead of $
 
 Moreover, if two formulas $\varphi$ and $\psi$ entail each other denoted $\varphi \equiv \psi$ we say they are **(logically) equivalent**.
 
-## Def. Valid
+## _Def._ Valid
 
 We say a formula $\varphi$ is a **tautology** (or **valid**)  denoted $\models \varphi$ if $\varnothing \models \varphi$. So that $\varphi$ holds under any model.
 
-## Def. Satisfiable
+## _Def._ Satisfiable
 
 We say a set of formulas $\Delta$ is **satisfiable** denoted $\text{Sat }\Delta$ if there exists a model $\mathfrak{M}$ such that $\mathfrak{M} \models \Delta$.
 

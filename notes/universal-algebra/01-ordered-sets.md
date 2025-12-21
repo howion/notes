@@ -2,7 +2,7 @@
 
 <!-- TODO: Further define some notations and definitions. -->
 
-## Def. Partial Order
+## _Def._ Partial Order
 
 A **partial order** (relation) or simply an **order** (relation) on some set $P$ is a binary relation $\leqslant$ on $P$ such that, for all $x,y,z \in P$, it is
 
@@ -20,7 +20,7 @@ A binary relation $\leqslant$ that satisfies (1) and (3) but not necessarily (3)
 
 Let $\langle P; \leqslant_P \rangle$ and $Q \subseteq P$. Then $Q$ inherits an order relation $\leqslant_Q$ from $P$ such that for all $x,y \in Q$ we have $x \leqslant_Q y \iff x \leqslant_P y$ called the **induced order** or the **order inherited from $P$**.
 
-## Def. Chains
+## _Def._ Chains
 
 Let $\langle P; \leqslant\rangle$ be a poset. Then $P$ is said to be a **chain** (or **linearly ordered set** or **totally ordered set**) if any two elements of $P$ are comparable.
 
@@ -32,7 +32,7 @@ Notice that any subset of a chain (an antichain) is a chain (an antichain).
 
 We will utilize the symbol $\bold{n}$ to denote the finite $n$-element linearly ordered set $\{0, 1, ..., n-1\}$ with the natural linear order. Similarly, $\bold{\bar{n}}$ will denote the $n$-element antichain.
 
-## Def. Maps on Orders
+## _Def._ Maps on Orders
 
 Let $P$ and $Q$ be two ordered sets. We say a map $\phi: P \to Q$ is:
 
@@ -48,7 +48,7 @@ Notice that:
 
 <!--
 
-## Def. Order-Isomorphism
+## _Def._ Order-Isomorphism
 
 We say two ordered sets $P$ and $Q$ are (order-)**isomorphic** denoted $P \cong Q$ if there exists a surjective map (function) $\phi: P \twoheadrightarrow Q$ such that, for all $x,y \in P$:
 
@@ -68,7 +68,7 @@ Notice that:
 
 See [**Wikipedia**: Arrow's impossibility theorem](https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem).
 
-## Def. Cover Relation
+## _Def._ Cover Relation
 
 > TODO: Check if this definition is equivalent to the one in the main book.
 
@@ -76,11 +76,11 @@ Let $P$ be an ordered set and $x, y \in P$. We say $x$ is **covered by** $y$ den
 
 $$x \leqslant z \leqslant y$$
 
-## Def. Hasse Diagrams
+## _Def._ Hasse Diagrams
 
 See [**Wikipedia:** Hasse Diagram](https://en.wikipedia.org/wiki/Hasse_diagram).
 
-## Thm. TFAE
+## _Thm._ TFAE
 
 Let $P$ and $Q$ be finite ordered sets and $\phi : P \to Q$ a bijective map. Then TFAE:
 
@@ -89,17 +89,17 @@ Let $P$ and $Q$ be finite ordered sets and $\phi : P \to Q$ a bijective map. The
 * $x \prec_P y$ if and only if $\phi(x) \prec_Q \phi(y)$.
 * They can be drawn with identical Hasse Diagrams.
 
-## Def. Dual
+## _Def._ Dual
 
 Let $P$ be an ordered set with the order relation $\leqslant$. The **dual** of $P$ denoted with $P^\partial$ is the set ordered with $\leqslant_\partial$ where, for all $x, y \in P$:
 
 $$x \leqslant_\partial y \iff y \leqslant x$$
 
-<!-- ## Thm. Duality Principle
+<!-- ## _Thm._ Duality Principle
 
 Given a statement $\Phi$ about ordered sets which is true in all ordered sets, the dual statement $\Phi^\partial$ is also true in all ordered sets. -->
 
-## Def. Bottom and Top
+## _Def._ Bottom and Top
 
 For an ordered set $P$, we say $P$ has a **bottom** $\bot \in P$ if for all $x \in P$ we have $\bot \leqslant x$. Similarly, we say $P$ has a **top** $\top \in P$ if for all $x \in P$ we have $x \leqslant \top$.
 
@@ -111,7 +111,7 @@ A finite chain always has bottom and top element.
 
 <!-- ## Lifts -->
 
-## Def. Min-Max(imal)
+## _Def._ Min-Max(imal)
 
 Let $P$ be an ordered set and $p \in P$. We say $a \in P$ is:
 
@@ -124,14 +124,14 @@ Notice that if $P$ has a top element $\top$, then $\text{Max}\ P = \{\top\}$.
 
 <!-- Zorn's Lemma -->
 
-## Def. Sums
+## _Def._ Sums
 
 Suppose $P$ and $Q$ are two disjoint ordered sets. The **disjoint union** denoted $P \sqcup Q$ is the ordered set $P \cup Q$ ordered by $\leqslant$ where $x \leqslant y$ if and only if either:
 
 * For $x,y \in P$ we have $x \leqslant_P y$,
 * For $x,y \in Q$ we have $x \leqslant_Q y$.
 
-## Def. Linear Sum
+## _Def._ Linear Sum
 
 For two disjoint ordered sets $P$ and $Q$, the **linear sum** denoted $P \oplus Q$ is the ordered set $P \cup Q$ ordered by $\leqslant$ where $x \leqslant y$ if and only if either:
 
@@ -145,7 +145,7 @@ Note that both $\sqcup$ and $\oplus$ are associative (up to isomorphism).
 
 For example, $\bold{2} \oplus \bold {3} = \bold{5}$.
 
-## Def. Product
+## _Def._ Product
 
 Let $P_1, ..., P_n$ be ordered sets. The (Cartesian) product $P_1 \times ... \times P_n$ can be (coordinatewise) ordered with $\leqslant$ where $(x_1, ..., x_n) \leqslant (y_1, ..., y_n)$ if and only if, for all $i$, we have $x_i \leqslant_{P_i} y_i$. As a shorthand we will use $P^n$ to denote the $n$-fold cartesian product ordered with such order.
 
@@ -162,7 +162,7 @@ $$
 
 Then $\phi$ is an order-isomorphism.
 
-## Def. Ups and Downs
+## _Def._ Ups and Downs
 
 Let $P$ be an ordered set and $Q \subseteq P$.
 
@@ -199,7 +199,7 @@ Notice that:
 
 Down-sets (dually up-sets) of the form $\downarrow x$ (dually $\uparrow x$) are called **principal**.
 
-## Def. Ordered Set of Down-sets
+## _Def._ Ordered Set of Down-sets
 
 The family of all down-sets of the ordered set $P$ is denoted by $\mathcal{O}(P)$. Under the inclusion order, $\mathcal{O}(P)$ is an ordered set.
 
@@ -211,7 +211,7 @@ where $\{x_1, ..., x_k\} = \text{Max}\ Q$ is an antichain.
 
 Notice that $\mathcal{O}(P)^\partial \cong \mathcal{O}(P^\partial)$ as $A \subseteq$ iff $P \setminus A \supseteq P \setminus B$.
 
-## Thm. '
+## _Thm._ '
 
 Let $P, P_1, P_2$ be ordered sets. Then
 

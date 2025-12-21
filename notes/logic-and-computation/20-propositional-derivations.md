@@ -8,7 +8,7 @@ In propositional logic, with $\models$ we were able to keep track of entailment.
 
 In propositional logic, with $\vdash$ we want to do something similar, but syntatically. From a set of formulas $\Delta$ we want to be able to arrive _true_ formulas $F$ such that they are also (correspondingly) true in our meta-theory.
 
-## Def. Derives
+## _Def._ Derives
 
 Let $\Gamma$ be a set of formulas and $F, G$, and $H$ formulas. Then we _define_ (for our propositional logic model) the **derives** operator $\vdash$ by the (basic) **rules of derivations** which are
 
@@ -31,7 +31,7 @@ We can extend these rules of derivations in any way we want (as long as it makes
 
 We can also reduce these rules, indeed we only need 3 which is a topic of no concern in these notes.
 
-## Def. Syntactic Proof
+## _Def._ Syntactic Proof
 
 A **syntactic proof** (sometimes called **formal proof**, or simply a **proof** if not to be confused with a proof in our meta-language) in propositional logic is a finite _sequence_ of statements of the form $\Gamma \vdash F$ where $\Gamma$ is a set of formulas and $F$ is a formula.
 
@@ -58,7 +58,7 @@ $$
 $$
 </details>
 
-## Thm. Soundness
+## _Thm._ Soundness
 
 Let $\Gamma$ be a set of propositional formulas and $F$ a formula in propositional logic such that $\Gamma \vdash F$, then $\Gamma \models F$.
 
@@ -74,11 +74,11 @@ Therefore
 * $\vdash G$ implies $G$ is a tautology,
 * $\vdash \neg G$ implies $G$ is a contradiction.
 
-## Def. Literal
+## _Def._ Literal
 
 A **literal** is either an atomic formula, or the negation of an atomic formula. The former is called a **positive literal** and the latter is called a **negative literal**.
 
-## Def. Conjuctive Normal Form
+## _Def._ Conjuctive Normal Form
 
 A propositional formula $F$ is in **conjunctive normal form (CNF)** if it is a conjunction of disjunctions of literals, that is
 
@@ -88,7 +88,7 @@ $$
 
 where $m,n \in \N^+$ and each $L_{ij}$ is a literal.
 
-## Def. Disjunctive Normal Form
+## _Def._ Disjunctive Normal Form
 
 A propositional formula $F$ is in **disjunctive normal form (DNF)** if it is a conjunction of disjunctions of literals, that is
 
@@ -98,17 +98,17 @@ $$
 
 where $m,n \in \N^+$ and each $L_{ij}$ is a literal.
 
-## Thm. CNF and DNF Duality
+## _Thm._ CNF and DNF Duality
 
 Negation of a formula in DNF is equivalent to a formula in CNF. Similarly, negation of a formula in CNF is equivalent to a formula in DNF.
 
-## Thm. Generality of CNF and DNF
+## _Thm._ Generality of CNF and DNF
 
 Any propositional formula $F$ is equivalent to some formula $F_\text{CNF}$ in CNF and some formula $F_\text{DNF}$ in DNF.
 
 The canonical algorithms to build equivalent formulas in CNF and DNF are straightforward and simple. Curious reader may exercise or check out such algorithms.
 
-## Def. Horn Formula
+## _Def._ Horn Formula
 
 A propositional formula $F$ is a **Horn formula** if its in CNF and every disjunction contains at most one positive literal.
 
@@ -116,7 +116,7 @@ A Horn formula is called **basic** if it does not use any conjunction. Therefore
 
 Notice that, for example, the basic Horn formula $\neg A_1 \lor \neg A_2 \lor \neg A_3 \lor A_4$ is equivalent to $(A_1 \land A_2 \land A_3) \to A_4$. Therefore, every Horn formula can be written as conjuction of implications. In the case that there are no positive literals, say no $A_4$ above, we have $(A_1 \land A_2 \land A_3) \to \bot$.
 
-## Thm. HORNSAT
+## _Thm._ HORNSAT
 
 > **TODO**
 

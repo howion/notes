@@ -31,7 +31,7 @@ See [**Wikipedia: Dihedral group**](https://en.wikipedia.org/wiki/Dihedral_group
 
 See [**Wikipedia: Dihedral group**](https://en.wikipedia.org/wiki/Symmetric_group).
 
-### Thm. Symmetric Groups Basics
+### _Thm._ Symmetric Groups Basics
 
 * For $n > 2$ the symmetric group $S_n$ is nonabelian. So, $S_3$ is a good example of nonabelian group of order $3$.
 
@@ -55,12 +55,6 @@ $$
 
 so that $\mathbb{Q}_p$ is a (torsion-free) abelian group under the usual rational addition.
 
-## Exercise 2
-
-Prove that $\mathbb{Q}_p$ is _not_ isomorphic to $\mathbb{Q}_r$ for distinct primes $p$ and $r$.
-
-> Exercise
-
 ## Exercises
 
 ### #1
@@ -75,3 +69,9 @@ Find the order of the (general linear) group $\text{GL}(3, \Z_5)$.
 
 $(5^3 - 1)(5^3 - 5)(5^3 - 5^2)$
 </details>
+
+## #2
+
+Prove that $\mathbb{Q}_p$ is _not_ isomorphic to $\mathbb{Q}_r$ for distinct primes $p$ and $r$.
+
+> Exercise

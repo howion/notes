@@ -1,6 +1,6 @@
 # Groups
 
-## Def. Group
+## _Def._ Group
 
 A **group** is an ordered pair $(G, \cdot)$ where $G$ is a set and $\cdot$ is a binary operation on $G$ that satisfies:
 
@@ -30,7 +30,7 @@ Associative property by far is the most powerful property of the group. It allow
 
 Indeed a structure which only satisfies associative property is called a **semigroup**. A semigroup with identity is called a **monoid** and a monoid with inverses is called a **group**.
 
-## Thm. Basic Group Properties
+## _Thm._ Basic Group Properties
 
 Remembering any group is also a monoid and thus a semigroup, let $(G, \cdot)$ be a group. Then:
 
@@ -41,13 +41,13 @@ Remembering any group is also a monoid and thus a semigroup, let $(G, \cdot)$ be
 
 > Exercise
 
-## Thm. Basic _Monoid_ Properties
+## _Thm._ Basic _Monoid_ Properties
 
 If $M$ is a monoid, then
 
 1. The identity element of $M$ is unique.
 
-## Thm. Semigroup to Group
+## _Thm._ Semigroup to Group
 
 Let $(S, \cdot)$ be a semigroup, then it is a group if and only if both of the following hold:
 
@@ -56,7 +56,7 @@ Let $(S, \cdot)$ be a semigroup, then it is a group if and only if both of the f
 
 > By symmetry, the analogous result holds for rights instead of left.
 
-## Thm. Semigroup to Group 2
+## _Thm._ Semigroup to Group 2
 
 Let $S$ be a semigroup, then it is a group if and only if for all $a,b \in S$ the equations
 
@@ -71,7 +71,7 @@ have solutions in $G$.
 
 > Exercise
 
-## Thm. Generalized Associative Law
+## _Thm._ Generalized Associative Law
 
 Let $S$ be a semigroup and $a_i \in S$. Associative property implies that the expression $a_1 \cdot a_2 \cdot \cdots \cdot a_n$ is the same no matter how the expression bracketed.
 
@@ -84,7 +84,7 @@ By induction. Exercise.
 
 > Similarly one could also prove **Generalized Commutative Law** for the commutative property.
 
-## Def. Order
+## _Def._ Order
 
 Let $(G, \cdot)$ be a group and $a \in G$.
 
@@ -98,7 +98,7 @@ If the order of an element $x$ (or group) is finite, we will denote it with $|x|
 
 We say that a group if **torsion-free** if every non-identity element has infinite order. If every element of a group has finite order then we say the group is **periodic**.
 
-If orders of a periodic group are bounded, then the least common multiple of their orders is called the **exponent** of the group. If the orders of elements of a periodic group are powers of prime $p$, then we call the group a $p$-group.
+If orders of a periodic group are bounded, then the least common multiple of their orders is called the **exponent** of the group. If the orders of elements of a periodic group are powers of prime $p$, then we call the group a **$p$-group**.
 
 ## Notation. Subsets
 
@@ -120,7 +120,7 @@ We _define_ $a^0$ (or $0a$) as the identity element $1$ or $0$. Notice that, in 
 
 <!-- We define $a^0$ to be the identity element which is mostly denoted as $1$ in multiplicative notation and $0$ in additive notation (in abelian case). -->
 
-## Thm. More Group Properties
+## _Thm._ More Group Properties
 
 Let $G$ be a group, then
 

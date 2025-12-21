@@ -4,7 +4,7 @@
 
 <!-- If $G$ is finite, then $\Phi(G)$ is nilpotent -->
 
-## Def. Diagonal Subgroup
+## _Def._ Diagonal Subgroup
 
 $\hat{G} := \Set{(g,g)} \cong G$.
 
@@ -17,21 +17,21 @@ $$
 
 ---
 
-## Def. Simple Group
+## _Def._ Simple Group
 
 A group is said to be **simple** if it has no proper (and non-trivial) normal subgroups.
 
-## Thm. On Simple Groups
+## _Thm._ On Simple Groups
 
 1. $\Z_p$ is simple if $p$ is prime. Does the converse holds?
 
 ---
 
-## Def. Perfect Group
+## _Def._ Perfect Group
 
 ---
 
-## Thm. Dedekind Modular Law (Identity)
+## _Thm._ Dedekind Modular Law (Identity)
 
 > See https://math.stackexchange.com/questions/3957388/intuition-behind-dedekinds-modular-law
 

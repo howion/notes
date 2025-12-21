@@ -2,11 +2,11 @@
 
 > Until now we have explicitly defined and shown which multiplication is to which operator and which identity belongs to which group. From now on, these must be understood from the context. We will prefer little brevity over cumbersome notation.
 
-## Def. Subgroup
+## _Def._ Subgroup
 
 Let $G$ be a group and non-empty $H \subseteq G$. The non-empty subset $H$ is called a **subgroup** if $H$ is again a group under the restriction of $G$'s binary operation. This implies $H$ has the same identity as $G$ under the same binary operation.
 
-## Thm. Equivalent Subgroup Definitions
+## _Thm._ Equivalent Subgroup Definitions
 
 A subset $H \subseteq G$ is a subgroup of $G$ if
 
@@ -45,7 +45,7 @@ Any group has two subgroups called the **trivial subgroup** which consists of on
 
 <!-- TODO: Add more exercises here from kargapolov p.27 and other sources -->
 
-## Thm. Finite and Closed Subset
+## _Thm._ Finite and Closed Subset
 
 Let $G$ be a group and $S$ a non-empty subset of $G$. If $S$ is finite and closed under the group product, then $S$ is a subgroup of $G$.
 
@@ -58,13 +58,13 @@ Let $G$ be a group and $S$ a non-empty subset of $G$. If $S$ is finite and close
 We have $e \in G$ since $a^n$ must repeat. Similarly, for inverse we have $a^r = a^s$ implies $a^{r-s} = e$ implies $a^{r-s-1}=a^{-1}$ where $r > s \geq 1$.
 </details>
 
-## Thm. Intersection of Subgroups
+## _Thm._ Intersection of Subgroups
 
 Let $\{H_i\}$ be any non-empty family of subgroups of $G$, then $\bigcap H_i$ is also a subgroup of $G$.
 
 > Exercise
 
-## Thm. Subgroups Under Multiplication
+## _Thm._ Subgroups Under Multiplication
 
 Let $G$ be a group and $H,K \leq G$, then
 
@@ -74,7 +74,7 @@ Let $G$ be a group and $H,K \leq G$, then
 
 > Exercise
 
-## Def. Complement
+## _Def._ Complement
 
 Let $H \leq G$. We say $K$ is a **complement** of a subgroup $H$ if
 
@@ -83,7 +83,7 @@ Let $H \leq G$. We say $K$ is a **complement** of a subgroup $H$ if
 
 Noting $KH=HK$, this complement relation is symmetrical.
 
-## Thm. Basic Complement Properties
+## _Thm._ Basic Complement Properties
 
 <!-- TODO: References & Proofs -->
 
@@ -101,19 +101,19 @@ Let $H$ and $K$ be complements in $G$, then
 > TODO:
 </details>
 
-## Def. Maximal Subgroup
+## _Def._ Maximal Subgroup
 
 Let $G$ be a group and let $H$ be a proper subgroups of $G$. We say $H$ is a **maximal subgroup** if $H \subseteq K$ implies $K = H$ for all $K \lt G$.
 
 > Simply, $H$ is maximal if there is no greater proper subgroup which contain it.
 
-## Def. Frattini Subgroup
+## _Def._ Frattini Subgroup
 
 Let $G$ be a group. We define **frattini subgroup** $\Phi(G)$ as the intersection of all maximal subgroups of $G$. In the case $G$ has no maximal subgroups, we define $\Phi(G) = G$.
 
 > This is analogous to the Jacobson radical in the ring theory.
 
-## Thm. Frattini Subgroup and Non-Generators
+## _Thm._ Frattini Subgroup and Non-Generators
 
 The frattini subgroup $\Phi(G)$ of a group $G$ is equal to the set of all non-generators of $G$. Therefore, non-generators of a group form a subgroup &mdash; namely the frattini subgroup.
 

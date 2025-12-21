@@ -1,17 +1,17 @@
 # Cosets and Indices
 
-## Def. Coset
+## _Def._ Coset
 
 Let $G$ be a group and $H \leq G$. Then, for all $a \in G$ the set $aH$ is called a **left coset** and the set $Ha$ is called a **right coset**.
 
-## Def. Coset Congruence
+## _Def._ Coset Congruence
 
 Let $G$ be a group, $H \leq G$, and $a,b \in G$. We say,
 
 * **$a$ is left-congruent to $b$ modulo $H$**, denoted by $a \equiv_{L} b \enspace (\text{mod } H)$ when $a^{-1}b \in H$.
 * **$a$ is right-congruent to $b$ modulo $H$**, denoted by $a \equiv_{R} b \enspace (\text{mod } H)$ when $ab^{-1} \in H$,
 
-## Thm. Coset Congruence
+## _Thm._ Coset Congruence
 
 1. The relations $\equiv_L$ and $\equiv_R$ are equivalence relations.
 2. The left (resp. right) equivalence class of $a \in G$ is the set $aH$ (resp. $Ha$).
@@ -25,7 +25,7 @@ Let $G$ be a group, $H \leq G$, and $a,b \in G$. We say,
 > TODO:
 </details>
 
-### Corollary. Coset Congruence
+### _Corollary._ Coset Congruence
 
 Let $G$ be a group and $H \leq G$. Then
 
@@ -33,13 +33,13 @@ Let $G$ be a group and $H \leq G$. Then
 2. Two right (respectively left) cosets are either _disjoint_ or _equal_,
 3. Number of distinct left cosets are equal to number of distinct right cosets.
 
-## Def. Index
+## _Def._ Index
 
 [**Wiki: Index of a subgroup**](https://en.wikipedia.org/wiki/Index_of_a_subgroup)
 
 Let $G$ be group and $H \leq G$ then the **index of $H$ in $G$**, denoted $|G:H|$ is the _cardinal number_ of the set of distinct right (or left) cosets of $H$ in $G$.
 
-## Thm. Index Theorem
+## _Thm._ Index Theorem
 
 Let $G$ be a group and $K \leq H \leq G$, then
 
@@ -59,13 +59,13 @@ $$
 
 Let $G$ be a group and $x \in G$, then $|x|$ divides $|G|$.
 
-## Thm. Cauchy's Theorem
+## _Thm._ Cauchy's Theorem
 
 Let $G$ be a finite group of order $n$ and $p$ is any prime that divides $n$. Then $G$ contains an element of order $p$.
 
 > We will prove this useful theorem later on, after Sylow Theorems.
 
-## Thm. Order of Subgroup Multiplication
+## _Thm._ Order of Subgroup Multiplication
 
 Let $G$ be group such that $H$ and $K$ are finite subgroups of $G$. Then
 
@@ -73,13 +73,13 @@ $$
 |HK| = \dfrac{|H| \cdot |K|}{|H \cap K|}
 $$
 
-## Thm. 1
+## _Thm._ 1
 
 Let $G$ be a group and $H,K \leq G$. Then we have $|H:(H \cap K)| \leq |G:K|$.
 
 If $|G:K|$ is finite, then $|H:(H \cap K)|=|G:K|$ if and only if $G=KH$.
 
-## Thm. 2
+## _Thm._ 2
 
 Let $H$ and $K$ be _subgroups of finite index_ of a group $G$. Then
 
@@ -87,7 +87,7 @@ Let $H$ and $K$ be _subgroups of finite index_ of a group $G$. Then
 2. $|G:H \cap K| \leq |G:H||G:K|$, and
 3. $|G:H \cap K| = |G:H||G:K|$ if and only if $G = HK$.
 
-## Thm. Groups of Prime Order
+## _Thm._ Groups of Prime Order
 
 Let $G$ be a group, then the following are equivalent
 

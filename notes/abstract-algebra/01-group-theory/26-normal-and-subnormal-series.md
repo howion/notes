@@ -2,7 +2,7 @@
 
 > More on this later on, for now I will skip this section.
 
-## Def. Subnormal Series
+## _Def._ Subnormal Series
 
 A **subnormal series** of a group $G$ is a chain of subgroups
 

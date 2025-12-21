@@ -2,7 +2,7 @@
 
 ## Fundamental Definitions
 
-### Def. Judgments
+### _Def._ Judgments
 
 There are four kinds of **judgments** in Martin-Löf's dependent type theory.
 
@@ -24,7 +24,7 @@ $$\Gamma \vdash a \doteq b : A$$
 
 > Notice that all judgments are context-dependent.
 
-### Def. Context
+### _Def._ Context
 
 A **context** is a finite list of **variable declarations**.
 
@@ -47,7 +47,7 @@ with the inference rules of our type theory. We may also use variable names as l
 
 An context of length $0$ which declares no variables is called the **empty context**.
 
-### Def. Type Families
+### _Def._ Type Families
 
 Let $A$ be a type in context $\Gamma$. A **family (of types) over $A$** in context $\Gamma$ is a type $B(x)$ in context $\textcolor{gray}{(}\Gamma, x : A\textcolor{gray}{)}$. More explicitly, given:
 
@@ -55,7 +55,7 @@ $$\Gamma, x: A \vdash B(x) : \mathcal{T}$$
 
 we say that $B(x)$ is family of types over $A$ in context $\Gamma$. Alternatively, we say $B(x)$ is a type **indexed** by $x: A$, in context $\Gamma$.
 
-### Def. Section
+### _Def._ Section
 
 Let $B$ be a family (of types) over $A$ in context $\Gamma$. A **section** of the family $B$ is an element of type $B(x)$ in context $\textcolor{gray}{(}\Gamma, x : A\textcolor{gray}{)}$.
 
@@ -211,7 +211,7 @@ $$
 \end{array}
 $$
 
-### Def. Fiber
+### _Def._ Fiber
 
 Let $B$ be a family of types over $A$ in context $\Gamma$ and $a: A$. Then we say that $B[a/x]$ or simply $B(a)$ is the **fiber** of $B$ at $a$.
 

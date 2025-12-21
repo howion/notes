@@ -2,7 +2,7 @@
 
 In this section we will define what we refer to as **first-order logic** which is a much more powerful (in expressive sense) language compared to our previous propositional (zeroth-order) logic. It's _lexicon_, who also contains zeroth-order logic defined as
 
-## Def. Alphabet
+## _Def._ Alphabet
 
 > Note that if your meta-theory is strong enough in the sense that it allows you to work with classes, say NBG/GB unlike ZFC, you may allow $\mathbf{S}$ to be a proper class.
 
@@ -21,7 +21,7 @@ and (possibly empty) set of non-logical symbols $\mathbf{S}$ called **the symbol
 
 Notice that, especially if we consider variables fixed, the set $\mathbf{A}$ is independent of $\mathbf{S}$ and static in the sense that is the same for all first-order logic alphabets.
 
-## Def. Term
+## _Def._ Term
 
 Let $\mathbf{A}_\mathbf{S}$ be an alphabet of a first-order logic, then the set of **terms** over $\mathbf{A}_\mathbf{S}$ denoted with $\text{Term}(\mathbf{A}_\mathbf{S})$ is the smallest subset of ${\mathbf{A}_\mathbf{S}}^*$ such that
 
@@ -30,7 +30,7 @@ Let $\mathbf{A}_\mathbf{S}$ be an alphabet of a first-order logic, then the set 
 
 > Notice that we are working in Polish Notation here. Otherwise, in ordinary infix notation, we also need to add comma and parentheses to our set of non-logical symbols.
 
-## Def. $\text{var}(t)$
+## _Def._ $\text{var}(t)$
 
 The **variable** function $\text{var}$ is defined on the domain $\text{Term}(\mathbf{A}_\mathbf{S})$ inductively as
 
@@ -45,7 +45,7 @@ $$
 
 where $x$ is a variable symbol, $c$ is a constant symbol, and $t_1, ..., t_n$ are terms provided to the $n$-ary function symbol $f_n$ in $\mathbf{S}$.
 
-## Def. Formula
+## _Def._ Formula
 
 Let $\mathbf{A}_\mathbf{S}$ be an alphabet of a first-order logic, then the set of **formulas** over $\mathbf{A}_\mathbf{S}$ denoted with $\text{Form}(\mathbf{A}_\mathbf{S})$ is the smallest subset of ${\mathbf{A}_\mathbf{S}}^*$ such that, for $t_1, t_2, ..., t_n \in \text{Term}(\mathbf{A}_\mathbf{S})$
 
@@ -59,7 +59,7 @@ The formulas which are constructed by (1) or (2) is called **atomic**.
 
 From now on we will denote the first-order language we have just defined above with $\mathcal{L}(\mathbf{A}_\mathbf{S})$ or simply $\mathcal{L}(\mathbf{S})$. This language, which is a subset of ${\mathbf{A}_\mathbf{S}}^*$, consists of words which we call formulas that are defined inductively.
 
-## Def. $\text{sub}(\varphi)$
+## _Def._ $\text{sub}(\varphi)$
 
 The **subformula** function $\text{sub}$ is defined on the domain $\text{Form}(\mathbf{A}_\mathbf{S})$ inductively as
 
@@ -74,7 +74,7 @@ $$
 \end{array}
 $$
 
-## Def. $\text{free}(\varphi)$
+## _Def._ $\text{free}(\varphi)$
 
 The **free variables** function $\text{free}$ is defined on the domain $\text{Form}(\mathbf{A}_\mathbf{S})$ inductively as
 
@@ -95,7 +95,7 @@ Let $\varphi \in \mathcal{L}(\mathbf{S})$, then we define &mdash; in addition to
 
 * $\forall x \varphi := \neg \exists x \neg \varphi$ where $x$ is a variable symbol in $\mathbf{S}$
 
-## Def. $\text{free}(\varphi)$
+## _Def._ $\text{free}(\varphi)$
 
 The **free variable** function $\text{free}$ is defined on the language $\mathcal{L}(\mathbf{S})$ inductively as
 
@@ -118,11 +118,11 @@ A variable which is not free is called **bound**.
 
 From now on we will denote any tuple of terms $x_1, x_2, ..., x_n$ with $\bar{x}$ so that, for example, $\varphi(\bar{x})$ means $\varphi(x_1, x_2, ..., x_n)$.
 
-## Def. Sentence
+## _Def._ Sentence
 
 A **sentence** in a first-order logic is a formula without free variables.
 
-## Def. Formulas
+## _Def._ Formulas
 
 A **quantifier-free formula** is a formula in which the quantifier $\exists$ (and thus $\forall$) does not occur.
 

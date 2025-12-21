@@ -1,6 +1,6 @@
 # 2. Subrings
 
-## Def. Subring
+## _Def._ Subring
 
 Let $(R, +, \cdot)$ be a ring and $S$ a non-empty subset of $R$. Then $(S, +, \cdot)$ is called a subring if:
 
@@ -31,7 +31,7 @@ Let $R$ be a ring and $S \leq R$ its subring. Then
 
 > **Exercise**, show this is also the case for zero-divisors and units.
 
-## Def. Maximal Subring
+## _Def._ Maximal Subring
 
 Let $R$ a ring and $S$ a subring of $R$, then $S$ is said to be **maximal subring** if $S \neq R$ and for any subring $T$ of $R$ we have
 
@@ -43,10 +43,10 @@ $$
 
 > Notice how we exclude the ring itself to be called maximal subring in itself.
 
-## Def. Opposite Ring
+## _Def._ Opposite Ring
 
 Given a ring $R$, the **opposite ring** is the ring with the same set of elements and same additive operation but multiplication reversed.
 
-### Thm. Self-Opposite iff Commutative
+### _Thm._ Self-Opposite iff Commutative
 
 A ring $R$ is it's **self-opposite** (isomorphic to it's opposite) if and only if $R$ is commutative.

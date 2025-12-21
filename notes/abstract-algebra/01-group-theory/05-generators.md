@@ -1,6 +1,6 @@
 # Generators
 
-## Def. Generators
+## _Def._ Generators
 
 From now on, for a group $G$ and a subset $A \subseteq G$, we will denote by $L(G, A)$ the set of all subgroups of $G$ that contain $A$. In particular, $L(G)$ denotes the **set of all subgroups of $G$**.
 
@@ -16,7 +16,7 @@ An element is called a **non-generator** of a group $G$ if it can be omitted fro
 
 Generally, this definition of a generated subgroup is not really easy to work with. So equivalently...
 
-### Thm. Equivalent Generation Definition
+### _Thm._ Equivalent Generation Definition
 
 If $M$ is a subset of a group $G$, then
 
@@ -24,7 +24,7 @@ $$
 \Braket{M} = \Set{a_1^{\epsilon_1} \cdots a_k^{\epsilon_k} \> | \> a_i \in M, \epsilon_i = \pm 1, k = 1, 2, \dots }.
 $$
 
-### Thm. Equivalent Generation Definition 2
+### _Thm._ Equivalent Generation Definition 2
 
 Let $G$ be a group and $M \subseteq G$, then
 
@@ -45,7 +45,7 @@ That is, $\Braket{M}$ consists of all finite products of $a_1^{n_1} \cdots a_k^{
 
 <!-- TODO: Create early lattice section and define there? -->
 
-## Def. Join of Subgroups
+## _Def._ Join of Subgroups
 
 Let $H_i$ be subgroups of $G$, then their **join** is defined as $\Braket{\> \bigcup H_i \>}$ or, if finitely many, as $\Braket{H_1, ..., H_n}$. The join of two subgroups $H,K$ will simply be denoted as $H \lor K$.
 

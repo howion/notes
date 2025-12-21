@@ -1,3 +1,3 @@
 # Free Modules and Vector Spaces
 
-## Def. Linear Independence
+## _Def._ Linear Independence

@@ -2,7 +2,7 @@
 
 <!-- TODO: Further define some notations and definitions. -->
 
-## Def. Bounds
+## _Def._ Bounds
 
 Let $P$ be an ordered set and $S \subseteq P$. Then, $x \in P$ is called an **upper bound of $S$** if $s \leqslant x$ for all $s \in S$. **Lower bound** is defined dually.
 
@@ -20,14 +20,14 @@ If exists, we will denote $\sup \{x, y\}$ with $x \vee y$ read as $x$ **join** $
 
 Similarly, we will also utilize $\bigvee S$ and $\bigwedge S$ for $\sup S$ and $\inf S$.
 
-## Def. Lattice and Complete Lattice
+## _Def._ Lattice and Complete Lattice
 
 Let $P$ be a non-empty (partially) ordered set.
 
 * If join and meet exist for all $x,y \in P$, then $P$ is called a **lattice**.
 * If join of and meet of exist for all $S \subseteq P$, then $P$ is called a **complete lattice**.
 
-## Def. Axiomatic Definition
+## _Def._ Axiomatic Definition
 
 > From **A Course in Universal Algebra**.
 

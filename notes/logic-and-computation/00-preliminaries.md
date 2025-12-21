@@ -23,7 +23,7 @@ Due to nature of these notes we will mostly work in second-order ordinary set-th
 * $\varnothing$ denotes the empty set.
 * Cardinality of a set $S$ is denoted with $|S|$.
 
-<!-- ## Def. Collection
+<!-- ## _Def._ Collection
 
 Generally speaking, when it is said that $X$ is a **collection** it usually considered to be a set or a proper class.
 

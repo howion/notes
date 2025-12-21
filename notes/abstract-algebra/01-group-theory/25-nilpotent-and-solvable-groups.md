@@ -1,6 +1,6 @@
 # Nilpotent and Solvable Groups
 
-## Def. Central Series
+## _Def._ Central Series
 
 <!-- > TODO: References, wiki used -->
 
@@ -40,7 +40,7 @@ $$
 
 > **Exercise** that indeed each subgroup is indeed a normal subgroup.
 
-## Thm. TFAE: Nilpotent Groups
+## _Thm._ TFAE: Nilpotent Groups
 
 <!-- > TODO: References, wiki used -->
 
@@ -50,42 +50,42 @@ A group $G$ is called **nilpotent** if it satisfies any of equivalent definition
 2. $G$ has a lower central series finitely terminating in the trivial subgroup, that is $D_n = \Braket{e}$ for some $n$.
 3. $G$ has an upper central series finitely terminating in the whole group, that is $A_n = G$ for some $n$.
 
-## Thm. Finite $p$-groups are Nilpotent
+## _Thm._ Finite $p$-groups are Nilpotent
 
 Every finite $p$-group is nilpotent.
 
-## Thm. Finite Direct Product of Nilpotents are Nilpotent
+## _Thm._ Finite Direct Product of Nilpotents are Nilpotent
 
 The direct product of a _finite_ number of nilpotent groups is nilpotent.
 
 <!-- see lemma 7.4 p.101 -->
 
-## Thm. Nilpotency and Sylow Subgroups
+## _Thm._ Nilpotency and Sylow Subgroups
 
 A finite group is nilpotent if and only if it is the direct product of its Sylow subgroups.
 
-### Corollary. Nilpotent Cauchy
+### _Corollary._ Nilpotent Cauchy
 
 If $G$ is a finite nilpotent group and $m \in \N^+$ divides $|G|$, then $G$ has a subgroup of order $m$.
 
-## Def. Solvable Groups
+## _Def._ Solvable Groups
 
 A group $G$ is said to be **solvable** if $G^{(n)} = \Braket{e}$ for some $n$.
 
-## Thm. Nilpotent $\implies$ Solvable
+## _Thm._ Nilpotent $\implies$ Solvable
 
 Every nilpotent group is solvable.
 
-## Thm. Solvable Group Properties
+## _Thm._ Solvable Group Properties
 
 1. Let $G$ be a solvable group, then every subgroup and every homomorphic image of $G$ is also solvable.
 2. Let $N \trianglelefteq G$ such that $N$ and $G/N$ are solvable, then $G$ is solvable.
 
-## Thm. Solvability of $\mathbf{S}_n$
+## _Thm._ Solvability of $\mathbf{S}_n$
 
 The symmetric group $\mathbf{S}_n$ is not solvable if $n \geq 5$.
 
-## Thm. More on Solvable Groups
+## _Thm._ More on Solvable Groups
 
 Let $N$ be a normal subgroup of a finite group $G$ and $H \leq G$, then
 
@@ -93,7 +93,7 @@ Let $N$ be a normal subgroup of a finite group $G$ and $H \leq G$, then
 2. Every normal Sylow $p$-subgroup of $G$ is fully invariant,
 3. If $G$ is solvable and $N$ is a minimal normal subgroup, then $N$ is an abelian $p$-group for some prime $p$.
 
-## Thm. (P. Hall)
+## _Thm._ (P. Hall)
 
 Let $G$ be a finite solvable group of order $mn$ such that $(m,n)=1$, then
 

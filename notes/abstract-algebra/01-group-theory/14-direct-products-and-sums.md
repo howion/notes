@@ -2,7 +2,7 @@
 
 > Note that the letter $I$ denotes any index set which is mostly taken to be $\N$ or non-empty initial segment of $\N$.
 
-## Def. Direct Product (of Groups)
+## _Def._ Direct Product (of Groups)
 
 > This is equivalent to the formal definition of set of tuples from the axiomatic set theory, but for the family of groups instead of family of sets.
 
@@ -14,7 +14,7 @@ such that $f(i) \in G_i$. Notice that since each $G_i$ is a group, thus non-empt
 
 > As a mental image, think of $\prod G_i$ as the set of all (ordered) tuples where each $i$-th element belongs to $G_i$ so that each $f \in \prod G_i$ represent a tuple in that set.
 
-## Def. Natural Projections
+## _Def._ Natural Projections
 
 Let $\Set{G_i}$ be a non-empty family of groups, then $\prod G_i$ is a group under component-wise multiplication and for each $k \in I$, the map
 
@@ -30,7 +30,7 @@ called the **(natural) projection(s)** of the direct product is an epimorphism o
 
 > Exercise
 
-## Def. (External) Weak Direct Product
+## _Def._ (External) Weak Direct Product
 
 Let $\Set{G_i}$ be a non-empty family of groups, then the **(external) weak direct product** of the groups $G_i$ denoted with $\prod^w G_i$ is the set of all $f \in \prod G_i$ such that $f(i) = e_i$ for all but a finite number of $i \in I$.
 
@@ -40,7 +40,7 @@ Notice that if $I$ is finite, then every direct product is a weak direct product
 
 Moreover, if each $G_i$ is additive (that is abelian) $\prod^w G_i$ is called the **(external) direct sum** denoted with $\sum G_i$.
 
-## Thm. Normals and Injections
+## _Thm._ Normals and Injections
 
 Let $\Set{G_i}$ be a family of non-empty groups, then
 
@@ -58,7 +58,7 @@ Let $\Set{G_i}$ be a family of non-empty groups, then
 
 > Exercise
 
-## Thm. Direct Sum and Family of Homomorphisms
+## _Thm._ Direct Sum and Family of Homomorphisms
 
 Let $\Set{A_i}$ be a non-empty family of abelian groups, and $B$ an abelian group. If $\Set{\varphi_i: A_i \to B}$ is a family of homomorphisms (with the same index set), then there exists an unique homomorphism
 
@@ -74,7 +74,7 @@ such that $\varphi \circ i_k = \varphi_k$ for all $k \in I$. This property deter
 
 > This theorem is false if the groups are not abelian.
 
-## Thm. Direct Sum of Normals
+## _Thm._ Direct Sum of Normals
 
 Let $\Set{N_i}$ be a non-empty family of normal subgroups of a group $G$ such that
 
@@ -89,11 +89,11 @@ $$
 
 and $\Set{N_i}$ is called a **normal decomposition** of $G$.
 
-## Def. Internal Product
+## _Def._ Internal Product
 
 Let $\Set{G_i}$ be a non-empty family of groups and $\prod G_i = G$. If $\Set{G_i}$ is a normal decomposition of $G$, then $G=\prod G_i$ is said to be the **internal weak direct product** (or **internal direct sum** if $G$ is abelian).
 
-## Thm. Normal Decomposition Condition
+## _Thm._ Normal Decomposition Condition
 
 Let $\Set{N_i}$ be a non-empty family of normal subgroups of $G$. Then, $\Set{N_i}$ is a normal decomposition of $G$ if and only if for each non-identity $g \in G$ is the unique product
 
@@ -105,7 +105,7 @@ where each $i_k \in I$ is distinct and $e \neq a_{i_k} \in N_{i_k}$ for each $k 
 
 > Exercise
 
-## Thm. Internal Direct Sum and Family of Homomorphisms
+## _Thm._ Internal Direct Sum and Family of Homomorphisms
 
 Let $\Set{\varphi_i: G_i \to H_i}$ be a family of homomorphism of groups and let
 
@@ -137,7 +137,7 @@ $$
 
 Moreover, $\varphi$ is a monomorphism (resp. epimorphism) if each $\varphi_i$ is.
 
-## Corollary. Normals and Quotients
+## _Corollary._ Normals and Quotients
 
 Let $\Set{G_i}$ be a non-empty family of groups and $\Set{N_i}$ be a non-empty family of normal subgroups (of same index) such that $N_i \trianglelefteq G_i$ for all $i \in I$. Then
 

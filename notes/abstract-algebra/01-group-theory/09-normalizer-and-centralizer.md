@@ -2,7 +2,7 @@
 
 <!-- https://en.wikipedia.org/wiki/Centralizer_and_normalizer -->
 
-## Def. Centralizer
+## _Def._ Centralizer
 
 Let $G$ be a (sub)group and $A$ a non-empty subset of $G$. Then the **centralizer of $A$ in a group $G$** is defined as
 
@@ -14,13 +14,13 @@ $$
 >
 > Note that a more general definition would use $ga = ag$ for semigroups.
 
-## Def. Center
+## _Def._ Center
 
 The **center** of a (sub)group $G$ denoted with $Z(G)$ is defined as $Z(G) := C_G(G)$.
 
 > It is basically the set of all elements in the group that commute with all other elements in the group.
 
-## Def. Normalizer
+## _Def._ Normalizer
 
 Let $G$ be a group and $A$ a non-empty subset of $G$. Similar to centralizer (but not necessarily equivalent), the **normalizer of $A$** in $G$ is defined as
 
@@ -34,7 +34,7 @@ Obviously a subgroup is a normal subgroup in a group if and only if its normaliz
 
 > This is one reason why the notation $gag^{-1}$ (or $a^g$) is preferred over $ga=ag$ &mdash; unless we working with semigroups of course.
 
-## Thm. Basic Properties of Normalizer and Centralizer
+## _Thm._ Basic Properties of Normalizer and Centralizer
 
 <!-- TODO: Order? -->
 
@@ -42,7 +42,7 @@ Let $G$ be a group, then
 
 1. $Z(G) \trianglelefteq G$
 
-## Thm. '
+## _Thm._ '
 
 > TODO: Revise, define $a^G$ etc.
 
@@ -65,7 +65,7 @@ Let $H \leq G$, then
 
 > join and largest normal subgroup contained in H.
 
-## Thm. Building Normal from a Subgroup
+## _Thm._ Building Normal from a Subgroup
 
 Let $H \leq G$, then the set
 

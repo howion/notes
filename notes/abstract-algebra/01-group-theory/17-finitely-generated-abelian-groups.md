@@ -1,6 +1,6 @@
 # Finitely Generated Abelian Groups
 
-## Thm. Cyclic Decomposition
+## _Thm._ Cyclic Decomposition
 
 Let $G$ be a finitely generated abelian group, then
 
@@ -21,7 +21,7 @@ $$
 > TODO:
 </details>
 
-## Thm. Cyclic Decomposition 2
+## _Thm._ Cyclic Decomposition 2
 
 Let $G$ be a finitely generated abelian group, then
 
@@ -40,7 +40,7 @@ where each $C_i$ is either infinite or of order a power of a prime.
 
 > Notice that this theorem implies if positive integer $m$ divides the order of a group, then there exists a subgroup of order $m$. This is not the case for any group, we have just proved this for finite abelian groups. We'll touch this subject later on Sylow Theorems.
 
-## Thm. Prime Decomposition and Cyclics
+## _Thm._ Prime Decomposition and Cyclics
 
 Let $m = p_1^{n_1} p_2^{n_2} \cdots p_k^{n_k}$ be a positive integer such that each $p_i$ is a distinct prime and $n_i > 0$, then
 
@@ -55,12 +55,12 @@ $$
 > TODO:
 </details>
 
-## Corollary. FGA Subgroups
+## _Corollary._ FGA Subgroups
 
 Let $G$ be a finitely generated abelian group of order $n$, then $G$ has a subgroup of order $m$ for every positive integer $m$ that divides $n$.
 
-<!-- ## Def. Torsion Subgroup
-<!-- ## Thm. 2.6 -->
-<!-- ## Def. Invariant Factors -->
-<!-- ## Def. Elementary Divisors -->
-<!-- ## Corollary. Isomorphisms of FGAs -->
+<!-- ## _Def._ Torsion Subgroup
+<!-- ## _Thm._ 2.6 -->
+<!-- ## _Def._ Invariant Factors -->
+<!-- ## _Def._ Elementary Divisors -->
+<!-- ## _Corollary._ Isomorphisms of FGAs -->

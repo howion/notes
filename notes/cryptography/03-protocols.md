@@ -1,6 +1,6 @@
 # Protocols
 
-## Def. Cryptographic Protocol
+## _Def._ Cryptographic Protocol
 
 A **cryptographic protocol** is a protocol that uses cryptography...It should not be possible to do more or learn more than what is specified in the protocol.
 

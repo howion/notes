@@ -1,6 +1,6 @@
 # 1. Probability
 
-<!-- ## Thm. Identities
+<!-- ## _Thm._ Identities
 
 $$\binom{n}{k} = \binom{n}{n - k}$$
 
@@ -14,7 +14,7 @@ $$\binom{m+n}{k} = \sum_{j=0}^{k} \binom{m}{j} \binom{n}{k - j}$$
 
 $$\binom{m_1 + \cdots + m_p}{k} = \sum_{j_1 + \dots + j_p = k} \binom{m_1}{j_1} \binom{m_2}{j_2} \cdots \binom{m_p}{j_p}$$ -->
 
-## Def. Probability
+## _Def._ Probability
 
 A **probability space** consists of a sample space $\Omega$ and a **probability function** (or **probability distribution** or **probability measure**) $P$ maps **event** $A \subseteq \Omega$ to $P(A) \in [0, 1]$. The function $P$ must satisfy the following axioms:
 
@@ -25,7 +25,7 @@ Elements $\Omega$ are called **sample outcomes**, **realizations**, or **element
 
 > So basically an event is a subset of the sample space and the probability measure satisfies some simple yet very powerful axioms.
 
-## Thm. Basic Probability Properties
+## _Thm._ Basic Probability Properties
 
 For any events $A$ and $B$:
 
@@ -33,7 +33,7 @@ For any events $A$ and $B$:
 * $A \subseteq B \implies P(A) \leq P(B)$.
 * $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
 
-## Def. Monotone Increase/Decrease
+## _Def._ Monotone Increase/Decrease
 
 A sequence of sets $A_1, A_2, ...$ is said to be **monotone increasing** if
 
@@ -61,11 +61,11 @@ Either case is denoted with $A_n \to A$.
 
 <!-- TODO: Explanation -->
 
-## Thm. Continuity of Probabilities
+## _Thm._ Continuity of Probabilities
 
 Let $A_n \to A$, then $P(A_n) \to P(A)$ as $n \to \infty$.
 
-## Def. Uniform Probability Distribution
+## _Def._ Uniform Probability Distribution
 
 If the sample space $\Omega$ is finite and if each outcome is equally likely, then
 
@@ -75,7 +75,7 @@ $$
 
 so that $P$ is called the **uniform probability distribution**.
 
-## Thm. Inclusion-Exclusion
+## _Thm._ Inclusion-Exclusion
 
 <!-- [**Wikipedia:** Inclusion-Exclusion Principle](https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle) -->
 
@@ -89,19 +89,19 @@ P \left(\> \bigcup_{i=1}^{n} A_i \right) =&
 \end{array}
 $$
 
-## Def. Conditional Probability
+## _Def._ Conditional Probability
 
 Let $A$ and be $B$ be events, the we define the **conditional probability** of $A$ given $B$ as
 
 $$P(A \mid B) := \frac{P(A \cap B)}{P(B)}$$
 
-## Thm. Conditional Probability
+## _Thm._ Conditional Probability
 
 $$P(A \cap B) = P(B) P(A \mid B)=P(A) P(B \mid A)$$
 $$P(A_1, ... \>, A_n) = P(A_1) P(A_2 \mid A_1)P(A_3 \mid A_2,A_1) \cdots P(A_n \mid A_{n-1}, ... \> , A_1)$$
 $$P(A_1, A_2, A_3) = P(A_1) P(A_2 \mid A_1) P(A_3 \mid A_2,A_1) = P(A_2) P(A_3 \mid A_2) P(A_1 \mid A_2, A_3)$$
 
-## Thm. Bayes' Theorem
+## _Thm._ Bayes' Theorem
 
 Let $A$ and $B$ events, then we have
 
@@ -111,13 +111,13 @@ $$P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B)}$$
 
 where $P(A)$ is called the **prior** and $P(A \mid B)$ is called the **posterior** probability of $A$.
 
-## Thm. Law of Total Probability (LOTP)
+## _Thm._ Law of Total Probability (LOTP)
 
 Let $A_1, ..., A_n$ partition the sample space $S$, then
 
 $$P(B) = \sum_{i=1}^{n} P(B \cap A_i) = \sum_{i=1}^{n} P(B \mid A_i) P(A_i)$$
 
-## Thm. Generalized Bayes' Theorem
+## _Thm._ Generalized Bayes' Theorem
 
 Let $A_1, ..., A_n$ be a partition of the sample space $\Omega$ such that each $A_i$ and $B$ has a positive probability, then
 
@@ -125,7 +125,7 @@ $$
 P(A_i \mid B) = \dfrac{P(B \mid A_i) P(A_i)}{\sum_{j=1}^n P(B \mid A_j) P(A_j)}
 $$
 
-## Def. Odds
+## _Def._ Odds
 
 $$
 \text{odds}(A) := \frac{P(A)}{P(A^c)} = \frac{P(A)}{1 - P(A)}
@@ -133,7 +133,7 @@ $$
 P(A) = \frac{\text{odds}(A)}{1 + \text{odds}(A)}
 $$
 
-<!-- ## Thm. Odds Bayes
+<!-- ## _Thm._ Odds Bayes
 
 $$
 \begin{array}{ccccc}
@@ -161,19 +161,19 @@ Let $D$ denote the event of true positive and let $T$ denote the event of test i
 
 So, the conditional probability is also a probability. Similarly, we can see probability as a conditional probability.
 
-## Thm. Bayes with Extra Condition
+## _Thm._ Bayes with Extra Condition
 
 Provided $P(A \cap E) > 0$ and $P(B \cap E) > 0$ we have
 
 $$P(A \mid B, E) = \frac{P(B \mid A, E) P(A \mid E)}{P(B \mid E)}$$
 
-## Thm. LOTP with Extra Condition
+## _Thm._ LOTP with Extra Condition
 
 Let $A_1, ..., A_n$ partition $S$ and $P(A_i \cap E) > 0$ for all $i$, then
 
 $$P(B \mid E) = \sum_{i=1}^{n} P(B \mid A_i, E)P(A_i \mid E)$$
 
-## Def. Independence
+## _Def._ Independence
 
 Two events $A$ and $B$ are called **independent** if (and only if)
 
@@ -186,7 +186,7 @@ from disjointness. Disjoint events $A$ and $B$ can be independent only if $P(A)=
 >
 > Therefore, just recall that "disjoint events with positive probability are not independent".
 
-## Thm. TFAE
+## _Thm._ TFAE
 
 The following are equivalent if $P(A)>0$ and $P(B)>0$,
 
@@ -196,7 +196,7 @@ The following are equivalent if $P(A)>0$ and $P(B)>0$,
 
 So, knowing $A$ gives us no information about $B$. This may not be the case with disjointness.
 
-## Thm. Indepence of
+## _Thm._ Indepence of
 
 If $A$ and $B$ are independent events then so are
 
@@ -204,7 +204,7 @@ If $A$ and $B$ are independent events then so are
 * $A^c$ and $B$,
 * $A^c$ and $B^c$.
 
-## Def. $3$-independence
+## _Def._ $3$-independence
 
 Events $A$, $B$ and $C$ are **independent** if
 
@@ -220,7 +220,7 @@ $$
 
 Beware that pairwise independence does not imply independence!
 
-## Def. $n$-independence
+## _Def._ $n$-independence
 
 Events $A_1, ..., A_n$ are independent if they are:
 
@@ -230,7 +230,7 @@ Events $A_1, ..., A_n$ are independent if they are:
 * ...
 * $P(A \cap ... \cap A_n) = P(A_1) ... P(A_n)$.
 
-## Def. Conditional Independence
+## _Def._ Conditional Independence
 
 Event $A$ and $B$ are called **conditionally independent** for event $E$ if
 

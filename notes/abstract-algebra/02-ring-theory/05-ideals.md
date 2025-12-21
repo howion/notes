@@ -1,6 +1,6 @@
 # 5. Ideals
 
-## Def. Ideal
+## _Def._ Ideal
 
 Let $R$ be a ring. A subset $I$ of $R$ is called a **left (respectively right) ideal** of $R$ if
 
@@ -23,7 +23,7 @@ Let $R$ be a ring and $x \in R$, then
 
 > More on generations later.
 
-## Thm. On Improper Ideals
+## _Thm._ On Improper Ideals
 
 Let $R$ be a ring and $I$ a left (resp. right) ideal, then the following are equivalent
 
@@ -39,7 +39,7 @@ Let $R$ be a ring and $I$ a left (resp. right) ideal, then the following are equ
 Exercise.
 </details>
 
-## Thm. Division Ring and Ideals
+## _Thm._ Division Ring and Ideals
 
 Let $R$ be a ring with $1$, then $R$ is a division ring if and only if $(0)$ and $R$ are the only left ideals (or the only right ideals) in $R$.
 
@@ -52,7 +52,7 @@ Let $R$ be a ring with $1$, then $R$ is a division ring if and only if $(0)$ and
 > TODO:
 </details>
 
-## Def. Maximal Ideal
+## _Def._ Maximal Ideal
 
 A left (resp. right or $2$-sided) ideal $I$ of a ring $R$ is called **maximal ideal** in $R$ if for any left (resp. right or $2$-sided) ideal $J$ of $R$ we have
 
@@ -64,7 +64,7 @@ $$
 
 where $I \neq R$. Thus, we exclude unit ideal to be called maximal ideal.
 
-## Def. Minimal Ideal
+## _Def._ Minimal Ideal
 
 Similar to maximal ideal, a left (resp. right or $2$-sided) ideal of $R$ is called a **minimal ideal** in $R$ if for any left (resp. right or $2$-sided) ideal $J$ of $R$ we have
 
@@ -76,7 +76,7 @@ $$
 
 where $I \neq (0)$. Thus, we exclude zero ideal to be called minimal ideal.
 
-## Thm. Existence of Maximal Ideal
+## _Thm._ Existence of Maximal Ideal
 
 Let $R$ be a ring with $1$ and $I$ its left (resp. right or $2$-sided) ideal such that $I \neq R$. Then there exists left (resp. right or $2$-sided) maximal ideal $M$ such that $I \subseteq M$.
 
@@ -89,7 +89,7 @@ Let $R$ be a ring with $1$ and $I$ its left (resp. right or $2$-sided) ideal suc
 > TODO: Zorn's Lemma and add partial order defn to preliminaries.
 </details>
 
-## Def. Prime Ideal
+## _Def._ Prime Ideal
 
 > Also see [**Wiki:** Prime Ideal](https://en.wikipedia.org/wiki/Prime_ideal).
 
@@ -103,11 +103,11 @@ $$
 
 Clearly non-trivial $R$ is a commutative integral domain if and only if $(0)$ is a prime ideal in $R$.
 
-## Thm. Nilpotents of a Commutative Ring
+## _Thm._ Nilpotents of a Commutative Ring
 
 The set of all nilpotent elements in a commutative ring $R$ with $1$ is the intersection of all prime ideals.
 
-## Thm. Prime Avoidance Lemma
+## _Thm._ Prime Avoidance Lemma
 
 Let $R$ be a commutative ring, $A \leq R$, and $I_1, I_2, ..., I_n \trianglelefteq R$ such that $I_i$ is prime for $i \geq 3$ (that is at most two ideals are not prime). Then
 

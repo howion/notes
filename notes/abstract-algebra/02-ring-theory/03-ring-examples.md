@@ -1,6 +1,6 @@
 # 3. Ring Examples
 
-## Def. Ring of Continuous Functions
+## _Def._ Ring of Continuous Functions
 
 Let $R$ be the set of real valued continuous functions from the topological space $X$ to $\R$. For $f,g \in R$, define the pointwise operations for all $x \in X$ as
 
@@ -13,11 +13,11 @@ $$
 
 Then $R$ is a commutative ring with unity where the additive identity is the constant map $\bold 0$ and the unity is the constant map $\bold 1$.
 
-## Def. Matrix Ring
+## _Def._ Matrix Ring
 
 > TODO
 
-## Def. Ring of Polynomials
+## _Def._ Ring of Polynomials
 
 Let $R$ be a ring and $X$ an _indeterminate_ or _variable_ over $R$. Define the set called **ring of polynomials over $R$** as
 
@@ -35,7 +35,7 @@ Let $a_0 + a_1X + \cdots + a_nX^n = p(X) \in R[X]$. Then
 * $a_n$ is called the **leading coefficient** of $p(X)$,
 * $p(X)$ is said to be **monic** if $a_n = 1$.
 
-### Thm. Integral Domain Polynomials Properties
+### _Thm._ Integral Domain Polynomials Properties
 
 Let $R$ be an integral domain and $p(X), q(X) \in R[X]$, then
 
@@ -50,7 +50,7 @@ Let $R$ be an integral domain and $p(X), q(X) \in R[X]$, then
 > TODO:
 </details>
 
-## Def. Power Series Ring
+## _Def._ Power Series Ring
 
 If we extend the definition of $R[X]$ to infinite polynomials we have
 
@@ -60,7 +60,7 @@ $$
 
 which is called the **power series over $R$** and is also a ring (exercise).
 
-## Def. Laurent Ring and Series
+## _Def._ Laurent Ring and Series
 
 Similar to ring of polynomials, Let $R$ be a ring then a **Laurent polynomial** denoted with $R[X^{\pm1}]$ or $R[X, X^{-1}]$ is the set
 
@@ -73,17 +73,17 @@ $$
 
 If we further extend this definition for the positive part as we did in power series the resulting set is called the **Laurent series** denoted with $R\Braket{X}$. Moreover, the bounded negative side is called the **principal part** and the other is called the **power series** part.
 
-## Def. Boolean Ring
+## _Def._ Boolean Ring
 
 A ring $R$ in which every element is idempotent is called a **boolean ring**.
 
-### Thm. Structure Theorem for Boolean Rings
+### _Thm._ Structure Theorem for Boolean Rings
 
 Every boolean ring is a subring of ($\mathcal{P}(X), \triangle, \cap)$, **the universal boolean ring**, for some set $X$ where the addition operation $\triangle$ is the _symmetric difference_ of two sets.
 
 > Notice that under these operations $\mathcal{P}(X)$ is a commutative ring with unity. Moreover, a boolean ring need not to have unity. Take $X$ infinite, then the subring which consists of all finite subsets of $X$ has no unity.
 
-## Def. Group Rings
+## _Def._ Group Rings
 
 Let $(R, +, \cdot)$ be a commutative ring with identity $1 \neq 0$, and $(G, *) = \Set{g_1, g_2, ..., g_n}$ a finite group. Define the **group ring** $RG$ of $G$ with coefficients in $R$ as the set
 
@@ -97,7 +97,7 @@ If $g_1$ is the identity of $G$, then instead of $a_1g_1$, simply, $a_1$ will be
 
 Addition and multiplication in $RG$ is defined componentwise on coefficients canonically. This makes $RG$ a ring (exercise).
 
-## Thm. Integers Modulo $n$
+## _Thm._ Integers Modulo $n$
 
 Let $n \in Z^*$ so that $\Z_n = \{\bar{0}, \bar{1}, ..., \overline{n-1}\}$. Then $\Z_n$ is a ring and for $\bar{x} \in \Z_n$
 

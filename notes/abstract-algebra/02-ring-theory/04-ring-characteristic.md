@@ -1,10 +1,10 @@
 # 4. Ring Characteristic
 
-## Def. Characteristic
+## _Def._ Characteristic
 
 Let $R$ be any ring. The **characteristic** of $R$, denoted by $\text{Char}(R)$ is the least positive integer $n$ such that $na = 0$ for all $a \in R$. If such $n$ does not exists, then it is defined to be $0$.
 
-## Thm. Basic Characteristic Properties
+## _Thm._ Basic Characteristic Properties
 
 1. $\text{Char}(R) = 1$ if and only if $R = \Braket{0}$.
 2. $\text{Char}(R) = 0$ if and only if the additive order $|1|$ is infinite.
@@ -26,14 +26,14 @@ Let $R$ be any ring. The **characteristic** of $R$, denoted by $\text{Char}(R)$ 
 Exercise.
 </details>
 
-## Thm. Characteristic of Cartesian Product Ring
+## _Thm._ Characteristic of Cartesian Product Ring
 
 Let $R$ and $S$ be rings, then their characteristic is
 
 1. $0$ if either $R$ or $S$ has characteristic $0$, or
 2. $\text{lcm}(\text{Char}(R), \text{Char}(S))$.
 
-## Thm. '
+## _Thm._ '
 
 Suppose $R$ is a ring with $1$ whose non-units forms a subgroup under addition. Then either,
 

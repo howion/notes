@@ -1,6 +1,6 @@
 # Commutators
 
-## Def. Commutator
+## _Def._ Commutator
 
 Let $G$ be a group and $a, b \in G$. Obviously, two elements $a$ and $b$ commute if and only if $a^{-1}b^{-1}ab = e$. The left-hand side of this equation will be denoted with $[a,b]$ called the **commutator** of $a$ and $b$, that is
 
@@ -26,7 +26,7 @@ $$
 [A_1, A_2, ..., A_{n+1}] = [[A_1, ..., A_n], A_{n+1}]
 $$
 
-### Thm. Basic Commutator Properties
+### _Thm._ Basic Commutator Properties
 
 Let $G$ be a group and $a,b,c, x \in G$. Then
 
@@ -40,7 +40,7 @@ Let $G$ be a group and $a,b,c, x \in G$. Then
 
 > The product of two or more commutators need not be a commutator. Indeed, it is known that the least order of a finite group for which there exists two commutators whose product is not a commutator is 96; in fact there are two nonisomorphic groups of order 96 with this property &mdash; See [**Stack Exchange**: Mariano Suárez-Álvarez](https://math.stackexchange.com/questions/7811/derived-subgroup-where-not-every-element-is-a-commutator).
 
-## Def. Commutator Subgroup and Derived Series
+## _Def._ Commutator Subgroup and Derived Series
 
 Let $G$ be a group. Then the **commutator subgroup** (or **derived subgroup**) **of $G$** denoted with $G'$ or $G^{(1)}$ is the (normal) subgroup $[G, G]$.
 
@@ -58,7 +58,7 @@ $$
 
 > For a finite group this series terminates, to what is called a **perfect group** which may be trivial or not. Moreover, realize that $G$ is abelian if and only if $G' = \Braket{e}$. In a sense, $G'$ provides a measure of how much $G$ differs from an abelian group.
 
-## Thm. Some Commutator Subgroup Properties
+## _Thm._ Some Commutator Subgroup Properties
 
 Let $G$ be a group and $N \trianglelefteq G$, then
 
@@ -73,7 +73,7 @@ Let $G$ be a group and $N \trianglelefteq G$, then
 > Exercise
 </details>
 
-## Thm. Three Commutator Lemma
+## _Thm._ Three Commutator Lemma
 
 Let $G$ be a group, $A, B, C \leq G$, and $N \trianglelefteq G$. If any two commutator subgroups
 

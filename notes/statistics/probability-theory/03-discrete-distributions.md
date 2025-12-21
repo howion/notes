@@ -1,6 +1,6 @@
 # 3. Discrete Distributions
 
-## Def. Bernoulli Distribution
+## _Def._ Bernoulli Distribution
 
 [**Wikipedia:** Bernoulli Distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution)
 
@@ -12,13 +12,13 @@ The parameter $p$ is often called the **success probability** of the $\text{Bern
 
 Any random variable whose possible values are $0$ and $1$ has a $\text{Bern}(p)$ distribution.
 
-## Def. Indicator Random Variable
+## _Def._ Indicator Random Variable
 
 The **indicator random variable** or **Bernoulli random variable** of an event $A$ is the random variable which equals $1$ if $A$ occurs and $0$ otherwise. We will denote the indicator random variable of $A$ by $I_A$.
 
 Note that $I_A \thicksim \text{Bern}(p)$ with $p = P(A)$.
 
-## Def. Binomial Distribution
+## _Def._ Binomial Distribution
 
 > Todo: Rewrite
 
@@ -28,7 +28,7 @@ Suppose $n$ _independent_ Bernoulli trials are performed, each with the same suc
 
 The distribution of $X$ is called the **Binomial distribution** with parameters $n \in \N^+$ and $p \in [0, 1]$ denoted by $X \thicksim \text{Bin}(n, p)$.
 
-## Thm. Binomial PMF
+## _Thm._ Binomial PMF
 
 If $X \thicksim \text{Bin}(n, p)$, then the PMF of $X$ is
 
@@ -36,11 +36,11 @@ $$P(X = k) = \dbinom{n}{k} p^k (1-p)^{n-k}$$
 
 for $k \in \N$. and $k \leq n$. If $k > n$, then $P(X=k)=0$.
 
-## Thm. ~
+## _Thm._ ~
 
 Let $X \thicksim \text{Bin}(n, p)$ and $q = 1 -p$. Then $n - X \thicksim \text{Bin}(n, q)$.
 
-## Thm. ~
+## _Thm._ ~
 
 Let $X \thicksim \text{Bin}(n, \frac{1}{2})$ and $n$ even. Then the distribution of $X$ is symmetric about $\frac{n}{2}$ such that
 
@@ -48,7 +48,7 @@ $$P(X = \frac{n}{2} + j) = P(X = \frac{n}{2} - j)$$
 
 for all $j \geq 0$.
 
-## Thm. Hypergeometric Distribution
+## _Thm._ Hypergeometric Distribution
 
 > Todo: Further define
 
@@ -60,11 +60,11 @@ $$P(X = k) = \dfrac{\dbinom{w}{k} \dbinom{b}{n- k}}{\dbinom{w+b}{n}}$$
 
 for $0 \leq k \leq w$ and $0 \leq n-k \leq b$, and $P(X=k)=0$ otherwise.
 
-## Thm. ~
+## _Thm._ ~
 
 The distributions $\text{HGeom}(w, b, n)$ and $\text{HGeom}(n, w + b -n, w)$ are identical.
 
-## Def. Discrete Uniform Distribution
+## _Def._ Discrete Uniform Distribution
 
 [**Wikipedia:** Discrete Uniform Distribution](https://en.wikipedia.org/wiki/Discrete_uniform_distribution)
 
@@ -74,13 +74,13 @@ $$P(X=x) = \dfrac{1}{|C|}$$
 
 for $x \in C$ and $0$ otherwise.
 
-## Def. Cumulative Distribution Function
+## _Def._ Cumulative Distribution Function
 
 The **cumulative distribution function** of an random variable $X$ (not necessarily discrete) is the function $F_X$ where
 
 $$F_X(x) =P(X \leq x)$$
 
-## Thm. Valid CDFs
+## _Thm._ Valid CDFs
 
 For any CDF $F_X$, or simply $F$, we have
 
@@ -95,6 +95,6 @@ For any CDF $F_X$, or simply $F$, we have
 ```js
 ```
 
-## Def. Function of a Random Variable
+## _Def._ Function of a Random Variable
 
 For a random variable $X$ in the sample space $S$ and a function $h: \R \to \R$ the random variable $h(X)$ maps $s \in S$ to $h(X(s))$.
