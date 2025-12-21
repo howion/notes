@@ -1,0 +1,23 @@
+---
+import NoteLayout from "../layout/note.astro";
+import { retrieveNoteContent, NOTE_MAPPINGS } from "../utils/notes";
+import { processMarkdown } from "../utils/markdown";
+
+export async function getStaticPaths() {
+    const slugs = NOTE_MAPPINGS.map((m) => m.slug);
+
+    return slugs.map((slug) => ({ params: { slug } }));
+}
+
+const slug = Astro.params.slug || "";
+
+const note = retrieveNoteContent(slug);
+
+if (!note) {
+    return Astro.redirect("/");
+}
+
+const htmlContent = await processMarkdown(note.content);
+---
+
+<NoteLayout subtitle={note.title} content={htmlContent} />

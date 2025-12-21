@@ -1,0 +1,11 @@
+---
+import Document, { type Props as DocumentProps } from "./document.astro";
+
+interface Props extends DocumentProps {
+    content: string;
+}
+---
+
+<Document subtitle={Astro.props.subtitle} description={Astro.props.description}>
+    <div class="content" set:html={Astro.props.content} />
+</Document>

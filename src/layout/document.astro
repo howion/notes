@@ -1,0 +1,40 @@
+---
+import { APP } from "##/.boilerrc";
+
+// STYLES
+import "../styles/note.css";
+import "katex/dist/katex.min.css";
+
+export interface Props {
+    subtitle?: string;
+    description?: string;
+}
+
+const { subtitle, description } = Astro.props;
+const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="sitemap" href="/sitemap-index.xml" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://www.howion.com/favicon.svg"
+            rel="icon"
+            type="image/svg+xml"
+        />
+        <title>{title}</title>
+        {description && <meta name="description" content={description} />}
+    </head>
+    <body>
+        <main>
+            <slot />
+        </main>
+
+        <script type="module" is:inline>
+            import "/src/scripts/note.ts";
+        </script>
+    </body>
+</html>

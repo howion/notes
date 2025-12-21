@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$" $if(dir)$ dir="$dir$" $endif$>
+
+<head>
+    <meta charset="utf-8" />
+    <link href="https://www.howion.com/favicon.svg" rel="icon" type="image/svg+xml">
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+    $for(author-meta)$
+    <meta name="author" content="$author-meta$" />
+    $endfor$
+
+    $if(date-meta)$
+    <meta name="dcterms.date" content="$date-meta$" />
+    $endif$
+
+    $if(keywords)$
+    <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
+    $endif$
+
+    $if(description-meta)$
+    <meta name="description" content="$description-meta$" />
+    $endif$
+
+    <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+    <style>
+        $styles.html()$
+    </style>
+
+    <style>
+
+    </style>
+
+    <style id="page_style">
+        @page {
+            margin: 0;
+            padding: 0.325in 0.325in;
+            size: 10in 13in;
+        }
+    </style>
+
+    $for(css)$
+    <link rel="stylesheet" href="$css$" />
+    $endfor$
+
+    $for(header-includes)$
+    $header-includes$
+    $endfor$
+
+    <!-- $if(math)$
+    $math$
+    $endif$ -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.css"
+        integrity="sha384-WcoG4HRXMzYzfCgiyfrySxx90XSl2rxY5mnVY5TwtWE6KLrArNKn0T/mOgNL0Mmi" crossorigin="anonymous">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.js"
+        integrity="sha384-J+9dG2KMoiR9hqcFao0IBLwxt6zpcyN68IgwzsCSkbreXUjmNVRhPFTssqdSGjwQ"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/contrib/copy-tex.min.js"
+        integrity="sha384-HORx6nWi8j5/mYA+y57/9/CZc5z8HnEw4WUZWy5yOn9ToKBv1l58vJaufFAn9Zzi"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    $for(include-before)$
+    $include-before$
+    $endfor$
+
+    <!-- $if(title)$
+    <header id="title-block-header">
+        <h1 class="title">$title$</h1>
+
+        $if(subtitle)$
+        <p class="subtitle">$subtitle$</p>
+        $endif$
+
+        $for(author)$
+        <p class="author">$author$</p>
+        $endfor$
+
+        $if(date)$
+        <p class="date">$date$</p>
+        $endif$
+
+        $if(abstract)$
+        <div class="abstract">
+            <div class="abstract-title">$abstract-title$</div>
+            $abstract$
+        </div>
+        $endif$
+    </header>
+    $endif$ -->
+
+    $if(toc)$
+    <h1>Table of Contents</h1>
+    <!-- <nav id="$idprefix$TOC" role="doc-toc"> -->
+    <nav class="toc" role="doc-toc">
+        $if(toc-title)$
+        <h2>$toc-title$</h2>
+        $endif$
+
+        $table-of-contents$
+    </nav>
+    $endif$
+
+    <div class="content">
+        $body$
+    </div>
+
+    $for(include-after)$
+    $include-after$
+    $endfor$
+</body>
+
+</html>
