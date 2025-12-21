@@ -66,6 +66,10 @@ Let $N \trianglelefteq G$ and $K \leq G$, then
 
 > TODO: Revise (2) noting that we have defined the multiplication as join! Did we define that?
 
+## _Def._ Simple Group
+
+A group is said to be **simple** if it has no proper (and non-trivial) normal subgroups.
+
 ## Exercises
 
 <!--
@@ -80,3 +84,7 @@ Let $N \trianglelefteq G$ and $xy \in N$, then $yx \in N$.
 ### #1
 
 Let $G$ be a group of finite order, $N \trianglelefteq G$ and $H \leq G$ such that $|H|$ is relatively prime to $|G:N|$, then $H \leq N$.
+
+### #2
+
+Show that $(\Z_p, +)$ is simple if $p$ is prime. Does the converse holds?

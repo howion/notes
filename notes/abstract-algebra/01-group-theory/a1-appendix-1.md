@@ -4,32 +4,16 @@
 
 <!-- If $G$ is finite, then $\Phi(G)$ is nilpotent -->
 
-## _Def._ Diagonal Subgroup
-
-$\hat{G} := \Set{(g,g)} \cong G$.
-
----
-
 $$
-G^n := \Braket{x^n | x \in G} \\
-G_n := \Braket{x | x \in G, x^n = 1} \\
+\def\arraystretch{1.25}
+\begin{array}{lcl}
+\hat{G} &:=& \Set{(g,g)} \cong G \\
+G^n &:=& \Braket{x^n | x \in G} \\
+G_n &:=& \Braket{x | x \in G, x^n = 1} \\
+\end{array}
 $$
-
----
-
-## _Def._ Simple Group
-
-A group is said to be **simple** if it has no proper (and non-trivial) normal subgroups.
-
-## _Thm._ On Simple Groups
-
-1. $\Z_p$ is simple if $p$ is prime. Does the converse holds?
-
----
 
 ## _Def._ Perfect Group
-
----
 
 ## _Thm._ Dedekind Modular Law (Identity)
 

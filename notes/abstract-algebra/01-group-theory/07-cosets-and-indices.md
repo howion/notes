@@ -65,6 +65,10 @@ Let $G$ be a finite group of order $n$ and $p$ is any prime that divides $n$. Th
 
 > We will prove this useful theorem later on, after Sylow Theorems.
 
+## _Thm._ Poincaré
+
+Every subgroup of finite index $m$ of a group $G$ contains a normal subgroup of $G$ of finite index $n$ divisible by $m$. Moreover, $n$ divides $m!$.
+
 ## _Thm._ Order of Subgroup Multiplication
 
 Let $G$ be group such that $H$ and $K$ are finite subgroups of $G$. Then
