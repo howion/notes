@@ -7,6 +7,7 @@ import remarkMath from 'remark-math'
 import remarkRehype from 'remark-rehype'
 import rehypeSlug from 'rehype-slug'
 import rehypeStringify from 'rehype-stringify'
+import rehypeParse from 'rehype-parse'
 
 export interface TOCItem {
     id: string
@@ -28,30 +29,45 @@ function handleMath(state: any, node: any, isDisplay: boolean) {
     return result
 }
 
-function extractTextFromNode(node: Element): string {
-    let text = ''
-    for (const child of node.children) {
-        if (child.type === 'text') {
-            text += child.value
-        } else if (child.type === 'element') {
-            text += extractTextFromNode(child)
-        }
-    }
-    return text
-}
+// function extractTextFromNode(node: Element): string {
+//     let text = ''
+//     console.log(node.children[0])
+//     for (const child of node.children) {
+//         if (child.type === 'text') {
+//             if (child)
+//             text += child.value
+//         } else if (child.type === 'element') {
+//             text += extractTextFromNode(child)
+//         }
+//     }
+//     return text
+// }
 
-function extractTOC(root: Root): TOCItem[] {
+function extractTOCFromHTML(html: string): TOCItem[] {
     const toc: TOCItem[] = []
 
-    visit(root, 'element', (node) => {
-        if (node.tagName && /^h[1-2]$/.test(node.tagName)) {
-            const level = Number.parseInt(node.tagName.charAt(1), 10)
-            const id = (node.properties?.id as string) || ''
-            const text = extractTextFromNode(node)
+    const root = unified().use(rehypeParse, { fragment: true }).parse(html) as Root
 
-            if (id && text) {
-                toc.push({ id, text, level })
+    const htmler = unified().use(rehypeStringify)
+
+    // get inner htmls not inner texts
+    visit(root, 'element', (node) => {
+        if (node.tagName === 'h1' || node.tagName === 'h2') {
+            const level = parseInt(node.tagName.charAt(1), 10)
+            const id = String(node.properties?.id)
+
+            let text = ''
+
+            for (const child of node.children) {
+                if (child.type === 'text') {
+                    text += child.value
+                } else if (child.type === 'element') {
+                    const childHtml = htmler.stringify(child as any)
+                    text += childHtml
+                }
             }
+
+            toc.push({ id, text, level })
         }
     })
 
@@ -79,10 +95,9 @@ export async function processMarkdown(markdown: string): Promise<{ html: string;
     const astResult = await astProcessor.run(astProcessor.parse(markdown))
     const root = astResult
 
-    const toc = extractTOC(root)
-
     const htmlResult = await processor.process(markdown)
     const html = htmlResult.toString()
+    const toc = extractTOCFromHTML(html)
 
     return { html, toc }
 }

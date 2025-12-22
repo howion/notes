@@ -31,9 +31,9 @@ See [**Wikipedia: Dihedral group**](https://en.wikipedia.org/wiki/Dihedral_group
 
 See [**Wikipedia: Dihedral group**](https://en.wikipedia.org/wiki/Symmetric_group).
 
-### _Thm._ Symmetric Groups Basics
+<!-- ### _Thm._ Symmetric Groups Basics
 
-* For $n > 2$ the symmetric group $S_n$ is nonabelian. So, $S_3$ is a good example of nonabelian group of order $3$.
+* For $n > 2$ the symmetric group $S_n$ is nonabelian. So, $S_3$ is a good example of nonabelian group of order $3$. -->
 
 <!-- ## Matrix Groups -->
 

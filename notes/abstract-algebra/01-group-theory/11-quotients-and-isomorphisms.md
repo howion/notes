@@ -60,9 +60,9 @@ If the group is clear from the context, we may make use of the notation $\pi_N$ 
 
 > Exercise
 
-### _Thm._ Commutativity of Projection
+## _Thm._ Commutativity of Projection
 
-> TODO: Revise, add proof
+<!-- > TODO: Revise, add proof -->
 
 Let $\pi_N$ be the natural projection of $G$ under $N$, then $G/N$ is abelian if and only if $[G,G] \subseteq N$.
 

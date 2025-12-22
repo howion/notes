@@ -100,7 +100,7 @@ We say that a group if **torsion-free** if every non-identity element has infini
 
 If orders of a periodic group are bounded, then the least common multiple of their orders is called the **exponent** of the group. If the orders of elements of a periodic group are powers of prime $p$, then we call the group a **$p$-group**.
 
-## Notation. Subsets
+## _Notation._ Subsets
 
 Let $G$ be a group and $A,B \subseteq G$, then we define
 
@@ -109,7 +109,7 @@ Let $G$ be a group and $A,B \subseteq G$, then we define
 3. $A^n := AA^{n-1}$,
 4. $A^{-1} := \Set{a^{-1} \in G| a \in A}$.
 
-## Notation. The Additive Notation
+## _Notation._ The Additive Notation
 
 If the binary operation is written additively, which is mostly the case for abelian groups, we may write:
 

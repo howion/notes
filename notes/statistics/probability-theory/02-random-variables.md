@@ -12,7 +12,7 @@ which maps the _elements_ (called outcomes) of $\Omega$ to the real line $\R$.
 
 > Technically it must be a _measurable_ function.
 
-## Notation. Random Variable
+## _Notation._ Random Variable
 
 ## _Def._ Cumulative Distribution Function (CDF)
 

@@ -25,9 +25,7 @@ The homomorphism $\varphi$ is called:
 
 Composition of homomorphisms is again a homomorphism. Respectively, this is also the case for monomorphisms, epimorphisms, isomorphisms and automorphisms.
 
-### Example
-
-If $A$ is abelian, then the map $a \mapsto a^{-1}$ is an automorphism, and the map $a \mapsto a^2$ is an endomorphism.
+> For example, if $A$ is abelian, then the map $a \mapsto a^{-1}$ is an automorphism, and the map $a \mapsto a^2$ is an endomorphism.
 
 ## _Def._ Kernel
 
@@ -37,7 +35,7 @@ $$
 \text{Ker }\varphi := \Set{g \in G | \varphi(g) = e_H}.
 $$
 
-## Notation. Homomorphisms
+## _Notation._ Homomorphisms
 
 We say semigroups $G$ and $H$ are **isomorphic** denoted with $G \cong H$ if there exists an isomorphism between them.
 

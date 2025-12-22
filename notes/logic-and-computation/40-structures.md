@@ -35,7 +35,7 @@ $$
 
 An **interpretation** or **model** $\mathfrak{M}$ is a tuple $(\mathfrak{S}, \mathfrak{v})$ where $\mathfrak{S}$ is a structure and $\mathfrak{v}$ is a valuation in $\mathfrak{S}$.
 
-## Notation. Model
+## _Notation._ Model
 
 Let $\mathfrak{M} = (\mathfrak{S}, \mathfrak{v})$ be a model such that $\mathfrak{S} = (\mathbf{V}, \mathbf{v})$. We define
 

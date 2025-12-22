@@ -56,7 +56,7 @@ $$
 
 > You may check out Kargapolov p. 16 for a more general version of theorem and the proof.
 
-## Notation. Normal Generators
+## _Notation._ Normal Generators
 
 <!-- TODO: Btter notation or explanation? -->
 

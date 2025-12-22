@@ -1,6 +1,6 @@
 # Embeddings
 
-## Notation. Structures
+## _Notation._ Structures
 
 When we refer to an element of the model $M$ we actually mean an element from the universe $\mathbf{V}$ of $M$. So that a map $f: \mathfrak{M_1} \to \mathfrak{M_2}$ means a map from $\mathbf{V_1}$ to $\mathbf{V_2}$.
 

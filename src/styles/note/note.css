@@ -84,12 +84,17 @@ h2 > em {
 }
 
 /* if id starts with "def" */
-h2[id^="def"] > em {
+h2[id^="def"] > em, h2[id^="notation"] > em {
     font-weight: 700;
     background-color: var(--color-background);
     color: var(--color-text);
     border: 2px solid var(--color-text);
     border-bottom: none;
+}
+
+h2[id^="notation"] > em {
+    border-style: dashed !important;
+    border-bottom: none !important;
 }
 
 h3 {

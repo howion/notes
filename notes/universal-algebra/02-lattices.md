@@ -14,7 +14,7 @@ Notice that:
 
 * Since $\leqslant$ is transitive, $S^+$ is always an up-set and $S^-$ is a down-set.
 
-## Notation. Join and Meet
+## _Notation._ Join and Meet
 
 If exists, we will denote $\sup \{x, y\}$ with $x \vee y$ read as $x$ **join** $y$. Similarly, we will denote $\inf \{x, y\}$ with $x \wedge y$ read as $x$ **meet** $y$.
 

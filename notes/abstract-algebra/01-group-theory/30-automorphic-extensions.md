@@ -56,7 +56,7 @@ $$
 
 <!-- TODO: Reference -->
 
-## Notation. Cartesian and Direct Product
+## _Notation._ Cartesian and Direct Product
 
 Let $I$ be an index set, then
 

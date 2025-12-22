@@ -4,7 +4,7 @@
 
 Theorems and definitions we prove and define here are actually meta-theorems and meta-definitions in our meta-language. Note that we haven't yet shown propositional logic (which is also called **zeroth-order logic**) is a subset of our meta-language. It is just, kind of, nonsense syntax at this moment.
 
-## Notation. Truth
+## _Notation._ Truth
 
 Syntactically, we will use the symbols
 
@@ -72,7 +72,7 @@ One could, of course, relax or even contradict these definitions, which is not u
 
 With $=$, we will denote the **syntactic identity**. That is, if $F$ and $G$ are strings and are formulas, then $F=G$ will simply denote they are strings of symbols of same lenght with same symbols in each place. Notice that this is a _semantic defintion_ for our syntactic model.
 
-## Notation. Operators
+## _Notation._ Operators
 
 Given the logical operators $\neg$ and $\land$ and _the_ atomic variable $\bot$, we _define_ for formulas $F$ and $G$
 

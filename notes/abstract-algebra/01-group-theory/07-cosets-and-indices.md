@@ -35,8 +35,6 @@ Let $G$ be a group and $H \leq G$. Then
 
 ## _Def._ Index
 
-[**Wiki: Index of a subgroup**](https://en.wikipedia.org/wiki/Index_of_a_subgroup)
-
 Let $G$ be group and $H \leq G$ then the **index of $H$ in $G$**, denoted $|G:H|$ is the _cardinal number_ of the set of distinct right (or left) cosets of $H$ in $G$.
 
 ## _Thm._ Index Theorem

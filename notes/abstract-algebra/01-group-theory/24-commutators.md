@@ -26,7 +26,7 @@ $$
 [A_1, A_2, ..., A_{n+1}] = [[A_1, ..., A_n], A_{n+1}]
 $$
 
-### _Thm._ Basic Commutator Properties
+## _Thm._ Basic Commutator Properties
 
 Let $G$ be a group and $a,b,c, x \in G$. Then
 

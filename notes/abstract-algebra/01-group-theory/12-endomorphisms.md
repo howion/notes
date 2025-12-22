@@ -41,7 +41,7 @@ Let $H \leq G$, then $H$ is normal if and only if $H$ is invariant with respect 
 
 > Exercise
 
-## Notation. Invariance
+## _Notation._ Invariance
 
 Let $H \leq G$, then we respectively denote $\text{End } G$, $\text{Aut }G$, and $\text{Inn }G$ with
 

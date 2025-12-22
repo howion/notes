@@ -13,7 +13,7 @@ Noting a ring $R$ is an ideal of itself, such ideal $R$ is called the **unit ide
 
 > Notice how the concept of an ideal is similar to the concept of a coset in group theory.
 
-## Notation. Ideal
+## _Notation._ Ideal
 
 Let $R$ be a ring and $x \in R$, then
 

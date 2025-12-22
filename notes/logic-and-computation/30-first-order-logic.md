@@ -89,7 +89,7 @@ $$
 \end{array}
 $$
 
-## Notation. First-Order Logic
+## _Notation._ First-Order Logic
 
 Let $\varphi \in \mathcal{L}(\mathbf{S})$, then we define &mdash; in addition to its $\lor$, $\to$, $\leftrightarrow$ counterparts in propositional logic
 
@@ -114,7 +114,7 @@ where $x$ is a variable symbol, $t_1, ..., t_n$ are terms, $R_n$ is an $n$-ary r
 
 A variable which is not free is called **bound**.
 
-## Notation. Terms
+## _Notation._ Terms
 
 From now on we will denote any tuple of terms $x_1, x_2, ..., x_n$ with $\bar{x}$ so that, for example, $\varphi(\bar{x})$ means $\varphi(x_1, x_2, ..., x_n)$.
 

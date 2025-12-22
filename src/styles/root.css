@@ -4,4 +4,10 @@
     --color-text-dim: #999;
     --color-background: #ffffff;
     --color-link: #00aaff;
+
+
+    --scrollbar-width: 0.825em;
+    --scrollbar-color-track: rgba(0, 0, 0, 0.1);
+    --scrollbar-color-thumb: rgba(0, 0, 0, 0.5);
+    --scrollbar-color-thumb-hover: rgba(0, 0, 0, 1);
 }

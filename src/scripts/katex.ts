@@ -62,8 +62,6 @@ function init() {
     const total = maths.length
     let index = 0
 
-    console.log('hi')
-
     let last: Element | null = null
 
     document.addEventListener('click', (e) => {
