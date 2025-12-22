@@ -4,11 +4,13 @@
 
 <!-- > TODO: References, wiki used -->
 
-Let $G$ be a group, a **central series** of $G$ is a _finite_ sequence of subgroups such that
+Let $G$ be a group, a **central series** of $G$ is a _finite?_ sequence of subgroups such that
 
 $$
 \Braket{e} = C_0 \trianglelefteq C_1 \trianglelefteq C_2 \trianglelefteq \cdots \trianglelefteq C_n = G
 $$
+
+> TODO: Fix this and add the central condition.
 
 > Following definitions and their naming will make more sense later on.
 

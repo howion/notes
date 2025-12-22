@@ -17,13 +17,13 @@ $$
 More generally,
 
 $$
-[a_1, a_2, ..., a_{n+1}] = [[a_1, ..., a_n], a_{n+1}]
+[a_1, a_2, ..., a_{n+1}] := [[a_1, ..., a_n], a_{n+1}]
 $$
 
 and
 
 $$
-[A_1, A_2, ..., A_{n+1}] = [[A_1, ..., A_n], A_{n+1}]
+[A_1, A_2, ..., A_{n+1}] := [[A_1, ..., A_n], A_{n+1}]
 $$
 
 ## _Thm._ Basic Commutator Properties
