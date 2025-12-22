@@ -22,7 +22,7 @@ $$
 
 is soluble in $G$ implies it is soluble in $A$.
 
-## _Thm._ L.Ja.Kulikov-Prüfer
+## _Thm._ L. Ja. Kulikov-Prüfer
 
 > You may want to solve exercises first.
 
@@ -34,13 +34,13 @@ In particular, the torsion subgroup $T$ of abelian group $G$ is a direct summand
 
 ## _Def._ Height
 
-An non-identity element $g$ of an abelian $p$-group $G$ has finite height $h$ in $G$ if the equation
+An non-identity element $g$ of an abelian $p$-group $G$ is of finite **height** $h$ in $G$ if the equation
 
 $$
 p^n x = g
 $$
 
-has a solution only for $n \leq h$. Moreover, the height of $g$ is defined to infinite if it has a solution for every $n$.
+has a solution only for $n \leq h$. Moreover, the **height** of $g$ is defined to infinite if it has a solution for every $n$.
 
 ## _Thm._ Prüfer's Second Theorem
 

@@ -8,7 +8,9 @@
 
 Let $\Set{G_i}$ be a family of groups indexed by a non-empty set $I$, then the **direct product (or complete direct sum)** of the groups $G_i$ denoted with $\prod_{i\>\in\>I} G_i$ is the set of all functions
 
-$$f: I \to \bigcup_{i\>\in\>I} G_i$$
+$$
+f: I \to \bigcup_{i\>\in\>I} G_i
+$$
 
 such that $f(i) \in G_i$. Notice that since each $G_i$ is a group, thus non-empty, we have $\prod G_i \neq \varnothing$.
 

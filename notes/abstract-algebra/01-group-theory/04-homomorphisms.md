@@ -6,7 +6,9 @@ Let $(G, \cdot_G)$ and $(H, \cdot_H)$ be semigroups.
 
 The (total) function (or map) $\varphi: G \to H$ is called a **homomorphism** if, for all $a, b \in G$:
 
-$$\varphi(a \cdot_G b) = \varphi(a) \cdot_H \varphi(b)$$
+$$
+\varphi(a \cdot_G b) = \varphi(a) \cdot_H \varphi(b)
+$$
 
 > Mostly, we will not be as explicit about the operations and simply write $\varphi(ab)=\varphi(a)\varphi(b)$ instead.
 

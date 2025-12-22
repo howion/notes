@@ -39,7 +39,9 @@ If $X$ is discrete r.v., then the countable set of values $x$ such that $P(X=x) 
 
 The **probability mass function (PMF)** of a discrete r.v. $X$ is the function $p_X$ given by
 
-$$p_X (x) = P(X=x)$$
+$$
+p_X (x) = P(X=x)
+$$
 
 Note that this is positive if $x$ is in the support of $X$ and $0$ otherwise.
 

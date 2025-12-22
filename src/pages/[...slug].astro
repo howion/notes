@@ -41,7 +41,7 @@ const { html: mdHTML, toc } = await processMarkdown(note.content);
 
     {
         toc.length > 0 && (
-            <nav id="toc" role="doc-toc">
+            <nav id="table-of-contents" role="doc-toc">
                 <h1>Table of Contents</h1>
                 <Fragment set:html={renderTOC(toc)} />
             </nav>

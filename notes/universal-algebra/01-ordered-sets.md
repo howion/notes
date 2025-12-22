@@ -74,7 +74,9 @@ See [**Wikipedia**: Arrow's impossibility theorem](https://en.wikipedia.org/wiki
 
 Let $P$ be an ordered set and $x, y \in P$. We say $x$ is **covered by** $y$ denoted with $x \prec y$ if $x \neq y$ and there is no $z \in P$ distinct from $x$ and $y$ such that
 
-$$x \leqslant z \leqslant y$$
+$$
+x \leqslant z \leqslant y
+$$
 
 ## _Def._ Hasse Diagrams
 
@@ -93,7 +95,9 @@ Let $P$ and $Q$ be finite ordered sets and $\phi : P \to Q$ a bijective map. The
 
 Let $P$ be an ordered set with the order relation $\leqslant$. The **dual** of $P$ denoted with $P^\partial$ is the set ordered with $\leqslant_\partial$ where, for all $x, y \in P$:
 
-$$x \leqslant_\partial y \iff y \leqslant x$$
+$$
+x \leqslant_\partial y \iff y \leqslant x
+$$
 
 <!-- ## _Thm._ Duality Principle
 
@@ -168,11 +172,15 @@ Let $P$ be an ordered set and $Q \subseteq P$.
 
 Then, we say $Q$ is a **down-set** (or **order ideal**) if for all $x \in Q$ and $y \in P$:
 
-$$y \leqslant x \implies y \in Q$$
+$$
+y \leqslant x \implies y \in Q
+$$
 
 Dually, we say $Q$ is a **up-set** (or **order filter**) if for all $x \in Q$ and $y \in P$:
 
-$$y \geqslant x \implies y \in Q$$
+$$
+y \geqslant x \implies y \in Q
+$$
 
 You may think of them as a subset "closed" under increase or decrase.
 
@@ -205,7 +213,9 @@ The family of all down-sets of the ordered set $P$ is denoted by $\mathcal{O}(P)
 
 When $P$ is finite, every non-empty down-set $Q$ of $P$ is expressible in the form
 
-$$\bigcup_{i=1}^{k} \downarrow x_i$$
+$$
+\bigcup_{i=1}^{k} \downarrow x_i
+$$
 
 where $\{x_1, ..., x_k\} = \text{Max}\ Q$ is an antichain.
 

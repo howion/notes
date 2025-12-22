@@ -8,19 +8,27 @@ There are four kinds of **judgments** in Martin-Löf's dependent type theory.
 
 1. $A$ is a (well-formed) **type** in **context** $\Gamma$, expressed as:
 
-$$\Gamma \vdash A : \mathcal{T}$$
+$$
+\Gamma \vdash A : \mathcal{T}
+$$
 
 2. $A$ and $B$ are **judgmentally equal types** in context $\Gamma$. We express this judgment as:
 
-$$\Gamma \vdash A \doteq B : \mathcal{T}$$
+$$
+\Gamma \vdash A \doteq B : \mathcal{T}
+$$
 
 3. $a$ is an **element** of type $A$ in context $\Gamma$, expressed as:
 
-$$\Gamma \vdash a : A$$
+$$
+\Gamma \vdash a : A
+$$
 
 4. $a$ and $b$ are **judgmentally equal elements** of type $A$ in context $\Gamma$, expressed as:
 
-$$\Gamma \vdash a \doteq b : A$$
+$$
+\Gamma \vdash a \doteq b : A
+$$
 
 > Notice that all judgments are context-dependent.
 
@@ -51,7 +59,9 @@ An context of length $0$ which declares no variables is called the **empty conte
 
 Let $A$ be a type in context $\Gamma$. A **family (of types) over $A$** in context $\Gamma$ is a type $B(x)$ in context $\textcolor{gray}{(}\Gamma, x : A\textcolor{gray}{)}$. More explicitly, given:
 
-$$\Gamma, x: A \vdash B(x) : \mathcal{T}$$
+$$
+\Gamma, x: A \vdash B(x) : \mathcal{T}
+$$
 
 we say that $B(x)$ is family of types over $A$ in context $\Gamma$. Alternatively, we say $B(x)$ is a type **indexed** by $x: A$, in context $\Gamma$.
 

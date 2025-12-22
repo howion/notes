@@ -26,7 +26,9 @@ The congruence relations on a group $G$ are in one-to-one correspondence with th
 
 Let $G$ be a group and $N \trianglelefteq G$. The set of all cosets of $N$ in $G$ denoted by $G/N$ (read as $G$ modulo $N$) forms a group under the binary operation
 
-$$(aN)(bN)=(ab)N$$
+$$
+(aN)(bN)=(ab)N
+$$
 
 and is of order $[G:N]$. This group is called the **quotient group** (or **factor group**) **of $G$ by $N$**.
 

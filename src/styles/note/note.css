@@ -5,7 +5,7 @@ body {
     padding: 0 1.5em 4em 1.5em;
     margin: 0 auto;
     max-width: 976px;
-    font-size: 1.125em;
+    font-size: 1em;
 
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -14,11 +14,11 @@ body {
     line-height: 1.5;
 }
 
-#toc a {
+#table-of-contents a {
     color: var(--color-text);
 }
 
-#toc a:visited {
+#table-of-contents a:visited {
     color: var(--color-text);
 }
 
@@ -43,7 +43,7 @@ blockquote {
     border-left: 2.5px solid rgba(0, 0, 0, 0.5);
     padding: 0 0.25em 0 1em;
     margin: 0 0 1em 0;
-    opacity: 0.5;
+    opacity: 0.625;
     color: inherit;
 }
 
@@ -52,7 +52,10 @@ h1 {
     font-size: 4em;
     line-height: 1.25;
     margin-top: 1.5em;
-    margin-bottom: 0.25em;
+    margin-bottom: 0.325em;
+
+    border-bottom: 5px solid var(--color-text);
+    padding-bottom: 0.25em;
 }
 
 h1:first-child {
@@ -66,8 +69,43 @@ p {
 h2 {
     font-weight: 700;
     border-bottom: 2px solid var(--color-text);
-    padding-bottom: 0.25em;
     margin-top: 1.5em;
+}
+
+h2 > em {
+    display: inline-block;
+    user-select: none;
+    background-color: var(--color-text);
+    color: var(--color-background);
+    padding: 0.1em 0.5em;
+    margin-right: 0.25em;
+    font-weight: 600;
+    font-style: normal !important;
+}
+
+/* if id starts with "def" */
+h2[id^="def"] > em {
+    font-weight: 700;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    border: 2px solid var(--color-text);
+    border-bottom: none;
+}
+
+h3 {
+    font-weight: 700;
+    border-bottom: 1px dashed var(--color-text-dim);
+}
+
+h3 > em {
+    display: inline-block;
+    user-select: none;
+    padding: 0.1em 0.5em;
+    margin-right: 0.25em;
+    font-weight: 600;
+    border: 1px dashed var(--color-text-dim);
+    border-bottom: none;
+    font-style: normal !important;
 }
 
 h1 {
@@ -111,7 +149,7 @@ nav>ul>li>a {
 
 nav a {
     color: inherit;
-    opacity: 0.5;
+    opacity: 0.625;
 }
 
 nav>ul>li {

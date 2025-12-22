@@ -11,13 +11,17 @@
 
 ### (General) Caesar Cipher
 
-$$C_i = \mathbf{E}_k(p_i) = (p_i + k) \mod 26$$
+$$
+C_i = \mathbf{E}_k(p_i) = (p_i + k) \mod 26
+$$
 
 ### Monoalphabetic Cipher
 
 Given a permutation function $\sigma$ of order $|\sigma|=n$
 
-$$C_i = \mathbf{E}_\sigma(p_i) = \sigma(p_i)$$
+$$
+C_i = \mathbf{E}_\sigma(p_i) = \sigma(p_i)
+$$
 
 has a **keyspace** of size $n!$ (including the identity).
 

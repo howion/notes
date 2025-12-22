@@ -15,7 +15,7 @@ import critters from 'astro-critters'
 import remarkMath from 'remark-math'
 
 // dynamic conf
-import { APP } from './.boilerrc.ts'
+import { APP, isDev } from './.boilerrc.ts'
 
 const willAnalyze = process.env.ANALYZE === 'true'
 
@@ -47,7 +47,7 @@ export default defineConfig({
         esbuild: {
             minifyIdentifiers: true,
             treeShaking: true,
-            drop: ['console', 'debugger'],
+            drop: isDev ? [] : ['console', 'debugger'],
             legalComments: 'none',
             keepNames: false,
         },

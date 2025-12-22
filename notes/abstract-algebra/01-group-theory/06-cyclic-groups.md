@@ -1,6 +1,6 @@
 # Cyclic Groups
 
-This section contains important counting theorems (not just for cyclic or abelian groups); hence, it is important to be familiar with every proof in this exercise.
+> This section contains important counting theorems (not just for cyclic or abelian groups); hence, it is important to be familiar with every proof in this exercise.
 
 ## _Def._ Cyclic Group
 
@@ -70,8 +70,9 @@ For any two cyclic groups $\Braket{x}$ and $\Braket{y}$, if their orders are the
 1. Indeed, if they are finite, then the map
 
     $$
+    \def\arraystretch{1.5}
     \begin{array}{cc}
-        \varphi: & \Braket{x} \to \Braket{y} \\ \\
+        \varphi: & \Braket{x} \to \Braket{y} \\
         & x^k \mapsto y^k
     \end{array}
     $$
@@ -81,8 +82,9 @@ For any two cyclic groups $\Braket{x}$ and $\Braket{y}$, if their orders are the
 2. If they are infinite, then the map
 
     $$
+    \def\arraystretch{1.5}
     \begin{array}{cc}
-        \varphi: & \Z \to \Braket{x} \\ \\
+        \varphi: & \Z \to \Braket{x} \\
         & k \mapsto x^k
     \end{array}
     $$

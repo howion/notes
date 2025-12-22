@@ -47,7 +47,7 @@ $$
 |G:K| = |G:H||H:K|
 $$
 
-### Corollary: Lagrange's Theorem
+### _Corollary._ Lagrange's Theorem
 
 Let $G$ be a group and $H \leq G$, then the order of $H$ divides the order of $G$. In general, even if $G$ is infinite
 
@@ -55,7 +55,7 @@ $$
 |G| = |G:H| \cdot |H|
 $$
 
-### Corollary: Element Order Divides Group Order
+### _Corollary._ Element Order Divides Group Order
 
 Let $G$ be a group and $x \in G$, then $|x|$ divides $|G|$.
 

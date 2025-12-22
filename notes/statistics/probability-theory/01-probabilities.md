@@ -2,24 +2,36 @@
 
 <!-- ## _Thm._ Identities
 
-$$\binom{n}{k} = \binom{n}{n - k}$$
+$$
+\binom{n}{k} = \binom{n}{n - k}
+$$
 
-$$n\binom{n-1}{k-1} = k\binom{n}{k}$$
+$$
+n\binom{n-1}{k-1} = k\binom{n}{k}
+$$
 
 [**Wikipedia:** Vandermonde's identity](https://en.wikipedia.org/wiki/Vandermonde%27s_identity)
 
-$$\binom{m+n}{k} = \sum_{j=0}^{k} \binom{m}{j} \binom{n}{k - j}$$
+$$
+\binom{m+n}{k} = \sum_{j=0}^{k} \binom{m}{j} \binom{n}{k - j}
+$$
 
 [**Wikipedia:** Generalized Vandermonde's identity](https://en.wikipedia.org/wiki/Vandermonde%27s_identity#Generalized_Vandermonde's_identity)
 
-$$\binom{m_1 + \cdots + m_p}{k} = \sum_{j_1 + \dots + j_p = k} \binom{m_1}{j_1} \binom{m_2}{j_2} \cdots \binom{m_p}{j_p}$$ -->
+$$
+\binom{m_1 + \cdots + m_p}{k} = \sum_{j_1 + \dots + j_p = k} \binom{m_1}{j_1} \binom{m_2}{j_2} \cdots \binom{m_p}{j_p}
+$$ -->
 
 ## _Def._ Probability
 
 A **probability space** consists of a sample space $\Omega$ and a **probability function** (or **probability distribution** or **probability measure**) $P$ maps **event** $A \subseteq \Omega$ to $P(A) \in [0, 1]$. The function $P$ must satisfy the following axioms:
 
 * $P(\varnothing) = 0$ and $P(\Omega)=1$.
-* If $A_1, A_2 ...$ are disjoint events (mutually exclusive), then $$P\left(\bigcup_{j} A_j\right) = \sum_{j} P(A_j)$$
+* If $A_1, A_2 ...$ are disjoint events (mutually exclusive), then
+
+$$
+P\left(\bigcup_{j} A_j\right) = \sum_{j} P(A_j)
+$$
 
 Elements $\Omega$ are called **sample outcomes**, **realizations**, or **elements**.
 
@@ -37,7 +49,9 @@ For any events $A$ and $B$:
 
 A sequence of sets $A_1, A_2, ...$ is said to be **monotone increasing** if
 
-$$A_1 \subseteq A_2 \subseteq \cdots$$
+$$
+A_1 \subseteq A_2 \subseteq \cdots
+$$
 
 and **monotone decreasing** if
 
@@ -93,13 +107,23 @@ $$
 
 Let $A$ and be $B$ be events, the we define the **conditional probability** of $A$ given $B$ as
 
-$$P(A \mid B) := \frac{P(A \cap B)}{P(B)}$$
+$$
+P(A \mid B) := \frac{P(A \cap B)}{P(B)}
+$$
 
 ## _Thm._ Conditional Probability
 
-$$P(A \cap B) = P(B) P(A \mid B)=P(A) P(B \mid A)$$
-$$P(A_1, ... \>, A_n) = P(A_1) P(A_2 \mid A_1)P(A_3 \mid A_2,A_1) \cdots P(A_n \mid A_{n-1}, ... \> , A_1)$$
-$$P(A_1, A_2, A_3) = P(A_1) P(A_2 \mid A_1) P(A_3 \mid A_2,A_1) = P(A_2) P(A_3 \mid A_2) P(A_1 \mid A_2, A_3)$$
+$$
+P(A \cap B) = P(B) P(A \mid B)=P(A) P(B \mid A)
+$$
+
+$$
+P(A_1, ... \>, A_n) = P(A_1) P(A_2 \mid A_1)P(A_3 \mid A_2,A_1) \cdots P(A_n \mid A_{n-1}, ... \> , A_1)
+$$
+
+$$
+P(A_1, A_2, A_3) = P(A_1) P(A_2 \mid A_1) P(A_3 \mid A_2,A_1) = P(A_2) P(A_3 \mid A_2) P(A_1 \mid A_2, A_3)
+$$
 
 ## _Thm._ Bayes' Theorem
 
@@ -107,7 +131,9 @@ Let $A$ and $B$ events, then we have
 
 <!-- [**Wikipedia:** Bayes' Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem) -->
 
-$$P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B)}$$
+$$
+P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B)}
+$$
 
 where $P(A)$ is called the **prior** and $P(A \mid B)$ is called the **posterior** probability of $A$.
 
@@ -115,7 +141,9 @@ where $P(A)$ is called the **prior** and $P(A \mid B)$ is called the **posterior
 
 Let $A_1, ..., A_n$ partition the sample space $S$, then
 
-$$P(B) = \sum_{i=1}^{n} P(B \cap A_i) = \sum_{i=1}^{n} P(B \mid A_i) P(A_i)$$
+$$
+P(B) = \sum_{i=1}^{n} P(B \cap A_i) = \sum_{i=1}^{n} P(B \mid A_i) P(A_i)
+$$
 
 ## _Thm._ Generalized Bayes' Theorem
 
@@ -165,13 +193,17 @@ So, the conditional probability is also a probability. Similarly, we can see pro
 
 Provided $P(A \cap E) > 0$ and $P(B \cap E) > 0$ we have
 
-$$P(A \mid B, E) = \frac{P(B \mid A, E) P(A \mid E)}{P(B \mid E)}$$
+$$
+P(A \mid B, E) = \frac{P(B \mid A, E) P(A \mid E)}{P(B \mid E)}
+$$
 
 ## _Thm._ LOTP with Extra Condition
 
 Let $A_1, ..., A_n$ partition $S$ and $P(A_i \cap E) > 0$ for all $i$, then
 
-$$P(B \mid E) = \sum_{i=1}^{n} P(B \mid A_i, E)P(A_i \mid E)$$
+$$
+P(B \mid E) = \sum_{i=1}^{n} P(B \mid A_i, E)P(A_i \mid E)
+$$
 
 ## _Def._ Independence
 
@@ -234,7 +266,9 @@ Events $A_1, ..., A_n$ are independent if they are:
 
 Event $A$ and $B$ are called **conditionally independent** for event $E$ if
 
-$$P(A \cap B \mid E) = P(A \mid E) \> P(B \mid E)$$
+$$
+P(A \cap B \mid E) = P(A \mid E) \> P(B \mid E)
+$$
 
 > Independence does not imply conditional independence and vice versa. Also, if $A$ and $B$ is conditionally independent for $E$, it may not be the case for $E^c$.
 

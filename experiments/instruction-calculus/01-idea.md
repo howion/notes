@@ -14,7 +14,9 @@ Assume ZFC but without the Foundation Axiom! Now include to your axiom list the 
 
 A relation $R \subseteq X \times Y$ is said to be **serial** if for all $x \in X$ there exists $y \in Y$ where $x R y$. Precisely:
 
-$$\forall x \> \exists y \>\> x R y$$
+$$
+\forall x \> \exists y \>\> x R y
+$$
 
 # Instruction Calculus
 
@@ -31,7 +33,9 @@ A serial relation $\lambda \subseteq \text{X}^2 $ is called an **instruction on 
 
 Let $\lambda_1$ and $\lambda_2$ be two instructions on $\text{X}$. Then their **composition**
 
-$$\lambda_2 \circ \lambda_1 = \{\> (x, z) \in \text{X}^2 \enspace | \enspace \exists y \in \text{X} \enspace (x,y) \in \lambda_1 \enspace \wedge \enspace (y,z) \in \lambda_2 \>\}$$
+$$
+\lambda_2 \circ \lambda_1 = \{\> (x, z) \in \text{X}^2 \enspace | \enspace \exists y \in \text{X} \enspace (x,y) \in \lambda_1 \enspace \wedge \enspace (y,z) \in \lambda_2 \>\}
+$$
 
 mostly denoted as $\lambda_2 \lambda_1$ is the usual relational composition. Notice that:
 
@@ -41,11 +45,15 @@ mostly denoted as $\lambda_2 \lambda_1$ is the usual relational composition. Not
 
 For simplicity we will also utilize **exponentation** notation which is defined as:
 
-$$\lambda^0 = 1$$
+$$
+\lambda^0 = 1
+$$
 
 and
 
-$$\lambda^{n+1} = \lambda \circ \lambda^n$$
+$$
+\lambda^{n+1} = \lambda \circ \lambda^n
+$$
 
 ## (D) Instruction Application
 
@@ -53,7 +61,9 @@ $$\lambda^{n+1} = \lambda \circ \lambda^n$$
 
 Let $\lambda_1$ and $\lambda_2$ be two instructions on $\text{X}$. Then their **addition**
 
-$$\lambda_1 + \lambda_2 = \lambda_1 \cup \lambda_2$$
+$$
+\lambda_1 + \lambda_2 = \lambda_1 \cup \lambda_2
+$$
 
 is the usual binary set union. Addition operator is also sometimes called the **non-deterministic choice** operator.
 
@@ -132,20 +142,30 @@ Notice that:
 
 ## (D) Successor Instruction
 
-$$S \equiv m \mapsto x \mapsto x(m(x))$$
+$$
+S \equiv m \mapsto x \mapsto x(m(x))
+$$
 
 ## (D) Multiplication Instruction
 
-$$\ast \equiv m \mapsto n \mapsto m \circ n$$
+$$
+\ast \equiv m \mapsto n \mapsto m \circ n
+$$
 
 ## (D) Addition Instruction
 
-$$+ \equiv m \mapsto n \mapsto x \mapsto m(x) \circ n(x)$$
+$$
++ \equiv m \mapsto n \mapsto x \mapsto m(x) \circ n(x)
+$$
 
 ## (D) Exponentiation Instruction
 
-$$\uparrow \> \equiv m \mapsto n \mapsto n(m)$$
+$$
+\uparrow \> \equiv m \mapsto n \mapsto n(m)
+$$
 
 Notice that $m$ is the base and $n$ is the power. For example:
 
-$$\uparrow(\boxed{3})(\boxed{2}) = \boxed{9}$$
+$$
+\uparrow(\boxed{3})(\boxed{2}) = \boxed{9}
+$$

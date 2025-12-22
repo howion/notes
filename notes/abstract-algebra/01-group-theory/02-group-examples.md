@@ -70,7 +70,7 @@ Find the order of the (general linear) group $\text{GL}(3, \Z_5)$.
 $(5^3 - 1)(5^3 - 5)(5^3 - 5^2)$
 </details>
 
-## #2
+### #2
 
 Prove that $\mathbb{Q}_p$ is _not_ isomorphic to $\mathbb{Q}_r$ for distinct primes $p$ and $r$.
 

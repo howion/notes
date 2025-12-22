@@ -24,7 +24,9 @@ The **center** of a (sub)group $G$ denoted with $Z(G)$ is defined as $Z(G) := C_
 
 Let $G$ be a group and $A$ a non-empty subset of $G$. Similar to centralizer (but not necessarily equivalent), the **normalizer of $A$** in $G$ is defined as
 
-$$N_G(A) := \Set{ g \in G | A^g = A}$$
+$$
+N_G(A) := \Set{ g \in G | A^g = A}
+$$
 
 and it is also a subgroup of $G$.
 

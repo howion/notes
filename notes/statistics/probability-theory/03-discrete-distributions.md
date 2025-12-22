@@ -32,7 +32,9 @@ The distribution of $X$ is called the **Binomial distribution** with parameters 
 
 If $X \thicksim \text{Bin}(n, p)$, then the PMF of $X$ is
 
-$$P(X = k) = \dbinom{n}{k} p^k (1-p)^{n-k}$$
+$$
+P(X = k) = \dbinom{n}{k} p^k (1-p)^{n-k}
+$$
 
 for $k \in \N$. and $k \leq n$. If $k > n$, then $P(X=k)=0$.
 
@@ -44,7 +46,9 @@ Let $X \thicksim \text{Bin}(n, p)$ and $q = 1 -p$. Then $n - X \thicksim \text{B
 
 Let $X \thicksim \text{Bin}(n, \frac{1}{2})$ and $n$ even. Then the distribution of $X$ is symmetric about $\frac{n}{2}$ such that
 
-$$P(X = \frac{n}{2} + j) = P(X = \frac{n}{2} - j)$$
+$$
+P(X = \frac{n}{2} + j) = P(X = \frac{n}{2} - j)
+$$
 
 for all $j \geq 0$.
 
@@ -56,7 +60,9 @@ for all $j \geq 0$.
 
 If $X \thicksim \text{HGeom}(w, b, n)$, then the PMF of $X$ is
 
-$$P(X = k) = \dfrac{\dbinom{w}{k} \dbinom{b}{n- k}}{\dbinom{w+b}{n}}$$
+$$
+P(X = k) = \dfrac{\dbinom{w}{k} \dbinom{b}{n- k}}{\dbinom{w+b}{n}}
+$$
 
 for $0 \leq k \leq w$ and $0 \leq n-k \leq b$, and $P(X=k)=0$ otherwise.
 
@@ -70,7 +76,9 @@ The distributions $\text{HGeom}(w, b, n)$ and $\text{HGeom}(n, w + b -n, w)$ are
 
 The PMF of $X \thicksim \text{DUnif}(C)$ is
 
-$$P(X=x) = \dfrac{1}{|C|}$$
+$$
+P(X=x) = \dfrac{1}{|C|}
+$$
 
 for $x \in C$ and $0$ otherwise.
 
@@ -78,7 +86,9 @@ for $x \in C$ and $0$ otherwise.
 
 The **cumulative distribution function** of an random variable $X$ (not necessarily discrete) is the function $F_X$ where
 
-$$F_X(x) =P(X \leq x)$$
+$$
+F_X(x) =P(X \leq x)
+$$
 
 ## _Thm._ Valid CDFs
 
