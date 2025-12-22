@@ -39,7 +39,7 @@ $$
 
 We say semigroups $G$ and $H$ are **isomorphic** denoted with $G \cong H$ if there exists an isomorphism between them.
 
-Let $\phi: G \to H$ be a group homomorphism, $g \in G$ and $A \subseteq G$. Then
+Let $\phi: G \to H$ be a group homomorphism $g \in G$ and $A \subseteq G$, then
 
 * $g^\phi$ denotes $\phi(g)$, and
 * $A^\phi$ denotes $\phi(A)$ called the **homomorphic (respectively monomorphic, epimorphic, ...) image** of $A$.

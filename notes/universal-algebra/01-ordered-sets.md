@@ -84,7 +84,7 @@ See [**Wikipedia:** Hasse Diagram](https://en.wikipedia.org/wiki/Hasse_diagram).
 
 ## _Thm._ TFAE
 
-Let $P$ and $Q$ be finite ordered sets and $\phi : P \to Q$ a bijective map. Then TFAE:
+Let $P$ and $Q$ be finite ordered sets and $\phi : P \to Q$ a bijective map, then the following are equivalent
 
 * $\phi$ is an order-isomorphism
 * $x \lt_P y$ if and only if $\phi(x) \lt_Q \phi(y)$.
@@ -223,7 +223,7 @@ Notice that $\mathcal{O}(P)^\partial \cong \mathcal{O}(P^\partial)$ as $A \subse
 
 ## _Thm._ '
 
-Let $P, P_1, P_2$ be ordered sets. Then
+Let $P, P_1, P_2$ be ordered sets, then
 
 * $\mathcal{O}(P \oplus \bold{1}) \cong \mathcal{O}(P) \oplus \bold{1}$
 * $\mathcal{O}(\bold{1} \oplus P) \cong \bold{1} \oplus \mathcal{O}(P)$

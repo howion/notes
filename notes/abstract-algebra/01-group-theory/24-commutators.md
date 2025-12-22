@@ -28,7 +28,7 @@ $$
 
 ## _Thm._ Basic Commutator Properties
 
-Let $G$ be a group and $a,b,c, x \in G$. Then
+Let $G$ be a group and $a,b,c, x \in G$, then
 
 * $[a,b] = e$ if and only if $ab=ba$, indeed
 * $e$ is the only commutator if and only if $G$ is abelian,

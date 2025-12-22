@@ -45,7 +45,7 @@ Let $G$ be a group and $N \trianglelefteq G$.
 
 ## _Def._ Projection
 
-Let $N \trianglelefteq G$. Then
+Let $N \trianglelefteq G$, then
 
 $$
 \begin{array}{lrll}
@@ -107,7 +107,7 @@ Therefore, $\bar{\varphi}$ is an isomorphism if and only if
 
 ## _Thm._ First Isomorphism Theorem
 
-Let $\varphi: G \to H$ be a group homomorphism. Then
+Let $\varphi: G \to H$ be a group homomorphism, then
 
 1. $\text{Ker }\varphi \trianglelefteq G$, so kernel of any group homomorphism is normal,
 2. $\varphi(G) \leq H$, so image of any group homomorphism is a subgroup,
@@ -132,7 +132,7 @@ Let $\varphi: G \to H$ be a group homomorphism. Then
 
 > This theorem is also called the **Diamond Isomorphism Theorem** or **Parallelogram Theorem** due to lattice it draws.
 
-Let $G$ be a group, $H \leq G$, and $N \trianglelefteq G$. Then
+Let $G$ be a group $H \leq G$ and $N \trianglelefteq G$, then
 
 > Recall that since $N$ is normal and $H$ is a subgroup, we have $H \lor N = HN = NH$.
 

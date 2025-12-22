@@ -29,7 +29,7 @@ $$
 
 then $R[X]$ is a ring where addition and multiplication defined as expected over polynomials. Notice how elements of $R[X]$ are of finite length, so this a set of **finite polynomials**.
 
-Let $a_0 + a_1X + \cdots + a_nX^n = p(X) \in R[X]$. Then
+Let $a_0 + a_1X + \cdots + a_nX^n = p(X) \in R[X]$, then
 
 * $n$ is called the **degree** of $p(X)$ denoted with $\text{d}(p)$. If $p(X)$ is the zero polynomial it is defined to be $0$,
 * $a_n$ is called the **leading coefficient** of $p(X)$,

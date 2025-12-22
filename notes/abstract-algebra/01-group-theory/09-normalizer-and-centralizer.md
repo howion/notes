@@ -4,7 +4,7 @@
 
 ## _Def._ Centralizer
 
-Let $G$ be a (sub)group and $A$ a non-empty subset of $G$. Then the **centralizer of $A$ in a group $G$** is defined as
+Let $G$ be a (sub)group and $A$ a non-empty subset of $G$, then the **centralizer of $A$ in a group $G$** is defined as
 
 $$
 C_G(A) := \Set{ g \in G | a^g = a \quad \forall a \in A }

@@ -32,7 +32,7 @@ Indeed a structure which only satisfies associative property is called a **semig
 
 ## _Thm._ Basic Group Properties
 
-Remembering any group is also a monoid and thus a semigroup, let $(G, \cdot)$ be a group. Then:
+Remembering any group is also a monoid and thus a semigroup let $(G, \cdot)$ be a group, then:
 
 1. Identity $e$ is unique. The uniqueness of the identity element does not require the use of associativity.
 2. For each $a \in G$, inverse of $a$ is unique.

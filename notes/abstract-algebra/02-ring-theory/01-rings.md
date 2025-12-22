@@ -45,7 +45,7 @@ For all $m,n \in \Z$
 
 ## _Thm._ Basic Ring with Unity Properties
 
-Let $R$ be a ring with unity. Then
+Let $R$ be a ring with unity, then
 
 1. The $0$ is never an unit unless $0=1$.
 2. $0=1$ only if $R=\{0=1\}$, the **trivial ring** or the **zero ring**.
@@ -104,7 +104,7 @@ A ring $(R, +, \cdot)$ is called a **field** if, equivalently (exercise)
 
 ## _Thm._ On Integral Domains, Division Rings, and Fields
 
-Let $R$ be a ring. Then
+Let $R$ be a ring, then
 
 1. If $R$ is a field, then it is a division ring.
 2. If $R$ is a division ring, then it is an integral domain.
@@ -118,7 +118,7 @@ Moreover,
 
 ## _Thm._ Basic Idempotent Properties
 
-Let $R$ be a ring, and $a \in R$ idempotent. Then
+Let $R$ be a ring and $a \in R$ idempotent, then
 
 1. $1-a$ is idempotent as well.
 2. If $a$ is non-trivial, it is a zero-divisor as well. This shows that integral domains and division rings do not have such idempotents.

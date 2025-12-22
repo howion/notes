@@ -39,7 +39,7 @@ If $N \neq G$, then $N \vartriangleleft G$ will also be used to denote $N$ is a 
 
 ## _Thm._ Equivalent Normal Definitions
 
-Let $G$ be a group and $N \leq G$. Then the following are equivalent
+Let $G$ be a group and $N \leq G$, then the following are equivalent
 
 1. $\equiv_L$ and $\equiv_R$ modulo $N$ coincide,
 2. $gN=Ng$,

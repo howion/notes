@@ -23,7 +23,7 @@ is a subring, and any subring of $Z(R)$ is called a **central subring**.
 
 ## Remarks
 
-Let $R$ be a ring and $S \leq R$ its subring. Then
+Let $R$ be a ring and $S \leq R$ its subring, then
 
 1. $S$ may be commutative even if $R$ is not.
 2. $S$ may not have unity even if $R$ does. Moreover, $S$ may have unity even if $R$ does not.

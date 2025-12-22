@@ -27,7 +27,7 @@ Let $G$ be a group, $H \leq G$, and $a,b \in G$. We say,
 
 ### _Corollary._ Coset Congruence
 
-Let $G$ be a group and $H \leq G$. Then
+Let $G$ be a group and $H \leq G$, then
 
 1. $G$ is the union of right (respectively left) cosets of $H$,
 2. Two right (respectively left) cosets are either _disjoint_ or _equal_,
@@ -69,7 +69,7 @@ Every subgroup of finite index $m$ of a group $G$ contains a normal subgroup of 
 
 ## _Thm._ Order of Subgroup Multiplication
 
-Let $G$ be group such that $H$ and $K$ are finite subgroups of $G$. Then
+Let $G$ be group such that $H$ and $K$ are finite subgroups of $G$, then
 
 $$
 |HK| = \dfrac{|H| \cdot |K|}{|H \cap K|}
@@ -77,13 +77,13 @@ $$
 
 ## _Thm._ 1
 
-Let $G$ be a group and $H,K \leq G$. Then we have $|H:(H \cap K)| \leq |G:K|$.
+Let $G$ be a group and $H,K \leq G$, then we have $|H:(H \cap K)| \leq |G:K|$.
 
-If $|G:K|$ is finite, then $|H:(H \cap K)|=|G:K|$ if and only if $G=KH$.
+Moreover, if $|G:K|$ is finite, then $|H:(H \cap K)|=|G:K|$ if and only if $G = KH$.
 
 ## _Thm._ 2
 
-Let $H$ and $K$ be _subgroups of finite index_ of a group $G$. Then
+Let $H$ and $K$ be _subgroups of finite index_ of a group $G$, then
 
 1. $|G:H \cap K|$ is finite,
 2. $|G:H \cap K| \leq |G:H||G:K|$, and
