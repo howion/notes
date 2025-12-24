@@ -140,7 +140,6 @@ body {
     background-clip: padding-box;
 } */
 
-/* on mobile devices, hide sidebar and just show app-view-sidebar fullscreen */
 @media (max-width: 768px) {
     #app {
         padding: 0 !important;

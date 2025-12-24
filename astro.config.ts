@@ -45,6 +45,9 @@ export default defineConfig({
         defaultStrategy: 'hover'
     },
     vite: {
+        css: {
+            transformer: 'postcss'
+        },
         esbuild: {
             minifyIdentifiers: true,
             treeShaking: true,
