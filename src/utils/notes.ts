@@ -1,56 +1,10 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import slugify from 'slugify'
+import { NOTE_RECORDS, type Note, type NoteMap } from '../constants/notes'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 const NOTES_ROOT = join(__dirname, '../../notes')
-
-export interface NoteMap {
-    title: string
-    slug: string
-    path: string
-}
-
-export interface Note extends NoteMap {
-    content: string
-    contentUpdatedAt: Date
-}
-
-export interface NoteRecord {
-    title: string
-    children: NoteMap[]
-}
-
-function map(title: string, path: string): NoteMap {
-    return {
-        title,
-        slug: slugify(title, { lower: true }),
-        path
-    }
-}
-
-export const NOTE_RECORDS: NoteRecord[] = [
-    {
-        title: 'Abstract Algebra',
-        children: [
-            map('Group Theory', 'abstract-algebra/01-group-theory'),
-            map('Ring Theory', 'abstract-algebra/02-ring-theory')
-        ]
-    },
-    {
-        title: 'Statistics',
-        children: [map('Probability Theory', 'statistics/probability-theory')]
-    },
-    {
-        title: 'Computer Science',
-        children: [
-            map('Logic and Computation', 'logic-and-computation'),
-            map('Type Theory', 'type-theory'),
-            map('Universal Algebra', 'universal-algebra')
-        ]
-    }
-]
 
 export const NOTE_MAPPINGS: NoteMap[] = NOTE_RECORDS.flatMap((record) => record.children)
 

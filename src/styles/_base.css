@@ -1,3 +1,7 @@
+@import "./components/_index.css";
+
+@import "./app.css";
+
 @import "./reset.css";
 @import "./root.css";
 @import "./scrollbar.css";

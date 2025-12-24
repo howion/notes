@@ -3,9 +3,15 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+}
 
+body, html {
     margin: 0;
     padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 svg {
@@ -22,12 +28,10 @@ h6,
 p,
 a,
 img {
-    box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     -webkit-font-smoothing: inherit;
     -moz-osx-font-smoothing: inherit;
     backface-visibility: hidden;
-    transform: translateZ(0);
     user-drag: none;
 }
 
@@ -57,7 +61,7 @@ img {
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 svg {
@@ -95,8 +99,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-body {
-    transform: translateZ(0);
 }

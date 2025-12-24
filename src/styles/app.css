@@ -1,0 +1,113 @@
+body {
+    line-height: 1.5;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+#app {
+    display: flex;
+    column-gap: var(--app-padding);
+    width: 100%;
+    height: 100%;
+
+    padding: var(--app-padding);
+    padding-left: 0;
+
+    background-color: var(--color-text);
+    color: var(--color-background);
+
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#app-view {
+    position: relative;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: auto;
+
+    scrollbar-color: var(--scrollbar-color-thumb) transparent;
+    scrollbar-gutter: stable;
+    scroll-behavior: smooth;
+
+    transform: translateZ(0);
+}
+
+#app-sidebar {
+    position: relative;
+    width: 64px;
+    padding-left: var(--app-padding);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.app-sidebar-head {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.app-sidebar-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-decoration: none !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+    font-size: 18px !important;
+}
+
+.app-sidebar-back:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.app-sidebar-emblem {
+    border-radius: 8px;
+}
+
+/* #app-sidebar-thumb {
+    position: absolute;
+    top: 50%;
+    right: calc(-1 * var(--sidebar-thumb-width) + -1 * var(--app-padding) / 2);
+    width: var(--sidebar-thumb-width);
+    height: var(--sidebar-thumb-height);
+    background-color: var(--color-background);
+    margin-top: calc(var(--sidebar-thumb-height) / -2);
+    border-radius: 100px;
+    cursor: pointer;
+} */
+
+#app-view::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+    height: 5px;
+}
+
+#app-view::-webkit-scrollbar-track {
+    background: var(--scrollbar-color-track);
+    box-shadow: none;
+}
+
+#app-view::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-color-thumb);
+    background-clip: padding-box;
+}
+
+#app-view::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-color-thumb-hover);
+    background-clip: padding-box;
+}

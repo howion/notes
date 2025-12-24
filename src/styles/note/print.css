@@ -7,4 +7,21 @@
     h1 {
         margin-top: 0.25em !important;
     }
+
+    #app {
+        padding: 0 !important;
+    }
+
+    #app-sidebar {
+        display: none !important;
+    }
+
+    #app-view {
+        border-radius: 0 !important;
+    }
+
+    body {
+        height: auto !important;
+        overflow: auto !important;
+    }
 }

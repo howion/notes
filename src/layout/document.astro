@@ -5,7 +5,8 @@ import { APP } from "##/.boilerrc";
 import "../styles/_base.css";
 import "../styles/note/_index.css";
 import "katex/dist/katex.min.css";
-import 'katex-copytex/src/katex-copytex.css'
+import "katex-copytex/src/katex-copytex.css";
+import Emblem from "../components/emblem.astro";
 
 export interface Props {
     subtitle?: string;
@@ -55,9 +56,20 @@ const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
         </style>
     </head>
     <body>
-        <main>
-            <slot />
-        </main>
+        <div id="app">
+            <div id="app-sidebar">
+                <div class="app-sidebar-head">
+                    <a href="/" class="app-sidebar-back">{'<-'}</a>
+                    <!-- <a href="/">
+                         <img src="https://www.howion.com/emblem.svg" alt="Emblem" class="app-sidebar-emblem" />
+                    </a> -->
+                </div>
+                <!-- <div id="app-sidebar-thumb"></div> -->
+            </div>
+            <div id="app-view">
+                <slot />
+            </div>
+        </div>
 
         <script>
             import "/src/scripts/katex.ts";

@@ -1,11 +1,11 @@
-body {
+/* body {
     scrollbar-width: thin;
     scrollbar-color: var(--scrollbar-color-thumb) var(--scrollbar-color-track);
     scrollbar-gutter: stable;
     scroll-behavior: smooth;
-}
+} */
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: var(--scrollbar-width);
     height: 5px;
 }
@@ -17,12 +17,10 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background: var(--scrollbar-color-thumb);
-    /* border: 0.1em solid rgba(0, 0, 0, 0); */
     background-clip: padding-box;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: var(--scrollbar-color-thumb-hover);
     background-clip: padding-box;
-}
+} */

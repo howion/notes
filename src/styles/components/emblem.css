@@ -1,0 +1,51 @@
+:root {
+    --emblem-unit: 32px;
+    --emblem-color: var(--color-background);
+}
+
+.emblem {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(var(--emblem-unit) * 3);
+}
+
+.emblem>.s {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--emblem-unit);
+    height: var(--emblem-unit);
+    border: 1px solid var(--emblem-color);
+    overflow: hidden;
+}
+
+.emblem>.s.x {
+    border: 0;
+    z-index: -1;
+}
+
+.emblem>.s.r {
+    border-right: 0;
+}
+
+.emblem>.s.t {
+    border-top: 0;
+}
+
+.emblem>.s .c {
+    background-color: var(--emblem-color);
+    width: calc(var(--emblem-unit) / 3);
+    height: calc(var(--emblem-unit) / 3);
+}
+
+.emblem>.s .h {
+    width: 100%;
+    background-color: var(--emblem-color);
+    height: 1px;
+}
+
+.emblem>.s .v {
+    height: 100%;
+    background-color: var(--emblem-color);
+    width: 1px;
+}

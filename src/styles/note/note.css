@@ -1,17 +1,9 @@
-body {
-    background-color: var(--color-background);
-    color: var(--color-text);
-
-    padding: 0 1.5em 4em 1.5em;
-    margin: 0 auto;
+main.content {
     max-width: 976px;
-    font-size: 1em;
-
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.5;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5em 4em 1.5em;
+    overflow-x: hidden;
 }
 
 #table-of-contents a {
@@ -81,6 +73,7 @@ h2 > em {
     margin-right: 0.25em;
     font-weight: 600;
     font-style: normal !important;
+    margin-bottom: -2px;
 }
 
 /* if id starts with "def" */
@@ -89,12 +82,10 @@ h2[id^="def"] > em, h2[id^="notation"] > em {
     background-color: var(--color-background);
     color: var(--color-text);
     border: 2px solid var(--color-text);
-    border-bottom: none;
 }
 
 h2[id^="notation"] > em {
     border-style: dashed !important;
-    border-bottom: none !important;
 }
 
 h3 {
