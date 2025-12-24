@@ -1,133 +1,148 @@
-main.content {
+#table-of-contents {
+    a {
+        color: var(--color-text);
+
+        &:visited {
+            color: var(--color-text);
+
+        }
+    }
+}
+
+.content {
     max-width: 976px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 1.5em 4em 1.5em;
+    padding: 4em 1.5em 4em 1.5em;
     overflow-x: hidden;
-}
 
-#table-of-contents a {
-    color: var(--color-text);
-}
+    li:not(:first-child) {
+        margin-top: 0.25em;
+    }
 
-#table-of-contents a:visited {
-    color: var(--color-text);
-}
+    a {
+        color: var(--color-link);
+        font-weight: 500;
 
-.content a {
-    color: var(--color-link);
-}
+        &:visited {
+            color: var(--color-link);
 
-.content a:visited {
-    color: var(--color-link);
-}
+        }
+    }
 
-a {
-    font-weight: 500;
-}
+    strong {
+        font-weight: 600;
+    }
 
-strong {
-    font-weight: 600;
-}
+    blockquote {
+        background-color: transparent;
+        border-left: 2.5px solid rgba(0, 0, 0, 0.5);
+        padding: 0 0.25em 0 1em;
+        margin: 0 0 1em 0;
+        opacity: 0.625;
+        color: inherit;
+    }
 
-blockquote {
-    background-color: transparent;
-    border-left: 2.5px solid rgba(0, 0, 0, 0.5);
-    padding: 0 0.25em 0 1em;
-    margin: 0 0 1em 0;
-    opacity: 0.625;
-    color: inherit;
-}
+    p {
+        line-height: 1.5;
+    }
 
-h1 {
-    font-weight: 800;
-    font-size: 4em;
-    line-height: 1.25;
-    margin-top: 1.5em;
-    margin-bottom: 0.325em;
+    h1 {
+        font-weight: 800;
+        font-size: 4em;
+        line-height: 1.25;
+        margin-top: 0;
+        margin-bottom: 0.325em;
 
-    border-bottom: 5px solid var(--color-text);
-    padding-bottom: 0.25em;
-}
+        word-break: break-all;
 
-h1:first-child {
-    margin-top: 0.5em;
-}
+        border-bottom: 5px solid var(--color-text);
+        padding-bottom: 0.25em;
+    }
 
-p {
-    line-height: 1.5;
-}
+    h2 {
+        font-weight: 700;
+        border-bottom: 2px solid var(--color-text);
+        padding-bottom: 0.325em;
+    }
 
-h2 {
-    font-weight: 700;
-    border-bottom: 2px solid var(--color-text);
-    margin-top: 1.5em;
-}
+    h3 {
+        border-bottom: 1px dashed var(--color-text-dim);
+        padding-bottom: 0.325em;
+        font-weight: 500;
+    }
 
-h2 > em {
-    display: inline-block;
-    user-select: none;
-    background-color: var(--color-text);
-    color: var(--color-background);
-    padding: 0.1em 0.5em;
-    margin-right: 0.25em;
-    font-weight: 600;
-    font-style: normal !important;
-    margin-bottom: -2px;
-}
+    h2>em {
+        display: inline-block;
+        user-select: none;
+        background-color: var(--color-text);
+        color: var(--color-background);
+        padding: 0.15em 0.325em;
+        margin-right: 0.25em;
+        font-weight: 600;
+        font-style: normal !important;
+    }
 
-/* if id starts with "def" */
-h2[id^="def"] > em, h2[id^="notation"] > em {
-    font-weight: 700;
-    background-color: var(--color-background);
-    color: var(--color-text);
-    border: 2px solid var(--color-text);
-}
+    /* if id starts with "def" */
+    h2[id^="def"]>em,
+    h2[id^="notation"]>em {
+        font-weight: 700;
+        background-color: var(--color-background);
+        color: var(--color-text);
+        border: 2px solid var(--color-text);
+    }
 
-h2[id^="notation"] > em {
-    border-style: dashed !important;
-}
+    h2[id^="notation"]>em {
+        border-style: dashed !important;
+    }
 
-h3 {
-    font-weight: 700;
-    border-bottom: 1px dashed var(--color-text-dim);
-}
+    h3>em {
+        display: inline-block;
+        user-select: none;
+        padding: 0.1em 0.5em;
+        margin-right: 0.25em;
+        font-weight: 600;
+        border: 1px dashed var(--color-text-dim);
+        font-style: normal !important;
+    }
 
-h3 > em {
-    display: inline-block;
-    user-select: none;
-    padding: 0.1em 0.5em;
-    margin-right: 0.25em;
-    font-weight: 600;
-    border: 1px dashed var(--color-text-dim);
-    border-bottom: none;
-    font-style: normal !important;
-}
+    .section-h1 {
+        position: relative;
+        display: block;
+        margin-top: 8em;
+        break-before: page;
+    }
 
-h1 {
-    break-before: page;
-}
+    .section-h1:first-child {
+        margin-top: 0;
+    }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-    break-before: auto;
-}
+    .section-h2 {
+        break-inside: avoid;
+        margin-top: 3em;
+    }
 
-details>p>br {
-    display: none !important;
-}
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        break-before: auto;
+    }
 
-details>summary {
-    color: var(--color-text);
-    cursor: pointer;
-}
+    details>p>br {
+        display: none !important;
+    }
 
-details {
-    margin-top: 2em !important;
-    color: rgba(0, 0, 0, 0.5);
+    details>summary {
+        color: var(--color-text);
+        cursor: pointer;
+    }
+
+    details {
+        margin-top: 2em !important;
+        color: rgba(0, 0, 0, 0.5);
+    }
 }
 
 nav {
@@ -154,9 +169,4 @@ nav>ul>li {
 
 nav>ul>li>a {
     font-weight: 600;
-}
-
-::selection {
-    background-color: var(--color-text);
-    color: var(--color-background);
 }

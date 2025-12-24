@@ -1,4 +1,4 @@
-import type { Element, Root } from 'hast'
+import type { Element, ElementContent, Root, RootContent } from 'hast'
 import { unified } from 'unified'
 import { visit } from 'unist-util-visit'
 
@@ -8,6 +8,98 @@ import remarkRehype from 'remark-rehype'
 import rehypeSlug from 'rehype-slug'
 import rehypeStringify from 'rehype-stringify'
 import rehypeParse from 'rehype-parse'
+
+function rehypeSectionize() {
+    return (tree: Root) => {
+        const newChildren: RootContent[] = []
+        let currentH1Section: Element | null = null
+        let currentH2Section: Element | null = null
+        let currentH3Section: Element | null = null
+
+        function closeH3() {
+            if (currentH3Section && currentH2Section) {
+                currentH2Section.children.push(currentH3Section)
+                currentH3Section = null
+            }
+        }
+
+        function closeH2() {
+            closeH3()
+            if (currentH2Section && currentH1Section) {
+                currentH1Section.children.push(currentH2Section)
+                currentH2Section = null
+            }
+        }
+
+        function closeH1() {
+            closeH2()
+            if (currentH1Section) {
+                newChildren.push(currentH1Section)
+                currentH1Section = null
+            }
+        }
+
+        function createSection(level: number, heading: ElementContent): Element {
+            return {
+                type: 'element',
+                tagName: level === 2 ? 'section' : 'div',
+                properties: { className: [`section-h${level}`] },
+                children: [heading]
+            }
+        }
+
+        for (const node of tree.children) {
+            const isHeading = node.type === 'element' && /^h[1-3]$/.test(node.tagName)
+
+            if (isHeading && node.type === 'element') {
+                const level = parseInt(node.tagName.charAt(1), 10)
+                const heading = node as Element
+
+                if (level === 1) {
+                    closeH1()
+                    currentH1Section = createSection(1, heading)
+                } else if (level === 2) {
+                    closeH2()
+                    currentH2Section = createSection(2, heading)
+                    if (!currentH1Section) {
+                        // h2 without h1 so create orphan section
+                        currentH1Section = createSection(1, currentH2Section)
+                        currentH2Section = null
+                    }
+                } else if (level === 3) {
+                    closeH3()
+                    currentH3Section = createSection(3, heading)
+                    if (!currentH2Section) {
+                        // h3 without h2
+                        if (currentH1Section) {
+                            currentH1Section.children.push(currentH3Section)
+                        } else {
+                            newChildren.push(currentH3Section)
+                        }
+                        currentH3Section = null
+                    }
+                }
+            } else {
+                if (node.type === 'doctype') continue
+
+                const content = node as ElementContent
+                if (currentH3Section) {
+                    currentH3Section.children.push(content)
+                } else if (currentH2Section) {
+                    currentH2Section.children.push(content)
+                } else if (currentH1Section) {
+                    currentH1Section.children.push(content)
+                } else {
+                    newChildren.push(node)
+                }
+            }
+        }
+
+        closeH1()
+
+        tree.children = newChildren
+    }
+}
 
 export interface TOCItem {
     id: string
@@ -86,14 +178,15 @@ function createBaseProcessor() {
             }
         })
         .use(rehypeSlug)
+        .use(rehypeSectionize)
 }
 
 const processor = createBaseProcessor().use(rehypeStringify, { allowDangerousHtml: true })
 
 export async function processMarkdown(markdown: string): Promise<{ html: string; toc: TOCItem[] }> {
-    const astProcessor = createBaseProcessor()
-    const astResult = await astProcessor.run(astProcessor.parse(markdown))
-    const root = astResult
+    // const astProcessor = createBaseProcessor()
+    // const astResult = await astProcessor.run(astProcessor.parse(markdown))
+    // const root = astResult
 
     const htmlResult = await processor.process(markdown)
     const html = htmlResult.toString()

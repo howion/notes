@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config'
 // official addons
 import vercel from '@astrojs/vercel'
 import sitemap from '@astrojs/sitemap'
+import preact from '@astrojs/preact'
 
 // other addons
 import robotsTxt from 'astro-robots-txt'
@@ -49,7 +50,7 @@ export default defineConfig({
             treeShaking: true,
             drop: isDev ? [] : ['console', 'debugger'],
             legalComments: 'none',
-            keepNames: false,
+            keepNames: false
         },
         build: {
             modulePreload: {
@@ -64,7 +65,7 @@ export default defineConfig({
                     tryCatchDeoptimization: false,
                     moduleSideEffects: 'no-external'
                 }
-            },
+            }
         }
     },
     markdown: {
@@ -76,6 +77,7 @@ export default defineConfig({
         }
     },
     integrations: [
+        APP.enablePreact ? preact({ compat: false, devtools: false }) : undefined,
         betterImageService(),
         APP.enableCritters ? critters() : undefined,
         compress({
@@ -91,9 +93,9 @@ export default defineConfig({
                     collapseWhitespace: true // watch out for this, it can break some components
                 }
             },
-            CSS: true,
-            Image: true,
-            SVG: true
+            CSS: false,
+            Image: false,
+            SVG: false
         }),
         sitemap(),
         robotsTxt({
@@ -101,5 +103,5 @@ export default defineConfig({
             policy: [{ allow: '/', userAgent: '*' }]
         }),
         willAnalyze ? Sonda({ server: true, gzip: true }) : undefined
-    ],
+    ]
 })

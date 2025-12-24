@@ -11,6 +11,43 @@
     --scrollbar-color-thumb-hover: rgba(0, 0, 0, 1);
 
     --app-padding: 1em;
-    --sidebar-thumb-width: 4px;
+    --sidebar-thumb-width: 1em;
     --sidebar-thumb-height: 64px;
+}
+
+@media screen {
+    html.is-dark {
+        --color-background: #151515;
+        --color-text: #fefefe;
+
+        --scrollbar-color-track: rgba(255, 255, 255, 0.1);
+        --scrollbar-color-thumb: rgba(255, 255, 255, 0.5);
+        --scrollbar-color-thumb-hover: rgba(255, 255, 255, 1);
+
+        blockquote {
+            border-left: 2.5px solid rgba(255, 255, 255, 0.5);
+        }
+
+        details {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .content img {
+            filter: invert(1) !important;
+        }
+
+        #app-action-theme {
+            .icon-dark {
+                display: none !important;
+            }
+
+            .icon-light {
+                display: block !important;
+            }
+        }
+    }
+}
+
+body.is-mono #app {
+    font-family: "JetBrains Mono", monospace !important;
 }

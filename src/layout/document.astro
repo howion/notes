@@ -1,12 +1,19 @@
 ---
 import { APP } from "##/.boilerrc";
 
+// import ArrowLeft from "##/public/assets/arrow-left.svg";
+import House from "##/public/assets/house-fill.svg";
+import Printer from "##/public/assets/printer.svg";
+import Github from "##/public/assets/github.svg";
+import Moon from "##/public/assets/moon-fill.svg";
+import Sun from "##/public/assets/sun-fill.svg";
+import TextT from "##/public/assets/text-t.svg";
+
 // STYLES
 import "../styles/_base.css";
 import "../styles/note/_index.css";
 import "katex/dist/katex.min.css";
 import "katex-copytex/src/katex-copytex.css";
-import Emblem from "../components/emblem.astro";
 
 export interface Props {
     subtitle?: string;
@@ -46,6 +53,10 @@ const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
             href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
             rel="stylesheet"
         />
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+            rel="stylesheet"
+        />
 
         <style id="page_style">
             @page {
@@ -56,15 +67,45 @@ const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
         </style>
     </head>
     <body>
+        <div id="loader">
+            <div class="loader-spinner"></div>
+        </div>
         <div id="app">
             <div id="app-sidebar">
                 <div class="app-sidebar-head">
-                    <a href="/" class="app-sidebar-back">{'<-'}</a>
-                    <!-- <a href="/">
-                         <img src="https://www.howion.com/emblem.svg" alt="Emblem" class="app-sidebar-emblem" />
-                    </a> -->
+                    <a href="/" class="app-sidebar-icon">
+                        <House />
+                    </a>
+                    <span class="app-sidebar-icon" id="app-action-font">
+                        <TextT class="icon-dark" />
+                    </span>
+                    <span class="app-sidebar-icon" id="app-action-theme">
+                        <Sun class="icon-light" />
+                        <Moon class="icon-dark" />
+                    </span>
                 </div>
-                <!-- <div id="app-sidebar-thumb"></div> -->
+                <div class="app-sidebar-foot">
+                    <!-- <a
+                        class="app-emblem"
+                        href="https://www.howion.com"
+                        target="_blank"
+                    >
+                        <img
+                            src="https://www.howion.com/favicon.svg"
+                            alt="howion.com"
+                        />
+                    </a> -->
+                    <a
+                        class="app-sidebar-icon"
+                        href={APP.repository}
+                        target="_blank"
+                    >
+                        <Github />
+                    </a>
+                    <span class="app-sidebar-icon" id="app-action-print">
+                        <Printer />
+                    </span>
+                </div>
             </div>
             <div id="app-view">
                 <slot />
@@ -72,7 +113,7 @@ const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
         </div>
 
         <script>
-            import "/src/scripts/katex.ts";
+            import "/src/scripts/app.ts";
         </script>
     </body>
 </html>

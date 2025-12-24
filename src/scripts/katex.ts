@@ -57,64 +57,60 @@ function selectText(element: Element) {
     }
 }
 
-function init() {
-    const maths = document.querySelectorAll('.math')
-    const total = maths.length
-    let index = 0
+export async function renderKatexes(): Promise<void> {
+    return new Promise((resolve) => {
+        const maths = document.querySelectorAll('.math')
+        const total = maths.length
+        let index = 0
 
-    let last: Element | null = null
+        let last: Element | null = null
 
-    document.addEventListener('click', (e) => {
-        const target = e.target as Element | null
+        document.addEventListener('click', (e) => {
+            const target = e.target as Element | null
 
-        if (!target) return
+            if (!target) return
 
-        if (last) {
-            last.classList.remove('is-selected')
+            if (last) {
+                last.classList.remove('is-selected')
+            }
+
+            const closest = target.closest('.math')
+            if (!closest) return
+
+            e.preventDefault()
+
+            closest.classList.add('is-selected')
+            selectText(closest)
+
+            document.execCommand('copy')
+
+            last = closest
+        })
+
+        function processChunk(/* deadline: IdleDeadline */) {
+            const end = Math.min(index + CHUNK_SIZE, total)
+
+            for (; index < end; index++) {
+                const el = maths[index]!
+                el.innerHTML = transform(el)
+            }
+
+            if (index < total) {
+                onIdle(processChunk)
+            } else {
+                resolve()
+            }
         }
 
-        const closest = target.closest('.math')
-        if (!closest) return
-
-        e.preventDefault()
-
-        closest.classList.add('is-selected')
-        selectText(closest)
-
-        document.execCommand('copy')
-
-        last = closest
-    })
-
-    function processChunk(/* deadline: IdleDeadline */) {
-        const end = Math.min(index + CHUNK_SIZE, total)
-
-        for (; index < end; index++) {
-            const el = maths[index]!
-            el.innerHTML = transform(el)
-        }
-
-        if (index < total) {
-            onIdle(processChunk)
-        }
-
-        onIdle(() => {})
-    }
-
-    if (total > 0) {
-        if (typeof requestIdleCallback === 'function') {
-            // force after MAX_DELAY
-            requestIdleCallback(processChunk, { timeout: MAX_DELAY })
+        if (total > 0) {
+            if (typeof requestIdleCallback === 'function') {
+                // force after MAX_DELAY
+                requestIdleCallback(processChunk, { timeout: MAX_DELAY })
+            } else {
+                setTimeout(processChunk, 0)
+            }
         } else {
-            setTimeout(processChunk, 0)
+            resolve()
         }
-    }
-}
-
-// Run when DOM is ready
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init)
-} else {
-    // DOM is already ready
-    init()
+    })
 }

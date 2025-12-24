@@ -5,6 +5,8 @@ import Document from "../layout/document.astro";
 
 <Document>
     <main class="content">
+        <div class="section-h1">
+
         <h1>Notes</h1>
 
         {
@@ -16,7 +18,7 @@ import Document from "../layout/document.astro";
                 }
 
                 return (
-                    <section>
+                    <section class="section-h2">
                         <h2>{record.title}</h2>
 
                         <ul>
@@ -30,5 +32,6 @@ import Document from "../layout/document.astro";
                 );
             })
         }
+        </div>
     </main>
 </Document>
