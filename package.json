@@ -38,6 +38,7 @@
         "@playform/compress": "0.2.0",
         "astro-critters": "^2.2.1",
         "autoprefixer": "^10.4.23",
+        "cssnano": "^7.1.2",
         "postcss-calc": "^10.1.1",
         "postcss-color-hex-alpha": "^10.0.0",
         "postcss-combine-duplicated-selectors": "^10.0.3",
