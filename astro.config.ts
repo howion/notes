@@ -46,7 +46,10 @@ export default defineConfig({
     },
     vite: {
         css: {
-            transformer: 'postcss'
+            transformer: 'postcss',
+            lightningcss: {
+                targets: {}
+            }
         },
         esbuild: {
             minifyIdentifiers: true,
