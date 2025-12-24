@@ -1,7 +1,6 @@
 ---
 import { APP } from "##/.boilerrc";
 
-// import ArrowLeft from "##/public/assets/arrow-left.svg";
 import House from "#/assets/house-fill.svg";
 import Printer from "#/assets/printer.svg";
 import Github from "#/assets/github.svg";
@@ -38,6 +37,7 @@ const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
         <title>{title}</title>
         {description && <meta name="description" content={description} />}
         <meta name="author" content="howion" />
+
         {
             updatedAt && (
                 <meta name="last-updated" content={updatedAt.toISOString()} />
@@ -112,10 +112,10 @@ const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
 </html>
 
 <style is:global>
-    @import "../styles/_base.css";
-    @import "../styles/note/_index.css";
+    @import "#/styles/_base.css";
+    @import "#/styles/note/_index.css";
 </style>
 
 <script>
-    import "/src/scripts/app.ts";
+    import "#/scripts/app.ts";
 </script>
