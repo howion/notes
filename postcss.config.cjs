@@ -2,10 +2,10 @@ const isDev = process.env.NODE_ENV === 'development'
 
 const plugins = [
     require('postcss-import'),
+    require('postcss-mixins'),
     require('postcss-for'),
     require('postcss-simple-vars'),
     require('postcss-nested'),
-    require('postcss-mixins'),
     require('postcss-will-change'),
     require('postcss-hexrgba'),
     require('postcss-color-hex-alpha'),
