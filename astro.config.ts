@@ -46,10 +46,7 @@ export default defineConfig({
     },
     vite: {
         css: {
-            transformer: 'postcss',
-            lightningcss: {
-                targets: {}
-            }
+            transformer: 'postcss'
         },
         esbuild: {
             minifyIdentifiers: true,
@@ -63,7 +60,6 @@ export default defineConfig({
                 polyfill: false
             },
             sourcemap: willAnalyze,
-            minify: 'esbuild',
             rollupOptions: {
                 treeshake: {
                     unknownGlobalSideEffects: false,
