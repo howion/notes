@@ -53,6 +53,7 @@ export default defineConfig({
         //     keepNames: false
         // },
         build: {
+            cssMinify: false,
             modulePreload: {
                 polyfill: false
             },
