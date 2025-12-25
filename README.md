@@ -19,14 +19,14 @@ In order to convert these notes to PDF, just try to print the page and save as P
 
 ## Notes: Source
 
-* [:construction: **Abstract Algebra**](./notes/abstract-algebra) \ Groups, Rings and Modules
-    1. [:construction: Group Theory](./notes/abstract-algebra/01-group-theory/)
-    2. [:construction: Ring Theory](./notes/abstract-algebra/02-ring-theory/)
-    2. [:construction: Module Theory](./notes/abstract-algebra/03-module-theory/)
-* [:construction: **Logic and Computation**](./notes/logic-and-computation/) \ Fundamentals
-* [:construction: **Statistics**](./notes/statistics) \ Groups, Rings and Modules
-    1. [:construction: **Probability Theory**](./notes/probability-theory) \ Fundamentals
-* [:construction: **Universal Algebra**](./notes/universal-algebra) \ Fundamentals
+* [**Abstract Algebra**](./notes/abstract-algebra) \ Groups, Rings and Modules
+    1. [Group Theory](./notes/abstract-algebra/01-group-theory/)
+    2. [Ring Theory](./notes/abstract-algebra/02-ring-theory/)
+    2. [Module Theory](./notes/abstract-algebra/03-module-theory/)
+* [**Logic and Computation**](./notes/logic-and-computation/) \ Fundamentals
+* [**Statistics**](./notes/statistics) \ Groups, Rings and Modules
+    1. [**Probability Theory**](./notes/probability-theory) \ Fundamentals
+* [**Universal Algebra**](./notes/universal-algebra) \ Fundamentals
 
 > Ordered by activeness. Other notes in `/notes` which are not mentioned here are abandoned.
 
@@ -64,11 +64,7 @@ For readability of source code, especially for the mathematical ones, you should
 * `Markdown Emoji` by Matt Bierner to add Github emoji support to VSCode, make sure you also have an emoji font installed in your system, and
 * `markdownlint` by David Anson to lint markdown files.
 
-## Contact
-
-You may contact me at `mert.coskun@metu.edu.tr`
-
-## Copyright Notice & Disclaimer
+## Notice & Disclaimer
 
 > This disclaimer below applies to `/notes`, the rest is my own personal work and currently unlicensed and thus also not open-source licensed.
 
@@ -79,3 +75,7 @@ All mathematical results (definitions, theorems, proofs, formulas) remain the in
 No claim of original authorship is made over third-party material. If any copyright holder believes their work is used inappropriately, please contact me and the content will be revised or removed.
 
 These notes are not currently offered under an open-source license.
+
+## Contact
+
+You may contact me at `mert.coskun@metu.edu.tr`

@@ -1,25 +1,25 @@
 ---
-import Document from "../layout/document.astro";
-import { retrieveNoteContent, NOTE_MAPPINGS } from "../utils/notes";
-import { processMarkdown } from "../utils/markdown";
+import Document from '../layout/document.astro'
+import { retrieveNoteContent, NOTE_MAPPINGS } from '../utils/notes'
+import { processMarkdown } from '../utils/markdown'
 // import dayjs from "dayjs";
 // import { renderTOC } from "../utils/toc";
 
 export async function getStaticPaths() {
-    const slugs = NOTE_MAPPINGS.map((m) => m.slug);
+    const slugs = NOTE_MAPPINGS.map((m) => m.slug)
 
-    return slugs.map((slug) => ({ params: { slug } }));
+    return slugs.map((slug) => ({ params: { slug } }))
 }
 
-const slug = Astro.params.slug || "";
+const slug = Astro.params.slug || ''
 
-const note = retrieveNoteContent(slug);
+const note = retrieveNoteContent(slug)
 
 if (!note) {
-    return Astro.redirect("/");
+    return Astro.redirect('/')
 }
 
-const { html: mdHTML, toc } = await processMarkdown(note.content);
+const { html: mdHTML, toc } = await processMarkdown(note.content)
 ---
 
 <Document
