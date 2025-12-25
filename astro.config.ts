@@ -45,19 +45,23 @@ export default defineConfig({
         defaultStrategy: 'hover'
     },
     vite: {
-        // esbuild: {
-        //     minifyIdentifiers: true,
-        //     treeShaking: true,
-        //     drop: isDev ? [] : ['console', 'debugger'],
-        //     legalComments: 'none',
-        //     keepNames: false
-        // },
+        css: {
+            transformer: 'postcss',
+            postcss: "./postcss.config.cjs"
+        },
+        esbuild: {
+            minifyIdentifiers: true,
+            treeShaking: true,
+            drop: ['console', 'debugger'],
+            legalComments: 'none',
+            keepNames: false
+        },
         build: {
-            cssMinify: false,
             modulePreload: {
                 polyfill: false
             },
             sourcemap: willAnalyze,
+            minify: 'esbuild',
             rollupOptions: {
                 treeshake: {
                     unknownGlobalSideEffects: false,
@@ -93,9 +97,9 @@ export default defineConfig({
                     collapseWhitespace: true // watch out for this, it can break some components
                 }
             },
-            CSS: false,
+            CSS: true,
             Image: false,
-            SVG: false
+            SVG: true
         }),
         sitemap(),
         robotsTxt({

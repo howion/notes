@@ -68,6 +68,14 @@ For readability of source code, especially for the mathematical ones, you should
 
 You may contact me at `mert.coskun@metu.edu.tr`
 
-## License
+## Copyright Notice & Disclaimer
 
-I'm still figuring out how to license this content. Some of it is distilled or adapted from commercial texts. For now, consider this (especially the notes) a personal archive, not an open-source resource.
+> This disclaimer below applies to `/notes`, the rest is my own personal work and currently unlicensed and thus also not open-source licensed.
+
+These notes are informal personal study notes compiled from various mathematics textbooks, lecture notes, and academic sources.
+
+All mathematical results (definitions, theorems, proofs, formulas) remain the intellectual property of their respective authors. Some explanatory text may closely follow standard textbook presentations and is included solely for educational and non-commercial reference.
+
+No claim of original authorship is made over third-party material. If any copyright holder believes their work is used inappropriately, please contact me and the content will be revised or removed.
+
+These notes are not currently offered under an open-source license.

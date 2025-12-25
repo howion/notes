@@ -8,6 +8,8 @@ import Moon from "#/assets/moon-fill.svg";
 import Sun from "#/assets/sun-fill.svg";
 import TextT from "#/assets/text-t.svg";
 
+import "#/styles/_base.css";
+import "#/styles/note/_index.css";
 import "katex/dist/katex.min.css";
 import "katex-copytex/src/katex-copytex.css";
 
@@ -110,11 +112,6 @@ const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
         </div>
     </body>
 </html>
-
-<style is:global>
-    @import "#/styles/_base.css";
-    @import "#/styles/note/_index.css";
-</style>
 
 <script>
     import "#/scripts/app.ts";

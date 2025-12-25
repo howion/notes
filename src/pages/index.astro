@@ -9,6 +9,11 @@ import Document from "../layout/document.astro";
 
         <h1>Notes</h1>
 
+        <div class="content-chips">
+            <img src="https://img.shields.io/github/last-commit/howion/notes?style=flat-square" alt="Last Commit" />
+            <img src="https://img.shields.io/github/commit-activity/w/howion/notes?style=flat-square" alt="Commit Activity" />
+        </div>
+
         {
             NOTE_RECORDS.map((record) => {
                 const children = record.children.filter((note) => !note.hidden);

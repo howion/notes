@@ -8,7 +8,8 @@
         "analyze": "ANALYZE=true astro build",
         "preview": "astro preview --host",
         "lint": "biome lint --write ./src",
-        "format": "biome format --write ./src"
+        "format": "biome format --write ./src",
+        "deploy": "astro build && bunx vercel deploy --prebuilt --prod --yes"
     },
     "dependencies": {
         "@astrojs/preact": "^4.1.3",
