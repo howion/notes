@@ -45,10 +45,6 @@ export default defineConfig({
         defaultStrategy: 'hover'
     },
     vite: {
-        css: {
-            transformer: 'postcss',
-            postcss: './postcss.config.cjs'
-        },
         // esbuild: {
         //     minifyIdentifiers: true,
         //     treeShaking: true,
@@ -57,7 +53,6 @@ export default defineConfig({
         //     keepNames: false
         // },
         build: {
-            cssMinify: false, // using cssnano via postcss instead
             modulePreload: {
                 polyfill: false
             },
