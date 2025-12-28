@@ -27,7 +27,7 @@ export default defineConfig({
     },
     adapter: vercel({
         webAnalytics: {
-            enabled: true
+            enabled: false // handle via other means
         },
         imageService: false
     }),
@@ -47,7 +47,7 @@ export default defineConfig({
     vite: {
         css: {
             transformer: 'postcss',
-            postcss: "./postcss.config.cjs"
+            postcss: './postcss.config.cjs'
         },
         esbuild: {
             minifyIdentifiers: true,
