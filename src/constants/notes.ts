@@ -50,10 +50,11 @@ function map(title: string, path: string, options?: _MapOptions): NoteMap {
 
 export const NOTE_RECORDS: NoteRecord[] = [
     {
-        title: 'Abstract Algebra',
+        title: 'Algebra',
         children: [
             map('Group Theory', 'abstract-algebra/01-group-theory'),
-            map('Ring Theory', 'abstract-algebra/02-ring-theory')
+            map('Ring Theory', 'abstract-algebra/02-ring-theory'),
+            map('Universal Algebra', 'universal-algebra')
         ]
     },
     {
@@ -61,12 +62,8 @@ export const NOTE_RECORDS: NoteRecord[] = [
         children: [map('Probability Theory', 'statistics/probability-theory')]
     },
     {
-        title: 'Computer Science',
-        children: [
-            map('Logic and Computation', 'logic-and-computation'),
-            map('Type Theory', 'type-theory'),
-            map('Universal Algebra', 'universal-algebra')
-        ]
+        title: 'Logic and More',
+        children: [map('Logic and Computation', 'logic-and-computation'), map('Type Theory', 'type-theory')]
     }
     // {
     //     title: 'Miscellaneous',

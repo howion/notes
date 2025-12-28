@@ -1,5 +1,7 @@
 # Group Actions
 
+> TODO: This section needs a heavy revision and reordering within the notes.
+
 ## _Def._ Group Action
 
 Let $G$ be a group and $X$ any set. A binary operation $*: G \times X \to X$ is called a **(left) action** if, for all $a,b \in G$ and $x \in X$:
@@ -118,6 +120,24 @@ Let $G$ be a group and $H \leq G$. The action of $H$ on the set $G$ which is giv
 
 Let $S$ be the set of all (left) cosets of $H$ in $G$, then we say **$H$ acts on $S$ by translation** so that $(h, gH) \mapsto hg H$.
 
-## _Thm._
+## _Def._ Invariant
 
-<!-- TODO: Burnside's Lemma -->
+Let $G$ be a group that acts on a set $X$ and $g \in G$, then the **(left) invariant by $g$** denoted by $X^g$ is the set of elements in $X$ that are fixed by $g$, that is
+
+$$
+X^g := \Set{x \in X \mid g \cdot x = x}
+$$
+
+> Do not mistake this with the stabilizer subgroup.
+
+## _Thm._ Burnside's Lemma
+
+Let $G$ be a finite group acting on a set $X$, then
+
+$$
+|X/G| = \dfrac{1}{|G|}\sum_{g \> \in \> G} |X^g|
+$$
+
+where $|X/G|$ denotes the number of orbits.
+
+## _Thm._ Average Centralizer

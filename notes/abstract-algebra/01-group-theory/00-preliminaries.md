@@ -2,10 +2,10 @@
 
 ## Introduction
 
-* In these notes, all sets are considered to be proper sets as in ZFC, not classes.
+* In these notes, unless otherwise stated, all sets are considered to be proper sets as in ZFC.
 * Basic (at least naive) set theory and simple combinatorics knowledge is assumed. Other than that, notes should be self-sufficient.
 
-<!-- Knowledge of axiomatic set theory, category theory or lattice theory would be helpful. Indeed, if you are familiar with those subjects please send a pull request to `gh/howion/notes`. -->
+<!-- Knowledge of axiomatic set theory, category theory or lattice theory would be helpful. Indeed, if you are familiar with those subjects please consider sending a pull request. -->
 
 > At the moment, these notes have a formal and reference-book like approach except these grayed out notes. I plan more intuition baked in for these notes, with much more visuals, examples and geometry involved.
 
