@@ -1,25 +1,25 @@
 ---
-import Document from '../layout/document.astro'
-import { retrieveNoteContent, NOTE_MAPPINGS } from '../utils/notes'
-import { processMarkdown } from '../utils/markdown'
-// import dayjs from "dayjs";
-// import { renderTOC } from "../utils/toc";
+import Document from "../layout/document.astro";
+import { retrieveNoteContent, NOTE_MAPPINGS } from "../utils/notes";
+import { processMarkdown } from "../utils/markdown";
+import dayjs from "dayjs";
+import { renderTOC } from "../utils/toc";
 
 export async function getStaticPaths() {
-    const slugs = NOTE_MAPPINGS.map((m) => m.slug)
+    const slugs = NOTE_MAPPINGS.map((m) => m.slug);
 
-    return slugs.map((slug) => ({ params: { slug } }))
+    return slugs.map((slug) => ({ params: { slug } }));
 }
 
-const slug = Astro.params.slug || ''
+const slug = Astro.params.slug || "";
 
-const note = retrieveNoteContent(slug)
+const note = retrieveNoteContent(slug);
 
 if (!note) {
-    return Astro.redirect('/')
+    return Astro.redirect("/");
 }
 
-const { html: mdHTML, toc } = await processMarkdown(note.content)
+const { html: mdHTML, toc } = await processMarkdown(note.content);
 ---
 
 <Document
@@ -29,19 +29,22 @@ const { html: mdHTML, toc } = await processMarkdown(note.content)
 >
     <!-- <header id="header" role="doc-cover">
         <h1 class="title">{note.title}</h1>
-        <p class="date"><strong>Updated At</strong> {dayjs(note.contentUpdatedAt).format("DD MMMM YYYY")}</p>
-    </header>
-
-    {
-        toc.length > 0 && note.showToC !== false && (
-            <nav id="table-of-contents" role="doc-toc">
-                <h1>Table of Contents</h1>
-                <Fragment set:html={renderTOC(toc)} />
-            </nav>
-        )
-    } -->
+        <p class="date">
+            <strong>Updated At</strong>
+            {dayjs(note.contentUpdatedAt).format("DD MMMM YYYY")}
+        </p>
+    </header> -->
 
     <main class="content">
+        {
+            toc.length > 0 && note.showToC !== false && (
+                <nav id="table-of-contents" role="doc-toc">
+                    <h1>Table of Contents</h1>
+                    <Fragment set:html={renderTOC(toc)} />
+                </nav>
+            )
+        }
+
         <Fragment set:html={mdHTML} />
     </main>
 </Document>

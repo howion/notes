@@ -54,6 +54,10 @@ Let non-empty $X$ be a free generator, and let $\mathbf{F}(X)$ be the **set of a
 > For a more formal definition check out Hungerford pp. 64-65
 >
 > Do not mistake $\Braket{\cdot}$ here with the notation of cyclic groups or generators.
+>
+> Notice that the representation $\Braket{X \mid R}$ is isomorphic to $\mathbf{F}(X) / \Braket{\Braket{R}}$.
+
+One usually denotes a free group of rank $n$ with $\mathbf{F}_n$ or $\mathbf{F}_\infty$ if $X$ is (countably) infinite.
 
 ## _Thm._ Universal Property
 
@@ -103,6 +107,10 @@ Let $G = \Braket{X|Y}$ and $H = \Braket{X}$ such that $H$ satisfies all the rela
 
 Let $G$ be a free group of rank $r$ and $H \leq G$, then $H$ is itself isomorhpic to a free group. Moreover, if $H$ is of finite index $m$, then $H$ is of rank $1 + m(r - 1)$.
 
+## _Thm._ Free Groups are Residually Finite $p$-groups
+
+Every free group $F(X)$ is residually a finite finite $p$-group where $p$ is prime.
+
 ## _Def._ Free Product
 
 > TODO:
@@ -128,3 +136,7 @@ A subgroup of finite index in a finitely generated group is also finitely genera
 <!-- ### Exercise 4
 
 A free group is a free product of infinite cyclic groups. -->
+
+### #5
+
+Prove that in the free group $F_n$ the words of even length form a subgroup.

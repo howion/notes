@@ -1,4 +1,6 @@
 {
+    "line_length": false,
+
     // MD007/ul-indent
     "MD007": {
         "indent": 4,

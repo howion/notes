@@ -39,7 +39,8 @@ body {
 
         scrollbar-color: var(--scrollbar-color-thumb) transparent;
         scrollbar-gutter: stable;
-        scroll-behavior: smooth;
+        scrollbar-width: auto;
+        /* scroll-behavior: smooth; */
 
         transform: translateZ(0);
 

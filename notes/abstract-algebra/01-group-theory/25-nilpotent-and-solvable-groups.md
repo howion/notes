@@ -4,13 +4,19 @@
 
 <!-- > TODO: References, wiki used -->
 
-Let $G$ be a group, a **central series** of $G$ is a _finite?_ sequence of subgroups such that
+Let $G$ be a group, a **central series** of $G$ is a sequence of subgroups such that
 
 $$
 \Braket{e} = C_0 \trianglelefteq C_1 \trianglelefteq C_2 \trianglelefteq \cdots \trianglelefteq C_n = G
 $$
 
-> TODO: Fix this and add the central condition.
+where
+
+$$
+[G, C_{i+1}] \trianglelefteq C_i
+$$
+
+for each $i$.
 
 > Following definitions and their naming will make more sense later on.
 
@@ -34,7 +40,7 @@ $$
 \Braket{e} =: A_0 \trianglelefteq A_1 \trianglelefteq A_2 \trianglelefteq \cdots
 $$
 
-where
+where, similarly
 
 $$
 A_i := \Set{x \in G \mid \forall y \in G : [x, y] \in A_{i-1}}
