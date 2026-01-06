@@ -1,31 +1,33 @@
 # Normal and Subnormal Series
 
-> More on this later on, for now I will skip this section.
-
-<!-- ## _Def._ Subnormal Series
-
-A **subnormal series** of a group $G$ is a chain of subgroups
-
-$$
-G := G_0 \trianglerighteq G_1 \trianglerighteq \cdots \trianglerighteq G_n
-$$
-
-The **factors** of the series are the quotient groups $G_i/G_{i+1}$, and the **length** of the series is the number of strict inclusions (or equivalently number of non-identity factors).
-
-A subnormal series such that $G_i \trianglelefteq G$ for all $i$ is said to be **normal**.
-
-> Subnormal series need not to be normal. -->
-
 ## _Def._ Normal Series
 
-Let $G$ be a group. A **subnormal series** (or **normal series** or just **series**) is a sequence of subgroups such that each is normal in the successive term, that is
+Let $G$ be a group. A **subnormal series** (or just **series**) is a sequence of subgroups such that each $N_{i+1}$ is normal in $N_{i}$, that is
 
 $$
-N_0 \trianglelefteq N_1 \trianglelefteq \cdots \trianglelefteq N_n
+G = N_0 \trianglerighteq N_1 \trianglerighteq \cdots \trianglerighteq N_n
 $$
 
-The **factors** (or **factor groups**) of the series are the quotient groups $N_{i+1}/N_{i}$.
+The **factors** (or **factor groups**) of the series are the quotient groups $N_{i+1}/N_{i}$. The **length** of the series is the number of strict inclusions (or equivalently, the number of non-identity factors).
 
-<!-- > And the **length** of the series is the number of strict inclusions. -->
+> Generally, $n$ could be any ordinal.
 
-> Generally, $n$ could be any ordinal. There are many ways to define normal series we gave a rather general definition here but it is generally assumed that $N_0 := \Braket{e}$.
+## _Def._ Composition and Solvable Series
+
+A subnormal series $(G)_i$ is called **composition series** if each factor $G_i/G_{i+1}$ is simple.
+
+Moreover, $(G)_i$ is called **solvable series** if each factor is abelian.
+
+## _Thm._ Solvability
+
+A group $G$ is solvable if and only if it has a solvable series.
+
+## _Thm._ Jordan-Hölder
+
+Any two composition series of a group $G$ are equivalent.
+
+> Note that this theorem does not assert the existence of composition series.
+
+<!-- TODO: Nonabelian simple groups of small order are quite rare. It can be proved that there are (up to isomorphism) only two nonabelian simple groups of order less than 200, namely As and a subgroup of S7 of order 168. -->
+
+<!-- ## Exercises -->

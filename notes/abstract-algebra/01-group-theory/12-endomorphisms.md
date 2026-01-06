@@ -55,9 +55,13 @@ The relations $\leq_\text{End}$ and $\leq_\text{Aut}$ are transitive.
 
 > Exercise
 
-## _Def._ Characteristic Subgroup
+## _Def._ (Strictly) Characteristic Subgroup
 
-Let $H \leq G$, then we say $H$ is a **characteristic subgroup** of $G$ if $H$ is invariant with respect to $\text{Aut }G$, that is $H \leq_\text{Aut} G$.
+Let $H \leq G$, then we say $H$ is a **(strictly) characteristic subgroup** of $G$ if $H$ is invariant with respect to $\text{Aut }G$, that is $H \leq_\text{Aut} G$.
+
+## _Def. Fully Characteristic Subgroup
+
+Let $H \leq G$, then we say $H$ is a **characteristic subgroup** (or **fully invariant subgroup**) of $G$ if $H$ is invariant with respect to $\text{End }G$, that is $H \leq_\text{End} G$.
 
 ## _Thm._ Characteristic Normality
 

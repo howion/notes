@@ -26,7 +26,7 @@ Every divisible group $G$ can be decomposed as a direct sum of subgroups each is
 
 ## Exercises
 
-### #1-2
+### #1 and #2
 
 In a torsion-free abelian group, the intersection of an arbitrary set of divisible subgroups is also divisible.
 

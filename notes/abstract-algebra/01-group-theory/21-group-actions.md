@@ -140,4 +140,4 @@ $$
 
 where $|X/G|$ denotes the number of orbits.
 
-## _Thm._ Average Centralizer
+<!-- TODO: ## _Thm._ Average Centralizer -->
