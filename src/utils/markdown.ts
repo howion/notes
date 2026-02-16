@@ -3,6 +3,7 @@ import { unified } from 'unified'
 import { visit } from 'unist-util-visit'
 
 import remarkParse from 'remark-parse'
+import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import remarkRehype from 'remark-rehype'
 import rehypeSlug from 'rehype-slug'
@@ -169,6 +170,7 @@ function extractTOCFromHTML(html: string): TOCItem[] {
 function createBaseProcessor() {
     return unified()
         .use(remarkParse)
+        .use(remarkGfm)
         .use(remarkMath)
         .use(remarkRehype, {
             allowDangerousHtml: true,

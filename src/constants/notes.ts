@@ -64,11 +64,11 @@ export const NOTE_RECORDS: NoteRecord[] = [
     {
         title: 'Logic and More',
         children: [map('Logic and Computation', 'logic-and-computation'), map('Type Theory', 'type-theory')]
-    }
+    },
     // {
     //     title: 'Miscellaneous',
     //     children: [
-    //         map('HW3', '--hw3', { toc: false, hidden: true }),
+    //         map('temp', '--temp', { toc: false, hidden: true }),
     //     ]
     // }
 ]

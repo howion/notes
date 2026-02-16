@@ -16,13 +16,14 @@ import "katex/dist/katex.min.css";
 import "katex-copytex/src/katex-copytex.css";
 
 export interface Props {
+    title?: string;
     subtitle?: string;
     description?: string;
     updatedAt?: Date;
 }
 
 const { subtitle, description, updatedAt } = Astro.props;
-const title = subtitle ? `${subtitle} | ${APP.name}` : APP.name;
+const title = Astro.props.title ?? (subtitle ? `${subtitle} | ${APP.name}` : APP.name);
 ---
 
 <!doctype html>
