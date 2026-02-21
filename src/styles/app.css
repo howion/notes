@@ -37,6 +37,8 @@ body {
         border-radius: 10px;
         overflow: auto;
 
+        padding-bottom: calc(100svh - 100dvh);
+
         scrollbar-color: var(--scrollbar-color-thumb) transparent;
         scrollbar-gutter: stable;
         scrollbar-width: auto;
