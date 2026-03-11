@@ -1,29 +1,29 @@
 ---
-import { APP, isDev } from "~/.boilerrc";
+import { APP, isDev } from '~/.boilerrc'
 
-import Analytics from "@vercel/analytics/astro";
+import Analytics from '@vercel/analytics/astro'
 
-import House from "#/assets/house-fill.svg";
-import Printer from "#/assets/printer.svg";
-import Github from "#/assets/github.svg";
-import Moon from "#/assets/moon-fill.svg";
-import Sun from "#/assets/sun-fill.svg";
-import TextT from "#/assets/text-t.svg";
+import House from '#/assets/house-fill.svg'
+import Printer from '#/assets/printer.svg'
+import Github from '#/assets/github.svg'
+import Moon from '#/assets/moon-fill.svg'
+import Sun from '#/assets/sun-fill.svg'
+import TextT from '#/assets/text-t.svg'
 
-import "#/styles/_base.css";
-import "#/styles/note/_index.css";
-import "katex/dist/katex.min.css";
-import "katex-copytex/src/katex-copytex.css";
+import '#/styles/_base.css'
+import '#/styles/note/_index.css'
+import 'katex/dist/katex.min.css'
+import 'katex-copytex/src/katex-copytex.css'
 
 export interface Props {
-    title?: string;
-    subtitle?: string;
-    description?: string;
-    updatedAt?: Date;
+    title?: string
+    subtitle?: string
+    description?: string
+    updatedAt?: Date
 }
 
-const { subtitle, description, updatedAt } = Astro.props;
-const title = Astro.props.title ?? (subtitle ? `${subtitle} | ${APP.name}` : APP.name);
+const { subtitle, description, updatedAt } = Astro.props
+const title = Astro.props.title ?? (subtitle ? `${subtitle} | ${APP.name}` : APP.name)
 ---
 
 <!doctype html>
