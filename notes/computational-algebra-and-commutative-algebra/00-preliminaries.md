@@ -13,4 +13,7 @@
 
 ## Notation
 
-Same as in the Group Theory and Ring Theory notes.
+Same as in the Group Theory and Ring Theory notes with the addition of:
+
+* Instead of $x_1, ..., x_n$, we may write $\bar{x}$ if the context is clear or the size is not a matter of importance for brevity.
+* Instead of $\text{deg}(f)$, we will use $d(f)$ to denote the _(total) degree_.
