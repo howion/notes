@@ -1,6 +1,6 @@
 # Isometries
 
-## Def. Isometry
+## _Def._ Isometry
 
 Let $(X, d_X)$ and $(Y, d_Y)$ be metric spaces. A map $f: X \to Y$ is called an **isometry** or **distance-preserving map** if for all $a, b \in X$,
 
@@ -10,7 +10,7 @@ $$
 
 Two metric spaces $(X, d_X)$ and $(Y, d_Y)$ are called **isometric** if there is a _bijective_ isometry between them.
 
-## Thm. Basic Properties of Isometry
+## _Thm._ Basic Properties of Isometry
 
 Let $f: X \to Y$ be an isometry on the metric spaces $(X, d_X)$ and $(Y, d_Y)$, then
 
@@ -26,7 +26,7 @@ Let $f: X \to Y$ be an isometry on the metric spaces $(X, d_X)$ and $(Y, d_Y)$, 
 
 <!-- 3. $f$ is always continuous. In particular, it is $1$-Lipschitz and uniformly continious. -->
 
-## Thm. Inverse of an Isometry
+## _Thm._ Inverse of an Isometry
 
 Let $f: X \to Y$ be an isometry. If $f$ is bijective then $f^{-1}$ is also an isometry. Consider the case $f$ is not bijective, then we can construct an bijective isometry
 
@@ -40,7 +40,7 @@ $$
 
 so that since $f$ is injective (and thus $f'$) and $f'$ is surjective we have, by construction, $f'$ bijective.
 
-## Thm. Isometries are Continuous
+## _Thm._ Isometries are Continuous
 
 An isometry $f: X \to Y$ is always continuous.
 
@@ -66,7 +66,7 @@ so that if $x_n \to x$, then $d_X(x_n, x) \to 0$, therefore $f(x_n) \to f(x)$ du
     * Diameter preserved
 -->
 
-## Def. $\text{Isom}(X)$
+## _Def._ $\text{Isom}(X)$
 
 Let $(X, d)$ be a metric space, then set of all isometries on $X$ denoted $\text{Isom}(X)$ forms a group under composition called the **(full) isometry group of $X$**.
 

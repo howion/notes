@@ -18,13 +18,13 @@ $$
 
 <!-- ## Thm. Every Orthogonal Matrix is a Product of Reflections -->
 
-## Def. Euclidian Isometry
+## _Def._ Euclidian Isometry
 
 From now on we will call an isometry $f: \R^n \to \R^n$ under the Euclidian distance an **Euclidian isometry**.
 
 Notice that $\tilde{f}(x) := f(x) - f(0)$, which we will call **reduced Euclidian isometry of $f$**, is an **origin-fixing** Euclidian isometry so that $\tilde{f}(0) = 0$.
 
-## Thm. Euclidian Isometries are Bijective
+## _Thm._ Euclidian Isometries are Bijective
 
 Let $f: \R^n \to \R^n$ be any Euclidian isometry, then $f$ is bijective.
 
@@ -35,11 +35,11 @@ Let $f: \R^n \to \R^n$ be any Euclidian isometry, then $f$ is bijective.
 We already know $f$ is injective. Prove that $\bar{f}$ is surjective.
 </details>
 
-## Thm. $\text{Sym}(\R^n) = \text{Isom}(\R^n)$
+## _Thm._ $\text{Sym}(\R^n) = \text{Isom}(\R^n)$
 
 > Obvious as each Euclidian isometry is bijective.
 
-## Thm. Norm Preservation
+## _Thm._ Norm Preservation
 
 Let $\tilde{f}$ be an origin-fixing Euclidian isometry, then $\tilde{f}$ preserves the norm so that, for all $x \in \R^n$
 
@@ -49,7 +49,7 @@ $$
 
 > Exercise
 
-## Thm. Inner Product Preservation
+## _Thm._ Inner Product Preservation
 
 Let $\tilde{f}$ be an origin-fixing Euclidian isometry, then $\tilde{f}$ preserves the inner product so that, for all $x,y \in \R^n$
 
@@ -64,7 +64,7 @@ $$
 Use the polarization identity
 </details>
 
-## Thm. Additivity
+## _Thm._ Additivity
 
 Let $\tilde{f}$ be an origin-fixing Euclidian isometry, then $\tilde{f}$ is additive so that, for all $x,y \in \R^n$
 
@@ -74,7 +74,7 @@ $$
 
 > TODO: Add not so simple proof which make use of norm expension and preservation
 
-## Thm. Euclidian Isometry Linearity
+## _Thm._ Euclidian Isometry Linearity
 
 An Euclidian isometry $f: \R^n \to \R^n$ is **linear if and only if** it fixes the origin.
 
@@ -89,7 +89,7 @@ Linear $\implies$ origin-fixing is obvious so assume $f$ fixes the origin. We ha
 
 <!-- TODO: Give general forms Ax+b, affinity, and orthogonlity and A \in O(n)-->
 
-## Thm. General Euclidian Isometry
+## _Thm._ General Euclidian Isometry
 
 Let $f: \R^n \to \R^n$ be any Euclidian isometry, then there exists an orthogonal matrix $\bold{A} \in \R^{n \times n}$ and a vector $b \in \R^n$ such that
 
@@ -101,7 +101,7 @@ for all $x \in \R^n$. Moreover $b = f(0)$ and thus $\bold{A}$ is uniquely determ
 
 > Recall that an orthogonal matrix $\bold{A}$ is an $n \times n$ matrix such that $\bold{A}^T \bold{A} = \bold{I}$.
 
-## Thm. Euclidian Isometries Preserve the Midpoint
+## _Thm._ Euclidian Isometries Preserve the Midpoint
 
 Let $f: \R^n \to \R^n$ be an Euclidian isometry, then it preserves the midpoints so that
 

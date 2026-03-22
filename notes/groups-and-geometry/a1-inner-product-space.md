@@ -1,6 +1,6 @@
 # Appendix 1: Inner Product Space
 
-## Def. Inner Product Space
+## _Def._ Inner Product Space
 
 An **inner product space** is a vector space $\mathcal{V}$ over the field $\mathbb{F}$ together with an **inner product**
 
@@ -15,7 +15,7 @@ that satisfies, for all vectors $x,y,z \in \mathcal{V}$ and scalars $a,b \in \ma
 3. $\Braket{ax, y} = a\Braket{x,y}$ called **homogenity axiom**
 4. $\Braket{x,x} \geq 0$ and $\Braket{x,x} = 0 \iff x = 0$ called the **positivity axiom**
 
-## Thm. Cauchy-Schwarz Inequality
+## _Thm._ Cauchy-Schwarz Inequality
 
 Let $x,y$ be two vectors in the inner product space $\mathcal{V}$, then
 
