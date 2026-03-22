@@ -1,16 +1,16 @@
 # Euclidian Isometry and Group
 
-From now on we will mostly work on $\R^n$ with the usual Euclidean Distance.
+From now on we will mostly work on $\R^n$ with the usual Euclidean distance.
 
 ## Def. Euclidian Isometry
 
 From now on we will call an isometry $f: \R^n \to \R^n$ under the Euclidian distance an **Euclidian isometry**.
 
-Notice that $\tilde{f}(x) := f(x) - f(0)$ which we will call **reduced Euclidian isometry of $f$** is also an origin-fixing Euclidian isometry so that $\tilde{f}(0) = 0$.
+Notice that $\tilde{f}(x) := f(x) - f(0)$ which we will call **reduced Euclidian isometry of $f$** is an origin-fixing Euclidian isometry (prove) so that $\tilde{f}(0) = 0$.
 
 ## Thm. Euclidian Isometries Are Bijective
 
-Let $f: \R^n \to R^n$ be an Euclidian Isometry, then $f$ is bijective.
+Let $f: \R^n \to \R^n$ be an Euclidian isometry, then $f$ is bijective.
 
 <details>
 <summary><b>Sketch of Proof</b></summary>
@@ -45,7 +45,7 @@ Let $\text{Isom}(\R^n)$ denote the set of all isometries $\R^n \to \R^n$, then i
 <summary><b>Sketch of Proof</b></summary>
 <br/>
 
-We have already proved closure and associativity and identity and inverse are trivial.
+We have already proved closure. Associativity, identity and inverse are trivial.
 </details>
 
 ## Def. Euclidian Group

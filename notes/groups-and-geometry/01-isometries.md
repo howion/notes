@@ -15,19 +15,30 @@ Two metric spaces $(X, d_X)$ and $(Y, d_Y)$ are called **isometric** if there is
 Let $f: X \to Y$ be an isometry on the metric spaces $(X, d_X)$ and $(Y, d_Y)$, then
 
 1. $f$ is always injective.
-
-    > Trivial, as otherwise distance preservation would be violated $f(a)=f(b)$ for $a \neq b$.
-
 2. $f$ is _not necessarily surjective_. For example $x \mapsto (x,0)$ is an isometry but not surjective on $\R \to \R^2$.
 3. Composition of isometries are an isometry.
 4. Diameters are preserved, that is
-
     $$
     \sup d_X(x,y) = \sup d_Y(f(x), f(y))
     $$
 
 > Exercise
+
 <!-- 3. $f$ is always continuous. In particular, it is $1$-Lipschitz and uniformly continious. -->
+
+## Thm. Inverse of an Isometry
+
+Let $f: X \to Y$ be an isometry. If $f$ is bijective then $f^{-1}$ is also an isometry. Consider the case $f$ is not bijective, then we can construct an bijective isometry
+
+$$
+\def\arraystretch{1.25}
+\begin{array}{cccc}
+f':& X &\to& \text{Im}(f) \\
+   & x &\mapsto& f(x)
+\end{array}
+$$
+
+so that since $f$ is injective (and thus $f'$) and $f'$ is surjective we have, by construction, $f'$ bijective.
 
 ## Thm. Isometries are Continious
 
