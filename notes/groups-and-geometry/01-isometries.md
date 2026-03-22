@@ -40,7 +40,7 @@ $$
 
 so that since $f$ is injective (and thus $f'$) and $f'$ is surjective we have, by construction, $f'$ bijective.
 
-## Thm. Isometries are Continious
+## Thm. Isometries are Continuous
 
 An isometry $f: X \to Y$ is always continuous.
 
@@ -65,3 +65,9 @@ so that if $x_n \to x$, then $d_X(x_n, x) \to 0$, therefore $f(x_n) \to f(x)$ du
     * Cauchy Sequences preserved
     * Diameter preserved
 -->
+
+## Def. $\text{Isom}(X)$
+
+Let $(X, d)$ be a metric space, then set of all isometries on $X$ denoted $\text{Isom}(X)$ forms a group under composition called the **(full) isometry group of $X$**.
+
+> Exercise
