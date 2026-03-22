@@ -16,6 +16,8 @@ $$
 \Braket{x,y} = \dfrac{\Vert x\Vert^2 + \Vert y \Vert^2 - \Vert x-y\Vert^2}{2}
 $$
 
+<!-- ## Thm. Every Orthogonal Matrix is a Product of Reflections -->
+
 ## Def. Euclidian Isometry
 
 From now on we will call an isometry $f: \R^n \to \R^n$ under the Euclidian distance an **Euclidian isometry**.
