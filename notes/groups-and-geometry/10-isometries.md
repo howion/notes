@@ -10,17 +10,13 @@ $$
 
 Two metric spaces $(X, d_X)$ and $(Y, d_Y)$ are called **isometric** if there is a _bijective_ isometry between them.
 
-## _Thm._ Basic Properties of Isometry
+## _Thm._ Basic Properties of Isometries
 
 Let $f: X \to Y$ be an isometry on the metric spaces $(X, d_X)$ and $(Y, d_Y)$, then
 
 1. $f$ is always injective.
 2. $f$ is _not necessarily surjective_. For example $x \mapsto (x,0)$ is an isometry but not surjective on $\R \to \R^2$.
 3. Composition of isometries are an isometry.
-4. Diameters are preserved, that is
-    $$
-    \sup d_X(x,y) = \sup d_Y(f(x), f(y))
-    $$
 
 > Exercise
 
@@ -71,3 +67,15 @@ so that if $x_n \to x$, then $d_X(x_n, x) \to 0$, therefore $f(x_n) \to f(x)$ du
 Let $(X, d)$ be a metric space, then set of all _bijective_ isometries on $X$ denoted $\text{Isom}(X)$ forms a group under composition called the **(full) isometry group of $X$**.
 
 > Exercise.
+
+## Exercises
+
+### #1
+
+Let $f: X \to Y$ be an isometry on the metric spaces $(X, d_X)$ and $(Y, d_Y)$. Show that $f$ preserves diameters so that for $A \subseteq X$ we have
+
+$$
+\text{diam}(A) = \text{diam}(f(A))
+$$
+
+where $\text{diam}(X) := \sup\Set{d(x,y) \mid x,y \in X}$.

@@ -32,7 +32,7 @@ Let $f: \R^n \to \R^n$ be any Euclidian isometry, then $f$ is bijective.
 <summary><b>Sketch of Proof</b></summary>
 <br/>
 
-We already know $f$ is injective. Prove that $\bar{f}$ is surjective.
+We already know $f$ is injective. Prove that $\tilde{f}$ is surjective.
 </details>
 
 ## _Thm._ $\text{Sym}(\R^n) = \text{Isom}(\R^n)$
