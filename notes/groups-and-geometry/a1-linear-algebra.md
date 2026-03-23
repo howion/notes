@@ -1,4 +1,4 @@
-# Appendix 1: Inner Product Space
+# Appendix 1: Linear Algebra
 
 ## _Def._ Inner Product Space
 
@@ -44,7 +44,7 @@ $$
 
 > Each vector is orthogonal to each other.
 
-## _Def_. Orthogonal Matrix
+## _Def._ Orthogonal Matrix
 
 An **orthogonal (or orthonormal) matrix** is a real square matrix whose columns and rows are orthonormal vectors. Equivalently, a matrix $Q$ is orthogonal if
 

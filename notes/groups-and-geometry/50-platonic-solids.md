@@ -6,7 +6,7 @@
 
 An **$n$-gon** is a polygon with $n$ edges.
 
-## _Def_. Regular $n$-gon
+## _Def._ Regular $n$-gon
 
 For $n \geq 3$, a **regular $n$-gon** denoted by $\bold{P}_n$ is a (closed) polygon with $n$ sides of equal length joined together at equal angles.
 
@@ -36,7 +36,7 @@ where $r$ denotes a rotation and $s$ denotes a reflection.
 
 A set is said to be **convex** if any two points $A$ and $B$ are contained in the set, the entire line segment $[AB]$ also lies within the set.
 
-## _Def_. Polyhedron
+## _Def._ Polyhedron
 
 A **polyhedron** is an union of finitely many convex polygons (called **faces**), arranged in space so that the intersection of any two polygons is a shared vertex or edge or the empty set.
 
@@ -46,7 +46,7 @@ A **polyhedron** is an union of finitely many convex polygons (called **faces**)
 
 A **platonic solid** is a convex regular polyhedron in _three-dimensional space_. Therefore, its faces are congruent regular $n$-gons and at each vertex the same number of polygons (called **faces**) meet.
 
-## Thm. Euler's Polyhedron Formula
+## _Thm._ Euler's Polyhedron Formula
 
 Any three-dimensional convex polyhedrons surface has an Euler characteristic of $\chi =  2$ so that
 
