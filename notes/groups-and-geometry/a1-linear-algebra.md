@@ -24,3 +24,41 @@ $$
 $$
 
 where $\Vert \cdot \Vert$ is the norm induced by the inner product.
+
+## _Def._ Kronecker Delta Function
+
+$$
+\delta_{ij} := \begin{cases}
+   \> 0 & \text{if } \enspace i \neq j \\
+   \> 1 & \text{if } \enspace i = j
+\end{cases}
+$$
+
+## _Def._ Orthonormality
+
+Let $\mathcal{V}$ be an inner product space. A set of vectors $\Set{v_1, v_2, ...} \subseteq \mathcal{V}$ is called **orthonormal** if
+
+$$
+\forall i,j \Braket{u_i, u_j} = \delta_{ij}
+$$
+
+> Each vector is orthogonal to each other.
+
+## _Def_. Orthogonal Matrix
+
+An **orthogonal (or orthonormal) matrix** is a real square matrix whose columns and rows are orthonormal vectors. Equivalently, a matrix $Q$ is orthogonal if
+
+$$
+\bold{Q}^T = \bold{Q}^{-1}
+$$
+
+An orthogonal matrix is called **special** if its determinant is $1$.
+
+## _Thm._ Basic Properties of Orthonal Matrices
+
+Let $\bold{O}$ be an orthogonal matrix, then
+
+1. $\bold{O}$ is invertible.
+2. $\bold{O}^T \bold{O} = \bold{I}$
+3. The determinant of $\bold{O}$ is either $1$ or $-1$.
+2. If $\bold{O}$ is special orthogonal matrix, then &mdash; as a linear transformation &mdash; it acts as a rotation around the center.

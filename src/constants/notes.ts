@@ -63,7 +63,7 @@ export const NOTE_RECORDS: NoteRecord[] = [
     },
     {
         title: 'Statistics',
-        children: [map('Probability Theory', 'statistics/probability-theory')]
+        children: [map('Probability Theory', 'probability-theory')]
     },
     {
         title: 'Logic and More',
