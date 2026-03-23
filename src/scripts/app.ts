@@ -16,7 +16,7 @@ document.getElementById('app-action-font')?.addEventListener('click', () => {
 
 const theme =
     (localStorage.getItem('theme') as 'light' | 'dark' | 'auto' | null) ||
-    (window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+    /* window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : */ 'light'
 
 const font = localStorage.getItem('font') === 'mono'
 
