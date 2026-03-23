@@ -97,9 +97,24 @@ $$
 f(x) = \bold{A}x + b
 $$
 
-for all $x \in \R^n$. Moreover $b = f(0)$ and thus $\bold{A}$ is uniquely determined.
+for all $x \in \R^n$ where $b = f(0)$ and $\bold{A}$ is uniquely determined.
 
 > Recall that an orthogonal matrix $\bold{A}$ is an $n \times n$ matrix such that $\bold{A}^T \bold{A} = \bold{I}$.
+
+## Thm. $\text{Isom}(\R)$
+
+Let $f \in \text{Isom}(\R)$, then $f$ is of the form
+
+$$
+f(x) = \epsilon x + b
+$$
+
+with $\epsilon = \pm 1$ and $b \in \R$. Moreover, if
+
+* $\epsilon = 1$, then it is a translation, and
+* $\epsilon = -1$, then it is a reflection
+
+> Direct result of the theorem General Euclidian Isometry proven above.
 
 ## _Thm._ Euclidian Isometries Preserve the Midpoint
 

@@ -46,6 +46,16 @@ A **polyhedron** is an union of finitely many convex polygons (called **faces**)
 
 A **platonic solid** is a convex regular polyhedron in _three-dimensional space_. Therefore, its faces are congruent regular $n$-gons and at each vertex the same number of polygons (called **faces**) meet.
 
+## Thm. Euler's Polyhedron Formula
+
+Any three-dimensional convex polyhedrons surface has an Euler characteristic of $\chi =  2$ so that
+
+$$
+2 = \chi = V - E + F
+$$
+
+> For the proof, please check out various online resources that are both geometric and algebraic.
+
 ## _Thm._ Platonic Solids
 
 There are only $5$ platonic solids called **(regular) tetrahedron**, **cube**, **(regular) octahedron**, **(regular) dodacahedron** and **(regular) icosahedron**.
@@ -62,5 +72,9 @@ There are only $5$ platonic solids called **(regular) tetrahedron**, **cube**, *
 
 </center>
 
-> Notice how the vertex, edge and faces are related to each other, given by **Euler's Formula**:
-> $$V - E + F =2$$
+<details>
+<summary><b>Sketch of Proof</b></summary>
+<br/>
+
+Use the Euler's Polyhedron Formula and the definition of platonic solids to deduce all the integer solutions.
+</details>

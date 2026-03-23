@@ -61,4 +61,4 @@ Let $\bold{O}$ be an orthogonal matrix, then
 1. $\bold{O}$ is invertible.
 2. $\bold{O}^T \bold{O} = \bold{I}$
 3. The determinant of $\bold{O}$ is either $1$ or $-1$.
-2. If $\bold{O}$ is special orthogonal matrix, then &mdash; as a linear transformation &mdash; it acts as a rotation around the center.
+4. If $\bold{O}$ is special orthogonal matrix, then &mdash; as a linear transformation &mdash; it acts as a rotation around a fixed point if $n \geq 2$ in $\R^n$.
