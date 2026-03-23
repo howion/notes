@@ -68,6 +68,6 @@ so that if $x_n \to x$, then $d_X(x_n, x) \to 0$, therefore $f(x_n) \to f(x)$ du
 
 ## _Def._ $\text{Isom}(X)$
 
-Let $(X, d)$ be a metric space, then set of all isometries on $X$ denoted $\text{Isom}(X)$ forms a group under composition called the **(full) isometry group of $X$**.
+Let $(X, d)$ be a metric space, then set of all _bijective_ isometries on $X$ denoted $\text{Isom}(X)$ forms a group under composition called the **(full) isometry group of $X$**.
 
-> Exercise
+> Exercise.
