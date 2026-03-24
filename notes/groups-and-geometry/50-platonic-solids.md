@@ -24,6 +24,8 @@ $$
 
 > Some authors prefer the notation $\bold{D}_n$ or $\bold{Dih}_n$, however notice that in our case $2n$ denotes the number of symmetries and its order.
 
+$\bold{D}_{2n}$ is the semidirect product of $C_2$ acting on $C_n$ via the automorphism $\varphi_s(r) = r^{-1}$, therefore:
+
 The group representation of $\bold{D}_{2n}$ is as follows:
 
 $$
@@ -31,6 +33,8 @@ $$
 $$
 
 where $r$ denotes a rotation and $s$ denotes a reflection.
+
+> Notice that, by $srs=r^{-1}$ condition, we have by induction: $sr^k = k^{-k}s$.
 
 ## _Def._ Convex
 
