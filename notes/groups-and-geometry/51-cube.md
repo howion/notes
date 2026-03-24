@@ -23,4 +23,4 @@ Let $G$ be the symmetry group of the cube including the rotations and the reflec
 2. Two non-trivial rotations commute if and only if
     * They are on the same axis, or
     * Axes are perpendicular and both rotations are $180\degree$.
-3. Two rotations commute if and only if they preserve each others axis that is sends the others axis to itself.
+3. Two rotations commute if and only if they preserve each others axis, that is, sends the others axis to itself.
