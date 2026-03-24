@@ -14,7 +14,7 @@ For $n \geq 3$, a **regular $n$-gon** denoted by $\bold{P}_n$ is a (closed) poly
 
 A regular $n$-gon has $2n$ different symmetries which are $n$ rotational symmetries and $n$ reflection symmetries.
 
-## _Def._ Dihedral Group
+## _Thm._ Dihedral Group
 
 The symmetries of the regular $n$-gon $\bold{P}_n$ forms a group under composition called the **dihedral group** denoted by $\bold{D}_{2n}$.
 

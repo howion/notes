@@ -15,3 +15,34 @@ Let $G$ be a group with a (normal) subgroup $N$ of index $2$. If there exists $g
 $$
 G = N \rtimes \Braket{g}
 $$
+
+## _Thm._ Orbit-Stabilizer Theorem
+
+Let $G$ be a group and $x \in G$, then
+
+$$
+|G| = |\text{Orbit}(x)| \cdot |\text{Stab}(x)|
+$$
+
+## _Thm._ Counting via Conjugacies
+
+Let $G$ be a group and $x \in G$, then
+
+$$
+|\text{Cl}(x)| = \dfrac{|G|}{|Z(x)|}
+$$
+
+## _Thm._ Burnside's Lemma
+
+$$
+|X/G| = \dfrac{1}{|G|} \sum_{g \in G} |X^g|
+$$
+
+## _Thm._ Center of $\bold{D}_{2n}$
+
+$$
+Z(\bold{D}_{2n}) = \begin{cases}
+   \Set{e} &\text{if \enspace n is odd} \\
+   \Set{e, r^{n/2}} &\text{if \enspace n is even}
+\end{cases}
+$$
