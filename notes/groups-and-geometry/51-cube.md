@@ -15,14 +15,12 @@ Let $G$ be the symmetry group of the cube including the rotations and the reflec
     3. 6 rotations through 6 edges
     4. the identity
 2. $G \cong \bold{S}_4 \times \Z_2$ where $\bold{S}_4$ consists of rotations and $\Z_2$ consists of $\Set{1,d}$ where $d$ is the **central inversion**.
-3. The reflections forms the group $\bold{S}_4$.
 3. Every rotation of the cube maps vertices to vertices, so each diagonal is mapped to another diagonal.
 
 ## _Thm._ Rotations on Cube
 
 1. A non-trivial rotation fixes exactly one axis.
-2. Two rotations commute if and only if
+2. Two non-trivial rotations commute if and only if
     * They are on the same axis, or
-    * Axes are perpendicular and both rotations are $180\degree$, or
-    * One of the rotations are the identity.
+    * Axes are perpendicular and both rotations are $180\degree$.
 3. Two rotations commute if and only if they preserve each others axis that is sends the others axis to itself.

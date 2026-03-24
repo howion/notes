@@ -55,7 +55,7 @@ where
 
 $$
 Z(\bold{D}_{2n}) = \begin{cases}
-   \Set{e} &\text{if \enspace n is odd} \\
-   \Set{e, r^{n/2}} &\text{if \enspace n is even}
+   \> \Set{e} &\text{if \enspace n is odd} \\
+   \> \Set{e, r^{n/2}} &\text{if \enspace n is even}
 \end{cases}
 $$

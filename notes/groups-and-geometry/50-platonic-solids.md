@@ -34,7 +34,7 @@ $$
 
 where $r$ denotes a rotation and $s$ denotes a reflection.
 
-> Notice that, by $srs=r^{-1}$ condition, we have by induction: $sr^k = k^{-k}s$.
+> Notice that, by $srs=r^{-1}$ condition, we have by induction: $sr^k = r^{-k}s$.
 
 ## _Def._ Convex
 

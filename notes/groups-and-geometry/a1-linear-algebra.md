@@ -49,7 +49,7 @@ $$
 An **orthogonal (or orthonormal) matrix** is a real square matrix whose columns and rows are orthonormal vectors. Equivalently, a matrix $Q$ is orthogonal if
 
 $$
-\bold{Q}^T = \bold{Q}^{-1}
+\bold{Q}^T \bold{Q} = \bold{I}
 $$
 
 An orthogonal matrix is called **special** if its determinant is $1$.
@@ -62,3 +62,5 @@ Let $\bold{O}$ be an orthogonal matrix, then
 2. $\bold{O}^T \bold{O} = \bold{I}$
 3. The determinant of $\bold{O}$ is either $1$ or $-1$.
 4. If $\bold{O}$ is special orthogonal matrix, then &mdash; as a linear transformation &mdash; it acts as a rotation around a fixed point if $n \geq 2$ in $\R^n$.
+
+<!-- TODO: Verify the 4 and prove all -->
