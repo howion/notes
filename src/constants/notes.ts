@@ -58,8 +58,11 @@ export const NOTE_RECORDS: NoteRecord[] = [
         ]
     },
     {
-        title: 'Geometry',
-        children: [map('Groups and Geometry', 'groups-and-geometry')]
+        title: 'Algebra & Geometry',
+        children: [
+            map('Groups and Geometry', 'groups-and-geometry'),
+            map('Ideals, Varieties, and Algorithms', 'ideals-varieties-and-algorithms')
+        ]
     },
     {
         title: 'Statistics',

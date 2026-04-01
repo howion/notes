@@ -9,6 +9,7 @@ import remarkRehype from 'remark-rehype'
 import rehypeSlug from 'rehype-slug'
 import rehypeStringify from 'rehype-stringify'
 import rehypeParse from 'rehype-parse'
+import rehypePrettyCode from 'rehype-pretty-code'
 
 function rehypeSectionize() {
     return (tree: Root) => {
@@ -108,6 +109,17 @@ export interface TOCItem {
     level: number
 }
 
+const prettyCodeOptions = {
+    theme: 'github-dark-default',
+    defaultLang: 'plaintext',
+    keepBackground: true,
+    onVisitLine(node: Element) {
+        if (node.children.length === 0) {
+            node.children = [{ type: 'text', value: ' ' }]
+        }
+    }
+}
+
 function handleMath(state: any, node: any, isDisplay: boolean) {
     const result: Element = {
         type: 'element',
@@ -180,6 +192,7 @@ function createBaseProcessor() {
             }
         })
         .use(rehypeSlug)
+        .use(rehypePrettyCode, prettyCodeOptions as any)
         .use(rehypeSectionize)
 }
 
