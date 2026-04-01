@@ -1,6 +1,6 @@
 # Euclidian Group
 
-## _Thm._ $\text{Isom}(\R^n)$ Group
+## _Thm._ $\text{Isom}(\R^n)$
 
 Let $\text{Isom}(\R^n)$ denote the set of all isometries $\R^n \to \R^n$, then it forms a group under composition.
 

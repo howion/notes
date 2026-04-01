@@ -14,7 +14,7 @@ For $n \geq 3$, a **regular $n$-gon** denoted by $\bold{P}_n$ is a (closed) poly
 
 A regular $n$-gon has $2n$ different symmetries which are $n$ rotational symmetries and $n$ reflection symmetries.
 
-## _Def._ Dihedral Group
+## _Thm._ Dihedral Group
 
 The symmetries of the regular $n$-gon $\bold{P}_n$ forms a group under composition called the **dihedral group** denoted by $\bold{D}_{2n}$.
 
@@ -24,6 +24,8 @@ $$
 
 > Some authors prefer the notation $\bold{D}_n$ or $\bold{Dih}_n$, however notice that in our case $2n$ denotes the number of symmetries and its order.
 
+$\bold{D}_{2n}$ is the semidirect product of $C_2$ acting on $C_n$ via the automorphism $\varphi_s(r) = r^{-1}$, therefore:
+
 The group representation of $\bold{D}_{2n}$ is as follows:
 
 $$
@@ -31,6 +33,8 @@ $$
 $$
 
 where $r$ denotes a rotation and $s$ denotes a reflection.
+
+> Notice that, by $srs=r^{-1}$ condition, we have by induction: $sr^k = r^{-k}s$.
 
 ## _Def._ Convex
 

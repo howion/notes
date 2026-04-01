@@ -99,8 +99,6 @@ $$
 
 for all $x \in \R^n$ where $b = f(0)$ and $\bold{A}$ is uniquely determined.
 
-> Recall that an orthogonal matrix $\bold{A}$ is an $n \times n$ matrix such that $\bold{A}^T \bold{A} = \bold{I}$.
-
 ## _Thm._ $\text{Isom}(\R)$
 
 Let $f \in \text{Isom}(\R)$, then $f$ is of the form

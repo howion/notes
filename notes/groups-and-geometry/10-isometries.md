@@ -68,6 +68,16 @@ Let $(X, d)$ be a metric space, then set of all _bijective_ isometries on $X$ de
 
 > Exercise.
 
+## _Thm._ $\text{Isom}(\Z)$
+
+We have
+
+$$
+\text{Isom}(\Z) \cong \bold{D}_{\infty} \cong \Z \rtimes \Z_2
+$$
+
+where $\bold{D}_\infty$ is the infinite dihedral group.
+
 ## Exercises
 
 ### #1
