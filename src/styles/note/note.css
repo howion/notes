@@ -20,6 +20,18 @@
     box-shadow: none !important;
     height: auto;
 
+    /*
+     * Better prose line breaks (closer to TeX-like choices) without forcing justification.
+     * Hyphenation depends on the document language (e.g., <html lang="en">).
+     */
+    :where(p, li, blockquote, td, th, figcaption) {
+        text-wrap: pretty;
+        overflow-wrap: break-word;
+        word-break: normal;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+    }
+
     li:not(:first-child) {
         margin-top: 0.25em;
     }
@@ -56,7 +68,6 @@
         margin: 1.25em 0;
         border-radius: 0.625em;
         overflow-x: auto;
-        border: 1px solid rgba(255, 255, 255, 0.15);
     }
 
     pre code {
@@ -110,8 +121,9 @@
         line-height: 1.25;
         margin-top: 0;
         margin-bottom: 0.325em;
-
-        word-break: break-all;
+        word-break: normal;
+        overflow-wrap: anywhere;
+        text-wrap: balance;
 
         border-bottom: 5px solid var(--color-text);
         padding-bottom: 0.25em;
@@ -168,6 +180,7 @@
         display: block;
         margin-top: 8em;
         break-before: page;
+        content-visibility: auto;
     }
 
     .section-h1:first-child {

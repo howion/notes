@@ -21,6 +21,10 @@
     display: inline;
 }
 
+.math>x-prev {
+    display: none !important;
+}
+
 .math.is-selected {
     .base {
         background-color: var(--color-text);

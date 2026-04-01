@@ -1,8 +1,15 @@
 import { renderToString, type KatexOptions } from 'katex'
 import 'katex-copytex/dist/katex-copytex.js'
 
-const CHUNK_SIZE = 50
-const MAX_DELAY = 1000 // ms
+let VH = window.innerHeight
+
+const MAX_IDLE_DELAY = 1000 // ms
+const PRELOAD_DY = VH * 2 // initial_height * 2
+const CONTAINER = document.body.querySelector('#app-view')!
+
+window.addEventListener('resize', () => {
+    VH = window.innerHeight
+})
 
 const katexOptions: KatexOptions = {
     displayMode: false,
@@ -11,30 +18,45 @@ const katexOptions: KatexOptions = {
     fleqn: false
 }
 
-function onIdle(callback: () => void, maxDelay = MAX_DELAY) {
-    if (typeof requestIdleCallback === 'function') {
+const hasRequestIdleCallback = typeof requestIdleCallback === 'function'
+
+export function onIdle(callback: () => void, maxDelay = MAX_IDLE_DELAY) {
+    if (hasRequestIdleCallback) {
         requestIdleCallback(callback, { timeout: maxDelay })
     } else {
-        setTimeout(callback, 0)
+        setTimeout(callback, 1)
     }
 }
 
-function transform(el: Element) {
+function transform(el: Element, show = true): void {
+    console.log('t')
     if ('SPAN' !== el.tagName) {
-        return ''
+        return
     }
 
     const isDisplay = el.classList.contains('display')
     const fc = el.firstChild
 
-    if (!fc) return ''
+    if (!fc) return
 
-    const options = Object.assign({}, katexOptions)
-    options.displayMode = isDisplay
+    let html = ''
 
-    const html = renderToString(fc.textContent || '', options)
+    if (show) {
+        const prev = `<x-prev>${fc.textContent}</x-prev>`
 
-    return html
+        html =
+            prev +
+            renderToString(fc.textContent || '', {
+                ...katexOptions,
+                displayMode: isDisplay
+            })
+    } else {
+        const prev = el.querySelector('x-prev')
+        if (!prev) return
+        html = prev.innerHTML
+    }
+
+    el.innerHTML = html
 }
 
 function selectText(element: Element) {
@@ -60,8 +82,48 @@ function selectText(element: Element) {
 export async function renderKatexes(): Promise<void> {
     return new Promise((resolve) => {
         const maths = document.querySelectorAll('.math')
-        const total = maths.length
+        const yMap = new WeakMap<Element, number>()
+        maths.forEach((el) => {
+            const rect = el.getBoundingClientRect()
+            yMap.set(el, rect.top)
+        })
         let index = 0
+
+        let lock = false
+
+        function processChunk() {
+            if (lock) return
+
+            lock = true
+            const scrollY = CONTAINER.scrollTop
+
+            while (index < maths.length) {
+                const el = maths[index]!
+                const top = yMap.get(el)! - scrollY
+
+                if (top < VH + PRELOAD_DY) {
+                    transform(el, true)
+                    index++
+                } else {
+                    break
+                }
+            }
+
+            // let i = 0
+            // while (i <= index) {
+            //     const el = maths[i]!
+            // const top = yMap.get(el)! - scrollY
+
+            //     if (rect.top < -(VH + PRELOAD_DY)) {
+            //         transform(el, false)
+            //         i++
+            //     } else {
+            //         break
+            //     }
+            // }
+            // index = Math.min(index, i)
+            lock = false
+        }
 
         let last: Element | null = null
 
@@ -87,30 +149,46 @@ export async function renderKatexes(): Promise<void> {
             last = closest
         })
 
-        function processChunk(/* deadline: IdleDeadline */) {
-            const end = Math.min(index + CHUNK_SIZE, total)
+        CONTAINER.addEventListener('scroll', () => {
+            // const currentScrollY = CONTAINER.scrollTop
+            // const isDown = currentScrollY > lastScrollY
 
-            for (; index < end; index++) {
-                const el = maths[index]!
-                el.innerHTML = transform(el)
-            }
+            // if (!isDown) {
+            //     return
+            // }
 
-            if (index < total) {
-                onIdle(processChunk)
-            } else {
-                resolve()
-            }
-        }
+            // lastScrollY = currentScrollY
 
-        if (total > 0) {
-            if (typeof requestIdleCallback === 'function') {
-                // force after MAX_DELAY
-                requestIdleCallback(processChunk, { timeout: MAX_DELAY })
-            } else {
-                setTimeout(processChunk, 0)
-            }
-        } else {
-            resolve()
-        }
+            onIdle(processChunk)
+        })
+
+        onIdle(processChunk)
+
+        resolve()
+
+        // function processChunk(/* deadline: IdleDeadline */) {
+        //     // const end = Math.min(index + CHUNK_SIZE, total)
+        //     // for (; index < end; index++) {
+        //     //     const el = maths[index]!
+        //     //     el.innerHTML = transform(el)
+        //     // }
+        //     // if (index < total) {
+        //     //     onIdle(processChunk)
+        //     // } else {
+        //     //     resolve()
+        //     // }
+        //     resolve()
+        // }
+
+        // if (total > 0) {
+        //     if (typeof requestIdleCallback === 'function') {
+        //         // force after MAX_DELAY
+        //         onIdle(processChunk)
+        //     } else {
+        //         setTimeout(processChunk, 1)
+        //     }
+        // } else {
+        //     resolve()
+        // }
     })
 }

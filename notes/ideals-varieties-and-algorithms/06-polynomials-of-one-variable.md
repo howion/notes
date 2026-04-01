@@ -89,3 +89,20 @@ ENDWHILE
 
 -> h
 ```
+
+## _Thm._ $\text{GCD}(\cdot, \cdot, \cdots)$
+
+Let $f_1, ..., f_s \in \mathbb{F}[x]$, then a **greatest common divisor of $f_1, ..., f_s$** is defined as $h \in \mathbb{F}[x]$ such that
+
+1. $h \mid f_1, ..., f_s$
+2. $p \mid f_1, ..., f_s \implies p \mid h$
+
+denoted $\text{GCD}(f_1, ..., f_s)$.
+
+## _Thm._ Basic Properties of Generalized $\text{GCD}$
+
+Let $f_1, ..., f_s \in \mathbb{F}[x]$, then
+
+1. $\text{GCD}(f_1, ..., f_s)$ exists and unique up to multiplication by a non-zero constant in $\mathbb{F}$.
+2. $\text{GCD}(f_1, ..., f_s)$ is a generator of the ideal $\Braket{f_1, ..., f_s}$.
+3. For $s \geq 3$, we have $\text{GCD}(f_1, ..., f_s) = \text{GCD}(f_1, \text{GCD}(f_2, ..., f_s))$.

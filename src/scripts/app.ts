@@ -1,4 +1,4 @@
-import { renderKatexes } from './katex'
+import { onIdle, renderKatexes } from './katex'
 
 document.getElementById('app-action-print')?.addEventListener('click', () => {
     window.print()
@@ -49,7 +49,7 @@ function setFont(isMono: boolean, save = true) {
 setTheme(theme, false)
 setFont(font, false)
 
-const queue = [renderKatexes, async () => document.body.classList.add('is-loaded')]
+const queue: (() => Promise<void> | void)[] = [async () => document.body.classList.add('is-loaded'), renderKatexes]
 
 async function init() {
     for (const task of queue) {
@@ -58,7 +58,7 @@ async function init() {
 }
 
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init)
+    document.addEventListener('DOMContentLoaded', () => onIdle(init))
 } else {
-    init()
+    onIdle(init)
 }
