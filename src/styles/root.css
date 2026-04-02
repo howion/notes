@@ -13,6 +13,9 @@
     --app-padding: 1em;
     --sidebar-thumb-width: 1em;
     --sidebar-thumb-height: 64px;
+
+    --font-sans-serif: "Inter", Helvetica, Arial, sans-serif;
+    --font-monospace: "JetBrains Mono", "SF Mono", "SF Mono Regular", "Roboto Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
 @media screen {
@@ -49,5 +52,5 @@
 }
 
 body.is-mono #app {
-    font-family: "JetBrains Mono", monospace !important;
+    font-family: var(--font-monospace) !important;
 }

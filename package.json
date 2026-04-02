@@ -12,10 +12,10 @@
         "deploy": "astro build && bunx vercel deploy --prebuilt --prod --yes"
     },
     "dependencies": {
-        "@astrojs/preact": "^5.1.0",
-        "@astrojs/vercel": "10.0.3",
+        "@astrojs/preact": "^5.1.1",
+        "@astrojs/vercel": "10.0.4",
         "@vercel/analytics": "^2.0.1",
-        "astro": "^6.1.2",
+        "astro": "^6.1.3",
         "autoprefixer": "^10.4.27",
         "clsx": "^2.1.1",
         "dayjs": "^1.11.20",
@@ -23,7 +23,7 @@
         "katex-copytex": "^1.0.2",
         "preact": "^10.29.0",
         "remark-gfm": "^4.0.1",
-        "slugify": "^1.6.8"
+        "slugify": "^1.6.9"
     },
     "devDependencies": {
         "@astrojs/sitemap": "^3.7.2",

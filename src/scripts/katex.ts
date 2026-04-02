@@ -1,4 +1,4 @@
-import { renderToString, type KatexOptions } from 'katex'
+import { render, type KatexOptions } from 'katex'
 import 'katex-copytex/dist/katex-copytex.js'
 
 let VH = window.innerHeight
@@ -28,8 +28,7 @@ export function onIdle(callback: () => void, maxDelay = MAX_IDLE_DELAY) {
     }
 }
 
-function transform(el: Element, show = true): void {
-    console.log('t')
+function transform(el: Element): void {
     if ('SPAN' !== el.tagName) {
         return
     }
@@ -39,24 +38,29 @@ function transform(el: Element, show = true): void {
 
     if (!fc) return
 
-    let html = ''
+    // let html = ''
 
-    if (show) {
-        const prev = `<x-prev>${fc.textContent}</x-prev>`
+    // if (show) {
+    //     const prev = `<x-prev>${fc.textContent}</x-prev>`
 
-        html =
-            prev +
-            renderToString(fc.textContent || '', {
-                ...katexOptions,
-                displayMode: isDisplay
-            })
-    } else {
-        const prev = el.querySelector('x-prev')
-        if (!prev) return
-        html = prev.innerHTML
-    }
+    //     html =
+    //         prev +
+    //         renderToString(fc.textContent || '', {
+    //             ...katexOptions,
+    //             displayMode: isDisplay
+    //         })
+    // } else {
+    //     const prev = el.querySelector('x-prev')
+    //     if (!prev) return
+    //     html = prev.innerHTML
+    // }
 
-    el.innerHTML = html
+    // el.innerHTML = html
+
+    render(fc.textContent || '', el as HTMLElement, {
+        ...katexOptions,
+        displayMode: isDisplay
+    })
 }
 
 function selectText(element: Element) {
@@ -102,7 +106,7 @@ export async function renderKatexes(): Promise<void> {
                 const top = yMap.get(el)! - scrollY
 
                 if (top < VH + PRELOAD_DY) {
-                    transform(el, true)
+                    transform(el)
                     index++
                 } else {
                     break
