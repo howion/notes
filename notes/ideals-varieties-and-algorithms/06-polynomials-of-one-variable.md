@@ -19,7 +19,7 @@ $$
 > Notice that if $f$ and $g$ are nonzero polynomials we have
 
 > $$
-> d(f) \leq d(g) \iff \text{LT}(f) > \mid \text{LT}(g).
+> d(f) \leq d(g) \iff \text{LT}(f) \mid \text{LT}(g).
 > $$
 
 ## _Thm._ Division Algorithm

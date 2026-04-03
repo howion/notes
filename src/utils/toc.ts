@@ -9,7 +9,8 @@ export function renderTOC(items: TOCItem[]): string {
     for (let i = 0; i < items.length; i++) {
         const item = items[i]!
         const { id, level } = items[i]!
-        const text = item.text.split('.').pop() || item.text
+        console.log('Rendering TOC item:', item.text)
+        const text = item.text.split('</em>').pop() || item.text
 
         if (level > prevLevel) {
             html += '<ul>'

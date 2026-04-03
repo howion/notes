@@ -5,7 +5,7 @@
 Let $\mathbb{F}$ be a field and $f_1, ..., f_s \in \mathbb{F}[x_1, ..., x_n]$, then we define the **(affine) variety** of $f_1, ..., f_s$ as:
 
 $$
-\mathbf{V}(f_1, ..., f_s) := \Set{(a_1, ..., a_n) \in \mathbb{F}^n \mid f_i(a_1, ..., a_n) = 0 \quad \forall i}
+\mathbf{V}(f_1, ..., f_s) := \Set{\bar{a} \in \mathbb{F}^n : f_i(\bar{a}) = 0 \quad \forall i}
 $$
 
 so that $\mathbf{V}(f_1, ..., f_s)$ is the set of all solutions to:
@@ -20,6 +20,8 @@ $$
 \end{array}
 $$
 
+> Notice how we used $\bar{a}$ to denote $(a_1, ..., a_n)$ and $f(\bar{a})$ to denote $f(a_1, ..., a_n)$ where each $a_i \in \mathbb{F}$.
+>
 > **IMPORTANT:** From now on, unless otherwise stated, by **variety** we will mean **affine variety**.
 
 We will commonly use the letter $V, W$ to denote the varieties.

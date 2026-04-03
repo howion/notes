@@ -79,7 +79,7 @@ The field of complex numbers $\mathbb{C}$ is algebraically closed. Therefore, ev
 Given a field $\mathbb{F}$ and a positive integer $n$, we define the $n$-dimensional **affine space** over $\mathbb{F}$ to be the set
 
 $$
-\mathbb{F}^n := \Set{(a_1, ..., a_n) \mid a_1, ..., a_n \in \mathbb{F}}.
+\mathbb{F}^n := \Set{(a_1, ..., a_n) : a_1, ..., a_n \in \mathbb{F}}.
 $$
 
 In particular, we call $\mathbb{F}^n$ the **affine line** for the $n=1$ and **affine plane** for $n=2$.

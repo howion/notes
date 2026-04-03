@@ -21,7 +21,7 @@
         "dayjs": "^1.11.20",
         "katex": "^0.16.44",
         "katex-copytex": "^1.0.2",
-        "preact": "^10.29.0",
+        "preact": "^10.29.1",
         "remark-gfm": "^4.0.1",
         "slugify": "^1.6.9"
     },
@@ -30,7 +30,7 @@
         "@biomejs/biome": "2.4.10",
         "@playform/compress": "0.2.2",
         "@types/katex": "^0.16.8",
-        "astro-better-image-service": "^2.1.10",
+        "astro-better-image-service": "^2.2.0",
         "astro-critters": "^2.2.1",
         "astro-robots-txt": "^1.0.0",
         "cssnano": "^7.1.4",
