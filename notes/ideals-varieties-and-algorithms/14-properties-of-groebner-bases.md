@@ -37,7 +37,7 @@ $$
 \end{array}
 $$
 
-We call $x^\gamma$ the **least common multiplier** of $\text{LM}(f)$ and $\text{LM}(g)$ denoted with
+We call $x^\gamma$ the **least common multiplier** of $\text{LM}(f)$ and $\text{LM}(g)$, denoted with
 
 $$
 x^\gamma := \text{LCM}(\small \text{LM}(f), \text{LM}(g) \normalsize)

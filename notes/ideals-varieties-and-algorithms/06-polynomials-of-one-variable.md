@@ -36,7 +36,7 @@ where either $r = 0$ or $d(r) < d(g)$. Moreover, the following program realizes 
 <- f, g
 
 q <- 0
-r <- 0
+r <- f
 
 WHILE r != 0 AND (LT(g) | LT(r))
     q <- q + LT(r) / LT(g)
@@ -50,9 +50,13 @@ ENDWHILE
 
 Let $0 \neq f \in \mathbb{F}[x]$, then $f$ has at most $d(f)$ roots in $\mathbb{F}$.
 
+> Exercise, use induction and division fact.
+
 ## _Thm._ Ideals of $\mathbb{F}[x]$
 
-Every ideal of $\mathbb{F}[x]$ can be written as $\Braket{f}$ for some $f \in \mathbb{F}[x]$. Moreover, such $f$ is unique up to multiplication by a non-zero constant in $\mathbb{F}$.
+Every ideal of $\mathbb{F}[x]$ can be written as $\Braket{f}$ for some $f \in \mathbb{F}[x]$. Therefore, every ideal of $\mathbb{F}[x]$ is principal. Moreover, such $f$ is unique up to multiplication by a non-zero constant in $\mathbb{F}$.
+
+> Exercise, use the division fact for a non-zero ideal.
 
 ## _Def._ $\text{GCD}(\cdot, \cdot)$
 
@@ -75,6 +79,8 @@ Let $f,g \in \mathbb{F}[x]$, then
 2. $\text{GCD}(f,g)$ is a generator of the ideal $\Braket{f,g}$.
 3. The following algorithm generates $h = \text{GCD}(f,g)$
 
+> Exercise, for (1) and (2) use the corresponding principal ideal.
+
 ```python
 <- f, g
 
@@ -89,6 +95,16 @@ ENDWHILE
 
 -> h
 ```
+
+Notice that the algorithm uses the division fact $f = qg + r$ so that
+
+$$
+\text{GCD}(f,g) = \text{GCD}(f - qg, g) = \text{GCD}(r,g) = \text{GCD}(g,r).
+$$
+
+since $\Braket{f-qg, g} = \Braket{f,g}$.
+
+> So, to find a GCD, we repeat the division algorithm until the remainder is 0.
 
 ## _Thm._ $\text{GCD}(\cdot, \cdot, \cdots)$
 
@@ -106,3 +122,16 @@ Let $f_1, ..., f_s \in \mathbb{F}[x]$, then
 1. $\text{GCD}(f_1, ..., f_s)$ exists and unique up to multiplication by a non-zero constant in $\mathbb{F}$.
 2. $\text{GCD}(f_1, ..., f_s)$ is a generator of the ideal $\Braket{f_1, ..., f_s}$.
 3. For $s \geq 3$, we have $\text{GCD}(f_1, ..., f_s) = \text{GCD}(f_1, \text{GCD}(f_2, ..., f_s))$.
+
+> Exercise. The proof is similar to $\text{GCD}(\cdot, \cdot)$.
+
+### Exercises
+
+## 1
+
+Find a basis for the ideal $\bold{I}(\bold{V}(x^5 − 2x^4 + 2x^2 − x, x^5 − x^4 − 2x^3 + 2x^2 + x − 1)) \subseteq \mathbb{F}[x]$.
+
+1. For $\mathbb{F} = \mathbb{C}$, and
+2. For any field.
+
+> For (2) you can consider whether the field characteristic is $2$ or not to check $1 \overset{?}{=} -1$.

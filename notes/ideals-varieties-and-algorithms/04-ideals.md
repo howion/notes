@@ -24,18 +24,20 @@ Moreover, we say an ideal $I$ is **finitely generated** if there exists $f_1, ..
 
 ## _Thm._ Basis and Variety
 
-For two basis for an ideal in $\mathbb{F}[\bar{x}]$ such that $\Braket{f_1, ..., f_s} = \Braket{g_1, ..., g_t}$ we have
+For two basis for an ideal in $\mathbb{F}[\bar{x}]$ such that $\Braket{f_1, ..., f_s} = \Braket{g_1, ..., g_t}$, we have
 
 $$
 \bold{V}(f_1, ..., f_s) = \bold{V}(g_1, ..., g_t).
 $$
 
-## _Def.._ Ideal of Variety
+> Exercise
+
+## _Def._ Ideal of Variety
 
 Let $V \subseteq \mathbb{F}^n$ be a (affine) variety, then we define the **ideal (of) variety $V$** as
 
 $$
-\bold{I}(V) := \Set{f \in \mathbb{F}[x_1, ..., x_n] : f(a_1, ..., a_n) = 0 \quad \forall (a_1, ..., a_n) \in V}
+\bold{I}(V) := \Set{f \in \mathbb{F}[x_1, ..., x_n] : f(\bar{a}) = 0 \quad \forall \bar{a} \in V}
 $$
 
 > Exercise the fact that $\bold{I}(V)$ is indeed an ideal.
@@ -61,3 +63,7 @@ Let $V, W$ be varieties in $\mathbb{F}^n$, then
 >
 > * (Ideal Membership) For a finitely generated ideal $I$, is there any algorithm which decides if any $f \in I$.
 > * (Nullstellensatz) What is the exact relation between $\Braket{f_1, ..., f_s}$ and $\bold{I}(\bold{V}(f_1, ..., f_s))$.
+
+## Exercises
+
+### 1
