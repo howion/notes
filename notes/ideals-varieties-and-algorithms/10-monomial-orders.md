@@ -34,7 +34,7 @@ Let $\alpha = (\alpha_1, ..., \alpha_n)$ and $\beta = (\beta_1, ..., \beta_n)$ w
 
 Let $f = \sum_\alpha c_\alpha x^\alpha$ be a polynomial in $\mathbb{F}[x_1, ..., x_n]$ and let $>$ be a monomial order, then we define
 
-1. **multidegree** of $f$ as: $$md(f) := \max(\alpha : \alpha \neq 0)$$
+1. **multidegree** of $f$ as: $$md(f) := \max(\alpha : c_\alpha \neq 0)$$
 2. **leading coefficient** of $f$ as: $$\text{LC}(f) := c_{md(f)}$$
 3. **leading monomial** of $f$ as: $$\text{LM}(f) := x^{md(f)}$$
 4. **leading term** of $f$ as: $$\text{LT}(f) := \text{LC}(f) \cdot \text{LM}(f)$$
