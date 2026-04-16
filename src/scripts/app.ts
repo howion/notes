@@ -49,7 +49,10 @@ function setFont(isMono: boolean, save = true) {
 setTheme(theme, false)
 setFont(font, false)
 
-const queue: (() => Promise<void> | void)[] = [async () => document.body.classList.add('is-loaded'), renderKatexes]
+const queue: (() => Promise<void> | void)[] = [
+    async () => document.body.classList.add('is-loaded'),
+    renderKatexes
+]
 
 async function init() {
     for (const task of queue) {

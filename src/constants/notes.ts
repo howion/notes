@@ -38,7 +38,7 @@ interface _MapOptions {
     hidden?: boolean
 }
 
-function map(title: string, path: string, options?: _MapOptions): NoteMap {
+function note(title: string, path: string, options?: _MapOptions): NoteMap {
     return {
         title,
         slug: slugify(title, { lower: true }),
@@ -50,32 +50,39 @@ function map(title: string, path: string, options?: _MapOptions): NoteMap {
 
 export const NOTE_RECORDS: NoteRecord[] = [
     {
-        title: 'Algebra',
+        title: 'Abstract Algebra',
         children: [
-            map('Group Theory', 'abstract-algebra/01-group-theory'),
-            map('Ring Theory', 'abstract-algebra/02-ring-theory'),
-            map('Universal Algebra', 'universal-algebra')
+            note('Group Theory', 'abstract-algebra/01-group-theory'),
+            note('Ring Theory', 'abstract-algebra/02-ring-theory'),
+            // note('Module Theory', 'abstract-algebra/03-module-theory'),
+            note('Universal Algebra', 'abstract-algebra/04-universal-algebra')
         ]
     },
     {
-        title: 'Algebra & Geometry',
+        title: 'Algebraic Geometry',
         children: [
-            map('Groups and Geometry', 'groups-and-geometry'),
-            map('Ideals, Varieties, and Algorithms', 'ideals-varieties-and-algorithms')
+            note('Ideals, Varieties, and Algorithms', 'ideals-varieties-and-algorithms'),
+            note('Groups and Geometry', 'groups-and-geometry')
         ]
     },
     {
-        title: 'Statistics',
-        children: [map('Probability Theory', 'probability-theory')]
+        title: 'Logic and Computation',
+        children: [
+            note('Logic and Computation', 'logic-and-computation'),
+            note('Type Theory', 'type-theory')
+        ]
     },
     {
-        title: 'Logic and More',
-        children: [map('Logic and Computation', 'logic-and-computation'), map('Type Theory', 'type-theory')]
+        title: 'Analysis',
+        children: [
+            note('Probability Theory', 'probability-theory'),
+            note('Partial Differential Equations', 'partial-differential-equations')
+        ]
     }
     // {
     //     title: 'Miscellaneous',
     //     children: [
-    //         map('temp', '--temp', { toc: false, hidden: true }),
+    //         note('temp', '--temp', { toc: false, hidden: true }),
     //     ]
     // }
 ]
