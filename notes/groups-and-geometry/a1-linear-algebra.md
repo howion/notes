@@ -1,4 +1,4 @@
-# Appendix 1: Linear Algebra
+# Appendix 1. Linear Algebra
 
 ## _Def._ Inner Product Space
 

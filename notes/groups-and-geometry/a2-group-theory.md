@@ -1,4 +1,4 @@
-# Appendix 2: Group Theory
+# Appendix 2. Group Theory
 
 > You might want to check out my [group theory notes](https://notes.howion.com/group-theory) as well.
 

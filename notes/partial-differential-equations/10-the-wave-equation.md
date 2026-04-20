@@ -1,4 +1,4 @@
-# Wave Equation
+# The Wave Equation
 
 ## _Def._ 1D Wave Equation
 

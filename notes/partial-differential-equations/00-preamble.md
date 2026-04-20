@@ -1,10 +1,19 @@
 # Preamble
 
+> Please note that these notes are still under construction. Moreover, these notes are not for educational purposes, but rather should be used as a reference.
+
 ## Introduction
 
-* Fundamental linear algebra and some ODE knowledge is assumed.
+Basic knowldge for the following topics is assumed. You may want to check the appendix.
 
-> Note that these notes are still under construction. Moreover, these notes are not for educational purposes, but rather should be used as a reference.
+* Linear algebra
+* (simple) ODEs
+* Fundamental calculus:
+    * vector algebra,
+    * fundamental theorems such as Green's Theorem and Divergence Theorem
+    * Jacobians
+    * infinite series
+    * directional derivatives
 
 ## Resources Used
 
