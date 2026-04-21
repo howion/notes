@@ -33,7 +33,7 @@
         "astro-better-image-service": "^2.2.0",
         "astro-critters": "^2.2.1",
         "astro-robots-txt": "^1.0.0",
-        "cssnano": "^7.1.5",
+        "cssnano": "^7.1.7",
         "postcss-calc": "^10.1.1",
         "postcss-color-hex-alpha": "^11.0.0",
         "postcss-combine-duplicated-selectors": "^10.0.3",

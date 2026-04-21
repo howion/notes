@@ -2,7 +2,7 @@
 
 From now on we will mostly work on the **Euclidian $n$-space** $\R^n$.
 
-> Sometimes the notation $\mathbb{E}^n$ is used to denote the **Euclidian $n$-space** which is formally a finite-dimensional inner product space over the real numbers. For simplicity we have preferred $\R^n$ but $\mathbb{E}^n$ better indicates that it is an Euclidian space and not any other space defined on $\R^n$.
+<!-- > Sometimes the notation $\mathbb{E}^n$ is used to denote the **Euclidian $n$-space** which is formally a finite-dimensional inner product space over the real numbers. For simplicity we have preferred $\R^n$ but $\mathbb{E}^n$ better indicates that it is an Euclidian space and not any other space defined on $\R^n$. -->
 
 Recall that any inner product on a vector space induces a norm such that
 
@@ -88,40 +88,3 @@ Linear $\implies$ origin-fixing is obvious so assume $f$ fixes the origin. We ha
 </details>
 
 <!-- TODO: Give general forms Ax+b, affinity, and orthogonlity and A \in O(n)-->
-
-## _Thm._ General Euclidian Isometry
-
-Let $f: \R^n \to \R^n$ be any Euclidian isometry, then there exists an orthogonal matrix $\bold{A} \in \R^{n \times n}$ and a vector $b \in \R^n$ such that
-
-$$
-f(x) = \bold{A}x + b
-$$
-
-for all $x \in \R^n$ where $b = f(0)$ and $\bold{A}$ is uniquely determined.
-
-## _Thm._ $\text{Isom}(\R)$
-
-Let $f \in \text{Isom}(\R)$, then $f$ is of the form
-
-$$
-f(x) = \epsilon x + b
-$$
-
-with $\epsilon = \pm 1$ and $b \in \R$. Moreover, if
-
-* $\epsilon = 1$, then it is a translation, and
-* $\epsilon = -1$, then it is a reflection
-
-> Direct result of the theorem General Euclidian Isometry proven above.
-
-## _Thm._ Euclidian Isometries Preserve the Midpoint
-
-Let $f: \R^n \to \R^n$ be an Euclidian isometry, then it preserves the midpoints so that
-
-$$
-f\left(\dfrac{x+y}{2}\right) = \dfrac{f(x) + f(y)}{2}
-$$
-
-> Exercise.
->
-> Note that this is not necessarily the case for other isometries nor other other norms on $\R^n$.

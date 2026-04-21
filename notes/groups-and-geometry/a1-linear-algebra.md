@@ -34,7 +34,7 @@ $$
 \end{cases}
 $$
 
-## _Def._ Orthonormality
+## _Def._ Orthonormal
 
 Let $\mathcal{V}$ be an inner product space. A set of vectors $\Set{v_1, v_2, ...} \subseteq \mathcal{V}$ is called **orthonormal** if
 
@@ -43,16 +43,6 @@ $$
 $$
 
 > Each vector is orthogonal to each other.
-
-## _Def._ Orthogonal Matrix
-
-An **orthogonal (or orthonormal) matrix** is a real square matrix whose columns and rows are orthonormal vectors. Equivalently, a matrix $Q$ is orthogonal if
-
-$$
-\bold{Q}^T \bold{Q} = \bold{I}
-$$
-
-An orthogonal matrix is called **special** if its determinant is $1$.
 
 ## _Thm._ Basic Properties of Orthonal Matrices
 

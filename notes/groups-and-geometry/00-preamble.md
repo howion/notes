@@ -1,10 +1,20 @@
 # Preamble
 
+## Introduction
+
+Fundamental knowldge for the following topics is assumed. You may want to check the appendix and my other notes for these.
+
+* Linear algebra
+* Group Theory
+
+## Resources Used
+
+* **Groups and Symmetry**, by M. A. Armstrong.
+
 ## Notation
 
 * $0 \in \N$ and $\N^+ :=\ \N \setminus \{0\}$.
-* Empty set is denoted with $\varnothing$.
-* $d_1 \>|\>d_2\>|\>\cdots\>|\>d_r$ means $d_1$ divides $d_2$ divides $d_3$...
+* $\varnothing$ denotes the empty set.
 
 ## Status
 
