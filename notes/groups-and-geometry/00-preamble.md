@@ -4,14 +4,15 @@
 
 Fundamental knowldge for the following topics is assumed. You may want to check the appendix and my other notes for these.
 
-* Linear algebra
+* Linear Algebra
 * Group Theory
 
 ## Resources Used
 
-* **Groups and Symmetry** by M. A. Armstrong.
+* **Groups and Symmetry** by M. A. Armstrong
 * **Symmetries** by D.L. Johnson
 * [**Cut The Knot**](https://www.cut-the-knot.org/pythagoras/Transforms/index.shtml) website
+* **From Groups to Geometry and Back** by Vaughn Climenhaga and Anatole Katok
 
 ## Notation
 
