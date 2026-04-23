@@ -9,7 +9,9 @@ Fundamental knowldge for the following topics is assumed. You may want to check 
 
 ## Resources Used
 
-* **Groups and Symmetry**, by M. A. Armstrong.
+* **Groups and Symmetry** by M. A. Armstrong.
+* **Symmetries** by D.L. Johnson
+* [**Cut The Knot**](https://www.cut-the-knot.org/pythagoras/Transforms/index.shtml) website
 
 ## Notation
 
@@ -25,3 +27,19 @@ These notes are still under work therefore not complete, also
 * typos are quite possible,
 * ordering is generally good but should be improved, and
 * more visuals and intuition should be provided.
+
+## Todo's
+
+* Delve into the complex plane?
+    * Define conformality and show every isometry is conformal
+* Explain (formally prove) group-theoric concepts with geometry
+    * Especially better explain homomorphism, isomorphism and their groups and finally semidirect products
+* Add figures drawn on [excalidraw](https://excalidraw.com/).
+* Beckman–Quarles theorem
+* Affine transformation
+* Homotethy
+* Shear Transform
+* Spiral Similarity
+* Inversion
+    * Stereographic Projection and Inversion
+    * Möbius Transformations

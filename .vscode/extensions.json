@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "fronterior.biome-monorepo",
+        "bierner.markdown-preview-github-styles",
+        "bierner.markdown-emoji",
+        "davidanson.vscode-markdownlint"
+    ],
+    "unwantedRecommendations": []
+}

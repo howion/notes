@@ -1,16 +1,5 @@
 # Euclidian Group
 
-## _Thm._ $\text{Isom}(\R^n)$
-
-Let $\text{Isom}(\R^n)$ denote the set of all isometries $\R^n \to \R^n$, then it forms a group under composition.
-
-<details>
-<summary><b>Sketch of Proof</b></summary>
-<br/>
-
-We have already proved closure. Associativity, identity and inverse are trivial.
-</details>
-
 ## _Thm._ General Euclidian Isometry
 
 Let $f: \R^n \to \R^n$ be any Euclidian isometry, then there exists an orthogonal matrix $\bold{A} \in \R^{n \times n}$ and a vector $b \in \R^n$ such that
