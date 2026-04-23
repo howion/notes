@@ -12,10 +12,10 @@
         "deploy": "astro build && bunx vercel deploy --prebuilt --prod --yes"
     },
     "dependencies": {
-        "@astrojs/preact": "^5.1.1",
-        "@astrojs/vercel": "10.0.4",
+        "@astrojs/preact": "^5.1.2",
+        "@astrojs/vercel": "10.0.5",
         "@vercel/analytics": "^2.0.1",
-        "astro": "^6.1.8",
+        "astro": "^6.1.9",
         "autoprefixer": "^10.5.0",
         "clsx": "^2.1.1",
         "dayjs": "^1.11.20",
