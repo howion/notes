@@ -166,3 +166,14 @@ then, if $u$ is a
 * **rotation** anti-clockwise through $\theta$ about the point $\bold{c}$, then is of the form $(\bold{c} - u(\bold{c}), \bold{A}_\theta)$
 * **reflection** in any line $m$, then is of the form $(2\bold{a}, \bold{B}_{2\theta})$ where $\bold{a}$ is the vector from the origin to the line &mdash; where $\theta$ defined as above,
 * **glide reflection** with the line $m$ for points $\bold{a}$ and $\bold{b}$, then is of the form $(2 \bold{a} + \bold{b}, \bold{B}_{2\theta})$ &mdash; where $\theta$ and $\bold{a}$ defined as above.
+
+## _Thm._ $3$-product of Reflections
+
+Every plane isometry is a composition of at most $3$ reflections.
+
+> Note how every reflection changes orientation.
+
+Moreover, the composition of three reflections in the plane is always an orientation-preserving isometry, hence it is either
+
+* a reflection, or
+* glide reflection.
