@@ -167,7 +167,7 @@ then, if $u$ is a
 * **translation**, then is of the form $(\bold{v} , \bold{I})$ for some translation vector $\bold{v}$,
 * **rotation** anti-clockwise through $\theta$ about the origin, then is of the form $(\bold{0}, \bold{A}_\theta)$,
 * **reflection** in the line $\ell$ passing through the origin, then is of the form $(\bold{0}, \bold{B}_{2\theta})$ where $\theta$ is the clockwise angle between the line and the $x$-axis.
-* **rotation** anti-clockwise through $\theta$ about the point $\bold{c}$, then is of the form $(\bold{c} - u(\bold{c}), \bold{A}_\theta)$
+* **rotation** anti-clockwise through $\theta$ about the point $\bold{c}$, then is of the form $(\bold{c} - \bold{A}_\theta \bold{c}, \bold{A}_\theta)$
 * **reflection** in any line $m$, then is of the form $(2\bold{a}, \bold{B}_{2\theta})$ where $\bold{a}$ is the vector from the origin to the line &mdash; where $\theta$ defined as above,
 * **glide reflection** with the line $m$ for points $\bold{a}$ and $\bold{b}$, then is of the form $(2 \bold{a} + \bold{b}, \bold{B}_{2\theta})$ &mdash; where $\theta$ and $\bold{a}$ defined as above.
 
