@@ -1,5 +1,7 @@
 # Group Actions
 
+> You may want to check group actions section of my [group theory notes](https://notes.howion.com/group-theory#group-actions). You shoud at least be familiar with the definitions and how orbits partition the space.
+
 ## _Def._ (Group) Action
 
 Recall that, formally, an **action** of a group $G$ on a set $X$ is a homomorphism from $G$ to the automorphism group of $X$, namely $\text{Aut}(X)$. We may also say $G$ **acts on** $X$.
@@ -47,9 +49,9 @@ $$
 where
 
 * $|X/G|$ denotes the number of orbits, and
-* $|X^g|$ denotes the elements in $X$ fixed by $g$
+* $|X^g|$ denotes the number of elements in $X$ fixed by $g$. This is also sometimes denoted with $|\text{Fix}(g)|$.
 
-> Notice $X^g$ is not the stabilizer of $x$ which are the elements in $G$ fixed by $g$ but rather in $X$.
+> Notice $X^g$ is not the stabilizer of $x$ which are the elements in $G$ fixed by $g$, but rather elements fixed in $X$ by $g$.
 
 ## _Thm._ Center of $\bold{D}_{2n}$
 

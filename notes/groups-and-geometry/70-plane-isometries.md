@@ -67,6 +67,8 @@ Three key properties of reflections are
 * fix every point on the line $\ell$, and
 * satisfy $r(\ell)^2 = \bold{1}$.
 
+> Reflection through a line $\ell$ is sometimes denoted with $\sigma_\ell$.
+
 ## _Thm._ Normal Form Theorem
 
 Fix a point $O$ and line $\ell$ in $\R^2$ with $O \in \ell$, then any isometry $u$ of $\R^2$ can be written uniquely in the form
@@ -135,12 +137,14 @@ Moreover, one is orientation-preserving and the other one is orientation-reversi
 Let $u$ be any plane isometry, then there exists an $2 \times 2$ orthogonal matrix $\bold{M}$ and a vector $v \in \R^2$ such that
 
 $$
-u(\bold{x}) = \bold{v} + \bold{x} \bold{M}^T
+u(\bold{x}) = \bold{v} + \bold{M} \bold{x}
 $$
 
 for all $x \in \R^2$ where $\bold{v} = u(\bold{0})$ and $\bold{M}$ is uniquely determined. Converse also holds i.e. this defines an isometry.
 
 Therefore, the pair $(\bold{v}, \bold{M})$ where $\bold{v} \in \R^2$ and $\bold{M}$ is an orthogonal $2 \times 2$ matrix determines an isometry and vice-versa.
+
+> In row-vector notation, we would have $u(\bold{x}) = \bold{v} + \bold{x}\bold{M}^T$ where $\bold{x}$ and $\bold{v}$ are row-vectors.
 
 ## _Thm._ Explicit Classification of Plane Isometries
 
@@ -177,3 +181,9 @@ Moreover, the composition of three reflections in the plane is always an orienta
 
 * a reflection, or
 * glide reflection.
+
+## Exercises
+
+### #1
+
+Show that if $\sigma_m \sigma_n$ where $m \neq n$ fixes a point $P$, then $P$ is on both $m$ and $n$.
