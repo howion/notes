@@ -57,6 +57,8 @@ Three key properties of rotations are
 * have just one fixed point, and
 * and compose according to $s(O, \alpha)s(O, \beta) = s(O, \alpha + \beta)$.
 
+We will denote a rotation through $\theta$ about the point $O$ with $\rho_{O,\theta}$ and will omit $O$ if it is the origin.
+
 ## _Def._ Reflection
 
 A **reflection** $r$ is a map that moves every point of the plane to its mirror-image in a fixed line $\ell$ called the **axis**..
@@ -67,7 +69,7 @@ Three key properties of reflections are
 * fix every point on the line $\ell$, and
 * satisfy $r(\ell)^2 = \bold{1}$.
 
-> Reflection through a line $\ell$ is sometimes denoted with $\sigma_\ell$.
+We will denote a reflection through a line $\ell$ with $\sigma_\ell$.
 
 ## _Thm._ Normal Form Theorem
 
@@ -181,6 +183,20 @@ Moreover, the composition of three reflections in the plane is always an orienta
 
 * a reflection, or
 * glide reflection.
+
+## _Thm._ Two Parallel Lines
+
+Let $\ell \parallel m$, then $\sigma_\ell \sigma_m$ is a translation through twice the directed distance from $l$ to $m$. Converse also holds.
+
+## _Thm._ Two Instersecting Lines
+
+Let two lines $\ell$ and $m$ meet at $C$ with the non-zero oriented angle from $\ell$ to $m$ being $\theta / 2$, then
+
+$$
+\sigma_m \sigma_\ell = \rho_{C, \theta}
+$$
+
+Converse also holds so that every rotation is a product of two reflections in intersecting lines.
 
 ## Exercises
 
