@@ -57,6 +57,8 @@ Three key properties of rotations are
 * have just one fixed point, and
 * and compose according to $s(O, \alpha)s(O, \beta) = s(O, \alpha + \beta)$.
 
+We will denote a rotation through $\theta$ about the point $O$ with $\rho_{O,\theta}$ and will omit $O$ if it is the origin.
+
 ## _Def._ Reflection
 
 A **reflection** $r$ is a map that moves every point of the plane to its mirror-image in a fixed line $\ell$ called the **axis**..
@@ -66,6 +68,8 @@ Three key properties of reflections are
 * they are orientation reversing,
 * fix every point on the line $\ell$, and
 * satisfy $r(\ell)^2 = \bold{1}$.
+
+We will denote a reflection through a line $\ell$ with $\sigma_\ell$.
 
 ## _Thm._ Normal Form Theorem
 
@@ -135,12 +139,14 @@ Moreover, one is orientation-preserving and the other one is orientation-reversi
 Let $u$ be any plane isometry, then there exists an $2 \times 2$ orthogonal matrix $\bold{M}$ and a vector $v \in \R^2$ such that
 
 $$
-u(\bold{x}) = \bold{v} + \bold{x} \bold{M}^T
+u(\bold{x}) = \bold{v} + \bold{M} \bold{x}
 $$
 
 for all $x \in \R^2$ where $\bold{v} = u(\bold{0})$ and $\bold{M}$ is uniquely determined. Converse also holds i.e. this defines an isometry.
 
 Therefore, the pair $(\bold{v}, \bold{M})$ where $\bold{v} \in \R^2$ and $\bold{M}$ is an orthogonal $2 \times 2$ matrix determines an isometry and vice-versa.
+
+> In row-vector notation, we would have $u(\bold{x}) = \bold{v} + \bold{x}\bold{M}^T$ where $\bold{x}$ and $\bold{v}$ are row-vectors.
 
 ## _Thm._ Explicit Classification of Plane Isometries
 
@@ -163,6 +169,37 @@ then, if $u$ is a
 * **translation**, then is of the form $(\bold{v} , \bold{I})$ for some translation vector $\bold{v}$,
 * **rotation** anti-clockwise through $\theta$ about the origin, then is of the form $(\bold{0}, \bold{A}_\theta)$,
 * **reflection** in the line $\ell$ passing through the origin, then is of the form $(\bold{0}, \bold{B}_{2\theta})$ where $\theta$ is the clockwise angle between the line and the $x$-axis.
-* **rotation** anti-clockwise through $\theta$ about the point $\bold{c}$, then is of the form $(\bold{c} - u(\bold{c}), \bold{A}_\theta)$
+* **rotation** anti-clockwise through $\theta$ about the point $\bold{c}$, then is of the form $(\bold{c} - \bold{A}_\theta \bold{c}, \bold{A}_\theta)$
 * **reflection** in any line $m$, then is of the form $(2\bold{a}, \bold{B}_{2\theta})$ where $\bold{a}$ is the vector from the origin to the line &mdash; where $\theta$ defined as above,
 * **glide reflection** with the line $m$ for points $\bold{a}$ and $\bold{b}$, then is of the form $(2 \bold{a} + \bold{b}, \bold{B}_{2\theta})$ &mdash; where $\theta$ and $\bold{a}$ defined as above.
+
+## _Thm._ $3$-product of Reflections
+
+Every plane isometry is a composition of at most $3$ reflections.
+
+> Note how every reflection changes orientation.
+
+Moreover, the composition of three reflections in the plane is always an orientation-preserving isometry, hence it is either
+
+* a reflection, or
+* glide reflection.
+
+## _Thm._ Two Parallel Lines
+
+Let $\ell \parallel m$, then $\sigma_\ell \sigma_m$ is a translation through twice the directed distance from $l$ to $m$. Converse also holds.
+
+## _Thm._ Two Instersecting Lines
+
+Let two lines $\ell$ and $m$ meet at $C$ with the non-zero oriented angle from $\ell$ to $m$ being $\theta / 2$, then
+
+$$
+\sigma_m \sigma_\ell = \rho_{C, \theta}
+$$
+
+Converse also holds so that every rotation is a product of two reflections in intersecting lines.
+
+## Exercises
+
+### #1
+
+Show that if $\sigma_m \sigma_n$ where $m \neq n$ fixes a point $P$, then $P$ is on both $m$ and $n$.

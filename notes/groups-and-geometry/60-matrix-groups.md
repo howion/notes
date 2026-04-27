@@ -10,7 +10,7 @@ $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
 f_A &:& \R^n \to \R^n \\
-f_A(x) &=& xA^T
+f_A(x) &=& Ax
 \end{array}
 $$
 
@@ -19,6 +19,8 @@ where $(\cdot)^T$ denotes the transpose matrix.
 The group of invertible $n\times n$ is matrices called the **general linear group** denoted with $\text{GL}_n(\mathbb{F})$. Simply $\text{GL}_n$ or $\text{GL}(n)$ if the field is known. Unless otherwise stated, we will assume the field is the real numbers $\R$.
 
 The subgroup of $\text{GL}_n(\mathbb{F})$ which is composed of $n \times n$ matrices with the determinant equal to $+1$ is called the **special linear group** and denoted with $\text{SL}_n(\mathbb{F})$.
+
+> Note that we are using column vector notation, in the row-vector notation $f_A$ would be defined as $xA^T$.
 
 ## _Def._ Orthogonal Matrix
 
@@ -83,3 +85,31 @@ A finite subgroup of $\text{SO}_3$ is isomorphic to either
 * cyclic group,
 * dihedral group,
 * rotational symmetry group of one of the regular (platonic) solids
+
+## _Thm._ Rotations
+
+In the plane every rotation commute. In $\R^3$, rotations usually does not commute and the only matrix commuting with all of $\text{SO}_3$ is the identity matrix. In $\R^4$, both $\Set{I, -I}$ commutes with every other element in $\text{SO}_4$.
+
+> Recall the fact $\det(\lambda A) = \lambda^n \det(A)$ where $\lambda$ is a constant.
+
+## Exercises
+
+### #1
+
+Show that the square of an orientation-reversing plane isometry is a translation.
+
+### #2
+
+For any $H \leq \text{O}_n$, show that $[H : H \cap \text{SO}_n] \leq 2$.
+
+<details>
+<summary><b>Hint</b></summary>
+<br>
+
+Use the First Isomorphism Theorem with the homomorphism $\text{O}_n \to \Set{\pm 1}$.
+
+</details>
+
+### #3
+
+Show that $\text{Isom}^+(\R^2) \trianglelefteq \text{Isom}(\R^2)$.
