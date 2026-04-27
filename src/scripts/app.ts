@@ -1,7 +1,7 @@
 import { onIdle, renderKatexes } from './katex'
 
 document.getElementById('app-action-print')?.addEventListener('click', () => {
-    window.print()
+    renderKatexes(true).then(() => window.print())
 })
 
 document.getElementById('app-action-theme')?.addEventListener('click', () => {
@@ -51,6 +51,7 @@ setFont(font, false)
 
 const queue: (() => Promise<void> | void)[] = [
     async () => document.body.classList.add('is-loaded'),
+    // AFTER the page is loaded, render katexes in the background
     renderKatexes
 ]
 

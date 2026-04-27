@@ -44,19 +44,17 @@ Moreover, if each $G_i$ is additive (that is abelian) $\prod^w G_i$ is called th
 
 ## _Thm._ Normals and Injections
 
-Let $\Set{G_i}$ be a family of non-empty groups, then
+Let $\Set{G_i}$ be a family of non-empty groups, then $\prod^w G_i \trianglelefteq \prod G_i$, and for each $k \in I$, the map
 
-1. $\prod^w G_i \trianglelefteq \prod G_i$,
-2. for each $k \in I$, the map
-   $$
-   \def\arraystretch{1.5}
-   \begin{array}{lrll}
-   i_k: & G_k & \to & \prod^w G_i \\
-        & a & \mapsto & f = (e_1, ..., e_{k-1}, a, e_{k+1}, ...)
-   \end{array}
-   $$
-   is a monomorphism of groups,
-3. for each $k \in I$, we have $i_k(G_k)\trianglelefteq \prod G_i$.
+$$
+\def\arraystretch{1.5}
+\begin{array}{lrll}
+i_k: & G_k & \to & \prod^w G_i \\
+    & a & \mapsto & f = (e_1, ..., e_{k-1}, a, e_{k+1}, ...)
+\end{array}
+$$
+
+is a monomorphism of groups. Moreover, for each $k \in I$, we have $i_k(G_k)\trianglelefteq \prod G_i$.
 
 > Exercise
 

@@ -17,7 +17,7 @@ $$
 
 ## _Thm._ Dedekind Modular Law (Identity)
 
-> See https://math.stackexchange.com/questions/3957388/intuition-behind-dedekinds-modular-law
+> See <https://math.stackexchange.com/questions/3957388/intuition-behind-dedekinds-modular-law>
 
 ## Exercises
 

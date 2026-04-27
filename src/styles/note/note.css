@@ -181,7 +181,7 @@
         display: block;
         margin-top: 8em;
         break-before: page;
-        content-visibility: auto;
+        /* content-visibility: auto; */
     }
 
     .section-h1:first-child {

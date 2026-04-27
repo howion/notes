@@ -33,6 +33,10 @@ function transform(el: Element): void {
         return
     }
 
+    if (el.classList.contains('is-rendered')) {
+        return
+    }
+
     const isDisplay = el.classList.contains('display')
     const fc = el.firstChild
 
@@ -61,6 +65,8 @@ function transform(el: Element): void {
         ...katexOptions,
         displayMode: isDisplay
     })
+
+    el.classList.add('is-rendered')
 }
 
 function selectText(element: Element) {
@@ -83,27 +89,31 @@ function selectText(element: Element) {
     }
 }
 
-export async function renderKatexes(): Promise<void> {
+export async function renderKatexes(forced = false): Promise<void> {
     return new Promise((resolve) => {
-        const maths = document.querySelectorAll('.math')
+        const maths = document.querySelectorAll('.math:not(.is-rendered)')
         const yMap = new WeakMap<Element, number>()
-        maths.forEach((el) => {
-            const rect = el.getBoundingClientRect()
-            yMap.set(el, rect.top)
-        })
+
+        if (!forced) {
+            maths.forEach((el) => {
+                const rect = el.getBoundingClientRect()
+                yMap.set(el, rect.top)
+            })
+        }
+
         let index = 0
 
         let lock = false
 
         function processChunk() {
-            if (lock) return
+            if (lock) return false
 
             lock = true
             const scrollY = CONTAINER.scrollTop
 
             while (index < maths.length) {
                 const el = maths[index]!
-                const top = yMap.get(el)! - scrollY
+                const top = forced ? 0 : yMap.get(el)! - scrollY
 
                 if (top < VH + PRELOAD_DY) {
                     transform(el)
@@ -127,48 +137,55 @@ export async function renderKatexes(): Promise<void> {
             // }
             // index = Math.min(index, i)
             lock = false
+
+            return true
         }
 
-        let last: Element | null = null
+        if (forced) {
+            processChunk()
+            resolve()
+        } else {
+            let last: Element | null = null
 
-        document.addEventListener('click', (e) => {
-            const target = e.target as Element | null
+            document.addEventListener('click', (e) => {
+                const target = e.target as Element | null
 
-            if (!target) return
+                if (!target) return
 
-            if (last) {
-                last.classList.remove('is-selected')
-            }
+                if (last) {
+                    last.classList.remove('is-selected')
+                }
 
-            const closest = target.closest('.math')
-            if (!closest) return
+                const closest = target.closest('.math')
+                if (!closest) return
 
-            e.preventDefault()
+                e.preventDefault()
 
-            closest.classList.add('is-selected')
-            selectText(closest)
+                closest.classList.add('is-selected')
+                selectText(closest)
 
-            document.execCommand('copy')
+                document.execCommand('copy')
 
-            last = closest
-        })
+                last = closest
+            })
 
-        CONTAINER.addEventListener('scroll', () => {
-            // const currentScrollY = CONTAINER.scrollTop
-            // const isDown = currentScrollY > lastScrollY
+            CONTAINER.addEventListener('scroll', () => {
+                // const currentScrollY = CONTAINER.scrollTop
+                // const isDown = currentScrollY > lastScrollY
 
-            // if (!isDown) {
-            //     return
-            // }
+                // if (!isDown) {
+                //     return
+                // }
 
-            // lastScrollY = currentScrollY
+                // lastScrollY = currentScrollY
+
+                onIdle(processChunk)
+            })
 
             onIdle(processChunk)
-        })
 
-        onIdle(processChunk)
-
-        resolve()
+            resolve()
+        }
 
         // function processChunk(/* deadline: IdleDeadline */) {
         //     // const end = Math.min(index + CHUNK_SIZE, total)
