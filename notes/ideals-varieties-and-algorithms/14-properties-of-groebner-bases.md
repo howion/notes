@@ -60,3 +60,5 @@ where $x^\gamma = \text{LCM}(\small \text{LM}(f), \text{LM}(g) \normalsize)$.
 ## _Thm._ Buchberger’s Criterion
 
 Let $I$ be an ideal, then a basis $G = \Set{g_1, ..., g_s}$ is a Gr-basis for $I$ _if and only if_ for all pairs $i \neq j$, we have $G \mid \bold{S}(f,g)$.
+
+<!-- TODO: Mention Knuth-Bendix ? -->
