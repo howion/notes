@@ -59,3 +59,5 @@ B_n = \frac{1}{l} \int_{-l}^l \phi(x) \sin\left(\dfrac{n \pi x}{l}\right) \> dx
 $$
 
 where $n \in \N^+$.
+
+## _Thm._ Parseval's Equality
