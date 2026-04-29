@@ -1,6 +1,6 @@
 # Seperation of Variables and the Dirichlet Condition
 
-## _Thm._ Dirichlet SoV in the Wave Equation
+## _Thm._ in the Wave Equation
 
 Assume we are given an homogenous wave equation with Dirichlet conditions so that
 
@@ -85,7 +85,7 @@ $$
 h(x) = \sum_{n=1}^\infty \dfrac{n \pi c}{l} B_n \sin\left(\dfrac{n \pi x}{l}\right).
 $$
 
-## _Thm._ Dirichlet SoV in the Heat Equation
+## _Thm._ in the Heat Equation
 
 Analogously assume we are given an homogenous diffusion equation with Dirichlet conditions so that
 

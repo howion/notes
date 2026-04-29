@@ -1,6 +1,6 @@
 # Seperation of Variables and the Neumann Condition
 
-## _Thm._ Neumann SoV in the Diffusion Equation
+## _Thm._ in the Diffusion Equation
 
 Assume we are given an homogenous wave equation with Neumann conditions so that
 
@@ -35,7 +35,7 @@ $$
 g(x) = \dfrac{1}{2} A_0 + \sum_{n=1}^\infty A_n \cos\left(\dfrac{n \pi x}{l}\right)
 $$
 
-## _Thm._ Neumann SoV in the Wave Equation
+## _Thm._ in the Wave Equation
 
 Assume we are given an homogenous wave equation with Neumann conditions so that
 
