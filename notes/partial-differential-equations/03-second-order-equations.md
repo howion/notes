@@ -38,7 +38,7 @@ $$
 
 where $\cdots$ denotes terms of order one or lower.
 
-### Hyperbolic Case
+### _1._ Hyperbolic Case
 
 Let
 
@@ -61,7 +61,7 @@ $$
 
 where $f$ and $g$ are arbitrary functions.
 
-## Parabolic Case
+### _2._ Parabolic Case
 
 For the case $\Delta = 0$, we have
 
@@ -70,13 +70,13 @@ $$
 \eta = x
 $$
 
-where $\lambda$ is defined as above, but notice $\lambda_1 = \lambda_2$, so that
+where $\lambda$ is defined as above, but notice $\lambda_1 = \lambda_2$, then
 
 $$
 u(\xi, \eta) = f(\xi) \eta + g(\eta).
 $$
 
-## Elliptic Case
+### _3._ Elliptic Case
 
 For $\Delta < 0$, we have
 
@@ -88,5 +88,5 @@ $$
 where
 
 $$
-\tan(2\theta) = \dfrac{2 a_{12}}{a_{11} - a_{22}}
+\tan(2\theta) = \dfrac{2 a_{12}}{a_{11} - a_{22}}.
 $$
