@@ -1,8 +1,8 @@
-# Seperation of Variables and the Dirichlet Condition
+# Separation of Variables and the Dirichlet Condition
 
 ## _Thm._ in the Wave Equation
 
-Assume we are given an homogenous wave equation with Dirichlet conditions so that
+Assume we are given a homogeneous wave equation with Dirichlet conditions so that
 
 $$
 \def\arraystretch{1.5}
@@ -17,7 +17,7 @@ u_t(x,0) &=& h(x)
 \end{array}
 $$
 
-where $x \in (0, l)$. A **seperated solution** is a solution of the form
+where $x \in (0, l)$. A **separated solution** is a solution of the form
 
 $$
 u(x,t) = X(x) T(t)
@@ -29,7 +29,7 @@ $$
 XT'' = c^2 X'' T \implies -\dfrac{T''}{c^2 T} = -\dfrac{X''}{X} = \lambda.
 $$
 
-This defines a quantity $\lambda$ which must be a positive constant! So let $\lambda = \beta^2$ where $\beta > 0$, then the equations above are a pair of seperate ODEs such that
+This defines a separation constant $\lambda$. For the Dirichlet eigenvalue problem one gets $\lambda>0$, so write $\lambda=\beta^2$ with $\beta>0$. Then the equations above are a pair of separate ODEs:
 
 $$
 \begin{array}{lcl}
@@ -47,15 +47,15 @@ T = A \cos(\beta c t) + B \sin (\beta c t)
 \end{array}
 $$
 
-where $A,B,C$, and $D$ are constants. Now the boundary conditions require $X(0) = 0 = X(l)$ so that
+where $A,B,C,D$ are constants. The boundary conditions require $X(0)=0=X(l)$. From $X(0)=0$ we get $C=0$, hence $X(x)=D\sin(\beta x)$, and then
 
 $$
 0 = X(l) = D \sin (\beta l)
 $$
 
-> We are not interested at trivial $C=D=0$ solution.
+> We are not interested in the trivial solution $X\equiv 0$ (equivalently $C=D=0$).
 
-therefore $\beta = \frac{n \pi}{l}$ and there are an infinite number of seperated solutions of the form
+therefore $\beta = \dfrac{n\pi}{l}$ and there are infinitely many separated solutions of the form
 
 $$
 \boxed{
@@ -63,7 +63,7 @@ $$
 }
 $$
 
-where $n = 1,2,...$ and $A_n$ and $B_n$ are arbitrary constants. Noting sum of solutions is also a solution, we have
+where $n = 1,2,\dots$ and $A_n$ and $B_n$ are arbitrary constants. Noting a sum of solutions is also a solution, we have
 
 $$
 \boxed{
@@ -89,7 +89,7 @@ The numbers $\lambda_n = (n \pi / l)^2$ are called **eigenvalues** and the funct
 
 ## _Thm._ in the Heat Equation
 
-Analogously assume we are given an homogenous diffusion equation with Dirichlet conditions so that
+Analogously assume we are given a homogeneous diffusion equation with Dirichlet conditions so that
 
 $$
 \def\arraystretch{1.5}

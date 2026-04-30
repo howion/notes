@@ -4,7 +4,7 @@
 
 ## _Thm._ Constant Coefficients
 
-Let us be given an first-order homogenous partial differential equation
+Let us be given a first-order homogeneous partial differential equation
 
 $$
 au_x + bu_y = 0
@@ -24,7 +24,7 @@ where $f$ is arbitrary function of one variable.
 
 ## _Thm._ Variable Coefficient
 
-Now, let us be given an first-order homogenous partial differential equation
+Now, let us be given a first-order homogeneous partial differential equation
 
 $$
 u_x + yu_y = 0
@@ -53,7 +53,7 @@ $$
 and
 
 $$
-\boxed{u(x,y) = f(e^{-x})y}
+\boxed{u(x,y) = f\!\left(ye^{-x}\right)}
 $$
 
 which is the general solution to our PDE.

@@ -2,7 +2,7 @@
 
 ## _Def._ Simple 2nd Order PDE
 
-The homogenous **linear equation of order two in two variables** is given by
+The homogeneous **linear equation of order two in two variables** is given by
 
 $$
 \boxed{a_{11} u_{xx} + 2a_{12}u_{xy} + a_{22}u_{yy} + \cdots = 0}
@@ -33,8 +33,6 @@ $$
 $$
 u_{xx} + u_{yy} + \cdots = 0
 $$
-
-
 
 where $\cdots$ denotes terms of order one or lower.
 

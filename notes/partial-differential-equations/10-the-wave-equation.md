@@ -36,7 +36,7 @@ u_t(x, 0) &=& h(x)
 \end{array}
 $$
 
-where $\phi$ and $\psi$ are arbitrary. There is one and only one solution of this problem which is
+where $g$ and $h$ are the given initial displacement and velocity. There is one and only one solution of this problem which is
 
 $$
 \boxed{
@@ -60,7 +60,7 @@ $$
 u_{tt} - c^2 u_{xx} = f(x,t)
 $$
 
-be an inhomogenous wave equation with the initial conditions
+be an inhomogeneous wave equation with the initial conditions
 
 $$
 \def\arraystretch{1.25}
@@ -97,7 +97,7 @@ where $t - x/c$ is the reflection point and $D$ is the corresponding shaded regi
 
 ## _Thm._ Causality
 
-Effect of initial position $\phi(x)$ is a pair of waves traveling in either direction at speed $c$ and at half the original amplitude. The effect of an initial velocity $h(x)$ is a wave spreading out at speed $\leq c$ in both directions, so part of the wave may lag behind (if there is an initial velocity) but no part goes faster than speed $c$. This is called the **principal of causality**.
+Effect of initial position $g(x)$ is a pair of waves traveling in either direction at speed $c$ and at half the original amplitude. The effect of an initial velocity $h(x)$ is a wave spreading out at speed $\le c$ in both directions, so part of the wave may lag behind (if there is an initial velocity) but no part goes faster than speed $c$. This is called the **principle of causality**.
 
 <!-- <p align="center">
   <img src="./assets/10-principle-of-causality.svg" alt="Principle of Causality" width="600">
@@ -139,7 +139,7 @@ $$
 
 ## _Thm._ Reflection of Waves
 
-Assume we are given an Dirichlet problem on the half-line $(0, \infty)$ for the wave equation so that
+Assume we are given a Dirichlet problem on the half-line $(0,\infty)$ for the wave equation so that
 
 $$
 \def\arraystretch{1.5}
@@ -153,16 +153,16 @@ v(0, t) &=& 0
 \end{array}
 $$
 
-where $x \in (0, \infty)$ and $t \in (-\infty, \infty)$. Then, the solution for $\textcolor{red}{x > c |t|}$ is given by
+where $x \in (0,\infty)$ and $t>0$. Then, the solution for $x>ct$ is given by
 
 $$
-v(x,t) = \dfrac{1}{2}(g(x+ct) \textcolor{red}{+} g(x-ct)) + \dfrac{1}{2c} \int_{\textcolor{red}{x-ct}}^{\textcolor{red}{x+ct}} h(y) dy
+v(x,t) = \dfrac{1}{2}\bigl(g(x+ct) + g(x-ct)\bigr) + \dfrac{1}{2c} \int_{x-ct}^{x+ct} h(y)\,dy
 $$
 
-and for $\textcolor{red}{0 < x < c|t|}$ we have
+and for $0<x<ct$ we have
 
 $$
-v(x,t) = \dfrac{1}{2}(g(x+ct) \textcolor{red}{-} g(x-ct)) + \dfrac{1}{2c} \int_{\textcolor{red}{ct-x}}^{\textcolor{red}{ct+x}} h(y) dy
+v(x,t) = \dfrac{1}{2}\bigl(g(x+ct) - g(ct-x)\bigr) + \dfrac{1}{2c} \int_{ct-x}^{ct+x} h(y)\,dy
 $$
 
 > See Figure 2 in p. 62

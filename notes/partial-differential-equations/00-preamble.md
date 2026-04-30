@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Basic knowldge for the following topics is assumed. You may want to check the appendix.
+Basic knowledge of the following topics is assumed. You may want to check the appendix.
 
 * Linear algebra
 * (simple) ODEs

@@ -16,7 +16,7 @@ $$
 
 If $u(x,t)$ satisfies the diffusion equation in a rectangle, say $0 \leq x \leq l$ and $0 \leq t \leq T$ in space-time, then the maximum value of $u(x,t)$ is attained either initially at $t = 0$ or on the lateral sides ($x = 0$ or $x = l$).
 
-Indeed there is a stronger version of the maximum principle called the **strong maximum principle** which asserts the maximum cannot be assumed anywhere inside the rectangle but only on the bottom or the lateral sides (unless $u$ is constant). The corners are allowed.
+Indeed there is a stronger version of the maximum principle called the **strong maximum principle** which asserts the maximum cannot be attained anywhere inside the rectangle but only on the bottom or the lateral sides (unless $u$ is constant). The corners are allowed.
 
 The minimum value has the same property so that it too can be attained only on the bottom or the lateral sides.
 
@@ -63,7 +63,7 @@ where $x \in (-\infty, \infty)$ and $t \in (0, \infty)$. Assuming $\phi(\infty) 
 
 $$
 \boxed{
-    S(x,t) = \dfrac{\partial Q}{\partial x} = \dfrac{1}{\sqrt{4 \pi k t}} e^{-x^2 / 4kt}
+    S(x,t) = \dfrac{1}{\sqrt{4 \pi k t}} e^{-x^2 / 4kt}
 }
 $$
 
@@ -79,7 +79,7 @@ $$
 }
 $$
 
-The source function $S(x,t)$ is defined for all real $x$ and positive $t$. Morever, $S(x,t)$ is positive and is even in $x$ so that $S(-x,t) = S(x,t)$.
+The source function $S(x,t)$ is defined for all real $x$ and positive $t$. Moreover, $S(x,t)$ is positive and is even in $x$ so that $S(-x,t) = S(x,t)$.
 
 > Note that this general solution integral is not expressible with the elementary functions, therefore recall that
 >
@@ -145,12 +145,12 @@ $$
 
 ## _Thm._ Diffusion with a Source
 
-Let's now consider the diffusion equation with a source $f(x,t)$ which is
+Let's now consider the diffusion equation with a source $f(x,t)$, i.e.
 
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-u_{t} - k u_{xx} &=& 0  \\
+u_{t} - k u_{xx} &=& f(x,t)  \\
 \hdashline
 u(x, 0) &=& \phi(x)
 \end{array}

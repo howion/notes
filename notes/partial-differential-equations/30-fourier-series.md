@@ -2,7 +2,7 @@
 
 ## _Def._ Fourier Sine Series
 
-The **fourier sine series** for the given function $\phi(x)$ are given by
+The **Fourier sine series** for the given function $\phi(x)$ is given by
 
 $$
 \phi(x) = \sum_{n=1}^\infty A_n \sin\left(\dfrac{n \pi x}{l}\right)
@@ -14,7 +14,7 @@ in the interval $(0, l)$.
 
 ## _Thm._ Fourier Sine Series Coefficients
 
-The coefficients of the fourier sine series are given by
+The coefficients of the Fourier sine series are given by
 
 $$
 \boxed{
@@ -24,7 +24,7 @@ $$
 
 ## _Def._ Fourier Cosine Series
 
-The **fourier cosine seris** is defined as
+The **Fourier cosine series** is defined as
 
 $$
 \phi(x) = \frac{1}{2}A_0 + \sum_{n=1}^\infty A_n \cos\left(\dfrac{n \pi x}{l}\right)
@@ -34,9 +34,9 @@ in the interval $(0, l)$
 
 > These series, as we saw earlier, are used for wave and diffusion equations with Neumann boundary conditions on $(0, l)$.
 
-## _Thm._ Fourier Sine Series Coefficients
+## _Thm._ Fourier Cosine Series Coefficients
 
-The coefficients of the fourier cosine series are given by
+The coefficients of the Fourier cosine series are given by
 
 $$
 \boxed{
@@ -44,9 +44,15 @@ $$
 }
 $$
 
+for $n \ge 1$, and
+
+$$
+\boxed{A_0 = \frac{2}{l}\int_0^l \phi(x)\,dx.}
+$$
+
 ## _Def._ (Full) Fourier Series
 
-The **(full) fourier series** of $\phi(x)$ on the interval $(-l, l)$ is defined as
+The **(full) Fourier series** of $\phi(x)$ on the interval $(-l,l)$ is defined as
 
 $$
 \phi(x) = \frac{1}{2}A_0 + \sum_{n=1}^\infty \left(A_n \cos\left(\dfrac{n \pi x}{l}\right) + B_n \sin\left(\dfrac{n \pi x}{l}\right)\right)
@@ -68,7 +74,7 @@ $$
 
 where $n \in \N^+$.
 
-> Note that these coefficients are not exactly the same as perviously defined cosine and sine coefficients.
+> Note that these coefficients are not exactly the same as the previously defined cosine and sine coefficients.
 
 ## _Thm._ Parseval's Equality
 
