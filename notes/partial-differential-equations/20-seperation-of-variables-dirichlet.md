@@ -85,6 +85,8 @@ $$
 h(x) = \sum_{n=1}^\infty \dfrac{n \pi c}{l} B_n \sin\left(\dfrac{n \pi x}{l}\right).
 $$
 
+The numbers $\lambda_n = (n \pi / l)^2$ are called **eigenvalues** and the functions $X_n(x)$ are called **eigenfunctions**.
+
 ## _Thm._ in the Heat Equation
 
 Analogously assume we are given an homogenous diffusion equation with Dirichlet conditions so that

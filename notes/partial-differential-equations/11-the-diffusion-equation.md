@@ -62,17 +62,21 @@ $$
 where $x \in (-\infty, \infty)$ and $t \in (0, \infty)$. Assuming $\phi(\infty) = \phi(-\infty) = 0$, we have
 
 $$
-S(x,t) = \dfrac{\partial Q}{\partial x} = \dfrac{1}{\sqrt{4 \pi k t}} e^{-x^2 / 4kt}
+\boxed{
+    S(x,t) = \dfrac{\partial Q}{\partial x} = \dfrac{1}{\sqrt{4 \pi k t}} e^{-x^2 / 4kt}
+}
 $$
 
 for $t > 0$. This is called the **source function**, so that for the solution we have
 
 $$
-\def\arraystretch{1}
-\begin{array}{lll}
-u(x,t) &=& \displaystyle\int_{-\infty}^\infty S(x - y,t) \phi(y) dy \\ \\
-&=& \dfrac{1}{\sqrt{4 \pi k t}}  \displaystyle\int_{-\infty}^\infty e^{-(x-y)^2 / 4kt} \phi(y) dy
-\end{array}
+\boxed{
+    \def\arraystretch{1}
+    \begin{array}{lll}
+    u(x,t) &=& \displaystyle\int_{-\infty}^\infty S(x - y,t) \phi(y) dy \\ \\
+    &=& \dfrac{1}{\sqrt{4 \pi k t}}  \displaystyle\int_{-\infty}^\infty e^{-(x-y)^2 / 4kt} \phi(y) dy
+    \end{array}
+}
 $$
 
 The source function $S(x,t)$ is defined for all real $x$ and positive $t$. Morever, $S(x,t)$ is positive and is even in $x$ so that $S(-x,t) = S(x,t)$.
@@ -136,5 +140,30 @@ where $x \in (0, \infty)$ and $t \in (0, \infty)$, then the general solution for
 $$
 \boxed{
     w(x,t) = \dfrac{1}{\sqrt{4 \pi k t}} \int_0^\infty \left( e^{-(x-y)^2 / 4kt} + e^{-(x+y)^2 / 4kt} \right) \phi(y)dy
+}
+$$
+
+## _Thm._ Diffusion with a Source
+
+Let's now consider the diffusion equation with a source $f(x,t)$ which is
+
+$$
+\def\arraystretch{1.5}
+\begin{array}{rcl}
+u_{t} - k u_{xx} &=& 0  \\
+\hdashline
+u(x, 0) &=& \phi(x)
+\end{array}
+$$
+
+then the general solution is of the form
+
+$$
+\boxed{
+    \def\arraystretch{1}
+    \begin{array}{lll}
+    u(x,t) &=& \displaystyle\int_{-\infty}^\infty S(x - y,t) \phi(y) dy \\ \\
+    &+&  \displaystyle\int_0^t\int_{-\infty}^\infty S(x-y, t-s) f(y,s) \> dy \> ds
+    \end{array}
 }
 $$

@@ -81,6 +81,20 @@ $$
 
 notice that the double integral is over the **characteristic triangle $\Delta$**.
 
+Moreover, if this problem on the half line i.e. with extra boundary condition
+
+$$
+u(0,t) = r(t)
+$$
+
+then the solution is the same as above for $x > ct > 0$, but for $0 < x < ct$, we have
+
+$$
+u(x,t) = \cdots \textcolor{red}{ + r\left(t - \dfrac{x}{c}\right) + \dfrac{1}{2c} \iint_D f}
+$$
+
+where $t - x/c$ is the reflection point and $D$ is the corresponding shaded region.
+
 ## _Thm._ Causality
 
 Effect of initial position $\phi(x)$ is a pair of waves traveling in either direction at speed $c$ and at half the original amplitude. The effect of an initial velocity $h(x)$ is a wave spreading out at speed $\leq c$ in both directions, so part of the wave may lag behind (if there is an initial velocity) but no part goes faster than speed $c$. This is called the **principal of causality**.
