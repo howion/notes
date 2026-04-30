@@ -68,7 +68,7 @@ $$
 \eta = x
 $$
 
-where $\lambda$ is defined as above, but notice $\lambda_1 = \lambda_2$, then
+where $\lambda = \lambda_1 = \lambda_2$ is defined as above, then
 
 $$
 u(\xi, \eta) = f(\xi) \eta + g(\eta).

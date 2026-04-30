@@ -12,6 +12,20 @@ $$
 
 > The diffusion equation is harder to solve than the wave equation, so we will postpone the general solution.
 
+where $t > 0$, $k \in \R$ and $0 < x .< l$.
+
+## _Def._ Energy
+
+Consider we are given an homogenous diffusion equation, then we define it's **energy integral** as
+
+$$
+\boxed{
+    E(t) := \dfrac{1}{2} \int_0^l u^2 dx
+}
+$$
+
+which is non-increasing (exercise) i.e. $E(t) < E(0)$.
+
 ### (Weak) Maximum Principle
 
 If $u(x,t)$ satisfies the diffusion equation in a rectangle, say $0 \leq x \leq l$ and $0 \leq t \leq T$ in space-time, then the maximum value of $u(x,t)$ is attained either initially at $t = 0$ or on the lateral sides ($x = 0$ or $x = l$).
@@ -29,7 +43,9 @@ $$
 \begin{array}{lll}
 u_t - ku_{xx} &=& f(x,t) \\
 u(x,0) &=& \phi(x) \\
-u(0, t) &=& g(t), \enspace u(l,t) = h(t)
+u(0, t) &=& g(t), \\
+\hdashline
+u(l,t) &=& h(t)
 \end{array}
 $$
 
@@ -53,7 +69,7 @@ Let us be given the following problem
 
 $$
 \def\arraystretch{1.25}
-\begin{array}{lll}
+\begin{array}{rcl}
 u_t &=& ku_{xx} \\
 u(x, 0) &=& \phi(x)
 \end{array}
@@ -119,7 +135,7 @@ where $x \in (0, \infty)$ and $t \in (0, \infty)$. The general solution for this
 
 $$
 \boxed{
-    v(x,t) = \dfrac{1}{\sqrt{4 \pi k t}} \int_0^\infty \left( e^{-(x-y)^2 / 4kt} - e^{-(x+y)^2 / 4kt} \right) \phi(y)dy
+    v(x,t) = \int_0^\infty \left[ S(x-y, t) - S(x+y, t) \right] \phi(y)dy
 }
 $$
 
@@ -139,7 +155,7 @@ where $x \in (0, \infty)$ and $t \in (0, \infty)$, then the general solution for
 
 $$
 \boxed{
-    w(x,t) = \dfrac{1}{\sqrt{4 \pi k t}} \int_0^\infty \left( e^{-(x-y)^2 / 4kt} + e^{-(x+y)^2 / 4kt} \right) \phi(y)dy
+    w(x,t) = \int_0^\infty \left[ S(x-y, t) + S(x+y, t) \right] \phi(y)dy
 }
 $$
 

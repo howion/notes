@@ -44,6 +44,8 @@ $$
 }
 $$
 
+<!-- TODO: Add examples and better explanation for domain of influence and dependence -->
+
 ## _Def._ Inhomogeneous Wave Equation
 
 Let $f \in C^2(\R^2, \R)$, then the **inhomogeneous wave equation** is defined as
@@ -111,9 +113,9 @@ The **domain of influence** corresponds to the shaded are for the (upwards) tria
 
 The **domain of dependence** or the **past history** of the point $(x,t)$ corresponds to the shaded area for the (downwards) triangle $(x-ct, 0)$, $(x+ct,0)$ and $(x,t)$.
 
-## _Thm._ Energy
+<!-- ## _Thm._ Energy
 
-Imagine an infinite string with constant $\rho$ and $T$, so that
+Imagine an infinite string with constants $\rho$ and $T$, so that
 
 $$
 \rho u_{tt} = T u_{xx}
@@ -123,7 +125,7 @@ then
 
 $$
 \boxed{
-    PE = \dfrac{1}{2} T \int_{-\infty}^\infty u_x^2 \> dx
+    PE = \dfrac{1}{2} \int_{-\infty}^\infty Tu_x^2 \> dx
 }
 $$
 
@@ -133,9 +135,19 @@ $$
 \boxed{
     E = \dfrac{1}{2} \int_{-\infty}^\infty (\rho u_t^2 + Tu_x^2) \> dx
 }
+$$ -->
+
+## _Def._ Energy
+
+Consider a homogenous wave equation, then we define the **energy integral** as
+
+$$
+\boxed{
+    E(t) := \dfrac{1}{2} \int_{-\infty}^\infty (u_t^2 + c^2u_x^2) \> dx
+}
 $$
 
-<!-- TODO: half-line -->
+which is constant (exercise).
 
 ## _Thm._ Reflection of Waves
 
