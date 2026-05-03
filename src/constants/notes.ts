@@ -78,6 +78,14 @@ export const NOTE_RECORDS: NoteRecord[] = [
             note('Probability Theory', 'probability-theory'),
             note('Partial Differential Equations', 'partial-differential-equations')
         ]
+    },
+    {
+        title: 'Logic and Computation Cookbook',
+        children: [
+            note('LCC Volume I', 'logic-and-computation-cookbook/volume-1', {
+                hidden: true
+            })
+        ]
     }
     // {
     //     title: 'Miscellaneous',
