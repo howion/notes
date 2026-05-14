@@ -1,4 +1,4 @@
-# Hilbert Basis Theorem and Groebner Bases
+# Hilbert Basis Theorem and Gröbner Bases
 
 ## _Def._ $\text{LT}(I)$
 
@@ -25,9 +25,9 @@ $$
 
 for some $g_1, ..., g_s \in I$.
 
-## _Def._ Groebner Basis
+## _Def._ Gröbner Basis
 
-Fix a monomial order and let $I$ be an ideal, then a finite subset $G = \Set{g_1, ..., g_s} \subseteq I$ is said to be a **Groebner basis (Gr-basis)** or **standard basis** if
+Fix a monomial order and let $I$ be an ideal, then a finite subset $G = \Set{g_1, ..., g_s} \subseteq I$ is said to be a **Gröbner basis (Gr-basis)** or **standard basis** if
 
 $$
 \Braket{\text{LT}(g_1), ..., \text{LT}(g_s)} = \Braket{\text{LT}(I)}.
@@ -37,7 +37,7 @@ $$
 
 ## _Thm._ Existence of Gr-basis
 
-Every non-zero ideal $I \subseteq \mathbb{F}[x_1,...,x_n]$ has a Groebner basis. Moreover, any Groebner basis of $I$ is a basis of $I$.
+Every non-zero ideal $I \subseteq \mathbb{F}[x_1,...,x_n]$ has a Gröbner basis. Moreover, any Gröbner basis of $I$ is a basis of $I$.
 
 ## _Thm._ ACC
 

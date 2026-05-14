@@ -33,7 +33,7 @@ We will commonly use the letter $V, W$ to denote the varieties.
 Let $V, W \subseteq \mathbb{F}^n$ be varieties, then so are $V \cup W$ and $V \cap W$. Moreover, if $V = \bold{V}(f_1,...,f_s)$ and $W = \bold{V}(g_1, ..., g_t)$, then
 
 1. $V \cap W = \bold{V}(f_1,...,f_s,g_1,...,g_t)$, and
-2. $V \cup W = \bold{V}(f_i g_j : i = 1,...,s \> \land \> j = 1,...,t)$
+2. $V \cup W = \bold{V}(f_i g_j : i = 1,...,s \> \land \> j = 1,...,t)$.
 
 <details>
 <summary><b>Sketch of Proof</b></summary>

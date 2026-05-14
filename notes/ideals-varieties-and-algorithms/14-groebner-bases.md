@@ -1,4 +1,4 @@
-# Properties of Groebner Bases
+# Gröbner Bases
 
 ## _Thm._ Normal Form
 

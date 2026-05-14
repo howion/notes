@@ -92,7 +92,7 @@ export default defineConfig({
                     removeAttributeQuotes: false,
                     removeTagWhitespace: false,
                     removeComments: true,
-                    removeOptionalTags: true,
+                    removeOptionalTags: false,
                     removeRedundantAttributes: true,
                     collapseWhitespace: true // watch out for this, it can break some components
                 }
