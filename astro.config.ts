@@ -23,8 +23,9 @@ const willAnalyze = process.env.ANALYZE === 'true'
 export default defineConfig({
     output: 'static', // static | server
     server: {
-        port: 3000
+        port: 3000,
     },
+    publicDir: './src/public',
     adapter: vercel({
         webAnalytics: {
             enabled: false // handle via other means
