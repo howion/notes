@@ -40,6 +40,8 @@ where $T$ are the terms in which $x_1$ has degree less than $N_i$ where $N_i \ge
 Now, if $\bold{V}(I_1) \ni (a_2, ..., a_n) \notin \bold{V}(g_1, ..., g_s)$, then there exists $a_1 \in \Complex$ such that $(a_1, ..., a_n) \in \bold{V}(I)$.
 
 > Notice how we stated the theorem for the field $\Complex$. Indeed, this theorem is false over $\R$.
+>
+> We will later see that this and the following theorems are generally true for any algebraically closed field.
 
 ## _Corollary._ Constant Coefficient Extension Theorem
 
