@@ -37,7 +37,7 @@ $$
 Let $I = \Braket{f_1, ..., f_s}$ and $V = \bold{V}(I) \subseteq \Complex^n$, then
 
 1. $\bold{V}(I_\ell)$ is the smallest* (affine) variety containing $\pi_\ell(V) \subseteq \Complex^{n-\ell}$, and
-2. if $V \neq \varnothing$, then there exists an (affine) variety $W \subset \bold{V}(I_\ell)$ such that $\bold{V}(I_\ell) - W \subset \pi_\ell(V)$.
+2. if $V \neq \varnothing$, then there exists an (affine) variety $W \subset \bold{V}(I_\ell)$ such that $\bold{V}(I_\ell) - W \subseteq \pi_\ell(V)$.
 
 > *smallest with respect to set inclusion.
 
