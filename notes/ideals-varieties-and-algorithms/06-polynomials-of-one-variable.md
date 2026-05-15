@@ -127,7 +127,7 @@ Let $f_1, ..., f_s \in \mathbb{F}[x]$, then
 
 ### Exercises
 
-## 1
+### #1
 
 Find a basis for the ideal $\bold{I}(\bold{V}(x^5 − 2x^4 + 2x^2 − x, x^5 − x^4 − 2x^3 + 2x^2 + x − 1)) \subseteq \mathbb{F}[x]$.
 
