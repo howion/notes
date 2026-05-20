@@ -51,7 +51,7 @@ In the Euclidian group, isometries are often split into two classed based on how
 
 Direct isometries forms a subgroup in $\mathbb{E}(n)$ denoted with $\mathbb{E}^+(n)$ and their linear part has determinant $+1$.
 
-Opposite isometries are not a subgroup on their own, but form the other half of $\mathbb{E}^n$.
+Opposite isometries are not a subgroup on their own, but form the other half of $\mathbb{E}^n$ denoted $\mathbb{E}^-(n)$.
 
 ## _Thm._ $\mathbb{E}^2$
 
