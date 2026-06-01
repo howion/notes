@@ -2,7 +2,7 @@
 
 <!-- ## _Def._ Characteristic Line -->
 
-## _Thm._ Constant Coefficients
+## _Ex._ Constant Coefficients
 
 Let us be given a first-order homogeneous partial differential equation
 
@@ -22,7 +22,7 @@ $$
 
 where $f$ is arbitrary function of one variable.
 
-## _Thm._ Variable Coefficient
+## _Ex._ Variable Coefficient
 
 Now, let us be given a first-order homogeneous partial differential equation
 
@@ -57,3 +57,48 @@ $$
 $$
 
 which is the general solution to our PDE.
+
+## _Def._ First Order (Quasi-)Linear Equation
+
+A **linear first order partial differential equation** is defined as
+
+$$
+A(x,y)z_x + B(x,y)z_y = C(x,y)z
+$$
+
+where $z = z(x,y)$. More generaly, a **quasilinear** equation is defined as
+
+$$
+A(x,y)z_x + B(x,y)z_y = C(x,y, z)
+$$
+
+and both are are solved in the same way which is
+
+$$
+\dfrac{dx}{A}
+= \dfrac{dy}{B}
+= \dfrac{dz}{C}
+\>(=dt)
+$$
+
+> todo add more from handwritten notes
+
+## _Remark._ Integrating Factor
+
+> todo
+
+## _Thm._ Quasilinear Cauchy Problem
+
+Consider the first order quasilinear equation
+
+$$
+A(x,y)z_x + B(x,y)z_y = C(x,y, z)
+$$
+
+passing through the curve
+
+$$
+x = \alpha(s), \enspace y = \beta(s), \enspace z = \gamma(s)
+$$
+
+where $z = z(x,y)$ and $s \in (a,b) \subseteq \R$.
