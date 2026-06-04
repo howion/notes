@@ -69,7 +69,7 @@ $$
 where $z = z(x,y)$. More generaly, a **quasilinear** equation is defined as
 
 $$
-A(x,y)z_x + B(x,y)z_y = C(x,y, z)
+A(x,y,z)z_x + B(x,y,z)z_y = C(x,y,z)
 $$
 
 and both are are solved in the same way which is
@@ -83,22 +83,41 @@ $$
 
 > todo add more from handwritten notes
 
-## _Remark._ Integrating Factor
-
-> todo
-
 ## _Thm._ Quasilinear Cauchy Problem
 
 Consider the first order quasilinear equation
 
 $$
-A(x,y)z_x + B(x,y)z_y = C(x,y, z)
+A(x,y,z)z_x + B(x,y,z)z_y = C(x,y,z)
 $$
 
-passing through the curve
+where for some domain $\Omega$ we have $x,y,z \in \Omega$ and $A,B,C \in C^1(\Omega)$ and $A^2 + B^2 + C^2 \neq 0$ in $\Omega$.
+
+Passing through the curve
 
 $$
-x = \alpha(s), \enspace y = \beta(s), \enspace z = \gamma(s)
+\def\arraystretch{1.25}
+\begin{array}{lll}
+\Gamma : &x = \alpha(s), & \\
+&y = \beta(s), & \\
+&z = \gamma(s).&
+\end{array}
 $$
 
-where $z = z(x,y)$ and $s \in (a,b) \subseteq \R$.
+where $s \in (a,b) \subseteq \Omega$ and $\alpha, \beta, \gamma \in C^1 (\Omega)$.
+
+The Cauch Problem above has an unique solution in some neighborhood of $\Gamma$ if
+
+$$
+\Delta := \begin{vmatrix}
+   A & B \\
+   \alpha' & \beta'
+\end{vmatrix}
+$$
+
+is non-zero on $\Gamma$.
+
+Moreover, if $\Delta |_\Gamma = 0$ for all $s \in (a,b)$, then either
+
+* We have infinitely many solns if $\Gamma$ is characteristic curve, or
+* We have no solutions if $\Gamma$ is not characteristic curve.

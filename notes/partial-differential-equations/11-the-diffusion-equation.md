@@ -2,7 +2,9 @@
 
 ## _Def._ Diffusion Equation
 
-The (one-dimensional) **diffusion equation** (or also known as **heat equation**) is defined as
+> Also known as, especially in natural sciences, **The Heat Equation**.
+
+The (one-dimensional) **diffusion equation** (or also known as **heat equation**) is defined as the (parabolic) equation:
 
 $$
 \begin{equation}
@@ -12,7 +14,7 @@ $$
 
 > The diffusion equation is harder to solve than the wave equation, so we will postpone the general solution.
 
-where $t > 0$, $k \in \R$ and $0 < x .< l$.
+where $t > 0$, $k \in \R$ and $0 < x .< \ell$.
 
 ## _Def._ Energy
 
@@ -20,7 +22,7 @@ Consider we are given an homogenous diffusion equation, then we define it's **en
 
 $$
 \boxed{
-    E(t) := \dfrac{1}{2} \int_0^l u^2 dx
+    E(t) := \dfrac{1}{2} \int_0^\ell u^2 dx
 }
 $$
 
@@ -28,11 +30,13 @@ which is non-increasing (exercise) i.e. $E(t) < E(0)$.
 
 ### (Weak) Maximum Principle
 
-If $u(x,t)$ satisfies the diffusion equation in a rectangle, say $0 \leq x \leq l$ and $0 \leq t \leq T$ in space-time, then the maximum value of $u(x,t)$ is attained either initially at $t = 0$ or on the lateral sides ($x = 0$ or $x = l$).
+> TODO :: redefine these, see notes p59-60 and coressponding correlaries.
+
+<!-- If $u(x,t)$ satisfies the diffusion equation in a rectangle, say $0 \leq x \leq l$ and $0 \leq t \leq T$ in space-time, then the maximum value of $u(x,t)$ is attained either initially at $t = 0$ or on the lateral sides ($x = 0$ or $x = l$).
 
 Indeed there is a stronger version of the maximum principle called the **strong maximum principle** which asserts the maximum cannot be attained anywhere inside the rectangle but only on the bottom or the lateral sides (unless $u$ is constant). The corners are allowed.
 
-The minimum value has the same property so that it too can be attained only on the bottom or the lateral sides.
+The minimum value has the same property so that it too can be attained only on the bottom or the lateral sides. -->
 
 ### Uniqueness
 

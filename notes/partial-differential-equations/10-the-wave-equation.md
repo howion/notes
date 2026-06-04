@@ -2,7 +2,7 @@
 
 ## _Def._ Wave Equation
 
-The (one-dimensional) **wave equation** (on the line) is defined as
+The (one-dimensional) **wave equation** (on the line) is defined as the (hyperbolic) equation:
 
 $$
 u_{tt} = c^2 u_{xx}
@@ -22,7 +22,7 @@ $$
 
 where $f$ and $g$ are twice-differentiable arbitrary functions of single variable.
 
-## _Thm._ Initial Value Problem
+## _Thm._ Cauchy Problem for the Wave Equation
 
 Assume we are given an initial value problem for the wave equation so that
 
@@ -44,6 +44,10 @@ $$
 }
 $$
 
+called the **d'Alembert's formula**.
+
+Moreover, this problem (generally inhomogenous wave equation) is well-posed since unique solution exists and it's stable.
+
 <!-- TODO: Add examples and better explanation for domain of influence and dependence -->
 
 ## _Def._ Inhomogeneous Wave Equation
@@ -54,7 +58,7 @@ $$
 u_{tt} - c^2 u_{xx} = f(x,t)
 $$
 
-## _Thm._ d'Alembert's Formula
+## _Thm._ Generalized d'Alembert's Formula
 
 Let
 
@@ -109,9 +113,9 @@ Effect of initial position $g(x)$ is a pair of waves traveling in either directi
 
 An initial condition (position or velocity or both) at the point $(x_0, 0)$ can affect the solution for $t > 0$ only in the shaded sector, which is called the **domain of influence** of the point $(x_0, 0)$.
 
-The **domain of influence** corresponds to the shaded are for the (upwards) triangle $x+ct = x_0$, $x - ct = x_0$ and $(x_0,0)$.
+The **domain of influence** corresponds to the shaded are for the (upwards infinite) triangle defined by two lines $x+ct = x_0$, $x - ct = x_0$ and the point $(x_0,0)$ where $x_0 \in [x-ct, x+ct]$.
 
-The **domain of dependence** or the **past history** of the point $(x,t)$ corresponds to the shaded area for the (downwards) triangle $(x-ct, 0)$, $(x+ct,0)$ and $(x,t)$.
+The **domain of dependence** or the **past history** of the point $(x,t)$ corresponds to the shaded area for the (downwards) triangle $(x-ct, 0)$, $(x+ct,0)$ and $(x,t)$ called the **characteristic triangle**.
 
 <!-- ## _Thm._ Energy
 
@@ -180,3 +184,7 @@ $$
 > See Figure 2 in p. 62
 
 ## _Thm._ Duhamel's Principle
+
+> TODO :: semi-infinite, and free/fixed end and their domains.
+> TODO :: solution of non-homogenous wave eqn via $u = v+w$, see notes p52.
+> TODO :: solution of simple non-homogenous and the Green's Thm applied to domain of dependence.

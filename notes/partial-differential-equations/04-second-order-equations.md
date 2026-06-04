@@ -34,7 +34,15 @@ $$
 u_{xx} + u_{yy} + \cdots = 0
 $$
 
-where $\cdots$ denotes terms of order one or lower.
+where $\cdots$ denotes terms of order one or lower. Assuming $a_{11} \neq 0$, we generally have
+
+$$
+\dfrac{dy}{dx} = \dfrac{a_{12} \pm \sqrt{\Delta}}{a_{11}}
+$$
+
+> This identity is correct even if $a_{ij}$'s are not coefficients but rather functions.
+
+In particular...
 
 ### _1._ Hyperbolic Case
 
