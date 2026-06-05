@@ -32,3 +32,13 @@ $$
    F_1 & F_2 & F_3
 \end{vmatrix}
 $$
+
+## _Thm._ Green's Theorem
+
+Let $\Omega$ be a domain in $\R^2$ and $P, Q \in C^1(\Omega)$, then
+
+$$
+\iint_\Omega (P_x - Q_y)\>dx dy = \oint_{\partial\,\Omega} P\>dy + Q\>dx
+$$
+
+where $\partial\,\Omega$ is positively oriented, piecewise smooth, simple closed curve whose region is $\Omega$.

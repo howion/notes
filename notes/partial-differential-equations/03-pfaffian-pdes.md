@@ -12,7 +12,7 @@ $$
 
 ## _Thm._ Solution of Pfaffian PDEs
 
-Consider the **Pfaffian PDE**
+Let $z = z(x,y)$ and consider the **Pfaffian PDE**:
 
 $$
 P(x,y,z) dx + Q(x,y,z)dy + R(x,y,z)dz = 0

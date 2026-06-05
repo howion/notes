@@ -58,6 +58,43 @@ $$
 u_{tt} - c^2 u_{xx} = f(x,t)
 $$
 
+and unless otherwise stated assume $t > 0$ and $x \in (-\infty, \infty)$.
+
+## _Thm._ Simple Inhomogenous Wave Equation
+
+Assume we are given a inhomogenous wave equation with the initial conditions
+
+$$
+\def\arraystretch{1.25}
+\begin{array}{ccc}
+u(x,0) &=& 0 \\
+u_t(x,0) &=& 0 \\
+\end{array}
+$$
+
+then the solution $u(x,t)$ is given by applying the Green's Theorem on the domain of dependence so that
+
+$$
+u(x_0,t_0) = \dfrac{1}{2c} \iint_D f(a,b)\>da\>db
+$$
+
+where $D$ is the characteristic triangle.
+
+<p align="center">
+  <img src="./partial-differential-equations/10-greens-theorem-on-characteristic-triangle.svg" alt="Green's Theorem on characteristic triangle" width="400">
+</p>
+
+where
+
+$$
+\def\arraystretch{1.25}
+\begin{array}{ccl}
+L_0 &=& \Set{(a,0) : x_0 - ct_0 \leq a \leq x_0 + ct_0} \\
+L_1 &=& \Set{(a,b) : a+cb = x_0+ct_0, \enspace 0 \leq b \leq t} \\
+L_2 &=& \Set{(a,b) : a-cb = x_0-ct_0, \enspace 0 \leq b \leq t} \\
+\end{array}
+$$
+
 ## _Thm._ Generalized d'Alembert's Formula
 
 Let
@@ -105,41 +142,21 @@ where $t - x/c$ is the reflection point and $D$ is the corresponding shaded regi
 
 Effect of initial position $g(x)$ is a pair of waves traveling in either direction at speed $c$ and at half the original amplitude. The effect of an initial velocity $h(x)$ is a wave spreading out at speed $\le c$ in both directions, so part of the wave may lag behind (if there is an initial velocity) but no part goes faster than speed $c$. This is called the **principle of causality**.
 
-<!-- <p align="center">
-  <img src="./assets/10-principle-of-causality.svg" alt="Principle of Causality" width="600">
-</p> -->
-
 > See and add principle of causality figure p. 39
 
-An initial condition (position or velocity or both) at the point $(x_0, 0)$ can affect the solution for $t > 0$ only in the shaded sector, which is called the **domain of influence** of the point $(x_0, 0)$.
+## _Thm._ Domain of Influence and Dependence
 
-The **domain of influence** corresponds to the shaded are for the (upwards infinite) triangle defined by two lines $x+ct = x_0$, $x - ct = x_0$ and the point $(x_0,0)$ where $x_0 \in [x-ct, x+ct]$.
+<p align="center">
+  <img src="./partial-differential-equations/10-domain-of-influence.svg" alt="Domain of Influence" width="400">
+</p>
 
-The **domain of dependence** or the **past history** of the point $(x,t)$ corresponds to the shaded area for the (downwards) triangle $(x-ct, 0)$, $(x+ct,0)$ and $(x,t)$ called the **characteristic triangle**.
+An initial condition (position or velocity or both) at the point $(x_0, 0)$ can affect the solution for $t > 0$ only in the shaded sector, which is called the **domain of influence** of the point $(x_0, 0)$. The domain of influence corresponds to the shaded are for the (upwards infinite) triangle defined by two lines $x+ct = x_0$, $x - ct = x_0$ and the point $(x_0,0)$ where $x_0 \in [x-ct, x+ct]$.
 
-<!-- ## _Thm._ Energy
+<p align="center">
+  <img src="./partial-differential-equations/10-domain-of-dependence.svg" alt="Domain of Dependence" width="400">
+</p>
 
-Imagine an infinite string with constants $\rho$ and $T$, so that
-
-$$
-\rho u_{tt} = T u_{xx}
-$$
-
-then
-
-$$
-\boxed{
-    PE = \dfrac{1}{2} \int_{-\infty}^\infty Tu_x^2 \> dx
-}
-$$
-
-and noting the total energy is given by $E = KE + PE$, we have
-
-$$
-\boxed{
-    E = \dfrac{1}{2} \int_{-\infty}^\infty (\rho u_t^2 + Tu_x^2) \> dx
-}
-$$ -->
+The **domain of dependence** or the **past history** of the point $(x_0,t_0)$ corresponds to the shaded area for the (downwards) triangle $(x_0-ct_0, 0)$, $(x_0+ct_0,0)$ and $(x_0,t_0)$ called the **characteristic triangle**.
 
 ## _Def._ Energy
 
@@ -185,6 +202,7 @@ $$
 
 ## _Thm._ Duhamel's Principle
 
-> TODO :: semi-infinite, and free/fixed end and their domains.
-> TODO :: solution of non-homogenous wave eqn via $u = v+w$, see notes p52.
-> TODO :: solution of simple non-homogenous and the Green's Thm applied to domain of dependence.
+> **TODOs**
+>
+> * Add semi infinite: free/fixed end wave equations and their domains.
+> * Solution of non-homogenous wave equations via $u = v+w$, see notes p52.
