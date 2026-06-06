@@ -10,14 +10,14 @@ $$
 u_{tt} - c^2 u_{xx} &=& 0  \\
 \hdashline
 u(0, t) &=& 0 \\
-u(l, t) &=& 0 \\
+u(\ell, t) &=& 0 \\
 \hdashline
 u(x, 0) &=& g(x) \\
 u_t(x,0) &=& h(x)
 \end{array}
 $$
 
-where $x \in (0, l)$. A **separated solution** is a solution of the form
+where $x \in (0, \ell)$. A **separated solution** is a solution of the form
 
 $$
 u(x,t) = X(x) T(t)
@@ -47,19 +47,19 @@ T = A \cos(\beta c t) + B \sin (\beta c t)
 \end{array}
 $$
 
-where $A,B,C,D$ are constants. The boundary conditions require $X(0)=0=X(l)$. From $X(0)=0$ we get $C=0$, hence $X(x)=D\sin(\beta x)$, and then
+where $A,B,C,D$ are constants. The boundary conditions require $X(0)=0=X(\ell)$. From $X(0)=0$ we get $C=0$, hence $X(x)=D\sin(\beta x)$, and then
 
 $$
-0 = X(l) = D \sin (\beta l)
+0 = X(\ell) = D \sin (\beta \ell)
 $$
 
 > We are not interested in the trivial solution $X\equiv 0$ (equivalently $C=D=0$).
 
-therefore $\beta = \dfrac{n\pi}{l}$ and there are infinitely many separated solutions of the form
+therefore $\beta = \dfrac{n\pi}{\ell}$ and there are infinitely many separated solutions of the form
 
 $$
 \boxed{
-    u_n(x,t) = \left(A_n\cos\left(\dfrac{n \pi ct}{l}\right) + B_n\sin\left(\dfrac{n \pi ct}{l}\right)\right)\sin\left(\dfrac{n \pi x}{l}\right)
+    u_n(x,t) = \left(A_n\cos\left(\dfrac{n \pi ct}{\ell}\right) + B_n\sin\left(\dfrac{n \pi ct}{\ell}\right)\right)\sin\left(\dfrac{n \pi x}{\ell}\right)
 }
 $$
 
@@ -71,21 +71,21 @@ $$
 }
 $$
 
-> The coefficients $n \pi c / l$ before the variable $t$ are sometimes called the **frequencies**.
+> The coefficients $n \pi c / \ell$ before the variable $t$ are sometimes called the **frequencies**.
 
 For the initial condition, notice that
 
 $$
-g(x) = \sum_{n=1}^\infty A_n \sin\left(\dfrac{n \pi x}{l}\right)
+g(x) = \sum_{n=1}^\infty A_n \sin\left(\dfrac{n \pi x}{\ell}\right)
 $$
 
 and
 
 $$
-h(x) = \sum_{n=1}^\infty \dfrac{n \pi c}{l} B_n \sin\left(\dfrac{n \pi x}{l}\right).
+h(x) = \sum_{n=1}^\infty \dfrac{n \pi c}{\ell} B_n \sin\left(\dfrac{n \pi x}{\ell}\right).
 $$
 
-The numbers $\lambda_n = (n \pi / l)^2$ are called **eigenvalues** and the functions $X_n(x)$ are called **eigenfunctions** where $n = 1,2,3,...$.
+The numbers $\lambda_n = (n \pi / \ell)^2$ are called **eigenvalues** and the functions $X_n(x)$ are called **eigenfunctions** where $n = 1,2,3,...$.
 
 ## _Thm._ in the Diffusion Equation
 
@@ -113,14 +113,14 @@ so that
 
 $$
 \boxed{
-    u(x,t) = \sum_{n=1}^\infty A_n e^{-(n \pi / l)^2 kt} \sin\left(\dfrac{n \pi x}{l}\right)
+    u(x,t) = \sum_{n=1}^\infty A_n e^{-(n \pi / \ell)^2 kt} \sin\left(\dfrac{n \pi x}{\ell}\right)
 }
 $$
 
 and
 
 $$
-g(x) = \sum_{n=1}^\infty A_n \sin\left(\dfrac{n \pi x}{l}\right).
+g(x) = \sum_{n=1}^\infty A_n \sin\left(\dfrac{n \pi x}{\ell}\right).
 $$
 
 > TODO: Learn and write the methodology. Check out ODE solution as well.

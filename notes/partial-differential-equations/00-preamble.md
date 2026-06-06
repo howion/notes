@@ -23,3 +23,4 @@ Basic knowledge of the following topics is assumed. You may want to check the ap
 ## Notation
 
 * $0 \in \N$ and $\N^+ := \N \setminus \{0\}$.
+* Given a set $X$, its closure will be denoted with $\overline{X}$ and boundary with $\partial X$.

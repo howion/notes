@@ -1,20 +1,31 @@
-# The Diffusion Equation
+# The Heat Equation
 
-## _Def._ Diffusion Equation
+## _Def._ Heat Equation
 
-> Also known as, especially in natural sciences, **The Heat Equation**.
-
-The (one-dimensional) **diffusion equation** (or also known as **heat equation**) is defined as the (parabolic) equation:
+The (one-dimensional) **heat equation** is defined as the (parabolic) equation:
 
 $$
 \begin{equation}
-u_t = k u_{xx}
+u_t - k^2 u_{xx} = 0
 \end{equation}
 $$
 
-> The diffusion equation is harder to solve than the wave equation, so we will postpone the general solution.
+where unless otherwise stated
 
-where $t > 0$, $k \in \R$ and $0 < x .< \ell$.
+$$
+\def\arraystretch{1.5}
+\begin{array}{rcl}
+u(x,0) &=& f(x) \\
+u(0,t) &=& \alpha(x) \\
+u(\ell,t) &=& \beta(x) \\
+\end{array}
+$$
+
+for non-zero $\ell, k \in \R$ and $t > 0$ with $x \in (0, \ell)$.
+
+> It is also known as the **heat equation** especially in natural sciences. The heat equation is harder to solve than the wave equation, so we will postpone the general solution.
+
+Similar to the wave equation, the heat equation also has an unique stable solution.
 
 ## _Def._ Energy
 
@@ -28,17 +39,56 @@ $$
 
 which is non-increasing (exercise) i.e. $E(t) < E(0)$.
 
-### (Weak) Maximum Principle
+## _Thm._ (Weak) Maximum Principle
+
+We first define the open domain $\Omega_T$ in $\R$ as
+
+$$
+\Omega_T := \Set{(x,t) : x \in (0, \ell)\>\land\>t \in (0, T)}
+$$
+
+and
+
+$$
+B_T := \partial \> \Omega_T
+$$
+
+then, if $u_t - k^2 u_{xx} \leq 0$ in $\Omega_T$, we have
+
+$$
+\max_{\overline{\Omega_T}} u = \max_{\overline{B_T}} u
+$$
 
 > TODO :: redefine these, see notes p59-60 and coressponding correlaries.
 
-<!-- If $u(x,t)$ satisfies the diffusion equation in a rectangle, say $0 \leq x \leq l$ and $0 \leq t \leq T$ in space-time, then the maximum value of $u(x,t)$ is attained either initially at $t = 0$ or on the lateral sides ($x = 0$ or $x = l$).
+So, if $u(x,t)$ satisfies the diffusion equation in a rectangle, $0 \leq x \leq \ell$ and $0 \leq t \leq T$ in space-time, then the maximum value of $u(x,t)$ is attained either initially at $t = 0$ or on the lateral sides $x = 0$ or $x = \ell$.
 
 Indeed there is a stronger version of the maximum principle called the **strong maximum principle** which asserts the maximum cannot be attained anywhere inside the rectangle but only on the bottom or the lateral sides (unless $u$ is constant). The corners are allowed.
 
-The minimum value has the same property so that it too can be attained only on the bottom or the lateral sides. -->
+The minimum value has the same property so that it too can be attained only on the bottom or the lateral sides.
 
-### Uniqueness
+In particular assume that $u_t - k u_{xx} = 0$ in $\Omega_T$, then
+
+$$
+\begin{array}{lll}
+\displaystyle\max_{\overline{\Omega_T}} u &=& \displaystyle\max_{\overline{B_T}} u \\
+\displaystyle\min_{\overline{\Omega_T}} u &=& \displaystyle\min_{\overline{B_T}} u \\
+\end{array}
+$$
+
+and
+
+$$
+\displaystyle\max_{\overline{\Omega_T}} |u| = \displaystyle\max_{\overline{B_T}} |u|
+$$
+
+hence
+
+$$
+-\displaystyle\min_{\overline{\Omega_T}} u = \displaystyle\max_{\overline{\Omega_T}}\,(-u)
+$$
+
+<!-- ## _Thm._ Uniqueness
 
 The maximum principle can be used to give a proof of uniqueness for the Dirichlet problem for the diffusion equation. That is, there is at most one solution of
 
@@ -55,7 +105,7 @@ $$
 
 for four given functions $f, \varphi, g$ and $h$ so that the solution is completely determined by it's initial and boundary conditions.
 
-> This diffusion equation problem is also stable making it well-posed.
+> This diffusion equation problem is also stable making it well-posed. -->
 
 ## _Thm._ Invariance Properties
 
