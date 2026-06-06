@@ -39,6 +39,28 @@ X(0) = X(\ell) &=& 0
 \end{array}
 $$
 
-This can be considered as an **eigenvalue problem**.
+This can be considered as an **eigenvalue problem**. In this case, $\lambda \leq 0$ implies trivial solutions and for $\lambda > 0$ we have the set of solutions
 
-> **TODO** continue
+$$
+\lambda_n = \left(\dfrac{n \pi}{\ell}\right)^2; \> X_n(x) = \sin \left(\dfrac{n \pi}{\ell} x \right)
+$$
+
+where $\lambda_n$ corresponds to **eigenvalues** and $x_n$ corresponds to **eigenfunctions**. Similarly, solving the eigenvalue problem for $T$ yields
+
+$$
+T_n(t) = ce^{-\lambda n k^2 t}
+$$
+
+hence
+
+$$
+u_n = X_nT_n = c_ne^{-({n \pi}/{\ell})^2 k^2t} \sin \left(\dfrac{n \pi}{\ell} x \right)
+$$
+
+so that
+
+$$
+u = \sum_{n=1}^{\infty} u_n
+$$
+
+is a solution assuming that the series convergent and can be differentiated term by term.

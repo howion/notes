@@ -18,6 +18,7 @@ Basic knowledge of the following topics is assumed. You may want to check the ap
 ## Resources Used
 
 * **Partial Differential Equations: _An Introduction_**, 2nd Ed, by Walter A. Strauss.
+* **Lecture Notes** by Kostyantyn Zheltukhin.
 * **Elements of Partial Differential Equations** by Ian N. Sneddon.
 
 ## Notation

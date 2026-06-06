@@ -1,82 +1,104 @@
 # Fourier Series
 
-## _Def._ Fourier Sine Series
+## _Def._ Hilbert Space
 
-The **Fourier sine series** for the given function $\phi(x)$ is given by
+Consider a linear space $\cal{H}$ of piecewise continuous functions on $[-\ell, \ell]$ on space $\cal{H}$, and define an inner product
 
 $$
-\phi(x) = \sum_{n=1}^\infty A_n \sin\left(\dfrac{n \pi x}{\ell}\right)
+\Braket{f,g} = \int_{-\ell}^\ell f(x)g(x)\>dx
 $$
 
-in the interval $(0, l)$.
+then $(\cal{H}, \Braket{\cdot, \cdot})$ is called a **pre-Hilbert space** and if $\cal{H}$ is complete it is called a **Hilbert Space**.
+
+Recall that inner product induces a norm
+
+$$
+\|f\|_2 = \sqrt{\Braket{f,f}} = \left(\int_{-\ell}^\ell |f|^2 \> dx\right)^{1/2}
+$$
+
+## _Thm._ An Orthogonal Basis for $\cal{H}$
+
+The sequence
+
+$$
+\left\{1, \cos\left(\dfrac{n \pi}{\ell}x\right), \sin\left(\dfrac{n \pi}{\ell}x\right)\right\}_{n=1}^{\infty}
+$$
+
+is an orthogonal basis for the pre-Hilbert space $\cal{H}$ and any $f \in \cal{H}$ can be written as
+
+$$
+f = \dfrac{a_0}{2} + \sum_{n=1}^\infty \left( a_n \cos\left(\dfrac{n \pi}{\ell}x\right) + b_n\sin\left(\dfrac{n \pi}{\ell} x\right) \right)
+$$
+
+so that the series converge to $f$ in the norm $\| \cdot \|_2$.
+
+<!-- todo: check if this is true in general for pre-hilbert -->
+
+## _Thm._ Parseval's Equality
+
+Using the basis given above and the norm $\| \cdot \|_2$, we reach the following identity called the **Parseval's Equality**:
+
+$$
+\boxed{
+    \| \ell \|^2 = \dfrac{a_0}{2} (2 \ell) + \sum_{n=1}^\infty |a_n|^2 \ell + |b_n|^2 \ell
+}
+$$
+
+<!-- Note that, the Parseval Equality is true only if
+
+$$
+\int_a^b |f(x)|^2 dx
+$$
+
+is finite. -->
+
+> Note that $\|1\|_2 = \sqrt{2\ell}$ and $\|\cos\left(\dfrac{n \pi}{\ell}x\right)\|_2 = \|\sin\left(\dfrac{n \pi}{\ell}x\right)\|_2 = \sqrt{\ell}$.
+
+## _Thm._ Fourier Sine Series
+
+Suppose $f_\text{odd}$ piecewise continuous on $[-\ell, \ell]$ and is an odd function, then
+
+$$
+f_\text{odd}(x) = \sum_{n=1}^\infty b_n \sin\left(\dfrac{n \pi x}{\ell}\right)
+$$
+
+in the interval $(-\ell, \ell)$ and is called the **Fourier Sine Series** for the function $f_\text{odd}$.
 
 > These series, as we saw earlier, are used for wave and diffusion equations with Dirichlet boundary conditions.
 
-## _Thm._ Fourier Sine Series Coefficients
-
-The coefficients of the Fourier sine series are given by
+Moreover, the coefficients $b_n$ are given by:
 
 $$
 \boxed{
-    A_n = \frac{2}{\ell} \int_0^l \phi(x) \sin\left(\dfrac{n \pi x}{\ell}\right) \> dx
+    b_n = \frac{2}{\ell} \int_0^\ell f_\text{odd}(x) \sin\left(\dfrac{n \pi x}{\ell}\right) \> dx
 }
 $$
 
-## _Def._ Fourier Cosine Series
+> This is equivalent to the Fourier Series of $f_\text{odd}$ since the even cosine terms cancel out in the full Fourier Series.
 
-The **Fourier cosine series** is defined as
+## _Thm._ Fourier Cosine Series
+
+Suppose $f_\text{even}$ piecewise continuous on $[-\ell, \ell]$ and is even, then
 
 $$
-\phi(x) = \frac{1}{2}A_0 + \sum_{n=1}^\infty A_n \cos\left(\dfrac{n \pi x}{\ell}\right)
+f_\text{even}(x) = \frac{1}{2}a_0 + \sum_{n=1}^\infty a_n \cos\left(\dfrac{n \pi x}{\ell}\right)
 $$
 
-in the interval $(0, l)$
+in the interval $(-\ell, \ell)$ and is called the **Fourier Cosine Series** for the function $f_\text{even}$.
 
 > These series, as we saw earlier, are used for wave and diffusion equations with Neumann boundary conditions on $(0, l)$.
 
-## _Thm._ Fourier Cosine Series Coefficients
-
-The coefficients of the Fourier cosine series are given by
+Moreover, the coefficients $a_n$ are given by:
 
 $$
 \boxed{
-    A_n = \frac{2}{\ell} \int_0^l \phi(x) \cos\left(\dfrac{n \pi x}{\ell}\right) \> dx
+    a_n = \frac{2}{\ell} \int_0^\ell f_\text{even}(x) \cos\left(\dfrac{n \pi x}{\ell}\right) \> dx
 }
 $$
 
-for $n \ge 1$, and
+> This is equivalent to the Fourier Series of $f_\text{even}$ since the odd sine terms cancel out in the full Fourier Series.
 
-$$
-\boxed{A_0 = \frac{2}{\ell}\int_0^l \phi(x)\,dx.}
-$$
-
-## _Def._ (Full) Fourier Series
-
-The **(full) Fourier series** of $\phi(x)$ on the interval $(-l,l)$ is defined as
-
-$$
-\phi(x) = \frac{1}{2}A_0 + \sum_{n=1}^\infty \left(A_n \cos\left(\dfrac{n \pi x}{\ell}\right) + B_n \sin\left(\dfrac{n \pi x}{\ell}\right)\right)
-$$
-
-## _Thm._ Fourier Series Coefficients
-
-The coefficients of the fourier series are given by
-
-$$
-A_n = \frac{1}{\ell} \int_{-l}^l \phi(x) \cos\left(\dfrac{n \pi x}{\ell}\right) \> dx
-$$
-
-where $n \in \N$, and
-
-$$
-B_n = \frac{1}{\ell} \int_{-l}^l \phi(x) \sin\left(\dfrac{n \pi x}{\ell}\right) \> dx
-$$
-
-where $n \in \N^+$.
-
-> Note that these coefficients are not exactly the same as the previously defined cosine and sine coefficients.
-
-## _Thm._ Parseval's Equality
+<!-- ## _Thm._ Parseval's Equality
 
 For the **full Fourier series on $(-L, L)$** we have
 
@@ -94,14 +116,28 @@ Finally, for the **cosine series on $(0, L)$** we have
 
 $$
 \int_0^L |f(x)|^2 dx = \dfrac{L}{4} a_0^2 + \dfrac{L}{2} \sum_{n=1}^\infty a_n^2
+$$ -->
+
+## _Thm._ Fourier Convergence Theorem
+
+Let $f$ be a function on $[-\ell, \ell]$, and extend it periodically with period $2\ell$, so that outside $[-\ell, \ell]$ we have
+
+$$
+f(x + 2\ell) = f(x).
 $$
 
-### Necessary Condition
+Suppose $f$ is piecewise smooth on $[-\ell, \ell]$, then the fourier series of $f$ converges at each point $x$ to
 
-The Parseval Equality is true if
+> This implies geometrically, for the endpoints of the periodically extended $f$, the Fourier series converge to their midpoint.
 
 $$
-\int_a^b |f(x)|^2 dx
+\dfrac{f(x^+) + f(x^-)}{2}
 $$
 
-is finite.
+Moreover if $f$ is continuous on $[-\ell, \ell]$ and the endpoint values match periodically i.e.
+
+$$
+f(-\ell) = f(\ell)
+$$
+
+then there is no jump at the endpoints.
