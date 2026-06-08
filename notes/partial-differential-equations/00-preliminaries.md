@@ -86,7 +86,7 @@ $$
 ### 3. Complex Roots
 
 $$
-r = \alpha \pm i\Beta \implies X(x) = e^{\alpha x} \left(C_1\cos(\beta x) + C_2\sin(\beta x) \right)
+r = \alpha \pm i\beta \implies X(x) = e^{\alpha x} \left(C_1\cos(\beta x) + C_2\sin(\beta x) \right)
 $$
 
 Here is a quick reference table for some common ODEs we will use:
