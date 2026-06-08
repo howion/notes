@@ -18,6 +18,11 @@ export interface NoteMap {
      * @default false
      */
     hidden?: boolean
+
+    /**
+     * Whether this note is a work in progress.
+     */
+    wip?: boolean
 }
 
 export interface Note extends NoteMap {
@@ -36,6 +41,11 @@ interface _MapOptions {
      */
     toc?: boolean
     hidden?: boolean
+
+    /**
+     * Work in progress?
+     */
+    wip?: boolean
 }
 
 function note(title: string, path: string, options?: _MapOptions): NoteMap {
@@ -44,7 +54,8 @@ function note(title: string, path: string, options?: _MapOptions): NoteMap {
         slug: slugify(title, { lower: true }),
         path,
         showToC: options?.toc ?? true,
-        hidden: options?.hidden ?? false
+        hidden: options?.hidden ?? false,
+        wip: options?.wip ?? false
     }
 }
 
@@ -68,15 +79,15 @@ export const NOTE_RECORDS: NoteRecord[] = [
     {
         title: 'Logic and Computation',
         children: [
-            note('Logic and Computation', 'logic-and-computation'),
-            note('Type Theory', 'type-theory')
+            note('Logic and Computation', 'logic-and-computation', { wip: true }),
+            note('Type Theory', 'type-theory', { wip: true })
         ]
     },
     {
         title: 'Analysis',
         children: [
-            note('Probability Theory', 'probability-theory'),
-            note('Partial Differential Equations', 'partial-differential-equations')
+            note('Probability Theory', 'probability-theory', { wip: true }),
+            note('Partial Differential Equations', 'partial-differential-equations', { wip: true })
         ]
     },
     {

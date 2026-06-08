@@ -1,42 +1,55 @@
 ---
-import { NOTE_RECORDS } from '../constants/notes'
-import Document from '../layout/document.astro'
+import { NOTE_RECORDS } from "../constants/notes";
+import Document from "../layout/document.astro";
 ---
 
 <Document>
     <main class="content">
         <div class="section-h1">
+            <h1>Notes</h1>
 
-        <h1>Notes</h1>
+            <div class="content-chips">
+                <img
+                    src="https://img.shields.io/github/last-commit/howion/notes?style=flat-square"
+                    alt="Last Commit"
+                />
+                <img
+                    src="https://img.shields.io/github/commit-activity/w/howion/notes?style=flat-square"
+                    alt="Commit Activity"
+                />
+            </div>
 
-        <div class="content-chips">
-            <img src="https://img.shields.io/github/last-commit/howion/notes?style=flat-square" alt="Last Commit" />
-            <img src="https://img.shields.io/github/commit-activity/w/howion/notes?style=flat-square" alt="Commit Activity" />
-        </div>
+            {
+                NOTE_RECORDS.map((record) => {
+                    const children = record.children.filter(
+                        (note) => !note.hidden,
+                    );
 
-        {
-            NOTE_RECORDS.map((record) => {
-                const children = record.children.filter((note) => !note.hidden);
+                    if (children.length === 0) {
+                        return null;
+                    }
 
-                if (children.length === 0) {
-                    return null;
-                }
+                    return (
+                        <section class="section-h2">
+                            <h2>{record.title}</h2>
 
-                return (
-                    <section class="section-h2">
-                        <h2>{record.title}</h2>
-
-                        <ul>
-                            {children.map((note) => (
-                                <li>
-                                    <a href={`/${note.slug}`}>{note.title}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </section>
-                );
-            })
-        }
+                            <ul>
+                                {children.map((note) => (
+                                    <li>
+                                        <a href={`/${note.slug}`}>
+                                            {note.title}
+                                            <span class="a-secondary">
+                                                {note.wip &&
+                                                    " — Work In Progress"}
+                                            </span>
+                                        </a>
+                                    </li>
+                                ))}
+                            </ul>
+                        </section>
+                    );
+                })
+            }
         </div>
     </main>
 </Document>

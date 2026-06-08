@@ -1,4 +1,4 @@
-# Separation of Variables and the Dirichlet Condition
+# Appendix 2. Separation of Variables and the Dirichlet Condition
 
 ## _Thm._ in the Wave Equation
 
@@ -122,5 +122,3 @@ and
 $$
 g(x) = \sum_{n=1}^\infty A_n \sin\left(\dfrac{n \pi x}{\ell}\right).
 $$
-
-> TODO: Learn and write the methodology. Check out ODE solution as well.

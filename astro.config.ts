@@ -7,7 +7,6 @@ import preact from '@astrojs/preact'
 
 // other addons
 import robotsTxt from 'astro-robots-txt'
-import Sonda from 'sonda/astro'
 import compress, { Default } from '@playform/compress'
 import betterImageService from 'astro-better-image-service'
 import critters from 'astro-critters'
@@ -106,7 +105,6 @@ export default defineConfig({
         robotsTxt({
             sitemap: true,
             policy: [{ allow: '/', userAgent: '*' }]
-        }),
-        willAnalyze ? Sonda({ server: true, gzip: true }) : undefined
+        })
     ]
 })

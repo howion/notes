@@ -5,13 +5,15 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-underline-offset: 25%;
 }
 
 svg {

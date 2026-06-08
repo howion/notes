@@ -27,6 +27,8 @@ $$
 \dfrac{X''}{X} = \dfrac{1}{k^2} \dfrac{T'}{T} = -\lambda \in \R
 $$
 
+> They must be equal to a constant since left side depends on $x$ and right side depends on $t$ only. Negativity is for convenience.
+
 for some constant $\lambda$. This implies two simple ODEs
 
 $$
@@ -63,4 +65,4 @@ $$
 u = \sum_{n=1}^{\infty} u_n
 $$
 
-is a solution assuming that the series convergent and can be differentiated term by term.
+is a solution (assuming that the series convergent and can be differentiated term by term).

@@ -10,7 +10,7 @@ $$
 
 then $(\cal{H}, \Braket{\cdot, \cdot})$ is called a **pre-Hilbert space** and if $\cal{H}$ is complete it is called a **Hilbert Space**.
 
-Recall that inner product induces a norm
+Recall that inner product induces a norm so that
 
 $$
 \|f\|_2 = \sqrt{\Braket{f,f}} = \left(\int_{-\ell}^\ell |f|^2 \> dx\right)^{1/2}
@@ -141,3 +141,21 @@ f(-\ell) = f(\ell)
 $$
 
 then there is no jump at the endpoints.
+
+## _Ex._ $\cal{F}(1)$
+
+For some problems it is often useful to consider the Fourier series of the constant $1$, which equals to
+
+$$
+\cal{F}(1) = \sum_{n=1}^\infty b_n \sin(ny)
+$$
+
+where
+
+$$
+\def\arraystretch{1.25}
+b_n = \begin{cases}
+   {4}/{(\pi n)} &\text{if } n \text{ odd} \\
+   0 &\text{otherwise} \\
+\end{cases}
+$$

@@ -37,3 +37,5 @@ Let $f: M \to N$ be an _onto_ map (not necessarily embedding), then $f$ is an em
 Let $M$ and $N$ be two structures of $\mathcal{L}(\mathbf{S})$. If there exists a _bijective_ (elementary) embedding $f: M \to N$ called a **isomorphism**, we say $M$ and $N$ are **isomorphic** denoted with $M \cong N$.
 
 ## _Def._ Structure
+
+> These notes deserve much more, however for the time-being I'll continue with computational logic if I ever continue my logic notes. Due to nature of the field and my specials interest, these notes took the most effort compared to other fields.

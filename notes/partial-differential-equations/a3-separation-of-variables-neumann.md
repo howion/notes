@@ -1,4 +1,4 @@
-# Separation of Variables and the Neumann Condition
+# Appendix 3. Separation of Variables and the Neumann Condition
 
 ## _Thm._ in the Wave Equation
 

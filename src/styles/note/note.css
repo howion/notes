@@ -48,6 +48,10 @@
             color: var(--color-link);
 
         }
+
+        span.a-secondary {
+            opacity: 0.625;
+        }
     }
 
     figure[data-rehype-pretty-code-figure] {

@@ -59,8 +59,6 @@ $$
 \max_{\overline{\Omega_T}} u = \max_{\overline{B_T}} u
 $$
 
-> TODO :: redefine these, see notes p59-60 and coressponding correlaries.
-
 So, if $u(x,t)$ satisfies the diffusion equation in a rectangle, $0 \leq x \leq \ell$ and $0 \leq t \leq T$ in space-time, then the maximum value of $u(x,t)$ is attained either initially at $t = 0$ or on the lateral sides $x = 0$ or $x = \ell$.
 
 Indeed there is a stronger version of the maximum principle called the **strong maximum principle** which asserts the maximum cannot be attained anywhere inside the rectangle but only on the bottom or the lateral sides (unless $u$ is constant). The corners are allowed.
@@ -151,7 +149,7 @@ $$
 
 The source function $S(x,t)$ is defined for all real $x$ and positive $t$. Moreover, $S(x,t)$ is positive and is even in $x$ so that $S(-x,t) = S(x,t)$.
 
-> Note that this general solution integral is not expressible with the elementary functions, therefore recall that
+> Note that the general solution integral is not usually expressible with the elementary functions, therefore recall that
 >
 > $$
 > \text{erf}(x) := \dfrac{2}{\sqrt{\pi}} \int_0^x e^{-p^2} dp

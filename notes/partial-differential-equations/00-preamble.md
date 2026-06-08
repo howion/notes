@@ -2,19 +2,6 @@
 
 > Please note that these notes are still under construction. Moreover, these notes are not for educational purposes, but rather should be used as a reference.
 
-## Introduction
-
-Basic knowledge of the following topics is assumed. You may want to check the appendix.
-
-* Linear algebra
-* (simple) ODEs
-* Fundamental calculus:
-    * vector algebra,
-    * fundamental theorems such as Green's Theorem and Divergence Theorem
-    * Jacobians
-    * infinite series
-    * directional derivatives
-
 ## Resources Used
 
 * **Partial Differential Equations: _An Introduction_**, 2nd Ed, by Walter A. Strauss.
@@ -25,3 +12,4 @@ Basic knowledge of the following topics is assumed. You may want to check the ap
 
 * $0 \in \N$ and $\N^+ := \N \setminus \{0\}$.
 * Given a set $X$, its closure will be denoted with $\overline{X}$ and boundary with $\partial X$.
+* $C^n(\Omega)$ denotes the set (or space) of $n$-times continuously differentiable real-valued functions on the domain $\Omega$, and $C^\infty$ refers to the smooth functions which are infinitely differentiable.
