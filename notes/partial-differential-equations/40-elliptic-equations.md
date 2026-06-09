@@ -178,6 +178,22 @@ $$
 u &=& f(\theta), & x^2 + y^2 = a^2 \\
 \end{array}
 $$
+within polar coordinates, we have
+
+$$
+\begin{array}{rcl}
+D &=& \Set{(r, \theta) : 0 \leq r \leq a, \enspace \theta \in [0, 2\pi]} \\
+\partial D &=& \Set{(r, \theta) : r = a, \enspace \theta \in [0, 2\pi]}
+\end{array}
+$$
+
+and
+
+$$
+\boxed{u_{xx} + u_{yy} = u_{rr} + \dfrac{1}{r} u_r + \dfrac{1}{r^2}u_{\theta\theta}}
+$$
+
+so that
 
 $$
 \boxed{
