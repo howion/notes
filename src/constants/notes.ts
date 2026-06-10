@@ -87,7 +87,7 @@ export const NOTE_RECORDS: NoteRecord[] = [
         title: 'Analysis',
         children: [
             note('Probability Theory', 'probability-theory', { wip: true }),
-            note('Partial Differential Equations', 'partial-differential-equations', { wip: true })
+            note('Partial Differential Equations', 'partial-differential-equations')
         ]
     },
     {

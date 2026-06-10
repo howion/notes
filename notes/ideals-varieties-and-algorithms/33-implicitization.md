@@ -1,3 +1,3 @@
-# Implicitization
+<!-- # Implicitization
 
-## _Def._ Inclusion Map
+## _Def._ Inclusion Map -->

@@ -1,6 +1,6 @@
 # Howion / Notes
 
-![GitHub last commit](https://img.shields.io/github/last-commit/howion/notes)
+![GitHub last commit](https://img.shields.io/github/last-commit/howion/notes?style=square&label=last%20commit)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/howion/notes)
 
 This is where I will upload my various notes (or resources) related to different topics.
