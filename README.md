@@ -52,6 +52,8 @@ For readability of source code, especially for the mathematical ones, you should
 * `Markdown Emoji` by Matt Bierner &mdash; make sure you also have an emoji font installed in your system, and
 * `markdownlint` by David Anson to lint markdown files.
 
+To locally run this repo, make sure `bun` is installed and install dependencies via `bun install` and run `bun dev`. See `package.json` for more commands.
+
 ## Notice and Disclaimer
 
 > This disclaimer below applies to `/notes`, the rest is my own personal work and currently unlicensed and thus also not open-source licensed.
