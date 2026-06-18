@@ -3,32 +3,17 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/howion/notes?style=square&label=last%20commit)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/howion/notes)
 
-This is where I will upload my various notes (or resources) related to different topics.
-
-For the notes I will publish here, I aim to use a formal tone, organized with a logical structure. I believe this is usually not the best approach when it comes to learning, so you may want to use these materials for revision purposes rather than as a learning material.
+For the notes I publish here, I aim to use a formal tone, organized with a logical structure. I believe this is usually not the best approach when it comes to learning, so you may want to use these materials for revision purposes rather than as a learning material.
 
 ## Notes: Compiled
 
-Served via Vercel on [**notes.howion.com**](https://notes.howion.com/), adjusted for printing or saving as PDF. Please note that none of the notes are complete yet and are being actively developed.
-
-> Other than Abstract Algebra notes (especially Group Theory) I'm not really proud with those notes yet. Beware that I have not yet abandoned them but they shall be subject to major changes later on.
+Served on [**notes.howion.com**](https://notes.howion.com/), adjusted for printing or saving as PDF. Please note that none of the notes are complete yet and are being actively developed.
 
 In order to convert these notes to PDF, just try to print the page and save as PDF after the page is loaded. It will automatically, at least in Chrome-based browsers, convert to light theme and adjust the layout for printing.
->
-> This was previously done automatically in my bash build pipeline via chromium driver but every build really bloats git tracking. Hence, I have disabled automatic PDF generation.
 
 ## Notes: Source
 
-* [**Abstract Algebra**](./notes/abstract-algebra) \ Groups, Rings and Modules
-    1. [Group Theory](./notes/abstract-algebra/01-group-theory/)
-    2. [Ring Theory](./notes/abstract-algebra/02-ring-theory/)
-    2. [Module Theory](./notes/abstract-algebra/03-module-theory/)
-* [**Logic and Computation**](./notes/logic-and-computation/) \ Fundamentals
-* [**Statistics**](./notes/statistics) \ Groups, Rings and Modules
-    1. [**Probability Theory**](./notes/probability-theory) \ Fundamentals
-* [**Universal Algebra**](./notes/universal-algebra) \ Fundamentals
-
-> Ordered by activeness. Other notes in `/notes` which are not mentioned here are abandoned.
+Source (markdown) of the notes located at `notes/*` or `notes/**/*` and assets are located at `src/public`. You might want to check out `src/constants/notes.ts` for the mappings.
 
 ## Lectures, Presentations
 
@@ -58,24 +43,23 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 
 ## Source Accessibility
 
-For readability of source code, especially for the mathematical ones, you should consider switching to a custom markdown previewer with a light theme due to possibly transparent figures and KaTeX expressions. For now to edit notes, I personally use Visual Studio Code with:
+For readability of source code, especially for the mathematical ones, you should consider switching to a custom markdown previewer supporting KaTeX expressions. I personally use Visual Studio Code with:
 
 * `Markdown Preview Github` by Matt Bierner to preview markdown files,
-* `Markdown Emoji` by Matt Bierner to add Github emoji support to VSCode, make sure you also have an emoji font installed in your system, and
+* `Markdown Preview Mermaid Support` by Matt Bierner,
+* `Markdown Emoji` by Matt Bierner &mdash; make sure you also have an emoji font installed in your system, and
 * `markdownlint` by David Anson to lint markdown files.
 
-## Notice & Disclaimer
+## Notice and Disclaimer
 
 > This disclaimer below applies to `/notes`, the rest is my own personal work and currently unlicensed and thus also not open-source licensed.
 
-These notes are informal personal study notes compiled from various mathematics textbooks, lecture notes, and academic sources.
+`/notes` are informal personal reference notes compiled from various mathematics textbooks, lecture notes, and academic sources.
 
-All mathematical results (definitions, theorems, proofs, formulas) remain the intellectual property of their respective authors. Some explanatory text may closely follow standard textbook presentations and is included solely for educational and non-commercial reference.
-
-No claim of original authorship is made over third-party material. If any copyright holder believes their work is used inappropriately, please contact me and the content will be revised or removed.
+Some explanatory text may closely follow standard textbook presentations and is included solely for educational and non-commercial reference. No claim of original authorship is made over third-party material. If any copyright holder believes their work is used inappropriately, please contact me and the content will be revised or removed.
 
 These notes are not currently offered under an open-source license.
 
 ## Contact
 
-You may contact me at `mert.coskun@metu.edu.tr`
+You may contact me at `howion@fuck.it`

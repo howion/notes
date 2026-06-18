@@ -1,4 +1,4 @@
-# Lattices and Frieze Groups
+# Frieze Groups
 
 Let $G$ be a subgroup of the the Euclidian plane $\mathbb{E}^2$. Recall that every isometry of $\mathbb{E}^2$ can be written as $\bold{A}x + b$.
 
@@ -12,6 +12,8 @@ $$
 $$
 
 then $\pi(G)$ is called the **point group of $G$**.
+
+> The reason $\pi(G)$ is called the point group of $G$ is that it consists of isometries that have a fixed point in common. Notice that $\pi(G) \leq \bold{O}_2$.
 
 It's kernel $\text{Ker}(\pi)$ (which consists of translations) is called the **translation subgroup of $G$** denoted $\mathbb{T}_G$.
 

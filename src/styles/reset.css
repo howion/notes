@@ -46,11 +46,6 @@ img {
     display: block;
     max-width: 100%;
 
-    /* Firefox, Safari */
-    image-rendering: crisp-edges;
-    /* Chrome */
-    image-rendering: pixelated;
-
     -webkit-touch-callout: none;
     -webkit-user-drag: none;
     user-select: none;

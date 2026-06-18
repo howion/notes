@@ -96,6 +96,10 @@ $$
 
 is called a **glide reflection**. Such isometries have no fixed points and orientation reversing.
 
+## _Thm._ Product of Two Reflections
+
+Given reflections $r$ and $r'$ in distinct lines $\ell$ and $\ell'$ in $\R^2$, their product $rr'$ is a rotation or a translation whether $\ell$ and $\ell'$ meet or not. In the former case, the point of intersection is center of rotation. In the latter case, the translation is given by twice of the vector from $\ell$ to $\ell'$.
+
 ## _Thm._ Product of Three Reflections
 
 The product of three reflections in $\R^2$ is either a reflection or a glide reflection.
@@ -108,7 +112,7 @@ In $\R^2$, an isometry is either
 * reflection (db)
 * rotation (dp)
 * translation (dd), or
-* glide reflection (dq)
+* glide reflection (dq).
 
 ## _Thm._ Characterisation of Plane Isometries
 

@@ -9,12 +9,10 @@ Moreover, each matrix $A$ in this group determines an invertible linear transfo
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-f_A &:& \R^n \to \R^n \\
+f_A &:& \mathbb{F}^n \to \mathbb{F}^n \\
 f_A(x) &=& Ax
 \end{array}
 $$
-
-where $(\cdot)^T$ denotes the transpose matrix.
 
 The group of invertible $n\times n$ is matrices called the **general linear group** denoted with $\text{GL}_n(\mathbb{F})$. Simply $\text{GL}_n$ or $\text{GL}(n)$ if the field is known. Unless otherwise stated, we will assume the field is the real numbers $\R$.
 

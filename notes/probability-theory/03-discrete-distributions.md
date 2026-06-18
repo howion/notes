@@ -99,12 +99,6 @@ For any CDF $F_X$, or simply $F$, we have
 * $\lim_{x \to - \infty} F(x) = 0$
 * $\lim_{x \to \infty} F(x) = 1$
 
-```js
-```
-
-```js
-```
-
 ## _Def._ Function of a Random Variable
 
 For a random variable $X$ in the sample space $S$ and a function $h: \R \to \R$ the random variable $h(X)$ maps $s \in S$ to $h(X(s))$.

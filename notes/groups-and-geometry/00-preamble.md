@@ -2,10 +2,7 @@
 
 ## Introduction
 
-Fundamental knowldge for the following topics is assumed. You may want to check the appendix and my other notes for these.
-
-* Linear Algebra
-* Group Theory
+Fundamental knowledge from linear algebra and group theory is assumed. You may want to check the appendix and my [other notes](https://notes.howion.com/).
 
 ## Resources Used
 
@@ -13,6 +10,10 @@ Fundamental knowldge for the following topics is assumed. You may want to check 
 * **Symmetries** by D.L. Johnson
 * [**Cut The Knot**](https://www.cut-the-knot.org/pythagoras/Transforms/index.shtml) website
 * **From Groups to Geometry and Back** by Vaughn Climenhaga and Anatole Katok
+* **Lecture notes** by Şükran Gül Erdem
+* **Transformation Geometry: An Introduction to Symmetry** by George E. Martin
+* **Reflection Groups and Coxeter Groups** by James E. Humphreys
+* **Finite Reflection Groups** by C. T. Benson
 
 ## Notation
 
@@ -32,7 +33,7 @@ These notes are still under work therefore not complete, also
 ## Todo's
 
 * Delve into the complex plane?
-    * Define conformality and show every isometry is conformal
+    * Define conformality and show every isometry is conformal.
 * Explain (formally prove) group-theoric concepts with geometry
     * Especially better explain homomorphism, isomorphism and their groups and finally semidirect products
 * Add figures drawn on [excalidraw](https://excalidraw.com/).
@@ -44,3 +45,4 @@ These notes are still under work therefore not complete, also
 * Inversion
     * Stereographic Projection and Inversion
     * Möbius Transformations
+* ~~Nielsen–Schreier theorem via trees~~

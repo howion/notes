@@ -4,16 +4,17 @@
 
 ## Free
 
-* [**Fontshare** Fonts](https://www.fontshare.com/) \ Free
+* (Collection) [**Fontshare Fonts**](https://www.fontshare.com/) \ Free
 * [**Overused Grotesk**](https://github.com/RandomMaerks/Overused-Grotesk) \ Open Source
 * [**Space Grotesk**](https://fonts.google.com/specimen/Space+Grotesk) \ Open Source
+* [**TASA Orbiter**](https://fonts.google.com/specimen/TASA+Orbiter) \ Google Font
 * [**Inter**](https://rsms.me/inter/) \ Open Source
-* [**IBM Plex**](https://www.ibm.com/plex/) \ Open Source
 
 <!-- * [**Manrope**](https://www.shimmer.cloud/manrope) \ ? -->
 
-## Free and Monospace
+## Monospace
 
+* [**IBM Plex**](https://www.ibm.com/plex/) \ Open Source
 * [**Departure Mono**](https://www.departuremono.com/) \ Monospace \ Open Source
 * [**Server Mono**](https://servermono.com/) \ Monospace \ Open Source
 * [**Commit Mono**](https://commitmono.com/) \ Monospace \ Open Source

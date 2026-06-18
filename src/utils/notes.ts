@@ -13,7 +13,21 @@ function getMarkdownFiles(dir: string): string[] {
     return files
         .filter((file) => file.isFile() && file.name.endsWith('.md'))
         .map((file) => file.name)
-        .sort()
+        .sort((a, b) => {
+            // default sort puts "100-" before "10-"
+
+            const _a = a.split('-')[0]!
+            const _b = b.split('-')[0]!
+
+            const numA = parseInt(_a, 10)
+            const numB = parseInt(_b, 10)
+
+            if (Number.isNaN(numA) || Number.isNaN(numB)) {
+                return a.localeCompare(b)
+            }
+
+            return numA - numB
+        })
 }
 
 /**
