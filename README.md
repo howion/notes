@@ -1,9 +1,11 @@
-# Howion / Notes
+# Howion's Notes, Poems, Resources...
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/howion/notes?style=square&label=last%20commit)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/howion/notes)
 
 For the notes I publish here, I aim to use a formal tone, organized with a logical structure. I believe this is usually not the best approach when it comes to learning, so you may want to use these materials for revision purposes rather than as a learning material.
+
+Please do not create pull requests unless they are for typos or fixes since, I don't aim for a collective note-taking but rather use these as my personal reference or to simply publish my personal other work.
 
 ## Notes: Compiled
 

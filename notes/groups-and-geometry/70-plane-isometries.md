@@ -202,6 +202,8 @@ $$
 
 Converse also holds so that every rotation is a product of two reflections in intersecting lines.
 
+> So if $\theta$ is the smaller angle between two lines, then the composition of these reflections is a rotation by $2 \theta$ with center at the point of intersection.
+
 ## Exercises
 
 ### #1

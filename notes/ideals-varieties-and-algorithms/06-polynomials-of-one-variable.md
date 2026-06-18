@@ -30,7 +30,7 @@ $$
 f = gq + r
 $$
 
-where either $r = 0$ or $d(r) < d(g)$. Moreover, the following program realizes this
+where either $r = 0$ or $d(r) < d(g)$. The following program realize this:
 
 ```python
 <- f, g

@@ -15,7 +15,7 @@ where $a_i, r \in \mathbb{F}[x_1, ..., x_n]$, and either the **remainder**
 
 Moreover, if $a_i f_i \neq 0$, then $md(f) \geq md(a_i f_i)$.
 
-The following algorithm realizes this
+The following algorithm realize this:
 
 ```python
 <- (f_1,...,f_s), f
