@@ -7,8 +7,9 @@
 * (Collection) [**Fontshare Fonts**](https://www.fontshare.com/) \ Free
 * [**Overused Grotesk**](https://github.com/RandomMaerks/Overused-Grotesk) \ Open Source
 * [**Space Grotesk**](https://fonts.google.com/specimen/Space+Grotesk) \ Open Source
+* [**Onest**](https://fonts.google.com/specimen/Onest) \ Google Font
 * [**TASA Orbiter**](https://fonts.google.com/specimen/TASA+Orbiter) \ Google Font
-* [**Inter**](https://rsms.me/inter/) \ Open Source
+* [**Inter**](https://rsms.me/inter/) \ Open Source and Google Font
 
 <!-- * [**Manrope**](https://www.shimmer.cloud/manrope) \ ? -->
 
