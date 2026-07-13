@@ -11,9 +11,6 @@ import compress, { Default } from '@playform/compress'
 import betterImageService from 'astro-better-image-service'
 import critters from 'astro-critters'
 
-// markdown plugins
-import remarkMath from 'remark-math'
-
 // dynamic conf
 import { APP, isDev } from './.boilerrc.ts'
 
@@ -70,14 +67,6 @@ export default defineConfig({
                     moduleSideEffects: 'no-external'
                 }
             }
-        }
-    },
-    markdown: {
-        remarkPlugins: [remarkMath],
-        rehypePlugins: [],
-        shikiConfig: {
-            theme: 'github-dark',
-            wrap: true
         }
     },
     integrations: [
