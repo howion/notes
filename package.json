@@ -3,8 +3,6 @@
     "version": "1.2.0",
     "dependencies": {
         "@astrojs/preact": "^6.1.0",
-        "@astrojs/vercel": "11.0.15",
-        "@vercel/analytics": "^2.0.1",
         "astro": "^7.4.0",
         "clsx": "^2.1.1",
         "dayjs": "^1.11.23",
@@ -18,11 +16,14 @@
         "@astrojs/sitemap": "^3.7.4",
         "@biomejs/biome": "2.5.15",
         "@playform/compress": "0.2.5",
+        "@tsconfig/bun": "1.0.11",
+        "@types/bun": "1.4.3",
         "@types/katex": "^0.16.8",
-        "astro-better-image-service": "^2.2.0",
+        "@types/node": "26.6.5",
         "astro-critters": "^2.2.1",
         "astro-robots-txt": "^1.0.0",
         "lightningcss": "^1.33.0",
+        "markdownlint": "0.42.0",
         "rehype-parse": "^9.0.1",
         "rehype-pretty-code": "^0.14.5",
         "rehype-slug": "^6.0.0",
@@ -31,13 +32,9 @@
         "remark-parse": "^11.0.0",
         "remark-rehype": "^11.1.2",
         "shiki": "^4.5.0",
-        "unified": "^11.0.5",
-        "unist-util-visit": "^5.1.0",
-        "@types/bun": "1.4.3",
-        "@types/node": "26.6.5",
-        "@tsconfig/bun": "1.0.11",
         "typescript": "^7.0.2",
-        "markdownlint": "0.42.0"
+        "unified": "^11.0.5",
+        "unist-util-visit": "^5.1.0"
     },
     "peerDependencies": {},
     "engines": {
@@ -51,7 +48,7 @@
         "preview": "astro preview --host",
         "lint": "biome lint --write ./src",
         "format": "biome format --write ./src",
-        "deploy": "astro build && bunx vercel deploy --prebuilt --prod --yes"
+        "deploy": "bun run build && bunx wrangler pages deploy dist"
     },
     "private": false,
     "author": {

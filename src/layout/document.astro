@@ -1,12 +1,11 @@
 ---
-import Analytics from "@vercel/analytics/astro";
 import Github from "#/assets/github.svg";
 import House from "#/assets/house-fill.svg";
 import Moon from "#/assets/moon-fill.svg";
 import Printer from "#/assets/printer.svg";
 import Sun from "#/assets/sun-fill.svg";
 import TextT from "#/assets/text-t.svg";
-import { APP, isDev } from "~/.boilerrc";
+import { APP } from "~/.boilerrc";
 
 import "#/styles/_base.css";
 import "#/styles/note/_index.css";
@@ -66,6 +65,12 @@ const title =
                 size: 10in 13in;
             }
         </style>
+        <script
+            is:inline
+            defer
+            src="https://events.howion.com/events.js"
+            data-website-id="87031dd6-cdea-46f4-a25c-ed8bfc863490"
+        ></script>
     </head>
     <body>
         <div id="loader">
@@ -112,8 +117,6 @@ const title =
                 <slot />
             </div>
         </div>
-
-        <Analytics mode={isDev ? "development" : "production"} />
     </body>
 </html>
 

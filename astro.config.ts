@@ -1,10 +1,8 @@
 import preact from '@astrojs/preact'
 import sitemap from '@astrojs/sitemap'
 // official addons
-import vercel from '@astrojs/vercel'
 import compress, { Default } from '@playform/compress'
 import { defineConfig } from 'astro/config'
-import betterImageService from 'astro-better-image-service'
 import critters from 'astro-critters'
 // other addons
 import robotsTxt from 'astro-robots-txt'
@@ -19,12 +17,6 @@ export default defineConfig({
         port: 3000
     },
     publicDir: './src/public',
-    adapter: vercel({
-        webAnalytics: {
-            enabled: false // handle via other means
-        },
-        imageService: false
-    }),
     security: {
         // server only
         checkOrigin: false
@@ -37,6 +29,11 @@ export default defineConfig({
     prefetch: {
         prefetchAll: false,
         defaultStrategy: 'hover'
+    },
+    image: {
+        service: {
+            entrypoint: 'astro/assets/services/sharp'
+        }
     },
     vite: {
         css: {
@@ -67,7 +64,6 @@ export default defineConfig({
     },
     integrations: [
         APP.enablePreact ? preact({ compat: false, devtools: false }) : undefined,
-        // betterImageService(),
         APP.enableCritters ? critters() : undefined,
         compress({
             ...Default,
