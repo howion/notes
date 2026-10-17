@@ -17,16 +17,16 @@
     }
 
     #app {
-        &-sidebar {
-            display: none !important;
-        }
-
-        &-view {
-            border-radius: 0 !important;
-            height: auto !important;
-        }
-
         padding: 0 !important;
+        height: auto !important;
+    }
+
+    #app-sidebar {
+        display: none !important;
+    }
+
+    #app-view {
+        border-radius: 0 !important;
         height: auto !important;
     }
 

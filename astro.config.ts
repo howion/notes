@@ -40,8 +40,7 @@ export default defineConfig({
     },
     vite: {
         css: {
-            transformer: 'postcss',
-            postcss: './postcss.config.cjs'
+            transformer: 'lightningcss'
         },
         esbuild: {
             minifyIdentifiers: true,
@@ -56,6 +55,7 @@ export default defineConfig({
             },
             sourcemap: willAnalyze,
             minify: 'esbuild',
+            cssMinify: 'lightningcss',
             rollupOptions: {
                 treeshake: {
                     unknownGlobalSideEffects: false,
