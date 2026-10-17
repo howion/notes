@@ -71,10 +71,7 @@ button {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-:where(code,
-    kbd,
-    samp,
-    pre) {
+:where(code, kbd, samp, pre) {
     font-size: 1em;
 }
 

@@ -90,12 +90,12 @@ function selectText(element: Element) {
 }
 
 export async function renderKatexes(forced = false): Promise<void> {
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
         const maths = document.querySelectorAll('.math:not(.is-rendered)')
         const yMap = new WeakMap<Element, number>()
 
         if (!forced) {
-            maths.forEach((el) => {
+            maths.forEach(el => {
                 const rect = el.getBoundingClientRect()
                 yMap.set(el, rect.top)
             })
@@ -147,7 +147,7 @@ export async function renderKatexes(forced = false): Promise<void> {
         } else {
             let last: Element | null = null
 
-            document.addEventListener('click', (e) => {
+            document.addEventListener('click', e => {
                 const target = e.target as Element | null
 
                 if (!target) return

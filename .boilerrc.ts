@@ -2,7 +2,8 @@ export const isDev = process.env.NODE_ENV === 'development'
 
 export const APP = {
     name: 'notes.howion.com',
-    description: 'Started as some of my public drafts and lectures related to various topics and evolved to contain much more. Take a peek...',
+    description:
+        'Started as some of my public drafts and lectures related to various topics and evolved to contain much more. Take a peek...',
     site: 'https://notes.howion.com/',
     repository: 'http://github.com/howion/notes',
 

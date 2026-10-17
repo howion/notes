@@ -1,16 +1,13 @@
-import { defineConfig } from 'astro/config'
-
+import preact from '@astrojs/preact'
+import sitemap from '@astrojs/sitemap'
 // official addons
 import vercel from '@astrojs/vercel'
-import sitemap from '@astrojs/sitemap'
-import preact from '@astrojs/preact'
-
-// other addons
-import robotsTxt from 'astro-robots-txt'
 import compress, { Default } from '@playform/compress'
+import { defineConfig } from 'astro/config'
 import betterImageService from 'astro-better-image-service'
 import critters from 'astro-critters'
-
+// other addons
+import robotsTxt from 'astro-robots-txt'
 // dynamic conf
 import { APP, isDev } from './.boilerrc.ts'
 
@@ -19,7 +16,7 @@ const willAnalyze = process.env.ANALYZE === 'true'
 export default defineConfig({
     output: 'static', // static | server
     server: {
-        port: 3000,
+        port: 3000
     },
     publicDir: './src/public',
     adapter: vercel({
@@ -63,7 +60,6 @@ export default defineConfig({
                 treeshake: {
                     unknownGlobalSideEffects: false,
                     propertyReadSideEffects: false,
-                    tryCatchDeoptimization: false,
                     moduleSideEffects: 'no-external'
                 }
             }
@@ -71,7 +67,7 @@ export default defineConfig({
     },
     integrations: [
         APP.enablePreact ? preact({ compat: false, devtools: false }) : undefined,
-        betterImageService(),
+        // betterImageService(),
         APP.enableCritters ? critters() : undefined,
         compress({
             ...Default,

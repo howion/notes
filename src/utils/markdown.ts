@@ -156,7 +156,7 @@ function extractTOCFromHTML(html: string): TOCItem[] {
     const htmler = unified().use(rehypeStringify)
 
     // get inner htmls not inner texts
-    visit(root, 'element', (node) => {
+    visit(root, 'element', node => {
         if (node.tagName === 'h1' || node.tagName === 'h2') {
             const level = parseInt(node.tagName.charAt(1), 10)
             const id = String(node.properties?.id)

@@ -15,7 +15,9 @@
     --sidebar-thumb-height: 64px;
 
     --font-sans-serif: "Inter", Helvetica, Arial, sans-serif;
-    --font-monospace: "JetBrains Mono", "SF Mono", "SF Mono Regular", "Roboto Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    --font-monospace:
+        "JetBrains Mono", "SF Mono", "SF Mono Regular", "Roboto Mono", Consolas, "Liberation Mono", Menlo, Courier,
+        monospace;
 }
 
 @media screen {

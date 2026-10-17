@@ -5,14 +5,14 @@ import { NOTE_RECORDS, type Note, type NoteMap } from '../constants/notes'
 // Resolve from cwd so path is correct at build time (bundling changes import.meta.url)
 const NOTES_ROOT = join(process.cwd(), 'notes')
 
-export const NOTE_MAPPINGS: NoteMap[] = NOTE_RECORDS.flatMap((record) => record.children)
+export const NOTE_MAPPINGS: NoteMap[] = NOTE_RECORDS.flatMap(record => record.children)
 
 function getMarkdownFiles(dir: string): string[] {
     const files = readdirSync(dir, { withFileTypes: true })
 
     return files
-        .filter((file) => file.isFile() && file.name.endsWith('.md'))
-        .map((file) => file.name)
+        .filter(file => file.isFile() && file.name.endsWith('.md'))
+        .map(file => file.name)
         .sort((a, b) => {
             // default sort puts "100-" before "10-"
 
@@ -40,7 +40,7 @@ export function readCombinedMarkdown(dirPath: string): string {
         return ''
     }
 
-    const contents = mdFiles.map((file) => {
+    const contents = mdFiles.map(file => {
         const fp = join(dirPath, file)
         return readFileSync(fp, 'utf-8')
     })
@@ -50,7 +50,7 @@ export function readCombinedMarkdown(dirPath: string): string {
 }
 
 export function retrieveNoteContent(slug: string): Note | null {
-    const map = NOTE_MAPPINGS.find((m) => m.slug === slug)
+    const map = NOTE_MAPPINGS.find(m => m.slug === slug)
 
     if (!map) {
         return null

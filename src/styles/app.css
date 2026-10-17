@@ -68,7 +68,6 @@ body {
 }
 
 .app-sidebar {
-
     &-head,
     &-foot {
         display: flex;
@@ -154,12 +153,10 @@ body {
 
         &-sidebar {
             display: none !important;
-
         }
 
         &-view {
             border-radius: 0 !important;
-
         }
     }
 

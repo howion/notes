@@ -97,7 +97,7 @@ export const NOTE_RECORDS: NoteRecord[] = [
                 hidden: true
             })
         ]
-    },
+    }
     // {
     //     title: 'Miscellaneous',
     //     children: [

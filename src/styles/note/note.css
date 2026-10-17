@@ -4,7 +4,6 @@
 
         &:visited {
             color: var(--color-text);
-
         }
     }
 }
@@ -36,7 +35,7 @@
         margin-top: 0.25em;
     }
 
-    &-chips>img {
+    &-chips > img {
         display: inline-block;
     }
 
@@ -46,7 +45,6 @@
 
         &:visited {
             color: var(--color-link);
-
         }
 
         span.a-secondary {
@@ -80,7 +78,9 @@
         padding: 1em 0;
         font-family: var(--font-monospace) !important;
         font-variant-ligatures: contextual;
-        font-feature-settings: "calt" 1, "liga" 1;
+        font-feature-settings:
+            "calt" 1,
+            "liga" 1;
         font-size: 0.9em;
         line-height: 1.5;
         counter-reset: code-line;
@@ -146,7 +146,7 @@
         font-weight: 500;
     }
 
-    h2>em {
+    h2 > em {
         display: inline-block;
         user-select: none;
         background-color: var(--color-text);
@@ -158,19 +158,19 @@
     }
 
     /* if id starts with "def" */
-    h2[id^="def"]>em,
-    h2[id^="notation"]>em {
+    h2[id^="def"] > em,
+    h2[id^="notation"] > em {
         font-weight: 700;
         background-color: var(--color-background);
         color: var(--color-text);
         border: 2px solid var(--color-text);
     }
 
-    h2[id^="notation"]>em {
+    h2[id^="notation"] > em {
         border-style: dashed !important;
     }
 
-    h3>em {
+    h3 > em {
         display: inline-block;
         user-select: none;
         padding: 0.1em 0.5em;
@@ -210,11 +210,11 @@
         break-before: auto;
     }
 
-    details>p>br {
+    details > p > br {
         display: none !important;
     }
 
-    details>summary {
+    details > summary {
         color: var(--color-text);
         cursor: pointer;
     }
@@ -253,7 +253,7 @@
     }
 
     tr {
-        &:nth-child(2n-1) {
+        &:nth-child(2n - 1) {
             background-color: rgba(0, 0, 0, 0.0325);
         }
     }
@@ -267,21 +267,21 @@ nav {
     color: inherit;
 }
 
-li>ul {
+li > ul {
     margin-top: 0.5em !important;
 }
 
-nav>ul {
+nav > ul {
     margin-top: 2em;
     padding-left: 1.25em !important;
 }
 
-nav>ul>li {
+nav > ul > li {
     margin-top: 2em !important;
     break-inside: avoid;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
     opacity: 1;
 }
 
@@ -290,10 +290,10 @@ nav a {
     opacity: 0.625;
 }
 
-nav>ul>li {
+nav > ul > li {
     margin-top: 1em;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
     font-weight: 600;
 }

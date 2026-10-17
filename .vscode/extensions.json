@@ -1,9 +1,18 @@
 {
     "recommendations": [
-        "fronterior.biome-monorepo",
+        "antfu.vite",
+        "astro-build.astro-vscode",
         "bierner.markdown-preview-github-styles",
-        "bierner.markdown-emoji",
-        "davidanson.vscode-markdownlint"
+        "bierner.markdown-mermaid",
+        "biomejs.biome",
+        "csstools.postcss",
+        "davidanson.vscode-markdownlint",
+        "editorconfig.editorconfig",
+        "golang.go",
+        "unifiedjs.vscode-mdx",
+        "romantomjak.go-template",
+        "typescriptteam.native-preview",
+        "vunguyentuan.vscode-postcss"
     ],
     "unwantedRecommendations": []
 }

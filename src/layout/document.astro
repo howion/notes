@@ -1,14 +1,12 @@
 ---
-import { APP, isDev } from "~/.boilerrc";
-
 import Analytics from "@vercel/analytics/astro";
-
-import House from "#/assets/house-fill.svg";
-import Printer from "#/assets/printer.svg";
 import Github from "#/assets/github.svg";
+import House from "#/assets/house-fill.svg";
 import Moon from "#/assets/moon-fill.svg";
+import Printer from "#/assets/printer.svg";
 import Sun from "#/assets/sun-fill.svg";
 import TextT from "#/assets/text-t.svg";
+import { APP, isDev } from "~/.boilerrc";
 
 import "#/styles/_base.css";
 import "#/styles/note/_index.css";
@@ -61,13 +59,13 @@ const title =
             rel="stylesheet"
         />
 
-        <style id="page_style">
+        <!-- <style id="page_style">
             @page {
                 margin: 0;
                 padding: 0.325in 0.325in;
                 size: 10in 13in;
             }
-        </style>
+        </style> -->
     </head>
     <body>
         <div id="loader">

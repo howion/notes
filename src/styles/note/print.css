@@ -1,6 +1,6 @@
 @media print {
     .katex {
-        transform: scale(1.0);
+        transform: scale(1);
         transform-origin: left baseline;
     }
 
