@@ -14,10 +14,19 @@
     --sidebar-thumb-width: 1em;
     --sidebar-thumb-height: 64px;
 
-    --font-sans-serif: "Inter", Helvetica, Arial, sans-serif;
+    --font-sans-serif: Inter, Helvetica, Arial, sans-serif;
     --font-monospace:
         "JetBrains Mono", "SF Mono", "SF Mono Regular", "Roboto Mono", Consolas, "Liberation Mono", Menlo, Courier,
         monospace;
+
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        --font-sans-serif: InterVariable, Helvetica, Arial, sans-serif;
+    }
 }
 
 @media screen {

@@ -66,7 +66,7 @@ export const NOTE_RECORDS: NoteRecord[] = [
             note('Group Theory', 'abstract-algebra/01-group-theory'),
             note('Ring Theory', 'abstract-algebra/02-ring-theory'),
             // note('Module Theory', 'abstract-algebra/03-module-theory'),
-            note('Universal Algebra', 'abstract-algebra/04-universal-algebra')
+            note('Universal Algebra', 'abstract-algebra/04-universal-algebra', { wip: true })
         ]
     },
     {

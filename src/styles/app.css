@@ -4,6 +4,7 @@ body {
     min-height: 100dvh;
     overflow: hidden;
     font-optical-sizing: auto;
+    font-feature-settings: 'liga' 1, 'calt' 1;
     font-style: normal;
 }
 
