@@ -13,7 +13,7 @@ export function GET(context: APIContext) {
                 title: note.title,
                 pubDate: note.pubDate,
                 description: note.description,
-                link: `/notes/${note.slug}`,
+                link: `/${note.slug}`,
                 author: 'me@howion.com (howion)',
                 customData: `<category>${note.category}</category>`
             })
