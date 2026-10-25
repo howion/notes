@@ -1,9 +1,13 @@
+import { statSync } from 'node:fs'
+import { join } from 'node:path'
 import slugify from 'slugify'
+import { NOTES_ROOT } from '../constants/fs'
 
 export interface NoteMap {
     title: string
     slug: string
     path: string
+    description?: string
 
     /**
      * Whether to show the table of contents for this note.
@@ -23,6 +27,11 @@ export interface NoteMap {
      * Whether this note is a work in progress.
      */
     wip?: boolean
+
+    /**
+     * Publication date of the note.
+     */
+    pubDate?: Date
 }
 
 export interface Note extends NoteMap {
@@ -49,9 +58,18 @@ interface _MapOptions {
 }
 
 function note(title: string, path: string, options?: _MapOptions): NoteMap {
+    const dirPath = join(NOTES_ROOT, path)
+
+    const stat = statSync(dirPath)
+
+    if (!stat.isDirectory()) {
+        throw new Error(`Path ${dirPath} is not a directory`)
+    }
+
     return {
         title,
         slug: slugify(title, { lower: true }),
+        pubDate: new Date(stat.mtime),
         path,
         showToC: options?.toc ?? true,
         hidden: options?.hidden ?? false,
@@ -104,4 +122,4 @@ export const NOTE_RECORDS: NoteRecord[] = [
     //         note('temp', '--temp', { toc: false, hidden: true }),
     //     ]
     // }
-]
+] as const

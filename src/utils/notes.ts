@@ -1,9 +1,7 @@
-import { readFileSync, readdirSync, statSync } from 'node:fs'
+import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
+import { NOTES_ROOT } from '../constants/fs'
 import { NOTE_RECORDS, type Note, type NoteMap } from '../constants/notes'
-
-// Resolve from cwd so path is correct at build time (bundling changes import.meta.url)
-const NOTES_ROOT = join(process.cwd(), 'notes')
 
 export const NOTE_MAPPINGS: NoteMap[] = NOTE_RECORDS.flatMap(record => record.children)
 

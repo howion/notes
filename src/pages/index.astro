@@ -9,14 +9,32 @@ import Document from "../layout/document.astro";
             <h1>Notes</h1>
 
             <div class="content-chips">
-                <img
-                    src="https://img.shields.io/github/last-commit/howion/notes?style=flat-square&label=last%20commit"
-                    alt="Last Commit"
-                />
-                <img
-                    src="https://img.shields.io/github/commit-activity/w/howion/notes?style=flat-square"
-                    alt="Commit Activity"
-                />
+                <a
+                    href="https://github.com/howion/notes/commits/main/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="https://img.shields.io/github/last-commit/howion/notes?style=flat-square&label=last%20commit"
+                        alt="Last Commit"
+                    />
+                </a>
+                <a
+                    href="https://github.com/howion/notes/graphs/commit-activity"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="https://img.shields.io/github/commit-activity/w/howion/notes?style=flat-square"
+                        alt="Commit Activity"
+                    />
+                </a>
+                <a href="/rss.xml" target="_blank" rel="noopener noreferrer">
+                    <img
+                        src="https://img.shields.io/badge/rss-active-brightgreen?style=flat-square"
+                        alt="RSS Feed"
+                    />
+                </a>
             </div>
 
             {
