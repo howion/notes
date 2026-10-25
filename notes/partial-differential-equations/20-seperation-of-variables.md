@@ -7,7 +7,7 @@ Consider the space bounded heat equation
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-u_t - k^2 u_{xx} &=& 0  \\
+u_t - k^2 u_{xx} &=& 0 \\
 \hdashline
 u(x, 0) &=& f(x) \\
 u(0, t) &=& 0 \\

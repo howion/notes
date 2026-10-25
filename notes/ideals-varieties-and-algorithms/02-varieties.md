@@ -13,7 +13,7 @@ so that $\mathbf{V}(f_1, ..., f_s) \subseteq \mathbb{F}^n$ is the set of all sol
 $$
 \def\arraystretch{1.25}
 \begin{array}{ll}
- &f_1(x_1, ..., x_n) \\
+&f_1(x_1, ..., x_n) \\
 =& f_2(x_1, ..., x_n) \\
 \vdots \\
 =& f_s(x_1, ..., x_n) = 0
@@ -57,4 +57,4 @@ Show that all finite subsets of $\mathbb{F}^n$ are affine varieties. First, prov
 1. Prove that finite union and finite intersection of variaties are also varieties.
 2. Show that infinite union of varieties need not to be a variety by giving an example.
 3. Show that the difference of two varieties $V - W$, need not to be a variety by giving an example.
-3. Let $V \subseteq \mathbb{F}^n$ and $W \subseteq \mathbb{F}^k$ be two varieties. Show that their cartesian product $V \times W$ is a variety in $\mathbb{F}^{n + k}$.
+4. Let $V \subseteq \mathbb{F}^n$ and $W \subseteq \mathbb{F}^k$ be two varieties. Show that their cartesian product $V \times W$ is a variety in $\mathbb{F}^{n + k}$.

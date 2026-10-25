@@ -40,7 +40,7 @@ Using the basis given above and the norm $\| \cdot \|_2$, we reach the following
 
 $$
 \boxed{
-    \| \ell \|^2 = \dfrac{a_0}{2} (2 \ell) + \sum_{n=1}^\infty |a_n|^2 \ell + |b_n|^2 \ell
+\| \ell \|^2 = \dfrac{a_0}{2} (2 \ell) + \sum_{n=1}^\infty |a_n|^2 \ell + |b_n|^2 \ell
 }
 $$
 
@@ -70,7 +70,7 @@ Moreover, the coefficients $b_n$ are given by:
 
 $$
 \boxed{
-    b_n = \frac{2}{\ell} \int_0^\ell f_\text{odd}(x) \sin\left(\dfrac{n \pi x}{\ell}\right) \> dx
+b_n = \frac{2}{\ell} \int_0^\ell f_\text{odd}(x) \sin\left(\dfrac{n \pi x}{\ell}\right) \> dx
 }
 $$
 
@@ -92,7 +92,7 @@ Moreover, the coefficients $a_n$ are given by:
 
 $$
 \boxed{
-    a_n = \frac{2}{\ell} \int_0^\ell f_\text{even}(x) \cos\left(\dfrac{n \pi x}{\ell}\right) \> dx
+a_n = \frac{2}{\ell} \int_0^\ell f_\text{even}(x) \cos\left(\dfrac{n \pi x}{\ell}\right) \> dx
 }
 $$
 
@@ -155,7 +155,7 @@ where
 $$
 \def\arraystretch{1.25}
 b_n = \begin{cases}
-   {4}/{(\pi n)} &\text{if } n \text{ odd} \\
-   0 &\text{otherwise} \\
+{4}/{(\pi n)} &\text{if } n \text{ odd} \\
+0 &\text{otherwise} \\
 \end{cases}
 $$

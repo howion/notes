@@ -16,9 +16,9 @@ $$
 \def\arraystretch{1.25}
 \begin{array}{llll}
 \text{\small Premise} && \text{\small Conclusion} & \text{\small Name} \\ \hline
-G \in \Gamma &&  \Gamma \vdash G & \text{\small Assumption} \\
+G \in \Gamma && \Gamma \vdash G & \text{\small Assumption} \\
 \Gamma \vdash G \text{ and } \Gamma \subseteq \Delta && \Delta \vdash G & \text{\small Monotonicity} \\
-\Gamma \vdash G && \Gamma \vdash \neg \neg G & \text{\small  Double }\neg \\
+\Gamma \vdash G && \Gamma \vdash \neg \neg G & \text{\small Double }\neg \\
 \Gamma \vdash F \text{ and } \Gamma \vdash G && \Gamma \vdash (F \land G) & \land\text{\small -Introduction} \\
 \Gamma \vdash (F \land G) && \Gamma \vdash F & \land\text{\small -Elimination} \\
 \Gamma \vdash (F \land G) && \Gamma \vdash (G \land F) & \land\text{\small -Symmetry} \\
@@ -71,8 +71,8 @@ Let $\Gamma$ be a set of propositional formulas and $F$ a formula in proposition
 
 Therefore
 
-* $\vdash G$ implies $G$ is a tautology,
-* $\vdash \neg G$ implies $G$ is a contradiction.
+- $\vdash G$ implies $G$ is a tautology,
+- $\vdash \neg G$ implies $G$ is a contradiction.
 
 ## _Def._ Literal
 
@@ -122,8 +122,8 @@ Notice that, for example, the basic Horn formula $\neg A_1 \lor \neg A_2 \lor \n
 
 ## To-Do's
 
-* Define Horn Algorithm and HORNSAT, show it is linear and concludes satisfiability.
-* Define (with the harder direction) compactness and show propositional logic is compact.
-* Define completeness.
-* Define resolutions and show its completeness.
-* More exercises here.
+- Define Horn Algorithm and HORNSAT, show it is linear and concludes satisfiability.
+- Define (with the harder direction) compactness and show propositional logic is compact.
+- Define completeness.
+- Define resolutions and show its completeness.
+- More exercises here.

@@ -88,7 +88,7 @@ For $\Delta < 0$, we have
 
 $$
 \xi = \enspace x \cos \theta + y \sin \theta \\
-\eta = -x \sin \theta  + y \cos \theta
+\eta = -x \sin \theta + y \cos \theta
 $$
 
 where

@@ -20,8 +20,8 @@ $$
 
 with $\epsilon = \pm 1$ and $b \in \R$. Moreover, if
 
-* $\epsilon = 1$, then it is a translation, and
-* $\epsilon = -1$, then it is a reflection
+- $\epsilon = 1$, then it is a translation, and
+- $\epsilon = -1$, then it is a reflection
 
 > Direct result of the theorem General Euclidian Isometry proven above.
 

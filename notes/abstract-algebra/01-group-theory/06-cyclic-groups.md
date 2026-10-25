@@ -32,9 +32,9 @@ Let $G$ be any group and $a \in G$, then
 
 Let $H$ be a cyclic group, then
 
-* $H$ is also abelian. So, cyclic implies abelian!
-* If $x$ is a generator of $H$, then so is $x^{-1}$.
-* If $x$ is a generator of $H$, then $|H| = |x|$.
+- $H$ is also abelian. So, cyclic implies abelian!
+- If $x$ is a generator of $H$, then so is $x^{-1}$.
+- If $x$ is a generator of $H$, then $|H| = |x|$.
 
 ## _Thm._ Fundamental Order Property
 
@@ -53,8 +53,8 @@ By Euclidean Algorithm...
 
 Noting subgroup of a cyclic is cyclic, let $(H, +) \leq (\Z, +)$. Then, either
 
-* $H=\Braket{0}$ which is the trivial subgroup $\{0\}$, or
-* $H=\Braket{m}$ where $m$ is the least positive integer in $H$. In this case, $H$ is infinite.
+- $H=\Braket{0}$ which is the trivial subgroup $\{0\}$, or
+- $H=\Braket{m}$ where $m$ is the least positive integer in $H$. In this case, $H$ is infinite.
 
 <details>
 <summary><b>Proof</b></summary>
@@ -69,27 +69,27 @@ For any two cyclic groups $\Braket{x}$ and $\Braket{y}$, if their orders are the
 
 1. Indeed, if they are finite, then the map
 
-    $$
-    \def\arraystretch{1.5}
-    \begin{array}{cc}
-        \varphi: & \Braket{x} \to \Braket{y} \\
-        & x^k \mapsto y^k
-    \end{array}
-    $$
+   $$
+   \def\arraystretch{1.5}
+   \begin{array}{cc}
+   \varphi: & \Braket{x} \to \Braket{y} \\
+   & x^k \mapsto y^k
+   \end{array}
+   $$
 
-    is well-defined and an isomorphism. Therefore, any finite cyclic group of order $n$ is isomorphic to the cyclic group $(\Z_n, +_Z)$.
+   is well-defined and an isomorphism. Therefore, any finite cyclic group of order $n$ is isomorphic to the cyclic group $(\Z_n, +_Z)$.
 
 2. If they are infinite, then the map
 
-    $$
-    \def\arraystretch{1.5}
-    \begin{array}{cc}
-        \varphi: & \Z \to \Braket{x} \\
-        & k \mapsto x^k
-    \end{array}
-    $$
+   $$
+   \def\arraystretch{1.5}
+   \begin{array}{cc}
+   \varphi: & \Z \to \Braket{x} \\
+   & k \mapsto x^k
+   \end{array}
+   $$
 
-    is well-defined and an isomorphism. Therefore, any infinite cyclic group is isomorphic to $(\Z, +_\Z)$.
+   is well-defined and an isomorphism. Therefore, any infinite cyclic group is isomorphic to $(\Z, +_\Z)$.
 
 <details>
 <summary><b>Proof</b></summary>

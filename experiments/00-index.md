@@ -8,4 +8,4 @@ They probably won't make any sense to you. They shouldn't make sense really.
 
 [**Go Back Home**](/README.md)
 
-* `ON HOLD` [**Instruction Calculus**](./instruction-calculus/01-idea.md) by Me!
+- `ON HOLD` [**Instruction Calculus**](./instruction-calculus/01-idea.md) by Me!

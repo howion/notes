@@ -14,9 +14,9 @@ At the moment this universe transformation model doesn't take into account the f
 
 ## Things to Resolve?
 
-* Dependency
-* Time
-*
+- Dependency
+- Time
+-
 
 ## Universe
 

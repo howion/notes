@@ -13,8 +13,8 @@ It's a difficult matter to objectively classify works to a single subject, espec
 
 ## To-Do's
 
-* [ ] Add linear algebra stuff.
-* [ ] Check out Google Drive.
+- [ ] Add linear algebra stuff.
+- [ ] Check out Google Drive.
 
 ## Mathematics
 
@@ -30,19 +30,18 @@ See [**Computer Science**](./03-computer-science.md).
 
 ## Miscellaneous
 
-* ### Classical Latin Studies
-
-    * **Wheelock's Latin** by Frederic M. Wheelock.
-    * **`Pars I.` Familia Romana** + `Audio` by Hans H. Ørberg.
-    * **`Pars II.` Roma aeterna** by Hans H. Ørberg.
+- ### Classical Latin Studies
+  - **Wheelock's Latin** by Frederic M. Wheelock.
+    - **`Pars I.` Familia Romana** + `Audio` by Hans H. Ørberg.
+    - **`Pars II.` Roma aeterna** by Hans H. Ørberg.
 
 ## Finance
 
-* **Probability for Finance** by Ekkehard Kopp, Jan Malczak, and Tomasz Zastawniak.
-* `arXiv` [**Combinatorial Modelling and Learning with Prediction Markets**](https://arxiv.org/abs/1201.3851) by Jinli Hu.
-* **The Mathematics of Arbitrage** by Freddy Delbaen and Walter Schachermayer.
+- **Probability for Finance** by Ekkehard Kopp, Jan Malczak, and Tomasz Zastawniak.
+- `arXiv` [**Combinatorial Modelling and Learning with Prediction Markets**](https://arxiv.org/abs/1201.3851) by Jinli Hu.
+- **The Mathematics of Arbitrage** by Freddy Delbaen and Walter Schachermayer.
 
 ## Physics
 
-* **Concepts of Modern Physics** by Arthur Beiser.
-* **Physics for Scientists & Engineers with Modern Physics** by Douglas C. Giancoli.
+- **Concepts of Modern Physics** by Arthur Beiser.
+- **Physics for Scientists & Engineers with Modern Physics** by Douglas C. Giancoli.

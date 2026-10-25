@@ -93,7 +93,7 @@ $$
 
 Let $\varphi \in \mathcal{L}(\mathbf{S})$, then we define &mdash; in addition to its $\lor$, $\to$, $\leftrightarrow$ counterparts in propositional logic
 
-* $\forall x \varphi := \neg \exists x \neg \varphi$ where $x$ is a variable symbol in $\mathbf{S}$
+- $\forall x \varphi := \neg \exists x \neg \varphi$ where $x$ is a variable symbol in $\mathbf{S}$
 
 ## _Def._ $\text{free}(\varphi)$
 
@@ -130,8 +130,8 @@ An **existential formula** is a formula of the from $\exists y_1 \exists y_2 \cd
 
 ## To-Do's
 
-* Variables, free and bound variables
-* Well-formedness
-* Structures
-* Abstract Syntax Trees and Polish Notation
-* NAND Representations
+- Variables, free and bound variables
+- Well-formedness
+- Structures
+- Abstract Syntax Trees and Polish Notation
+- NAND Representations

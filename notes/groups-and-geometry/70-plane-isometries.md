@@ -43,9 +43,9 @@ where $\bold{a} = (a_1, a_2)$ is a constant.
 
 Three key properties of translations are
 
-* they are orientation preserving,
-* have no fixed points unless $\bold{a} = \bold{0}$, and
-* compose according to $t(\bold{a})t(\bold{b}) = t(\bold{a+b})$.
+- they are orientation preserving,
+- have no fixed points unless $\bold{a} = \bold{0}$, and
+- compose according to $t(\bold{a})t(\bold{b}) = t(\bold{a+b})$.
 
 ## _Def._ Rotation
 
@@ -53,9 +53,9 @@ A **rotation** $s$ is a map that moves every point of the plane through a fixed 
 
 Three key properties of rotations are
 
-* they are orientation preserving,
-* have just one fixed point, and
-* and compose according to $s(O, \alpha)s(O, \beta) = s(O, \alpha + \beta)$.
+- they are orientation preserving,
+- have just one fixed point, and
+- and compose according to $s(O, \alpha)s(O, \beta) = s(O, \alpha + \beta)$.
 
 We will denote a rotation through $\theta$ about the point $O$ with $\rho_{O,\theta}$ and will omit $O$ if it is the origin.
 
@@ -65,9 +65,9 @@ A **reflection** $r$ is a map that moves every point of the plane to its mirror-
 
 Three key properties of reflections are
 
-* they are orientation reversing,
-* fix every point on the line $\ell$, and
-* satisfy $r(\ell)^2 = \bold{1}$.
+- they are orientation reversing,
+- fix every point on the line $\ell$, and
+- satisfy $r(\ell)^2 = \bold{1}$.
 
 We will denote a reflection through a line $\ell$ with $\sigma_\ell$.
 
@@ -81,10 +81,10 @@ $$
 
 where
 
-* $r$ is a reflection in $\ell$
-* $\epsilon = \pm 1$
-* $s$ is a rotation around the point $O$, and
-* $t$ is a translation.
+- $r$ is a reflection in $\ell$
+- $\epsilon = \pm 1$
+- $s$ is a rotation around the point $O$, and
+- $t$ is a translation.
 
 ## _Def._ Glide Reflection
 
@@ -108,11 +108,11 @@ The product of three reflections in $\R^2$ is either a reflection or a glide ref
 
 In $\R^2$, an isometry is either
 
-* identity (d),
-* reflection (db)
-* rotation (dp)
-* translation (dd), or
-* glide reflection (dq).
+- identity (d),
+- reflection (db)
+- rotation (dp)
+- translation (dd), or
+- glide reflection (dq).
 
 ## _Thm._ Characterisation of Plane Isometries
 
@@ -121,7 +121,7 @@ For the $4$ isometry types we defined so far, we have the following characteriza
 <center>
 
 | Fixed Point? | Yes        | No               |
-|--------------|------------|------------------|
+| ------------ | ---------- | ---------------- |
 | OP           | Rotation   | Translation      |
 | OR           | Reflection | Glide Reflection |
 
@@ -131,8 +131,8 @@ For the $4$ isometry types we defined so far, we have the following characteriza
 
 Every isometry of the Euclidian plane $\R^2$ viewed as the complex line $\Complex$ is of one of the forms
 
-* $f(z) = \alpha z + \beta$, or
-* $f(z) = \alpha \bar{z} + \beta$
+- $f(z) = \alpha z + \beta$, or
+- $f(z) = \alpha \bar{z} + \beta$
 
 where $\alpha, \beta \in \Complex$ and $|\alpha| = 1$.
 
@@ -158,24 +158,24 @@ Before we continue, let $u$ be an plane isometry, and define
 
 $$
 \bold{A}_\theta = \begin{bmatrix}
-   \cos\theta & -\sin\theta \\
-   \sin\theta & \cos\theta
+\cos\theta & -\sin\theta \\
+\sin\theta & \cos\theta
 \end{bmatrix}, \quad
 
 \bold{B}_\theta = \begin{bmatrix}
-   \cos\theta & \sin\theta \\
-   \sin\theta & -\cos\theta
+\cos\theta & \sin\theta \\
+\sin\theta & -\cos\theta
 \end{bmatrix}
 $$
 
 then, if $u$ is a
 
-* **translation**, then is of the form $(\bold{v} , \bold{I})$ for some translation vector $\bold{v}$,
-* **rotation** anti-clockwise through $\theta$ about the origin, then is of the form $(\bold{0}, \bold{A}_\theta)$,
-* **reflection** in the line $\ell$ passing through the origin, then is of the form $(\bold{0}, \bold{B}_{2\theta})$ where $\theta$ is the clockwise angle between the line and the $x$-axis.
-* **rotation** anti-clockwise through $\theta$ about the point $\bold{c}$, then is of the form $(\bold{c} - \bold{A}_\theta \bold{c}, \bold{A}_\theta)$
-* **reflection** in any line $m$, then is of the form $(2\bold{a}, \bold{B}_{2\theta})$ where $\bold{a}$ is the vector from the origin to the line &mdash; where $\theta$ defined as above,
-* **glide reflection** with the line $m$ for points $\bold{a}$ and $\bold{b}$, then is of the form $(2 \bold{a} + \bold{b}, \bold{B}_{2\theta})$ &mdash; where $\theta$ and $\bold{a}$ defined as above.
+- **translation**, then is of the form $(\bold{v} , \bold{I})$ for some translation vector $\bold{v}$,
+- **rotation** anti-clockwise through $\theta$ about the origin, then is of the form $(\bold{0}, \bold{A}_\theta)$,
+- **reflection** in the line $\ell$ passing through the origin, then is of the form $(\bold{0}, \bold{B}_{2\theta})$ where $\theta$ is the clockwise angle between the line and the $x$-axis.
+- **rotation** anti-clockwise through $\theta$ about the point $\bold{c}$, then is of the form $(\bold{c} - \bold{A}_\theta \bold{c}, \bold{A}_\theta)$
+- **reflection** in any line $m$, then is of the form $(2\bold{a}, \bold{B}_{2\theta})$ where $\bold{a}$ is the vector from the origin to the line &mdash; where $\theta$ defined as above,
+- **glide reflection** with the line $m$ for points $\bold{a}$ and $\bold{b}$, then is of the form $(2 \bold{a} + \bold{b}, \bold{B}_{2\theta})$ &mdash; where $\theta$ and $\bold{a}$ defined as above.
 
 ## _Thm._ $3$-product of Reflections
 
@@ -185,8 +185,8 @@ Every plane isometry is a composition of at most $3$ reflections.
 
 Moreover, the composition of three reflections in the plane is always an orientation-preserving isometry, hence it is either
 
-* a reflection, or
-* glide reflection.
+- a reflection, or
+- glide reflection.
 
 ## _Thm._ Two Parallel Lines
 

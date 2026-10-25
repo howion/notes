@@ -33,7 +33,7 @@ $$
 \def\arraystretch{1.25}
 \begin{array}{rll}
 \gamma_i &=& \max(\alpha_i, \beta_i) \\
-\gamma   &=& (\gamma_1, ..., \gamma_n)
+\gamma &=& (\gamma_1, ..., \gamma_n)
 \end{array}
 $$
 

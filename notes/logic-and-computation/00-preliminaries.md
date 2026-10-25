@@ -12,16 +12,16 @@ Due to nature of these notes we will mostly work in second-order ordinary set-th
 
 ## Resources
 
-* [**The Open Logic Text**](https://github.com/OpenLogicProject/OpenLogic), by various contributors
-* **A First Course in Logic: An Introduction to Model Theory, Proof Theory, Computability and Complexity** by Shawn Hedman
-* **Mathematical Logic**, 2nd Ed., by H.-D. Ebbinghaus, J. Flum, W. Thomas
-* **A Concise Introduction to Mathematical Logic**, 3rd Ed., by Wolfgang Rautenberg
+- [**The Open Logic Text**](https://github.com/OpenLogicProject/OpenLogic), by various contributors
+- **A First Course in Logic: An Introduction to Model Theory, Proof Theory, Computability and Complexity** by Shawn Hedman
+- **Mathematical Logic**, 2nd Ed., by H.-D. Ebbinghaus, J. Flum, W. Thomas
+- **A Concise Introduction to Mathematical Logic**, 3rd Ed., by Wolfgang Rautenberg
 
 ## Notation
 
-* $0 \in \N$ and $\N^+ :=\ \N \setminus \{0\}$.
-* $\varnothing$ denotes the empty set.
-* Cardinality of a set $S$ is denoted with $|S|$.
+- $0 \in \N$ and $\N^+ :=\ \N \setminus \{0\}$.
+- $\varnothing$ denotes the empty set.
+- Cardinality of a set $S$ is denoted with $|S|$.
 
 <!-- ## _Def._ Collection
 

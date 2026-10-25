@@ -36,15 +36,15 @@ We will utilize the symbol $\bold{n}$ to denote the finite $n$-element linearly 
 
 Let $P$ and $Q$ be two ordered sets. We say a map $\phi: P \to Q$ is:
 
-* **order-preserving** if $x \leqslant_P y$ implies $\phi(x) \leqslant_Q \phi(y)$.
-* **order-embedding** if it is order-preserving and $\phi(x) \leqslant_Q \phi(y)$ implies $x \leqslant_P y$.
-* **order-isomorphism** if it is order-embedding and $\phi$ is surjective.
+- **order-preserving** if $x \leqslant_P y$ implies $\phi(x) \leqslant_Q \phi(y)$.
+- **order-embedding** if it is order-preserving and $\phi(x) \leqslant_Q \phi(y)$ implies $x \leqslant_P y$.
+- **order-isomorphism** if it is order-embedding and $\phi$ is surjective.
 
 Notice that:
 
-* Order-embeddings are injective. Therefore, order-isomorphisms are bijective.
-* Not every bijective map between $P$ and $Q$ is an order-isomorphism.
-* Finite composition of order-preserving maps is again order-preserving.
+- Order-embeddings are injective. Therefore, order-isomorphisms are bijective.
+- Not every bijective map between $P$ and $Q$ is an order-isomorphism.
+- Finite composition of order-preserving maps is again order-preserving.
 
 <!--
 
@@ -86,10 +86,10 @@ See [**Wikipedia:** Hasse Diagram](https://en.wikipedia.org/wiki/Hasse_diagram).
 
 Let $P$ and $Q$ be finite ordered sets and $\phi : P \to Q$ a bijective map, then the following are equivalent
 
-* $\phi$ is an order-isomorphism
-* $x \lt_P y$ if and only if $\phi(x) \lt_Q \phi(y)$.
-* $x \prec_P y$ if and only if $\phi(x) \prec_Q \phi(y)$.
-* They can be drawn with identical Hasse Diagrams.
+- $\phi$ is an order-isomorphism
+- $x \lt_P y$ if and only if $\phi(x) \lt_Q \phi(y)$.
+- $x \prec_P y$ if and only if $\phi(x) \prec_Q \phi(y)$.
+- They can be drawn with identical Hasse Diagrams.
 
 ## _Def._ Dual
 
@@ -107,7 +107,7 @@ Given a statement $\Phi$ about ordered sets which is true in all ordered sets, t
 
 For an ordered set $P$, we say $P$ has a **bottom** $\bot \in P$ if for all $x \in P$ we have $\bot \leqslant x$. Similarly, we say $P$ has a **top** $\top \in P$ if for all $x \in P$ we have $x \leqslant \top$.
 
-Notice that $\top$ and $\bot$ are unique  when they exist due to antisymmetry, and they are comparable with any element.
+Notice that $\top$ and $\bot$ are unique when they exist due to antisymmetry, and they are comparable with any element.
 
 For example, for $\langle \mathcal{P}(X); \subseteq\rangle$, we have $\bot = \varnothing$ and $\top = X$.
 
@@ -119,10 +119,10 @@ A finite chain always has bottom and top element.
 
 Let $P$ be an ordered set and $p \in P$. We say $a \in P$ is:
 
-* **maximal element of $P$** if $a \leqslant x \implies a = x$. We denote the **set of maximal elements** with $\text{Max}\ P$.
-* **minimal element of $P$** if $x \leqslant a \implies a =x$. Similarly, we denote **the set of minimal elements** with $\text{Min}\ P$.
-* **maximum** (or **greatest**) if $a$ is the (unique) top element.
-* **minimum** (or **least**) if $a$ is the (unique) bottom element.
+- **maximal element of $P$** if $a \leqslant x \implies a = x$. We denote the **set of maximal elements** with $\text{Max}\ P$.
+- **minimal element of $P$** if $x \leqslant a \implies a =x$. Similarly, we denote **the set of minimal elements** with $\text{Min}\ P$.
+- **maximum** (or **greatest**) if $a$ is the (unique) top element.
+- **minimum** (or **least**) if $a$ is the (unique) bottom element.
 
 Notice that if $P$ has a top element $\top$, then $\text{Max}\ P = \{\top\}$.
 
@@ -132,16 +132,16 @@ Notice that if $P$ has a top element $\top$, then $\text{Max}\ P = \{\top\}$.
 
 Suppose $P$ and $Q$ are two disjoint ordered sets. The **disjoint union** denoted $P \sqcup Q$ is the ordered set $P \cup Q$ ordered by $\leqslant$ where $x \leqslant y$ if and only if either:
 
-* For $x,y \in P$ we have $x \leqslant_P y$,
-* For $x,y \in Q$ we have $x \leqslant_Q y$.
+- For $x,y \in P$ we have $x \leqslant_P y$,
+- For $x,y \in Q$ we have $x \leqslant_Q y$.
 
 ## _Def._ Linear Sum
 
 For two disjoint ordered sets $P$ and $Q$, the **linear sum** denoted $P \oplus Q$ is the ordered set $P \cup Q$ ordered by $\leqslant$ where $x \leqslant y$ if and only if either:
 
-* For $x,y \in P$ we have $x \leqslant_P y$,
-* For $x,y \in Q$ we have $x \leqslant_Q y$.
-* $x \in \text{Max}\ P$ and $y \in \text{Min}\ Q$.
+- For $x,y \in P$ we have $x \leqslant_P y$,
+- For $x,y \in Q$ we have $x \leqslant_Q y$.
+- $x \in \text{Max}\ P$ and $y \in \text{Min}\ Q$.
 
 Obviously, $\oplus$ is not necessarily commutative.
 
@@ -159,8 +159,8 @@ Let $X = \{1, 2, ..., n\}$ and $\phi : \mathcal{P}(X) \to \bold{2}^n$ such that 
 
 $$
 \varepsilon_i = \begin{cases}
-   \ 1 &\text{if } \enspace i \in A \\
-   \ 0 &\text{if } \enspace i \notin A
+\ 1 &\text{if } \enspace i \in A \\
+\ 0 &\text{if } \enspace i \notin A
 \end{cases}
 $$
 
@@ -200,10 +200,10 @@ $$
 
 Notice that:
 
-* $\downarrow Q$ is the smallest down-set that contains $Q$.
-* $Q$ is a **down-set** if and only if $Q =\ \downarrow Q$.
-* $\downarrow \{x\} =\ \downarrow x$.
-* $Q$ is a down-set of $P$ if and only if $P \setminus Q$ is an up-set of $P$ (or equivalently, a down-set of $P^\partial$).
+- $\downarrow Q$ is the smallest down-set that contains $Q$.
+- $Q$ is a **down-set** if and only if $Q =\ \downarrow Q$.
+- $\downarrow \{x\} =\ \downarrow x$.
+- $Q$ is a down-set of $P$ if and only if $P \setminus Q$ is an up-set of $P$ (or equivalently, a down-set of $P^\partial$).
 
 Down-sets (dually up-sets) of the form $\downarrow x$ (dually $\uparrow x$) are called **principal**.
 
@@ -225,6 +225,6 @@ Notice that $\mathcal{O}(P)^\partial \cong \mathcal{O}(P^\partial)$ as $A \subse
 
 Let $P, P_1, P_2$ be ordered sets, then
 
-* $\mathcal{O}(P \oplus \bold{1}) \cong \mathcal{O}(P) \oplus \bold{1}$
-* $\mathcal{O}(\bold{1} \oplus P) \cong \bold{1} \oplus \mathcal{O}(P)$
-* $\mathcal{O}(P_1 \sqcup P_2) \cong \mathcal{O}(P_1) \times \mathcal{O}(P_2)$
+- $\mathcal{O}(P \oplus \bold{1}) \cong \mathcal{O}(P) \oplus \bold{1}$
+- $\mathcal{O}(\bold{1} \oplus P) \cong \bold{1} \oplus \mathcal{O}(P)$
+- $\mathcal{O}(P_1 \sqcup P_2) \cong \mathcal{O}(P_1) \times \mathcal{O}(P_2)$

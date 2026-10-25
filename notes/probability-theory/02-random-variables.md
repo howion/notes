@@ -22,7 +22,7 @@ $$
 \def\arraystretch{1.25}
 \begin{array}{rcl}
 F_X: \enspace \R &\to& [0, 1] \subseteq \R \\
-     x &\mapsto& P(X \leq x)
+x &\mapsto& P(X \leq x)
 \end{array}
 $$
 
@@ -55,5 +55,5 @@ We use $X = x$ to denote the event $\{s \in S \> | \> X(s) = x \}$. We cannot ta
 
 Let $X$ be a discrete random variable with countable support $x_1, x_2, ...$ (where each $x_i$ is distinct for notational simplicity). The PMF $p_X$ of $X$ must satisfy the following:
 
-* $p_X(x) > 0$ if $x = x_j$ and $p_X(x) = 0$ otherwise.
-* $\sum_{j=1} p_X(x_j) = 1$
+- $p_X(x) > 0$ if $x = x_j$ and $p_X(x) = 0$ otherwise.
+- $\sum_{j=1} p_X(x_j) = 1$

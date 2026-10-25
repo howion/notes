@@ -27,9 +27,9 @@ Given a vector field $\bold{F} = (F_1, F_2, F_3)$ in three-dimensions, the **cur
 $$
 \def\arraystretch{1.5}
 \text{curl } \bold{F} := \begin{vmatrix}
-   \vec{i} & \vec{j} & \vec{k} \\
-   \partial / \partial x & \partial / \partial y & \partial / \partial z \\
-   F_1 & F_2 & F_3
+\vec{i} & \vec{j} & \vec{k} \\
+\partial / \partial x & \partial / \partial y & \partial / \partial z \\
+F_1 & F_2 & F_3
 \end{vmatrix}
 $$
 
@@ -92,7 +92,7 @@ $$
 Here is a quick reference table for some common ODEs we will use:
 
 | ODE                | General Solution                          |
-|--------------------|-------------------------------------------|
+| ------------------ | ----------------------------------------- |
 | $X'' = 0$          | $X = C_1x + C_2$                          |
 | $X' + aX = 0$      | $X = Ce^{-ax}$                            |
 | $X'' + \mu^2X = 0$ | $X = C_1 \cos(\mu x) + C_2 \sin(\mu x)$   |

@@ -14,8 +14,8 @@ where $n_i \in \Z$ and $x_i \in X$.
 
 A **basis** of an abelian group $F$ is a subset $X$ of $F$ such that
 
-* $F = \Braket{X}$, and
-* for distinct $x_1, ..., x_n \in X$ and $n_i \in \Z$ we have
+- $F = \Braket{X}$, and
+- for distinct $x_1, ..., x_n \in X$ and $n_i \in \Z$ we have
 
 $$
 n_1x_1 + \cdots + n_kx_k = 0 \implies n_i = 0 \quad \forall i

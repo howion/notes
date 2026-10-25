@@ -2,9 +2,9 @@
 
 ## Resources Used
 
-* **Algebra** by Thomas W. Hungerford
-* [**Rings, Modules and Linear Algebra**](https://neilstrickland.github.io/modules/notes/modules.pdf) by N. P. Strickland
-* **Introduction to Rings and Modules**, 2nd Revised Ed., C. Musili
+- **Algebra** by Thomas W. Hungerford
+- [**Rings, Modules and Linear Algebra**](https://neilstrickland.github.io/modules/notes/modules.pdf) by N. P. Strickland
+- **Introduction to Rings and Modules**, 2nd Revised Ed., C. Musili
 
 ## Notation
 

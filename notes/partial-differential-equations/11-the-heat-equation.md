@@ -33,7 +33,7 @@ Consider we are given an homogenous diffusion equation, then we define it's **en
 
 $$
 \boxed{
-    E(t) := \dfrac{1}{2} \int_0^\ell u^2 dx
+E(t) := \dfrac{1}{2} \int_0^\ell u^2 dx
 }
 $$
 
@@ -131,7 +131,7 @@ where $x \in (-\infty, \infty)$ and $t \in (0, \infty)$. Assuming $\phi(\infty) 
 
 $$
 \boxed{
-    S(x,t) = \dfrac{1}{\sqrt{4 \pi k t}} e^{-x^2 / 4kt}
+S(x,t) = \dfrac{1}{\sqrt{4 \pi k t}} e^{-x^2 / 4kt}
 }
 $$
 
@@ -139,11 +139,11 @@ for $t > 0$. This is called the **source function**, so that for the solution we
 
 $$
 \boxed{
-    \def\arraystretch{1}
-    \begin{array}{lll}
-    u(x,t) &=& \displaystyle\int_{-\infty}^\infty S(x - y,t) \phi(y) dy \\ \\
-    &=& \dfrac{1}{\sqrt{4 \pi k t}}  \displaystyle\int_{-\infty}^\infty e^{-(x-y)^2 / 4kt} \phi(y) dy
-    \end{array}
+\def\arraystretch{1}
+\begin{array}{lll}
+u(x,t) &=& \displaystyle\int_{-\infty}^\infty S(x - y,t) \phi(y) dy \\ \\
+&=& \dfrac{1}{\sqrt{4 \pi k t}} \displaystyle\int_{-\infty}^\infty e^{-(x-y)^2 / 4kt} \phi(y) dy
+\end{array}
 }
 $$
 
@@ -158,7 +158,7 @@ The source function $S(x,t)$ is defined for all real $x$ and positive $t$. Moreo
 ## _Thm._ Comparison of Wave and Diffusion
 
 | Property                         | Wave                                 | Diffusion                  |
-|----------------------------------|--------------------------------------|----------------------------|
+| -------------------------------- | ------------------------------------ | -------------------------- |
 | Speed of Propagation             | Finite and $\leq c$                  | Infinite                   |
 | Singularities for $t > 0$        | Transported with speed $c$*          | Lost immediately           |
 | Well-posed for $t > 0$           | Yes                                  | Yes (at least for bounded) |
@@ -176,7 +176,7 @@ Let's take the domain for the diffusion equation to be the half-line $(0, \infty
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-v_{t} - k v_{xx} &=& 0  \\
+v_{t} - k v_{xx} &=& 0 \\
 \hdashline
 v(x, 0) &=& \phi(x) \\
 v(0, t) &=& 0
@@ -187,7 +187,7 @@ where $x \in (0, \infty)$ and $t \in (0, \infty)$. The general solution for this
 
 $$
 \boxed{
-    v(x,t) = \int_0^\infty \left[ S(x-y, t) - S(x+y, t) \right] \phi(y)dy
+v(x,t) = \int_0^\infty \left[ S(x-y, t) - S(x+y, t) \right] \phi(y)dy
 }
 $$
 
@@ -196,7 +196,7 @@ Now consider the Neumann problem, so that it becomes
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-w_{t} - k w_{xx} &=& 0  \\
+w_{t} - k w_{xx} &=& 0 \\
 \hdashline
 w(x, 0) &=& \phi(x) \\
 w_x(0, t) &=& 0
@@ -207,7 +207,7 @@ where $x \in (0, \infty)$ and $t \in (0, \infty)$, then the general solution for
 
 $$
 \boxed{
-    w(x,t) = \int_0^\infty \left[ S(x-y, t) + S(x+y, t) \right] \phi(y)dy
+w(x,t) = \int_0^\infty \left[ S(x-y, t) + S(x+y, t) \right] \phi(y)dy
 }
 $$
 
@@ -218,7 +218,7 @@ Let's now consider the diffusion equation with a source $f(x,t)$, i.e.
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-u_{t} - k u_{xx} &=& f(x,t)  \\
+u_{t} - k u_{xx} &=& f(x,t) \\
 \hdashline
 u(x, 0) &=& \phi(x)
 \end{array}
@@ -228,10 +228,10 @@ then the general solution is of the form
 
 $$
 \boxed{
-    \def\arraystretch{1}
-    \begin{array}{lll}
-    u(x,t) &=& \displaystyle\int_{-\infty}^\infty S(x - y,t) \phi(y) dy \\ \\
-    &+&  \displaystyle\int_0^t\int_{-\infty}^\infty S(x-y, t-s) f(y,s) \> dy \> ds
-    \end{array}
+\def\arraystretch{1}
+\begin{array}{lll}
+u(x,t) &=& \displaystyle\int_{-\infty}^\infty S(x - y,t) \phi(y) dy \\ \\
+&+& \displaystyle\int_0^t\int_{-\infty}^\infty S(x-y, t-s) f(y,s) \> dy \> ds
+\end{array}
 }
 $$

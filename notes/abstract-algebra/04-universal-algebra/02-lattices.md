@@ -12,7 +12,7 @@ The least element of $S^+$, if exists, is called the **supremum** (or **least up
 
 Notice that:
 
-* Since $\leqslant$ is transitive, $S^+$ is always an up-set and $S^-$ is a down-set.
+- Since $\leqslant$ is transitive, $S^+$ is always an up-set and $S^-$ is a down-set.
 
 ## _Notation._ Join and Meet
 
@@ -24,8 +24,8 @@ Similarly, we will also utilize $\bigvee S$ and $\bigwedge S$ for $\sup S$ and $
 
 Let $P$ be a non-empty (partially) ordered set.
 
-* If join and meet exist for all $x,y \in P$, then $P$ is called a **lattice**.
-* If join of and meet of exist for all $S \subseteq P$, then $P$ is called a **complete lattice**.
+- If join and meet exist for all $x,y \in P$, then $P$ is called a **lattice**.
+- If join of and meet of exist for all $S \subseteq P$, then $P$ is called a **complete lattice**.
 
 ## _Def._ Axiomatic Definition
 
@@ -33,18 +33,18 @@ Let $P$ be a non-empty (partially) ordered set.
 
 A non-empty set $L$ with two binary operations $\vee$ and $\wedge$ on $L$ is called a **lattice** if it satisfies:
 
-* **(commutative laws)**\
-$x \vee y \approx y \vee x$\
-$x \wedge y \approx y \wedge x$
+- **(commutative laws)**\
+  $x \vee y \approx y \vee x$\
+  $x \wedge y \approx y \wedge x$
 
-* **(associative laws)**\
-$x \vee (y \vee z) \approx x \vee (y \vee z)$\
-$x \wedge (y \wedge z) \approx x \wedge (y \wedge z)$
+- **(associative laws)**\
+  $x \vee (y \vee z) \approx x \vee (y \vee z)$\
+  $x \wedge (y \wedge z) \approx x \wedge (y \wedge z)$
 
-* **(idempotent laws)**\
-$x \vee x \approx x$\
-$x \wedge x \approx x$
+- **(idempotent laws)**\
+  $x \vee x \approx x$\
+  $x \wedge x \approx x$
 
-* **(absorption laws)**\
-$x \approx x \vee (x \wedge y)$\
-$x \approx x \wedge (x \vee y)$
+- **(absorption laws)**\
+  $x \approx x \vee (x \wedge y)$\
+  $x \approx x \wedge (x \vee y)$

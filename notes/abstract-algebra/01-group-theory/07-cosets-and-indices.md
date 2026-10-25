@@ -8,8 +8,8 @@ Let $G$ be a group and $H \leq G$. Then, for all $a \in G$ the set $aH$ is calle
 
 Let $G$ be a group, $H \leq G$, and $a,b \in G$. We say,
 
-* **$a$ is left-congruent to $b$ modulo $H$**, denoted by $a \equiv_{L} b \enspace (\text{mod } H)$ when $a^{-1}b \in H$.
-* **$a$ is right-congruent to $b$ modulo $H$**, denoted by $a \equiv_{R} b \enspace (\text{mod } H)$ when $ab^{-1} \in H$,
+- **$a$ is left-congruent to $b$ modulo $H$**, denoted by $a \equiv_{L} b \enspace (\text{mod } H)$ when $a^{-1}b \in H$.
+- **$a$ is right-congruent to $b$ modulo $H$**, denoted by $a \equiv_{R} b \enspace (\text{mod } H)$ when $ab^{-1} \in H$,
 
 ## _Thm._ Coset Congruence
 

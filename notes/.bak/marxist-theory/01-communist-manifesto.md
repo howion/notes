@@ -4,9 +4,9 @@
 
 With the note that this [**work**](https://www.marxists.org/admin/books/manifesto/Manifesto.pdf) written by Karl Marx and Frederick Engels is a **manifesto** NOT an academic study:
 
-* The _general principles_ laid down in the manifesto are, on the whole, as correct today as ever.
-* From a practical point of view, on the other hand, should be subject to change as history provided.
-* "The working class cannot simply lay hold of the ready-made State machinery, and wield it for its own purposes". (Marx & Engels; Tucker p. 470)
+- The _general principles_ laid down in the manifesto are, on the whole, as correct today as ever.
+- From a practical point of view, on the other hand, should be subject to change as history provided.
+- "The working class cannot simply lay hold of the ready-made State machinery, and wield it for its own purposes". (Marx & Engels; Tucker p. 470)
 
 <!-- ### The Outline of the Manifesto
 
@@ -25,12 +25,12 @@ With the note that this [**work**](https://www.marxists.org/admin/books/manifest
 
 The manifesto is not _merely_ about:
 
-* The **proletariat** vs the **bourgeoisie**
+- The **proletariat** vs the **bourgeoisie**
 
 but rather:
 
-* the **oppressed** vs the **oppressor**
-* the **exploited** vs the **exploiter**
+- the **oppressed** vs the **oppressor**
+- the **exploited** vs the **exploiter**
 
 As always, there is a civil war within society where the involved parties are **classes**.
 
@@ -41,8 +41,8 @@ One may criticize the methodology of _using classes_. But without classes, I sho
 
 From (Engels, English edition 1888) the terms bourgeoisie and proletariat are defined as:
 
-* "By **bourgeoisie** is meant the class of modern capitalists, owners of the means of social production and employers of wage-labor."
-* "By **proletariat** the class of modern wage-laborers who, having no means of production of their own, are reduced to selling their labor-power in order to live."
+- "By **bourgeoisie** is meant the class of modern capitalists, owners of the means of social production and employers of wage-labor."
+- "By **proletariat** the class of modern wage-laborers who, having no means of production of their own, are reduced to selling their labor-power in order to live."
 
 <!-- todo -->
 
@@ -52,21 +52,21 @@ From (Engels, English edition 1888) the terms bourgeoisie and proletariat are de
 
 ## Base and Superstructure
 
-See [**Wikipedia:** Base and Superstructure]( https://en.wikipedia.org/wiki/Base_and_superstructure) and [**Wikipedia:** Relations of Production]( https://en.wikipedia.org/wiki/Relations_of_production).
+See [**Wikipedia:** Base and Superstructure](https://en.wikipedia.org/wiki/Base_and_superstructure) and [**Wikipedia:** Relations of Production](https://en.wikipedia.org/wiki/Relations_of_production).
 
 In Marxist theory, societies consist of two parts: the **base** (or the **substructure**) and the **superstructure**.
 
 Base refers to the **mode of production** (or the **economic superstructure**) which is a combination of the:
 
-* **productive forces** that include **labour power** and **means of production** (raw materials, tools, land, infrastructure, animals, technical knowledge etc.)
-* **relations of production** that directly relate to production. Total of social relationships that people must enter into in order to survive, to produce, and to reproduce their means of life.
+- **productive forces** that include **labour power** and **means of production** (raw materials, tools, land, infrastructure, animals, technical knowledge etc.)
+- **relations of production** that directly relate to production. Total of social relationships that people must enter into in order to survive, to produce, and to reproduce their means of life.
 
 Superstructure, on the other hand, refers to relationships and ideas that do not directly relate to production. Some examples would be:
 
-* Law
-* Science
-* Religion
-* Morality etc.
+- Law
+- Science
+- Religion
+- Morality etc.
 
 The relations of production determine the superstructure, and the superstructure supports the relations of production. But the relations of production themselves are dependent on the productive forces. The productive forces constantly evolve, and they eventually outgrow the old modes of production.
 
@@ -83,10 +83,10 @@ When the extant relations of production can no longer control the productive for
 \
 Marx acknowledged that capitalism was a historically necessary stage of development that had brought about remarkable scientific and technological changes—changes that greatly increased aggregate wealth by extending humankind's power over nature. The problem, Marx believed, was that this wealth—and the political power and economic opportunities that went with it—was unfairly distributed. The capitalists reap the profits while paying the workers a pittance for long hours of hard labour. Yet it is the workers who create economic value, according to Marx's labour theory of value, which holds that the worth of a commodity is determined by the amount of labour required to produce it. Under capitalism, Marx claimed, workers are not paid fully or fairly for their labour because the capitalists siphon off surplus value, which they call profit. Thus, the bourgeois owners of the means of production amass enormous wealth, while the proletariat falls further into poverty. This wealth also enables the bourgeoisie to control the government or state, which does the bidding of the wealthy and the powerful to the detriment of the poor and the powerless." (from [**Britannica:** Marxian Communism](https://www.britannica.com/topic/communism/Marxian-communism))
 
-* **Classles Primative (or Tribal) Communism**
-* **Imperialism** or **Despotic States** or simply **Slavery**
-* **Feudalism**
-* **Capitalism**
-* **Communism**
+- **Classles Primative (or Tribal) Communism**
+- **Imperialism** or **Despotic States** or simply **Slavery**
+- **Feudalism**
+- **Capitalism**
+- **Communism**
 
 <!-- When the extant relations of production can no longer control the productive forces, they are overthrown. -->

@@ -2,8 +2,8 @@
 
 ## Introduction
 
-* In these notes, unless otherwise stated, all sets are considered to be proper sets as in ZFC.
-* Basic (at least naive) set theory and simple combinatorics knowledge is assumed. Other than that, notes should be self-sufficient.
+- In these notes, unless otherwise stated, all sets are considered to be proper sets as in ZFC.
+- Basic (at least naive) set theory and simple combinatorics knowledge is assumed. Other than that, notes should be self-sufficient.
 
 <!-- Knowledge of axiomatic set theory, category theory or lattice theory would be helpful. Indeed, if you are familiar with those subjects please consider sending a pull request. -->
 
@@ -11,20 +11,20 @@
 
 ## Resources Used
 
-* **Algebra** by Thomas W. Hungerford
-* **Fundamentals of the Theory of Groups**, translated second Russian Ed., by M.I. Kargapolov and Ju.I. Merzljakov
-* [**Group Theory Exercises and Solutions**](https://users.metu.edu.tr/matmah/Graduate-Algebra-Solutions/grouptheory-1.pdf) by Mahmut Kuzucuoğlu
-* [**Graduate Algebra Problems with Solutions**](https://users.metu.edu.tr/matmah/Graduate-Algebra-Solutions/graduate-algebra-solutions-10-11-2011.pdf) by Mahmut Kuzucuoğlu
-* **Abstract Algebra**, 3rd Ed., by David S. Dummit and Richard M. Foote
+- **Algebra** by Thomas W. Hungerford
+- **Fundamentals of the Theory of Groups**, translated second Russian Ed., by M.I. Kargapolov and Ju.I. Merzljakov
+- [**Group Theory Exercises and Solutions**](https://users.metu.edu.tr/matmah/Graduate-Algebra-Solutions/grouptheory-1.pdf) by Mahmut Kuzucuoğlu
+- [**Graduate Algebra Problems with Solutions**](https://users.metu.edu.tr/matmah/Graduate-Algebra-Solutions/graduate-algebra-solutions-10-11-2011.pdf) by Mahmut Kuzucuoğlu
+- **Abstract Algebra**, 3rd Ed., by David S. Dummit and Richard M. Foote
 
 ## Notation
 
-* $0 \in \N$ and $\N^+ :=\ \N \setminus \{0\}$.
-* $\varnothing$ denotes the empty set.
-* $(m,n)$ denotes the **greatest common divisor** of $m, n \in \N$.
-* $\equiv_m$ denotes integer equivalence in modulo $m$.
-* Cardinality of a set $S$ is denoted with $|S|$.
-* $d_1 \>|\>d_2\>|\>\cdots\>|\>d_r$ means $d_1$ divides $d_2$ divides $d_3$ etc.
+- $0 \in \N$ and $\N^+ :=\ \N \setminus \{0\}$.
+- $\varnothing$ denotes the empty set.
+- $(m,n)$ denotes the **greatest common divisor** of $m, n \in \N$.
+- $\equiv_m$ denotes integer equivalence in modulo $m$.
+- Cardinality of a set $S$ is denoted with $|S|$.
+- $d_1 \>|\>d_2\>|\>\cdots\>|\>d_r$ means $d_1$ divides $d_2$ divides $d_3$ etc.
 <!-- * $\text{Im }f$ denotes the **image** of a function $f: A \to B$, so does the $f(A)$. -->
 <!-- * For a function $f: A \to B$, the **fiber of $f$ over $b \in B$** is defined as the **preimage** of $\{b\}$. That is, the elements of $A$ that maps to $b$. -->
 
@@ -32,10 +32,10 @@
 
 These notes are still under work therefore not complete, also
 
-* there are not many exercises,
-* proofs are mostly absent,
-* typos are quite possible,
-* ordering is generally good but should be improved, and
-* more visuals and intuition should be provided.
+- there are not many exercises,
+- proofs are mostly absent,
+- typos are quite possible,
+- ordering is generally good but should be improved, and
+- more visuals and intuition should be provided.
 
 <!-- ## For the Lecturer -->

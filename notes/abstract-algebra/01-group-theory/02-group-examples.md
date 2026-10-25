@@ -14,12 +14,12 @@ $$
 
 Such group is
 
-* of order $4$,
-* Abelian,
-* all non-identity elements have order $2$,
-* smallest non-cyclic group,
-* isomorphic to Dihedral Group of order $4$,
-* isomorphic to $\Z_2 \oplus \Z_2$.
+- of order $4$,
+- Abelian,
+- all non-identity elements have order $2$,
+- smallest non-cyclic group,
+- isomorphic to Dihedral Group of order $4$,
+- isomorphic to $\Z_2 \oplus \Z_2$.
 
 > Also note that any group of order $4$ is isomorphic to either $\Z_4$ or $\Z_2 \oplus \Z_2$.
 

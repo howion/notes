@@ -26,13 +26,13 @@ $$
 
 In order to denote the **orbit** of $x$, the notations
 
-* $\bar{x}$,
-* $G(x)$
-* $Gx$
+- $\bar{x}$,
+- $G(x)$
+- $Gx$
 
 are also used. Similarly, for the **stabilizer** of $x$, the notations
 
-* $G_x$
+- $G_x$
 
 could be used as well.
 
@@ -48,8 +48,8 @@ $$
 
 where
 
-* $|X/G|$ denotes the number of orbits, and
-* $|X^g|$ denotes the number of elements in $X$ fixed by $g$. This is also sometimes denoted with $|\text{Fix}(g)|$.
+- $|X/G|$ denotes the number of orbits, and
+- $|X^g|$ denotes the number of elements in $X$ fixed by $g$. This is also sometimes denoted with $|\text{Fix}(g)|$.
 
 > Notice $X^g$ is not the stabilizer of $x$ which are the elements in $G$ fixed by $g$, but rather elements fixed in $X$ by $g$.
 
@@ -57,7 +57,7 @@ where
 
 $$
 Z(\bold{D}_{2n}) = \begin{cases}
-   \> \Set{e} &\text{if \enspace n is odd} \\
-   \> \Set{e, r^{n/2}} &\text{if \enspace n is even}
+\> \Set{e} &\text{if \enspace n is odd} \\
+\> \Set{e, r^{n/2}} &\text{if \enspace n is even}
 \end{cases}
 $$

@@ -32,7 +32,7 @@ Let $G$ be a group such that $N \trianglelefteq G$ and $H \leq G$ are complement
 $$
 \begin{array}{lllll}
 \varphi: & H & \to & \text{Aut }N \\
-         & h & \mapsto & \varphi_h(n) := hnh^{-1}
+& h & \mapsto & \varphi_h(n) := hnh^{-1}
 \end{array}
 $$
 
@@ -60,8 +60,8 @@ $$
 
 Let $I$ be an index set, then
 
-* $A^{[I]}$ denotes the $|I|$-fold cartesian product, and
-* $A^{(I)}$ denotes the $|I|$-fold direct product.
+- $A^{[I]}$ denotes the $|I|$-fold cartesian product, and
+- $A^{(I)}$ denotes the $|I|$-fold direct product.
 
 ## _Def._ Wreath Products
 

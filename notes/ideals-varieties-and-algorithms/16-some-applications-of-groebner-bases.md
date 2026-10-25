@@ -66,7 +66,7 @@ Assume we are given a system of equations such that
 $$
 \def\arraystretch{1.25}
 \begin{array}{ll}
- &f_1(x_1, ..., x_n) \\
+&f_1(x_1, ..., x_n) \\
 =& f_2(x_1, ..., x_n) \\
 \vdots \\
 =& f_s(x_1, ..., x_n) = 0

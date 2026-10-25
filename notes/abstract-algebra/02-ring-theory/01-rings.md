@@ -6,9 +6,9 @@
 
 A set $R$ with two binary operations $+$ and $\cdot$, respectively called **addition** and **multiplication**, is called a **ring** if:
 
-* $(R, +, 0)$ is an abelian group,
-* $(R, \cdot)$ is a semigroup, and
-* Distribute laws hold for $+$ and $\cdot$.
+- $(R, +, 0)$ is an abelian group,
+- $(R, \cdot)$ is a semigroup, and
+- Distribute laws hold for $+$ and $\cdot$.
 
 > Notice $R$ is necessarily non-empty as the additive identity $0 \in R$.
 
@@ -85,6 +85,7 @@ $$
 A non-zero ring $R$ is called an **integral domain** if it has no non-trivial zero-divisors.
 
 ###
+
 Therefore, let $R$ be an integral domain, and $a,b,c \in R$. If $ab = ac$, then either $a = 0$ or $b = c$.
 
 ## _Def._ Division Ring

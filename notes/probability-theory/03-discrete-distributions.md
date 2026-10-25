@@ -94,10 +94,10 @@ $$
 
 For any CDF $F_X$, or simply $F$, we have
 
-* $x_1 \leq x_2 \implies F(x_1) \leq F(x_2)$
-* $F(a) = \lim_{x \to a^+} F(x)$
-* $\lim_{x \to - \infty} F(x) = 0$
-* $\lim_{x \to \infty} F(x) = 1$
+- $x_1 \leq x_2 \implies F(x_1) \leq F(x_2)$
+- $F(a) = \lim_{x \to a^+} F(x)$
+- $\lim_{x \to - \infty} F(x) = 0$
+- $\lim_{x \to \infty} F(x) = 1$
 
 ## _Def._ Function of a Random Variable
 

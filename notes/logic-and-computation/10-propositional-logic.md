@@ -8,18 +8,18 @@ Theorems and definitions we prove and define here are actually meta-theorems and
 
 Syntactically, we will use the symbols
 
-* $\bot$ called **bottom** or simply **bot** to denote falsity _in our syntactic model_,
-* $\top$ called **top** to denote truth _in our syntactic model_,
-* $\neg$ called **negation** to denote _negation_,
-* $\to$ called **material implication** to denote _implication_,
-* $\land$ called **conjunction** to denote _and_, and
-* $\lor$ called **disjunction** to denote _or_.
+- $\bot$ called **bottom** or simply **bot** to denote falsity _in our syntactic model_,
+- $\top$ called **top** to denote truth _in our syntactic model_,
+- $\neg$ called **negation** to denote _negation_,
+- $\to$ called **material implication** to denote _implication_,
+- $\land$ called **conjunction** to denote _and_, and
+- $\lor$ called **disjunction** to denote _or_.
 
 Semantically, we will use the symbols
 
-* $\mathbb{T}$ called **true** to denote _semantic truth_, and
-* $\mathbb{F}$ called **false** to denote _semantic falsity_.
-* $:=$ called **defined as** to denote _semantic equality_.
+- $\mathbb{T}$ called **true** to denote _semantic truth_, and
+- $\mathbb{F}$ called **false** to denote _semantic falsity_.
+- $:=$ called **defined as** to denote _semantic equality_.
 
 ## _Def._ Alphabets and Words
 
@@ -76,10 +76,10 @@ With $=$, we will denote the **syntactic identity**. That is, if $F$ and $G$ are
 
 Given the logical operators $\neg$ and $\land$ and _the_ atomic variable $\bot$, we _define_ for formulas $F$ and $G$
 
-* $\top := \neg \bot$,
-* $\lor \> F \> G := \neg \land \neg F \> \neg G$,
-* $\to F \> G := \lor \neg F \> G$, and
-* $\leftrightarrow F \> G := \land \to F \> G  \to G \> F$
+- $\top := \neg \bot$,
+- $\lor \> F \> G := \neg \land \neg F \> \neg G$,
+- $\to F \> G := \lor \neg F \> G$, and
+- $\leftrightarrow F \> G := \land \to F \> G \to G \> F$
 
 > Notice that we have just defined some syntactic abbreviations, didn't prove anything. Exercise and write these polish notational definitions in ordinary infix notation.
 
@@ -129,8 +129,8 @@ A finite sequence $(F_0, ..., F_n)$ is called a **formation sequence** for the f
 
 1. $F_i$ is atomic formula, or
 2. there exists $j,k \lt i$ such that, either
-    1. $F_i = \neg F_j$,
-    2. $F_i = (F_j \land F_k)$.
+   1. $F_i = \neg F_j$,
+      2. $F_i = (F_j \land F_k)$.
 
 ### Example
 
@@ -178,9 +178,9 @@ A formula $F$ is said to be **satisfiable** if there exists an valuation $v$ suc
 
 ## _Def._ Tautology and Contradiction
 
-* A formula $F$ is said to be a **tautology** if it holds under all valuations. This is denoted by $\models F$.
-* Similarly, a formula is said to be a **contradiction** if it holds under no valuation, denoted by $\not \models F$.
-* A formula which is satisfiable but not a tautology is called **contingent**.
+- A formula $F$ is said to be a **tautology** if it holds under all valuations. This is denoted by $\models F$.
+- Similarly, a formula is said to be a **contradiction** if it holds under no valuation, denoted by $\not \models F$.
+- A formula which is satisfiable but not a tautology is called **contingent**.
 
 ## _Def._ Entails
 
@@ -198,13 +198,13 @@ $(F \land G) \equiv (G \land F)$
 
 ### Exercise 2. Distributivity Rules
 
-* $(F \land (G \lor H)) \equiv ((F \land G) \lor (F \land H))$
-* $(F \lor (G \land H)) \equiv ((F \lor G) \land (F \lor H))$
+- $(F \land (G \lor H)) \equiv ((F \land G) \lor (F \land H))$
+- $(F \lor (G \land H)) \equiv ((F \lor G) \land (F \lor H))$
 
 ### Exercise 3. De Morgan's Rules
 
-* $\neg(F \land G) \equiv (\neg F \lor \neg G)$
-* $\neg(F \lor G) \equiv (\neg F \land \neg G)$
+- $\neg(F \land G) \equiv (\neg F \lor \neg G)$
+- $\neg(F \lor G) \equiv (\neg F \land \neg G)$
 
 ## _Def._ _A_ Set of Formulas
 
@@ -214,9 +214,9 @@ From now on, when we say $\Gamma$ is **a set of formulas**, we will mean $\Gamma
 
 Moreover, we'll overload the $\models$ notation further in respect to this notion. Let $\Gamma$ be a set for formulas such that $\Gamma = \Set{F_0, F_1, ...}$, then we say
 
-* a valuation $v$ **models** $\Gamma$ denoted by $v \models \Gamma$ if $v \models F_i$ for each $i$,
-* $\Gamma$ **entails** (a formula) $G$ denoted by $\Gamma \models G$ if for every valuation $v$ such that $v \models \Gamma$ implies $v \models G$,
-* $\Gamma$ is **satisfiable** if there exists a valution $v$ such that $v \models F_i$ for each $i$, and **unsatisfiable** otherwise.
+- a valuation $v$ **models** $\Gamma$ denoted by $v \models \Gamma$ if $v \models F_i$ for each $i$,
+- $\Gamma$ **entails** (a formula) $G$ denoted by $\Gamma \models G$ if for every valuation $v$ such that $v \models \Gamma$ implies $v \models G$,
+- $\Gamma$ is **satisfiable** if there exists a valution $v$ such that $v \models F_i$ for each $i$, and **unsatisfiable** otherwise.
 
 Now, let's look at some basic semantic properties of propositional logic.
 

@@ -4,8 +4,8 @@
 
 Let $(R, +, \cdot)$ be a ring and $S$ a non-empty subset of $R$. Then $(S, +, \cdot)$ is called a subring if:
 
-* $(S, +)$ is a subgroup of $(R, +)$, and
-* $(S, \cdot)$ is a sub-semigroup of $(R, \cdot)$.
+- $(S, +)$ is a subgroup of $(R, +)$, and
+- $(S, \cdot)$ is a sub-semigroup of $(R, \cdot)$.
 
 > $\{0\}$ and $R$ are called the **trivial subrings**.
 
@@ -27,7 +27,7 @@ Let $R$ be a ring and $S \leq R$ its subring, then
 
 1. $S$ may be commutative even if $R$ is not.
 2. $S$ may not have unity even if $R$ does. Moreover, $S$ may have unity even if $R$ does not.
-4. $S$ and $R$ may have different unities.
+3. $S$ and $R$ may have different unities.
 
 > **Exercise**, show this is also the case for zero-divisors and units.
 

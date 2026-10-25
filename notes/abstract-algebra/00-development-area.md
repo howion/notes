@@ -41,7 +41,6 @@
 ## Additional Resources
 
 > I plan to add further results from these resources, but not at the moment.
-
 - [The number of homomorphisms from $Z_n$ to $Z_m$](https://users.metu.edu.tr/sozkap/461/The%20number%20of%20homomorphisms%20from%20Zn%20to%20Zm.pdf).
 - [Classification of Finite Rings](https://users.metu.edu.tr/sozkap/461/Classification_of_Finite-Finite%20rings.pdf)
 - [A nice set of lecture notes by Mike Prest which covers more topics (especially chapters 0,1,2,6. May omit 3,4,5 at first)](https://personalpages.manchester.ac.uk/staff/mike.prest/NCAlgCrseNotes2019.pdf)

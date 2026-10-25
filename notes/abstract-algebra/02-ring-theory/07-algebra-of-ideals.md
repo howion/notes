@@ -25,8 +25,8 @@ Let $R$ be a ring and $I, J \subseteq R$.
 1. $IJ$ is a left ideal if $I$ is an ideal.
 2. $IJ$ is a right ideal if $J$ is an ideal.
 3. $IJ$ is a $2$-sided ideal if $I$ is a left ideal and $J$ is a right ideal.
-    1. $IR \subseteq I$ and $RI \subseteq I$.
-    2. Moreover, if $R$ is with $1$, then $IR    = I = RI$.
+   1. $IR \subseteq I$ and $RI \subseteq I$.
+      2. Moreover, if $R$ is with $1$, then $IR = I = RI$.
 
 ## _Def._ Nilpotent Ideal
 

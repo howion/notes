@@ -24,7 +24,7 @@ $$
 \def\arraystretch{1.2}
 \begin{array}{lrll}
 \pi_k: & \prod G_i & \to & G_k \\
-       & f & \mapsto & f(k)
+& f & \mapsto & f(k)
 \end{array}
 $$
 
@@ -50,7 +50,7 @@ $$
 \def\arraystretch{1.5}
 \begin{array}{lrll}
 i_k: & G_k & \to & \prod^w G_i \\
-    & a & \mapsto & f = (e_1, ..., e_{k-1}, a, e_{k+1}, ...)
+& a & \mapsto & f = (e_1, ..., e_{k-1}, a, e_{k+1}, ...)
 \end{array}
 $$
 
@@ -78,8 +78,8 @@ such that $\varphi \circ i_k = \varphi_k$ for all $k \in I$. This property deter
 
 Let $\Set{N_i}$ be a non-empty family of normal subgroups of a group $G$ such that
 
-* $G = \Braket{\>\bigcup N_i\>}$, and
-* for each $k \in K$, we have $N_k \cap  \Braket{\>\bigcup_{i\>\neq\>k} N_i\>} = \Braket{e}$.
+- $G = \Braket{\>\bigcup N_i\>}$, and
+- for each $k \in K$, we have $N_k \cap \Braket{\>\bigcup_{i\>\neq\>k} N_i\>} = \Braket{e}$.
 
 Then
 
@@ -113,7 +113,7 @@ $$
 \def\arraystretch{1.5}
 \begin{array}{lrll}
 \varphi: & \prod G_i & \to & \prod H_i \\
-    & (a_i) & \mapsto & (\varphi_i(a_i))
+& (a_i) & \mapsto & (\varphi_i(a_i))
 \end{array}
 $$
 

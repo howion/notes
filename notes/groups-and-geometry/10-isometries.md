@@ -30,7 +30,7 @@ $$
 \def\arraystretch{1.25}
 \begin{array}{cccc}
 f':& X &\to& \text{Im}(f) \\
-   & x &\mapsto& f(x)
+& x &\mapsto& f(x)
 \end{array}
 $$
 

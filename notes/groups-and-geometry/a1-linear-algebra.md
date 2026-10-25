@@ -29,8 +29,8 @@ where $\Vert \cdot \Vert$ is the norm induced by the inner product.
 
 $$
 \delta_{ij} := \begin{cases}
-   \> 0 & \text{if } \enspace i \neq j \\
-   \> 1 & \text{if } \enspace i = j
+\> 0 & \text{if } \enspace i \neq j \\
+\> 1 & \text{if } \enspace i = j
 \end{cases}
 $$
 

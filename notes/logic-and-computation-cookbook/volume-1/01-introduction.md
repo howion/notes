@@ -10,6 +10,6 @@ This is an excellent resources for people who are familiar with formal mathemati
 
 For now you should be familiar with:
 
-* Simple set-theoric notation
-* Backus-Naur Form
-* Simple complexity classes
+- Simple set-theoric notation
+- Backus-Naur Form
+- Simple complexity classes

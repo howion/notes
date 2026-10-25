@@ -19,19 +19,19 @@ Source (markdown) of the notes located at `notes/*` or `notes/**/*` and assets a
 
 ## Lectures, Presentations
 
-* [**Gödel ve Ontolojik Kanıtı**](./lectures/godel-ve-ontolojik-kaniti/00-index.md)
-* [**Sembolik Form Olarak Perspektif**](./lectures/sembolik-form-olarak-perspektif/00-index.md)
+- [**Gödel ve Ontolojik Kanıtı**](./lectures/godel-ve-ontolojik-kaniti/00-index.md)
+- [**Sembolik Form Olarak Perspektif**](./lectures/sembolik-form-olarak-perspektif/00-index.md)
 
 ## Poems
 
 My handwritten poems, in no particular order.
 
-* [**To be, or not to be?**](./poems/00-to-be-or-not-to-be.md)
-* [**Solace in Dissonance**](./poems/01-solace-in-dissonance.md)
-* [**Salvé, salvé, salvé, parve?**](./poems/02-salve-salve-salve-parve.md)
-* [**Unholy Gospel**](./poems/03-unholy-gospel.md)
-* [**Weep**](./poems/04-weep.md)
-* [**Bitscript**](./poems/05-bitscript.md)
+- [**To be, or not to be?**](./poems/00-to-be-or-not-to-be.md)
+- [**Solace in Dissonance**](./poems/01-solace-in-dissonance.md)
+- [**Salvé, salvé, salvé, parve?**](./poems/02-salve-salve-salve-parve.md)
+- [**Unholy Gospel**](./poems/03-unholy-gospel.md)
+- [**Weep**](./poems/04-weep.md)
+- [**Bitscript**](./poems/05-bitscript.md)
 
 ## Bookshelf
 
@@ -39,18 +39,18 @@ You can check out my [**bookshelf**](/bookshelf/00-index.md) for books or articl
 
 ## External Resources
 
-* [**Poems** (by various authors)](./resources/poems/00-index.md)
-* [**Websites**](./resources/websites.md)
-* [**Fonts**](./resources/fonts.md)
+- [**Poems** (by various authors)](./resources/poems/00-index.md)
+- [**Websites**](./resources/websites.md)
+- [**Fonts**](./resources/fonts.md)
 
 ## Source Accessibility
 
 For readability of source code, especially for the mathematical ones, you should consider switching to a custom markdown previewer supporting KaTeX expressions. I personally use Visual Studio Code with:
 
-* `Markdown Preview Github` by Matt Bierner to preview markdown files,
-* `Markdown Preview Mermaid Support` by Matt Bierner,
-* `Markdown Emoji` by Matt Bierner &mdash; make sure you also have an emoji font installed in your system, and
-* `markdownlint` by David Anson to lint markdown files.
+- `Markdown Preview Github` by Matt Bierner to preview markdown files,
+- `Markdown Preview Mermaid Support` by Matt Bierner,
+- `Markdown Emoji` by Matt Bierner &mdash; make sure you also have an emoji font installed in your system, and
+- `markdownlint` by David Anson to lint markdown files.
 
 To locally run this repo, make sure `bun` is installed and install dependencies via `bun install` and run `bun dev`. See `package.json` for more commands.
 

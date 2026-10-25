@@ -45,9 +45,9 @@ Let $H \leq G$, then $H$ is normal if and only if $H$ is invariant with respect 
 
 Let $H \leq G$, then we respectively denote $\text{End } G$, $\text{Aut }G$, and $\text{Inn }G$ with
 
-* $\leq_E$ or $\leq_\text{End}$,
-* $\leq_A$ or $\leq_\text{Aut}$,
-* $\leq_I$ or $\leq_\text{Inn}$ which is equivalent to $\trianglelefteq$ as shown above.
+- $\leq_E$ or $\leq_\text{End}$,
+- $\leq_A$ or $\leq_\text{Aut}$,
+- $\leq_I$ or $\leq_\text{Inn}$ which is equivalent to $\trianglelefteq$ as shown above.
 
 ## _Thm._ Invariance Transitivity
 

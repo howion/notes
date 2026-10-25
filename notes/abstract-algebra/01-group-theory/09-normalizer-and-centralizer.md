@@ -62,8 +62,8 @@ $$
 
 Let $H \leq G$, then
 
-* $H^G$ denotes the intersection all normals in $G$ that contain $H$,
-* $H_G$ denotes $\Braket{H^g | g \in G}$.
+- $H^G$ denotes the intersection all normals in $G$ that contain $H$,
+- $H_G$ denotes $\Braket{H^g | g \in G}$.
 
 > join and largest normal subgroup contained in H.
 

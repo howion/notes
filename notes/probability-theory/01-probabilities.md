@@ -26,8 +26,8 @@ $$ -->
 
 A **probability space** consists of a sample space $\Omega$ and a **probability function** (or **probability distribution** or **probability measure**) $P$ maps **event** $A \subseteq \Omega$ to $P(A) \in [0, 1]$. The function $P$ must satisfy the following axioms:
 
-* $P(\varnothing) = 0$ and $P(\Omega)=1$.
-* If $A_1, A_2 ...$ are disjoint events (mutually exclusive), then
+- $P(\varnothing) = 0$ and $P(\Omega)=1$.
+- If $A_1, A_2 ...$ are disjoint events (mutually exclusive), then
 
 $$
 P\left(\bigcup_{j} A_j\right) = \sum_{j} P(A_j)
@@ -41,9 +41,9 @@ Elements $\Omega$ are called **sample outcomes**, **realizations**, or **element
 
 For any events $A$ and $B$:
 
-* $P(A^c) = 1 - P(A)$.
-* $A \subseteq B \implies P(A) \leq P(B)$.
-* $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+- $P(A^c) = 1 - P(A)$.
+- $A \subseteq B \implies P(A) \leq P(B)$.
+- $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
 
 ## _Def._ Monotone Increase/Decrease
 
@@ -181,11 +181,11 @@ Let $D$ denote the event of true positive and let $T$ denote the event of test i
 
 ## Remark. Conditional Probabilities Are Probabilities
 
-* $0 \leq P(A \mid E) \leq 1$.
-* $P(\varnothing \mid E) = 0$ and $P(S \mid E) = 1$.
-* If $A_1, A_2, ...$ are disjoint events then $P(\bigcup_j A_j \mid E) = \sum_{j} P(A_j \mid E)$.
-* $P(A^c \mid E) = 1 - P(A \mid E)$.
-* **(Inclusion-Exclusion)** $P(A \cup B \mid E) = P(A \mid E) + P(B \mid E) - P(A \cap B \mid E)$.
+- $0 \leq P(A \mid E) \leq 1$.
+- $P(\varnothing \mid E) = 0$ and $P(S \mid E) = 1$.
+- If $A_1, A_2, ...$ are disjoint events then $P(\bigcup_j A_j \mid E) = \sum_{j} P(A_j \mid E)$.
+- $P(A^c \mid E) = 1 - P(A \mid E)$.
+- **(Inclusion-Exclusion)** $P(A \cup B \mid E) = P(A \mid E) + P(B \mid E) - P(A \cap B \mid E)$.
 
 So, the conditional probability is also a probability. Similarly, we can see probability as a conditional probability.
 
@@ -214,7 +214,7 @@ P(A \cap B) = P(A)P(B)
 $$
 
 > Note that independence is _completely different_
-from disjointness. Disjoint events $A$ and $B$ can be independent only if $P(A)=0$ or $P(B)=0$.
+> from disjointness. Disjoint events $A$ and $B$ can be independent only if $P(A)=0$ or $P(B)=0$.
 >
 > Therefore, just recall that "disjoint events with positive probability are not independent".
 
@@ -222,9 +222,9 @@ from disjointness. Disjoint events $A$ and $B$ can be independent only if $P(A)=
 
 The following are equivalent if $P(A)>0$ and $P(B)>0$,
 
-* $A$ and $B$ are independent.
-* $P(A \mid B)=P(A)$.
-* $P(B \mid A)=P(B)$.
+- $A$ and $B$ are independent.
+- $P(A \mid B)=P(A)$.
+- $P(B \mid A)=P(B)$.
 
 So, knowing $A$ gives us no information about $B$. This may not be the case with disjointness.
 
@@ -232,9 +232,9 @@ So, knowing $A$ gives us no information about $B$. This may not be the case with
 
 If $A$ and $B$ are independent events then so are
 
-* $A$ and $B^c$,
-* $A^c$ and $B$,
-* $A^c$ and $B^c$.
+- $A$ and $B^c$,
+- $A^c$ and $B$,
+- $A^c$ and $B^c$.
 
 ## _Def._ $3$-independence
 
@@ -256,11 +256,11 @@ Beware that pairwise independence does not imply independence!
 
 Events $A_1, ..., A_n$ are independent if they are:
 
-* pairwise independent,
-* triplewise independent,
-* quadruplewise independent,
-* ...
-* $P(A \cap ... \cap A_n) = P(A_1) ... P(A_n)$.
+- pairwise independent,
+- triplewise independent,
+- quadruplewise independent,
+- ...
+- $P(A \cap ... \cap A_n) = P(A_1) ... P(A_n)$.
 
 ## _Def._ Conditional Independence
 

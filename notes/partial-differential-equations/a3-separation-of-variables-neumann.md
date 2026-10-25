@@ -7,7 +7,7 @@ Consider the (homogenous) wave equation with the Neumann BC, then it has a solut
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-u_{tt} - c^2 u_{xx} &=& 0  \\
+u_{tt} - c^2 u_{xx} &=& 0 \\
 \hdashline
 u_{\textcolor{red}{x}}(0, t) &=& 0 \\
 u_{\textcolor{red}{x}}(l, t) &=& 0 \\
@@ -17,7 +17,7 @@ u_t(x,0) &=& h(x)
 \end{array}
 $$
 
-where $x \in (0, l)$. A **separated solution**  for this Neumann BC is a solution of the form
+where $x \in (0, l)$. A **separated solution** for this Neumann BC is a solution of the form
 
 <!-- $$
 \boxed{
@@ -27,10 +27,10 @@ $$ -->
 
 $$
 \boxed{
-    \def\arraystretch{1}
-    \begin{array}{rcl}
-    u(x,t) &=& \dfrac{1}{2}A_0 + \dfrac{1}{2} B_0 t \\ \\ &+& \displaystyle\sum_{n=1}^\infty \left(A_n \cos\left(\dfrac{n \pi c t}{l}\right) + B_n \cos\left(\dfrac{n \pi c t}{l}\right)\right) \cos\left(\dfrac{n \pi x}{l}\right)
-    \end{array}
+\def\arraystretch{1}
+\begin{array}{rcl}
+u(x,t) &=& \dfrac{1}{2}A_0 + \dfrac{1}{2} B_0 t \\ \\ &+& \displaystyle\sum_{n=1}^\infty \left(A_n \cos\left(\dfrac{n \pi c t}{l}\right) + B_n \cos\left(\dfrac{n \pi c t}{l}\right)\right) \cos\left(\dfrac{n \pi x}{l}\right)
+\end{array}
 }
 $$
 
@@ -41,7 +41,7 @@ Now assume we are given a homogeneous diffusion (heat) equation with Neumann con
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-u_{t} - k u_{xx} &=& 0  \\
+u_{t} - k u_{xx} &=& 0 \\
 \hdashline
 u\textcolor{red}{_x}(0, t) &=& 0 \\
 u\textcolor{red}{_x}(l, t) &=& 0 \\
@@ -54,7 +54,7 @@ then it has a solution of the form
 
 $$
 \boxed{
-    u(x,t) = \dfrac{1}{2} A_0 + \sum_{n=1}^\infty A_n e^{-(n \pi / l)^2 k t} \cos\left(\dfrac{n \pi x}{l}\right)
+u(x,t) = \dfrac{1}{2} A_0 + \sum_{n=1}^\infty A_n e^{-(n \pi / l)^2 k t} \cos\left(\dfrac{n \pi x}{l}\right)
 }
 $$
 

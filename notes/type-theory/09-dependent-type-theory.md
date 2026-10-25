@@ -38,10 +38,10 @@ A **context** is a finite list of **variable declarations**.
 
 $$
 \begin{array}{l}
-   x_1: A_1, \\
-   x_2: A_2 (x_1), \\
-   \vdots \\
-   x_n: A_n (x_1, ..., x_{n-1})
+x_1: A_1, \\
+x_2: A_2 (x_1), \\
+\vdots \\
+x_n: A_n (x_1, ..., x_{n-1})
 \end{array}
 $$
 
@@ -253,7 +253,7 @@ A **derivation** is basically an inference rule (but as a meta-theorem) derived 
 
 A rule is called **derivable** if we have a derivation for it.
 
-* Changing Variables
-* Interchanging Variables
+- Changing Variables
+- Interchanging Variables
 
 > See the "Introduction to Homotopy Type Theory" for details and examples.

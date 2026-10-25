@@ -52,7 +52,7 @@ A **platonic solid** is a convex regular polyhedron in _three-dimensional space_
 
 ## _Thm._ Euler's Polyhedron Formula
 
-Any three-dimensional convex polyhedrons surface has an Euler characteristic of $\chi =  2$ so that
+Any three-dimensional convex polyhedrons surface has an Euler characteristic of $\chi = 2$ so that
 
 $$
 2 = \chi = V - E + F
@@ -67,7 +67,7 @@ There are only $5$ platonic solids called **(regular) tetrahedron**, **cube**, *
 <center>
 
 | Polyhedron   | Vertices | Edges | Faces |
-|--------------|----------|-------|-------|
+| ------------ | -------- | ----- | ----- |
 | Tetrahedron  | 4        | 6     | 4     |
 | Cube         | 8        | 12    | 6     |
 | Octahedron   | 6        | 12    | 8     |

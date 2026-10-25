@@ -31,17 +31,17 @@ then $R[X]$ is a ring where addition and multiplication defined as expected over
 
 Let $a_0 + a_1X + \cdots + a_nX^n = p(X) \in R[X]$, then
 
-* $n$ is called the **degree** of $p(X)$ denoted with $\text{d}(p)$. If $p(X)$ is the zero polynomial it is defined to be $0$,
-* $a_n$ is called the **leading coefficient** of $p(X)$,
-* $p(X)$ is said to be **monic** if $a_n = 1$.
+- $n$ is called the **degree** of $p(X)$ denoted with $\text{d}(p)$. If $p(X)$ is the zero polynomial it is defined to be $0$,
+- $a_n$ is called the **leading coefficient** of $p(X)$,
+- $p(X)$ is said to be **monic** if $a_n = 1$.
 
 ### _Thm._ Integral Domain Polynomials Properties
 
 Let $R$ be an integral domain and $p(X), q(X) \in R[X]$, then
 
-* $\text{d}(p(X)q(X)) = \text{d}(p(X)) + \text{d}(q(X))$,
-* Units of $R[X]$ are the units of $R$,
-* $R[X]$ is also an integral domain.
+- $\text{d}(p(X)q(X)) = \text{d}(p(X)) + \text{d}(q(X))$,
+- Units of $R[X]$ are the units of $R$,
+- $R[X]$ is also an integral domain.
 
 <details>
 <summary><b>Proof</b></summary>

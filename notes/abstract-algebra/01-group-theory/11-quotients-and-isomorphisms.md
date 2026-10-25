@@ -50,7 +50,7 @@ Let $N \trianglelefteq G$, then
 $$
 \begin{array}{lrll}
 \pi: & G & \to & G/N \\
-     & a & \mapsto & aN
+& a & \mapsto & aN
 \end{array}
 $$
 
@@ -88,13 +88,13 @@ $$
 
 and
 
-* $\varphi(G) = \bar{\varphi}(G/N)$,
-* $\text{Ker }\bar{\varphi} = (\text{Ker }\varphi) / N$
+- $\varphi(G) = \bar{\varphi}(G/N)$,
+- $\text{Ker }\bar{\varphi} = (\text{Ker }\varphi) / N$
 
 Therefore, $\bar{\varphi}$ is an isomorphism if and only if
 
-* $\varphi$ is an epimorphism, and
-* $N = \text{Ker }\varphi$.
+- $\varphi$ is an epimorphism, and
+- $N = \text{Ker }\varphi$.
 
 <details>
 <summary><b>Proof</b></summary>
@@ -135,7 +135,6 @@ Let $\varphi: G \to H$ be a group homomorphism, then
 Let $G$ be a group $H \leq G$ and $N \trianglelefteq G$, then
 
 > Recall that since $N$ is normal and $H$ is a subgroup, we have $H \lor N = HN = NH$.
-
 1. $N \trianglelefteq HN \leq G$,
 2. $H \cap N \trianglelefteq H$, and
 3. $HN/N \cong H/(H \cap N)$.

@@ -38,7 +38,7 @@ $$
 \begin{array}{lll}
 k_1 & \mapsto k_2 \\
 k_2 & \mapsto k_3 \\
-    & \vdots \\
+& \vdots \\
 k_r & \mapsto k_1
 \end{array}
 $$
@@ -134,8 +134,8 @@ Let $\Braket{a} \leq \textbf{D}_n$ for $a \in \textbf{D}_n$ and $|a|=n$, then
 
 Let $Z$ be the center of the group $\textbf{D}_n$, then
 
-* $Z = \Braket{e}$ if $n$ is odd,
-* $Z \cong \Z_2$ if $n$ is even.
+- $Z = \Braket{e}$ if $n$ is odd,
+- $Z \cong \Z_2$ if $n$ is even.
 
 <details>
 <summary><b>Proof</b></summary>

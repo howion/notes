@@ -30,13 +30,13 @@ $$
 
 Let $G$ be a group and $a,b,c, x \in G$, then
 
-* $[a,b] = e$ if and only if $ab=ba$, indeed
-* $e$ is the only commutator if and only if $G$ is abelian,
-* $[a,b]^{-1} = [b,a]$,
-* $[a,b]^x = [a^x, b^x]$,
-* $[ab,c]=[ac]^b[b,c]$,
-* $[a^{-1}, b] = [b,a]^{a^{-1}}$,
-* For any group homomorphism $\phi: G \to H$, we have $\phi([a,b]) = [\phi(a), \phi(b)]$.
+- $[a,b] = e$ if and only if $ab=ba$, indeed
+- $e$ is the only commutator if and only if $G$ is abelian,
+- $[a,b]^{-1} = [b,a]$,
+- $[a,b]^x = [a^x, b^x]$,
+- $[ab,c]=[ac]^b[b,c]$,
+- $[a^{-1}, b] = [b,a]^{a^{-1}}$,
+- For any group homomorphism $\phi: G \to H$, we have $\phi([a,b]) = [\phi(a), \phi(b)]$.
 
 > The product of two or more commutators need not be a commutator. Indeed, it is known that the least order of a finite group for which there exists two commutators whose product is not a commutator is 96; in fact there are two nonisomorphic groups of order 96 with this property &mdash; See [**Stack Exchange**: Mariano Suárez-Álvarez](https://math.stackexchange.com/questions/7811/derived-subgroup-where-not-every-element-is-a-commutator).
 

@@ -17,4 +17,4 @@ base88 better char selections
 base88-v2 json encoded
 "~}{zyxwvutsrqponmlkjihgfedcba_^][ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<>;:9876543210/.-,+*)(&#!"
 -->
-*
+-

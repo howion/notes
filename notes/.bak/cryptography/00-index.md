@@ -4,14 +4,13 @@
 
 [**Go Back to Home**](../../README.md)
 
-* **Applied Cryptography** by Bruce Schneier
-* **Cryptography and Network Security: Principles and Practice** by William Stallings
+- **Applied Cryptography** by Bruce Schneier
+- **Cryptography and Network Security: Principles and Practice** by William Stallings
 
 ## Notation
 
 > Knowledge of basic combinatorics (modular operations etc.) and mathematical notation is assumed.
-
-* $0 \notin \N$
+- $0 \notin \N$
 
 ## Table of Contents
 

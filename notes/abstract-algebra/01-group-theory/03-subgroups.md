@@ -10,13 +10,13 @@ Let $G$ be a group and non-empty $H \subseteq G$. The non-empty subset $H$ is ca
 
 A subset $H \subseteq G$ is a subgroup of $G$ if
 
-* $H$ has the same identity as $G$,
-* For all $a,b \in H$, we have $ab \in H$ that is $HH \subseteq H$,
-* Every element $h \in H$ has an inverse that is $H^{-1} \subseteq H$.
+- $H$ has the same identity as $G$,
+- For all $a,b \in H$, we have $ab \in H$ that is $HH \subseteq H$,
+- Every element $h \in H$ has an inverse that is $H^{-1} \subseteq H$.
 
 To be more compact, _non-empty_ $H \subseteq G$ is called a **subgroup** if and only if (exercise):
 
-* For all $a,b \in H$ we have $ab^{-1} \in H$.
+- For all $a,b \in H$ we have $ab^{-1} \in H$.
 
 From now on, we will denote by $H \leq G$ that $H$ is a subgroup of $G$, moreover $H \lt G$ if $H \neq G$. The latter is called a **proper subgroup** of $G$.
 
@@ -28,20 +28,20 @@ Any group has two subgroups called the **trivial subgroup** which consists of on
 
 ## Example. Some Subgroups
 
-* Under addition, $\Z \lt \mathbb{Q}_p, \lt \mathbb{Q} \lt \R \lt \Complex$,
-* Under addition, $\Z = \bigcap \mathbb{Q}_p$,
-* $\mathbf{GF}(p^m) \leq \mathbf{GF}(p^n)$ if $m \mid n$ where $\mathbf{GF}(p^m)$ is the appropriate subset of the algebraic closure of $\mathbf{GF}(p)$.
+- Under addition, $\Z \lt \mathbb{Q}_p, \lt \mathbb{Q} \lt \R \lt \Complex$,
+- Under addition, $\Z = \bigcap \mathbb{Q}_p$,
+- $\mathbf{GF}(p^m) \leq \mathbf{GF}(p^n)$ if $m \mid n$ where $\mathbf{GF}(p^m)$ is the appropriate subset of the algebraic closure of $\mathbf{GF}(p)$.
 
 <!--  -->
 
-* Under multiplication, $\Z^* \lt \mathbb{Q}^*, \lt \R^* \lt \Complex^*$,
-* Under multiplication, $\Complex_p^* \lt \Complex_{p^2} \lt \cdots \lt \Complex_{p^\infty}$,
-* $\Complex_{p^\infty} = \bigcup \Complex_{p^n}$,
-* $\mathbf{GF}(p^m)^* \leq \mathbf{GF}(p^n)^*$ if $m \mid n$.
+- Under multiplication, $\Z^* \lt \mathbb{Q}^_, \lt \R^_ \lt \Complex^*$,
+- Under multiplication, $\Complex_p^* \lt \Complex_{p^2} \lt \cdots \lt \Complex_{p^\infty}$,
+- $\Complex_{p^\infty} = \bigcup \Complex_{p^n}$,
+- $\mathbf{GF}(p^m)^* \leq \mathbf{GF}(p^n)^*$ if $m \mid n$.
 
 <!--  -->
 
-* The subset $A_n$ of all _even_ permutations forms a subgroup called the **alternating group of degree $n$**, and $|A_n|=n!/2$.
+- The subset $A_n$ of all _even_ permutations forms a subgroup called the **alternating group of degree $n$**, and $|A_n|=n!/2$.
 
 <!-- TODO: Add more exercises here from kargapolov p.27 and other sources -->
 
@@ -68,9 +68,9 @@ Let $\{H_i\}$ be any non-empty family of subgroups of $G$, then $\bigcap H_i$ is
 
 Let $G$ be a group and $H,K \leq G$, then
 
-* $HH = H$ and $H^{-1} = H$, thus obviously
-* $HH^{-1} = H$,
-* $HK$ is a subgroup of $G$ if and only if $HK=KH$, and
+- $HH = H$ and $H^{-1} = H$, thus obviously
+- $HH^{-1} = H$,
+- $HK$ is a subgroup of $G$ if and only if $HK=KH$, and
 
 > Exercise
 
@@ -78,8 +78,8 @@ Let $G$ be a group and $H,K \leq G$, then
 
 Let $H \leq G$. We say $K$ is a **complement** of a subgroup $H$ if
 
-* $G = HK$, and
-* $H \cap K = \{e\}$.
+- $G = HK$, and
+- $H \cap K = \{e\}$.
 
 Noting $KH=HK$, this complement relation is symmetrical.
 
@@ -134,8 +134,8 @@ Use Bézout's identity.
 
 Let $G$ be a group and $g \in G$ such that $|g| = n_1 n_2$ where $(n_1, n_2) = 1$, then there exists $g_1, g_2 \in G$ such that
 
-* $g = g_1 g_2 = g_2 g_1$, and
-* $|g_1| = n_1$ and $|g_2| = n_2$.
+- $g = g_1 g_2 = g_2 g_1$, and
+- $|g_1| = n_1$ and $|g_2| = n_2$.
 
 ### #3
 

@@ -25,9 +25,9 @@ $$
 
 Let $G$ a group and $a,b,x \in G$, then
 
-* $(ab)^x = a^x b^x$,
-* $(a^x)^y = a^{xy}$,
-* $a=b^x \implies |a| = |b|$.
+- $(ab)^x = a^x b^x$,
+- $(a^x)^y = a^{xy}$,
+- $a=b^x \implies |a| = |b|$.
 
 ## _Def._ Normal
 

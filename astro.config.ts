@@ -6,6 +6,8 @@ import { defineConfig } from 'astro/config'
 import critters from 'astro-critters'
 // other addons
 import robotsTxt from 'astro-robots-txt'
+import browserslist from 'browserslist'
+import { browserslistToTargets } from 'lightningcss'
 // dynamic conf
 import { APP, isDev } from './.boilerrc.ts'
 
@@ -37,7 +39,10 @@ export default defineConfig({
     },
     vite: {
         css: {
-            transformer: 'lightningcss'
+            transformer: 'lightningcss',
+            lightningcss: {
+                targets: browserslistToTargets(browserslist('defaults'))
+            }
         },
         esbuild: {
             minifyIdentifiers: true,

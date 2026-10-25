@@ -7,7 +7,7 @@ Now define a (surjective) projection homomorphism $\pi$ as
 $$
 \begin{array}{lll}
 \pi&:& G &\to& \bold{O}_2 \\
-    &&(\bold{A},b) &\mapsto& \bold{A}
+&&(\bold{A},b) &\mapsto& \bold{A}
 \end{array}
 $$
 
@@ -41,12 +41,12 @@ Let $F$ be a discrete subgroup of the Euclidian plane $\mathbb{E}^2$ whose trans
 
 There are exactly seven geometrically different types of frieze, and thus correspondingly seven different frieze groups denoted as
 
-* $F_1 = \Braket{t}$,
-* $F_1^1 = \Braket{t,r \mid r^2 = 1,\>t^r = t}$,
-* $F_1^2 = \Braket{t,r \mid r^2 = 1,\>t^r = t^{-1}}$,
-* $F_1^3 = \Braket{t,r \mid r^2 = t,\>t^r = t}$,
-* $F_2 = \Braket{t,s \mid s^2 = 1,\>t^s = t^{-1}}$,
-* $F_2^1 = \Braket{t,s,r \mid s^2 = 1,\>t^s = t^{-1},\>r^2 = 1,\> t^r = t,\>(sr)^2 = 1}$,
-* $F_2^2 = \Braket{t,s,r \mid s^2 = 1,\>t^s = t^{-1},\>r^2 = t,\> t^r = t,\>(sr)^2 = 1}$.
+- $F_1 = \Braket{t}$,
+- $F_1^1 = \Braket{t,r \mid r^2 = 1,\>t^r = t}$,
+- $F_1^2 = \Braket{t,r \mid r^2 = 1,\>t^r = t^{-1}}$,
+- $F_1^3 = \Braket{t,r \mid r^2 = t,\>t^r = t}$,
+- $F_2 = \Braket{t,s \mid s^2 = 1,\>t^s = t^{-1}}$,
+- $F_2^1 = \Braket{t,s,r \mid s^2 = 1,\>t^s = t^{-1},\>r^2 = 1,\> t^r = t,\>(sr)^2 = 1}$,
+- $F_2^2 = \Braket{t,s,r \mid s^2 = 1,\>t^s = t^{-1},\>r^2 = t,\> t^r = t,\>(sr)^2 = 1}$.
 
 > See the illustrations in p. 86 of Johnson.

@@ -7,7 +7,7 @@ Assume we are given a homogeneous wave equation with Dirichlet conditions so tha
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-u_{tt} - c^2 u_{xx} &=& 0  \\
+u_{tt} - c^2 u_{xx} &=& 0 \\
 \hdashline
 u(0, t) &=& 0 \\
 u(\ell, t) &=& 0 \\
@@ -59,7 +59,7 @@ therefore $\beta = \dfrac{n\pi}{\ell}$ and there are infinitely many separated s
 
 $$
 \boxed{
-    u_n(x,t) = \left(A_n\cos\left(\dfrac{n \pi ct}{\ell}\right) + B_n\sin\left(\dfrac{n \pi ct}{\ell}\right)\right)\sin\left(\dfrac{n \pi x}{\ell}\right)
+u_n(x,t) = \left(A_n\cos\left(\dfrac{n \pi ct}{\ell}\right) + B_n\sin\left(\dfrac{n \pi ct}{\ell}\right)\right)\sin\left(\dfrac{n \pi x}{\ell}\right)
 }
 $$
 
@@ -67,7 +67,7 @@ where $n = 1,2,\dots$ and $A_n$ and $B_n$ are arbitrary constants. Noting a sum 
 
 $$
 \boxed{
-    u(x,t) = \sum_{n=1}^\infty u_n(x,t)
+u(x,t) = \sum_{n=1}^\infty u_n(x,t)
 }
 $$
 
@@ -94,7 +94,7 @@ Analogously assume we are given a homogeneous diffusion equation with Dirichlet 
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-u_{t} - k u_{xx} &=& 0  \\
+u_{t} - k u_{xx} &=& 0 \\
 \hdashline
 u(0, t) &=& 0 \\
 u(l, t) &=& 0 \\
@@ -113,7 +113,7 @@ so that
 
 $$
 \boxed{
-    u(x,t) = \sum_{n=1}^\infty A_n e^{-(n \pi / \ell)^2 kt} \sin\left(\dfrac{n \pi x}{\ell}\right)
+u(x,t) = \sum_{n=1}^\infty A_n e^{-(n \pi / \ell)^2 kt} \sin\left(\dfrac{n \pi x}{\ell}\right)
 }
 $$
 

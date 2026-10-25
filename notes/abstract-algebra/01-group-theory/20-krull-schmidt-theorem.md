@@ -8,8 +8,8 @@ A group $G$ is called **indecomposable** if $G \neq \Braket{e}$ and $G$ is not t
 
 Let $G$ be a group, then we say
 
-* $G$ satisfies **ascending chain condition (ACC)** on subgroups if every chain $G_1 \leq G_2 \leq \cdots$ of subgroups of $G$ there exists $n$ such that $G_i = G_n$ for all $i \geq n$.
-* $G$ satisfies **descending chain condition (DCC)** on subgroups if every chain $G_1 \geq G_2 \geq \cdots$ of subgroups of $G$ there exists $n$ such that $G_i = G_n$ for all $i \geq n$.
+- $G$ satisfies **ascending chain condition (ACC)** on subgroups if every chain $G_1 \leq G_2 \leq \cdots$ of subgroups of $G$ there exists $n$ such that $G_i = G_n$ for all $i \geq n$.
+- $G$ satisfies **descending chain condition (DCC)** on subgroups if every chain $G_1 \geq G_2 \geq \cdots$ of subgroups of $G$ there exists $n$ such that $G_i = G_n$ for all $i \geq n$.
 
 ## _Thm._ Normal Chain Condition and Indecomposition
 

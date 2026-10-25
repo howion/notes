@@ -8,5 +8,5 @@
 
 Gödel ve ontolojik kanıtı hakkında kısa ve minimal (grafiksel) bir sunum.
 
-* [**PDF**](./godel_ve_ontolojik_kaniti.pdf)
-* [**PPTX**](./godel_ve_ontolojik_kaniti.pptx)
+- [**PDF**](./godel_ve_ontolojik_kaniti.pdf)
+- [**PPTX**](./godel_ve_ontolojik_kaniti.pptx)

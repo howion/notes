@@ -110,8 +110,8 @@ The Cauch Problem above has an unique solution in some neighborhood of $\Gamma$ 
 
 $$
 \Delta := \begin{vmatrix}
-   A & B \\
-   \alpha' & \beta'
+A & B \\
+\alpha' & \beta'
 \end{vmatrix}
 $$
 
@@ -119,5 +119,5 @@ is non-zero on $\Gamma$.
 
 Moreover, if $\Delta |_\Gamma = 0$ for all $s \in (a,b)$, then either
 
-* We have infinitely many solns if $\Gamma$ is characteristic curve, or
-* We have no solutions if $\Gamma$ is not characteristic curve.
+- We have infinitely many solns if $\Gamma$ is characteristic curve, or
+- We have no solutions if $\Gamma$ is not characteristic curve.

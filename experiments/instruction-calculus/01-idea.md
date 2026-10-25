@@ -26,8 +26,8 @@ Lorem ipsum
 
 A serial relation $\lambda \subseteq \text{X}^2 $ is called an **instruction on $\text{X}$** and $\text{X}$ is called the **domain** of $\lambda$ denoted $\text{dom}\ \lambda$. Moreover, an instruction $\lambda$ is:
 
-* **deterministic**, denoted $\text{Det}(\lambda)$, if it is also a function, and **non-deterministic** otherwise,
-* the **identity instruction** denoted $1$ if it is deterministic and for all $x \in \text{X}$ we have $1(x) = x$,
+- **deterministic**, denoted $\text{Det}(\lambda)$, if it is also a function, and **non-deterministic** otherwise,
+- the **identity instruction** denoted $1$ if it is deterministic and for all $x \in \text{X}$ we have $1(x) = x$,
 
 ## (D) Instruction Composition
 
@@ -39,9 +39,9 @@ $$
 
 mostly denoted as $\lambda_2 \lambda_1$ is the usual relational composition. Notice that:
 
-* If $\lambda_1$ and $\lambda_2$ are deterministic then so is $\lambda_2\lambda_1$.
-* The composition operation is associative.
-* $\lambda 1 = 1 \lambda = \lambda$
+- If $\lambda_1$ and $\lambda_2$ are deterministic then so is $\lambda_2\lambda_1$.
+- The composition operation is associative.
+- $\lambda 1 = 1 \lambda = \lambda$
 
 For simplicity we will also utilize **exponentation** notation which is defined as:
 
@@ -85,10 +85,10 @@ Initial and Final states as ND Automata
 
 Now we will define what should be called an (deterministic) **instruction space** usually denoted with $\Omega$.
 
-* Each $\lambda \in \Omega$ is an deterministic instruction on $\Omega$.
-* **(Composition Closure)** $\alpha, \beta \in \Omega \implies \alpha\beta \in \Omega$.
-* ~~**(Application Closure)** $\alpha, \beta \in \Omega \implies \alpha(\beta) \in \Omega$.~~
-* **(Existential Stuff)** $\alpha \in \Omega \implies \Omega \ni \beta = x \mapsto \alpha$
+- Each $\lambda \in \Omega$ is an deterministic instruction on $\Omega$.
+- **(Composition Closure)** $\alpha, \beta \in \Omega \implies \alpha\beta \in \Omega$.
+- ~~**(Application Closure)** $\alpha, \beta \in \Omega \implies \alpha(\beta) \in \Omega$.~~
+- **(Existential Stuff)** $\alpha \in \Omega \implies \Omega \ni \beta = x \mapsto \alpha$
 
 > TODO :: Actually deduce some existental stuff like $\alpha(\beta)$.
 
@@ -118,8 +118,8 @@ $$
 
 Let $B \subseteq \Omega \times \Omega$ be a binary relation. We say that $B$ is an **instructional bisimulation** if for all $(\alpha, \beta) \in \Omega$ and all $x \in \Omega$ we have:
 
-* $\forall y \in \Omega \enspace \alpha(x) =y \to \exists z \in \Omega \enspace (\> \beta(x) = z \enspace \wedge \enspace (y, z) \in B \>)$
-* $\forall z \in \Omega \enspace \beta(x) =z \to \exists y \in \Omega \enspace (\> \alpha(x) = y \enspace \wedge \enspace (y, z) \in B \>)$
+- $\forall y \in \Omega \enspace \alpha(x) =y \to \exists z \in \Omega \enspace (\> \beta(x) = z \enspace \wedge \enspace (y, z) \in B \>)$
+- $\forall z \in \Omega \enspace \beta(x) =z \to \exists y \in \Omega \enspace (\> \alpha(x) = y \enspace \wedge \enspace (y, z) \in B \>)$
 
 ## (D) Instructional Numerals
 
@@ -137,8 +137,8 @@ $$
 
 Notice that:
 
-* Instructional numerals are deterministic.
-* $\boxed{m} \circ \boxed{n} = \boxed{m \cdot_\N n}$ that is composition of instructional numerals yield the instructional numeral that correspond to their natural number multiplication. For example, $\boxed{2} \circ \boxed{3} = \boxed{3} \circ \boxed{2} = \boxed{6}$.
+- Instructional numerals are deterministic.
+- $\boxed{m} \circ \boxed{n} = \boxed{m \cdot_\N n}$ that is composition of instructional numerals yield the instructional numeral that correspond to their natural number multiplication. For example, $\boxed{2} \circ \boxed{3} = \boxed{3} \circ \boxed{2} = \boxed{6}$.
 
 ## (D) Successor Instruction
 
@@ -155,8 +155,8 @@ $$
 ## (D) Addition Instruction
 
 $$
-+ \equiv m \mapsto n \mapsto x \mapsto m(x) \circ n(x)
-$$
+- \equiv m \mapsto n \mapsto x \mapsto m(x) \circ n(x)
+  $$
 
 ## (D) Exponentiation Instruction
 

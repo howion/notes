@@ -61,5 +61,5 @@ Let $V, W$ be varieties in $\mathbb{F}^n$, then
 
 > Before we proceed, here are some quetions to ponder about:
 >
-> * (Ideal Membership) For a finitely generated ideal $I$, is there any algorithm which decides if any $f \in I$.
-> * (Nullstellensatz) What is the exact relation between $\Braket{f_1, ..., f_s}$ and $\bold{I}(\bold{V}(f_1, ..., f_s))$.
+> - (Ideal Membership) For a finitely generated ideal $I$, is there any algorithm which decides if any $f \in I$.
+> - (Nullstellensatz) What is the exact relation between $\Braket{f_1, ..., f_s}$ and $\bold{I}(\bold{V}(f_1, ..., f_s))$.

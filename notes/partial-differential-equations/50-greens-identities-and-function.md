@@ -22,7 +22,7 @@ and by the divergence theorem we get the **Green's First Identity**:
 
 $$
 \boxed{\boxed{
-\oint_{\partial \Omega} v \cdot \dfrac{\partial u}{\partial \vec{n}}\>ds = \int_\Omega (\nabla v \nabla u +  v\Delta u) \>dV
+\oint_{\partial \Omega} v \cdot \dfrac{\partial u}{\partial \vec{n}}\>ds = \int_\Omega (\nabla v \nabla u + v\Delta u) \>dV
 }}
 $$
 
@@ -30,7 +30,7 @@ Notice that for $v = 1$, we have
 
 $$
 \boxed{
-    \int_\Omega \Delta u \> dV = \oint_{\partial \Omega} \dfrac{\partial u}{\partial \vec{n}}\>ds
+\int_\Omega \Delta u \> dV = \oint_{\partial \Omega} \dfrac{\partial u}{\partial \vec{n}}\>ds
 }
 $$
 

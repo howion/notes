@@ -14,14 +14,14 @@ $$
 
 The homomorphism $\varphi$ is called:
 
-* an **monomorphism** if it is injective,
-* an **epimorphism** if it is surjective,
-* an **isomorphism** if it is bijective.
+- an **monomorphism** if it is injective,
+- an **epimorphism** if it is surjective,
+- an **isomorphism** if it is bijective.
 
 <!--  -->
 
-* an **endomorphism** if $G=H$, and
-* an **automorphism** if it is an endomorphism and bijective.
+- an **endomorphism** if $G=H$, and
+- an **automorphism** if it is an endomorphism and bijective.
 
 Composition of homomorphisms is again a homomorphism. Respectively, this is also the case for monomorphisms, epimorphisms, isomorphisms and automorphisms.
 
@@ -41,8 +41,8 @@ We say semigroups $G$ and $H$ are **isomorphic** denoted with $G \cong H$ if the
 
 Let $\phi: G \to H$ be a group homomorphism $g \in G$ and $A \subseteq G$, then
 
-* $g^\phi$ denotes $\phi(g)$, and
-* $A^\phi$ denotes $\phi(A)$ called the **homomorphic (respectively monomorphic, epimorphic, ...) image** of $A$.
+- $g^\phi$ denotes $\phi(g)$, and
+- $A^\phi$ denotes $\phi(A)$ called the **homomorphic (respectively monomorphic, epimorphic, ...) image** of $A$.
 
 ## _Thm._ Basic Homomorphism Properties
 

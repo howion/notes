@@ -29,7 +29,7 @@ Assume we are given an initial value problem for the wave equation so that
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-u_{tt} - c^2 u_{xx} &=& 0  \\
+u_{tt} - c^2 u_{xx} &=& 0 \\
 \hdashline
 u(x, 0) &=& g(x) \\
 u_t(x, 0) &=& h(x)
@@ -40,7 +40,7 @@ where $g$ and $h$ are the given initial displacement and velocity. There is one 
 
 $$
 \boxed{
-    u(x,t) = \dfrac{g(x+ct) + g(x-ct)}{2} + \dfrac{1}{2c} \displaystyle \int_{x-ct}^{x+ct} h(s) \> ds
+u(x,t) = \dfrac{g(x+ct) + g(x-ct)}{2} + \dfrac{1}{2c} \displaystyle \int_{x-ct}^{x+ct} h(s) \> ds
 }
 $$
 
@@ -164,7 +164,7 @@ Consider a homogenous wave equation, then we define the **energy integral** as
 
 $$
 \boxed{
-    E(t) := \dfrac{1}{2} \int_{-\infty}^\infty (u_t^2 + c^2u_x^2) \> dx
+E(t) := \dfrac{1}{2} \int_{-\infty}^\infty (u_t^2 + c^2u_x^2) \> dx
 }
 $$
 
@@ -177,7 +177,7 @@ Assume we are given a Dirichlet problem on the half-line $(0,\infty)$ for the wa
 $$
 \def\arraystretch{1.5}
 \begin{array}{rcl}
-v_{tt} - c^2 v_{xx} &=& 0  \\
+v_{tt} - c^2 v_{xx} &=& 0 \\
 \hdashline
 v(x, 0) &=& g(x) \\
 v_t(x, 0) &=& h(x) \\
@@ -204,5 +204,5 @@ $$
 
 > **TODOs**
 >
-> * Add semi infinite: free/fixed end wave equations and their domains.
-> * Solution of non-homogenous wave equations via $u = v+w$, see notes p52.
+> - Add semi infinite: free/fixed end wave equations and their domains.
+> - Solution of non-homogenous wave equations via $u = v+w$, see notes p52.

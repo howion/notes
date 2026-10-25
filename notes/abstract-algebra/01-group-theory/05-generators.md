@@ -57,13 +57,13 @@ Let $H_i$ be subgroups of $G$, then their **join** is defined as $\Braket{\> \bi
 
 ## Example. Generator Examples
 
-* $\Z = \Braket{1}$,
-* $\Z_n = \Braket{\bar{1}}$,
-* $\mathbb{Q} = \Braket{\dfrac{1}{n} \mid n = 1,2,\dots}$,
+- $\Z = \Braket{1}$,
+- $\Z_n = \Braket{\bar{1}}$,
+- $\mathbb{Q} = \Braket{\dfrac{1}{n} \mid n = 1,2,\dots}$,
 
 <!--  -->
 
-* $\Z^* = \Braket{-1}$,
-* $\mathbb{Q}^* = \Braket{-1, 2, 3, 5, 11, \dots}$,
+- $\Z^* = \Braket{-1}$,
+- $\mathbb{Q}^* = \Braket{-1, 2, 3, 5, 11, \dots}$,
 
 <!-- Todo: add more from the kargapolov -->

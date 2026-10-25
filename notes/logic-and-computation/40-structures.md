@@ -6,9 +6,9 @@ Let $\mathbf{S}$ be a symbol set, then a **structure** of $\mathbf{S}$ is a tupl
 
 1. $\mathbf{V}$ is a non-empty set called the **universe** (or **domain**) of $\mathfrak{S}$.
 2. $\mathbf{v}$ is a map defined on $\mathbf{S}$ such that
-    1. $\mathbf{v}(R)$ is an $n$-ary relation on $\mathbf{V}$ for all $n$-ary relation symbol in $\mathbf{S}$.
-    2. $\mathbf{v}(f)$ is an $n$-ary function on $\mathbf{V}$ for all $n$-ary function symbol in $\mathbf{S}$.
-    3. $\mathbf{v}(c)$ is an element of $\mathbf{V}$ for all constant symbols in $\mathbf{S}$.
+   1. $\mathbf{v}(R)$ is an $n$-ary relation on $\mathbf{V}$ for all $n$-ary relation symbol in $\mathbf{S}$.
+      2. $\mathbf{v}(f)$ is an $n$-ary function on $\mathbf{V}$ for all $n$-ary function symbol in $\mathbf{S}$.
+      3. $\mathbf{v}(c)$ is an element of $\mathbf{V}$ for all constant symbols in $\mathbf{S}$.
 
 From now on, with $|\mathfrak{S}|$ we will actually denote the cardinality of the universe $\mathbf{V}$.
 
@@ -26,8 +26,8 @@ Moreover, we also define, for **substitution**
 
 $$
 \mathfrak{v} \dfrac{y}{x} (v) := \begin{cases}
-   \> \mathfrak{v}(v) &\text{if } & v \neq x \\
-   \> y &\text{if } & v = x
+\> \mathfrak{v}(v) &\text{if } & v \neq x \\
+\> y &\text{if } & v = x
 \end{cases}
 $$
 
@@ -59,7 +59,7 @@ $$
 \mathfrak{M} \models \neg \varphi & := & \enspace \text{not} \enspace \mathfrak{M} \models \varphi \\
 \mathfrak{M} \models \varphi \land \psi & := & \enspace \mathfrak{M} \models \varphi \enspace \text{and} \enspace \mathfrak{M} \models \psi \\
 \mathfrak{M} \models \exists x \varphi & := & \enspace \mathfrak{M} \dfrac{a}{x} \models \varphi \enspace \text{for some} \enspace a \in \mathbf{V}\\
-\mathfrak{M} \models R \> t_1 \cdots t_n  & := & \enspace (\mathfrak{M}(t_1), ..., \mathfrak{M}(t_n)) \in \mathbf{v}(R)
+\mathfrak{M} \models R \> t_1 \cdots t_n & := & \enspace (\mathfrak{M}(t_1), ..., \mathfrak{M}(t_n)) \in \mathbf{v}(R)
 \end{array}
 $$
 
@@ -75,7 +75,7 @@ Moreover, if two formulas $\varphi$ and $\psi$ entail each other denoted $\varph
 
 ## _Def._ Valid
 
-We say a formula $\varphi$ is a **tautology** (or **valid**)  denoted $\models \varphi$ if $\varnothing \models \varphi$. So that $\varphi$ holds under any model.
+We say a formula $\varphi$ is a **tautology** (or **valid**) denoted $\models \varphi$ if $\varnothing \models \varphi$. So that $\varphi$ holds under any model.
 
 ## _Def._ Satisfiable
 

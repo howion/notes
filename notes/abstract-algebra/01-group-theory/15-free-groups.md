@@ -23,8 +23,8 @@ Moreover,
 
 Let $S$ be a **free generator**, then a **word** on $S$ is a countably finite sequence $(a_1, a_2, ...)$, indexed by $\N^+$, where
 
-* $a_i \in S \cup S^{-1} \cup \{\epsilon\}$ for each $i \in \N^+$, and
-* for some $n \in \N^+$ we have $a_k = \epsilon$ for all $k \geq n$.
+- $a_i \in S \cup S^{-1} \cup \{\epsilon\}$ for each $i \in \N^+$, and
+- for some $n \in \N^+$ we have $a_k = \epsilon$ for all $k \geq n$.
 
 <!-- The least integer $n$ such that $a_i = \epsilon$ for all $k \geq n$ is called the **rank** of the word. -->
 

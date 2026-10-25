@@ -50,8 +50,8 @@ Let $A$ has determinant $+1$, then we obtain
 
 $$
 A = \begin{bmatrix}
-   \cos\theta & -\sin\theta \\
-   \sin\theta & \cos\theta
+\cos\theta & -\sin\theta \\
+\sin\theta & \cos\theta
 \end{bmatrix}
 $$
 
@@ -61,8 +61,8 @@ Now, if $A$ has determinant $-1$, then we obtain
 
 $$
 A = \begin{bmatrix}
-   \cos\theta & \sin\theta \\
-   \sin\theta & -\cos\theta
+\cos\theta & \sin\theta \\
+\sin\theta & -\cos\theta
 \end{bmatrix}
 $$
 
@@ -76,13 +76,13 @@ Similarly, in the three-dimensional case, $\text{SO}_3$ represents a rotation of
 
 A finite subgroup of $\text{O}_2$ is either cyclic or dihedral.
 
-##  _Thm._ Finite Subgroups of $\text{SO}_3$
+## _Thm._ Finite Subgroups of $\text{SO}_3$
 
 A finite subgroup of $\text{SO}_3$ is isomorphic to either
 
-* cyclic group,
-* dihedral group,
-* rotational symmetry group of one of the regular (platonic) solids
+- cyclic group,
+- dihedral group,
+- rotational symmetry group of one of the regular (platonic) solids
 
 ## _Thm._ Rotations
 

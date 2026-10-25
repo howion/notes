@@ -10,8 +10,8 @@ $$
 
 where $a_i, r \in \mathbb{F}[x_1, ..., x_n]$, and either the **remainder**
 
-* $r = 0$, or
-* $r$ is a linear combination of monomials with coefficients in $\mathbb{F}$, none of which is divisable by any of $\text{LT}(f_1), ..., \text{LT}(f_s)$.
+- $r = 0$, or
+- $r$ is a linear combination of monomials with coefficients in $\mathbb{F}$, none of which is divisable by any of $\text{LT}(f_1), ..., \text{LT}(f_s)$.
 
 Moreover, if $a_i f_i \neq 0$, then $md(f) \geq md(a_i f_i)$.
 
