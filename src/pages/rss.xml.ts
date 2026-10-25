@@ -14,11 +14,14 @@ export function GET(context: APIContext) {
                 pubDate: note.pubDate,
                 description: note.description,
                 link: `/notes/${note.slug}`,
-                author: 'me@howion.com',
+                author: 'me@howion.com (howion)',
                 customData: `<category>${note.category}</category>`
             })
         ),
-        customData: `<language>en-us</language>`,
-        trailingSlash: false
+        customData: `<atom:link href="https://notes.howion.com/rss.xml" rel="self" type="application/rss+xml"/><language>en-us</language><lastBuildDate>${new Date().toUTCString()}</lastBuildDate>`,
+        trailingSlash: false,
+        xmlns: {
+            atom: 'http://www.w3.org/2005/Atom'
+        }
     })
 }
